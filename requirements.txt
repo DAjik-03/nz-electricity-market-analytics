@@ -1,0 +1,6 @@
+# Validated Phase 0 audit environment; update deliberately with refreshed evidence.
+pandas==3.0.1
+numpy==2.3.5
+lxml==6.1.1
+tzdata==2026.3
+PyYAML==6.0.3

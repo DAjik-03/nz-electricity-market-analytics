@@ -1,0 +1,41 @@
+table RegionalSignal
+	lineageTag: 8a009ae4-fcef-54ff-ae5f-6121c109e054
+
+	column interval_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: fcb67e17-dc80-585a-9fb5-9bda2651d77a
+		summarizeBy: none
+		sourceColumn: interval_id
+
+	column zones_flagged
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: cd7577f6-dbd9-56c6-a97f-20da268f4f92
+		summarizeBy: none
+		sourceColumn: zones_flagged
+
+	column episode_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9e33c45e-ebb7-50e2-8a9c-ce340608544e
+		summarizeBy: none
+		sourceColumn: episode_id
+
+	column zone_only
+		dataType: boolean
+		isHidden
+		lineageTag: 72c24eb9-2a49-5ba9-a7e5-91b080f6d6a9
+		summarizeBy: none
+		sourceColumn: zone_only
+
+	partition RegionalSignal = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "WITH flags AS (#(lf) SELECT interval_id,min(start_utc) AS start_utc,max(end_utc) AS end_utc,#(lf) count(*) FILTER(WHERE is_price_pressure)::int AS zones_flagged#(lf) FROM analytics.mart_market_interval_zone#(lf) WHERE zone IN ('CNI','LNI','LSI','UNI','USI') GROUP BY interval_id#(lf)), marked AS (#(lf) SELECT *,CASE WHEN lag(end_utc) OVER(ORDER BY start_utc)=start_utc THEN 0 ELSE 1 END AS begins#(lf) FROM flags WHERE zones_flagged>0#(lf)), episodes AS (#(lf) SELECT interval_id,sum(begins) OVER(ORDER BY start_utc)::bigint AS episode_id FROM marked#(lf))#(lf)SELECT f.interval_id,f.zones_flagged,e.episode_id,#(lf) f.zones_flagged>0 AND NOT n.is_price_pressure AS zone_only#(lf)FROM flags f LEFT JOIN episodes e USING(interval_id)#(lf)JOIN analytics.mart_market_interval_national n USING(interval_id)", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

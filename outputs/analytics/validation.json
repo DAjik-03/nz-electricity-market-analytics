@@ -1,0 +1,361 @@
+{
+  "checks": {
+    "independent_weighted_numerator_denominator_exact": true,
+    "listed_generation_native_totals_exact": true,
+    "zone_totals_equal_national_including_unknown": true,
+    "classification_components_reconcile": true,
+    "calendar_daily_counts": true,
+    "national_known_zone_complete_days": true,
+    "no_cross_gap_lag": true,
+    "incomplete_windows_null": true,
+    "full_zone_spread": true,
+    "incomplete_30_day_windows_null": true,
+    "annual_national_population": true,
+    "event_utc_duration": true,
+    "event_members_equal_flagged_intervals": true,
+    "threshold_recalculation": true,
+    "no_unknown_threshold": true,
+    "no_unexpected_zones": true,
+    "dst_actual_46_50_48": true
+  },
+  "independent_monthly_price_components": [
+    [
+      "2025-09-01",
+      "3593795916.000000",
+      "3593795916.000000",
+      "425581934114.94000000000000"
+    ],
+    [
+      "2025-10-01",
+      "3526785922.000000",
+      "3526785922.000000",
+      "118909592092.36000000000000"
+    ],
+    [
+      "2025-11-01",
+      "3374932377.000000",
+      "3374932377.000000",
+      "226201483894.50000000000000"
+    ],
+    [
+      "2025-12-01",
+      "3349642948.000000",
+      "3349642948.000000",
+      "46097057660.25000000000000"
+    ],
+    [
+      "2026-01-01",
+      "3267906364.000000",
+      "3267906364.000000",
+      "11970423910.73000000000000"
+    ],
+    [
+      "2026-02-01",
+      "3027003073.000000",
+      "3027003073.000000",
+      "147691753335.25000000000000"
+    ],
+    [
+      "2026-03-01",
+      "3428014044.000000",
+      "3428014044.000000",
+      "522351367502.35000000000000"
+    ],
+    [
+      "2026-04-01",
+      "3327926042.000000",
+      "3327926042.000000",
+      "346725095449.82000000000000"
+    ],
+    [
+      "2026-05-01",
+      "3613066248.000000",
+      "3613066248.000000",
+      "292623309902.26000000000000"
+    ],
+    [
+      "2026-06-01",
+      "3618672191.000000",
+      "3618672191.000000",
+      "150826305768.66000000000000"
+    ],
+    [
+      "2026-07-01",
+      "3968747356.000000",
+      "3968747356.000000",
+      "239905183523.47000000000000"
+    ],
+    [
+      "2026-08-01",
+      "3950896316.000000",
+      "3950896316.000000",
+      "325162841658.66000000000000"
+    ]
+  ],
+  "independent_generation_totals": [
+    [
+      "2025-09-01",
+      "3529741413.000000"
+    ],
+    [
+      "2025-10-01",
+      "3455477398.000000"
+    ],
+    [
+      "2025-11-01",
+      "3300932236.000000"
+    ],
+    [
+      "2025-12-01",
+      "3284404433.000000"
+    ],
+    [
+      "2026-01-01",
+      "3205102938.000000"
+    ],
+    [
+      "2026-02-01",
+      "2954829862.000000"
+    ],
+    [
+      "2026-03-01",
+      "3364714055.000000"
+    ],
+    [
+      "2026-04-01",
+      "3260315118.000000"
+    ],
+    [
+      "2026-05-01",
+      "3570440273.000000"
+    ],
+    [
+      "2026-06-01",
+      "3579001099.000000"
+    ],
+    [
+      "2026-07-01",
+      "3968860283.000000"
+    ],
+    [
+      "2026-08-01",
+      "3932434942.000000"
+    ]
+  ],
+  "coverage": [
+    {
+      "month": "2025-09-01",
+      "storage_gwh": 2.107562,
+      "offtake_zone_pct": 99.99967972583116,
+      "unclassified_gwh": 48.442352,
+      "classification_pct": 98.62759487645222,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 99.5474207560598
+    },
+    {
+      "month": "2025-10-01",
+      "storage_gwh": 2.463304,
+      "offtake_zone_pct": 99.99995956658466,
+      "unclassified_gwh": 53.41526,
+      "classification_pct": 98.45418580856827,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 99.32007177897911
+    },
+    {
+      "month": "2025-11-01",
+      "storage_gwh": 2.689365,
+      "offtake_zone_pct": 100.0,
+      "unclassified_gwh": 47.235386,
+      "classification_pct": 98.56902890992883,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 99.30220012550419
+    },
+    {
+      "month": "2025-12-01",
+      "storage_gwh": 2.874044,
+      "offtake_zone_pct": 100.0,
+      "unclassified_gwh": 63.349753,
+      "classification_pct": 98.07119511947145,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.92890231036904
+    },
+    {
+      "month": "2026-01-01",
+      "storage_gwh": 2.332455,
+      "offtake_zone_pct": 100.0,
+      "unclassified_gwh": 89.315692,
+      "classification_pct": 97.21332844130949,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.50528906787954
+    },
+    {
+      "month": "2026-02-01",
+      "storage_gwh": 3.489971,
+      "offtake_zone_pct": 99.99999302940913,
+      "unclassified_gwh": 87.356106,
+      "classification_pct": 97.04361638132112,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.20454376469273
+    },
+    {
+      "month": "2026-03-01",
+      "storage_gwh": 3.418012,
+      "offtake_zone_pct": 99.96027414174736,
+      "unclassified_gwh": 56.453963,
+      "classification_pct": 98.32217650364349,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.32826025984546
+    },
+    {
+      "month": "2026-04-01",
+      "storage_gwh": 4.243389,
+      "offtake_zone_pct": 99.87154206715992,
+      "unclassified_gwh": 80.182675,
+      "classification_pct": 97.54064646827185,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.44775387751338
+    },
+    {
+      "month": "2026-05-01",
+      "storage_gwh": 5.141792,
+      "offtake_zone_pct": 99.86073571159163,
+      "unclassified_gwh": 103.360408,
+      "classification_pct": 97.1051074910391,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.40656323450561
+    },
+    {
+      "month": "2026-06-01",
+      "storage_gwh": 5.917082,
+      "offtake_zone_pct": 99.87712150299055,
+      "unclassified_gwh": 115.338216,
+      "classification_pct": 96.77736293424927,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.24691858805154
+    },
+    {
+      "month": "2026-07-01",
+      "storage_gwh": 5.901738,
+      "offtake_zone_pct": 99.88126062010787,
+      "unclassified_gwh": 151.159427,
+      "classification_pct": 96.19136436605068,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.4683674993454
+    },
+    {
+      "month": "2026-08-01",
+      "storage_gwh": 6.491377,
+      "offtake_zone_pct": 99.82214235864548,
+      "unclassified_gwh": 176.308674,
+      "classification_pct": 95.5165520447153,
+      "priced_offtake_pct": 100.0,
+      "generation_zone_pct": 98.57296166808396
+    }
+  ],
+  "dst": [
+    [
+      "2025-09-28",
+      46,
+      "23.0"
+    ],
+    [
+      "2026-04-05",
+      50,
+      "25.0"
+    ],
+    [
+      "2026-08-01",
+      48,
+      "24.0"
+    ]
+  ],
+  "event_counts": [
+    [
+      "National",
+      "National",
+      68,
+      "176"
+    ],
+    [
+      "Zone",
+      "CNI",
+      73,
+      "176"
+    ],
+    [
+      "Zone",
+      "LNI",
+      70,
+      "176"
+    ],
+    [
+      "Zone",
+      "LSI",
+      72,
+      "176"
+    ],
+    [
+      "Zone",
+      "UNI",
+      71,
+      "176"
+    ],
+    [
+      "Zone",
+      "USI",
+      75,
+      "176"
+    ]
+  ],
+  "days_without_complete_demand_price_population": [
+    [
+      "Zone",
+      "Unknown",
+      "2025-09-01",
+      28
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2025-10-01",
+      31
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2025-11-01",
+      30
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2025-12-01",
+      31
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2026-01-01",
+      31
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2026-02-01",
+      28
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2026-03-01",
+      3
+    ],
+    [
+      "Zone",
+      "Unknown",
+      "2026-04-01",
+      1
+    ]
+  ],
+  "seconds": 144.02695860000313
+}

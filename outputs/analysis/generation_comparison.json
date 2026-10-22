@@ -1,0 +1,34 @@
+[
+  {
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "mean_listed_mwh": "2360.3376687038745390",
+    "mean_renewable_mwh": "2169.1331918819188190",
+    "mean_fossil_mwh": "127.1593694649446490",
+    "mean_storage_mwh": "2.6445185078413284",
+    "mean_unclassified_mwh": "61.4005888491697420",
+    "renewable_primary_share_pct": "94.4624055486047992",
+    "fossil_primary_share_pct": "5.5375944513952008",
+    "storage_listed_share_pct": "0.11203983832082404059",
+    "unclassified_listed_share_pct": "2.6013476657721804",
+    "classification_coverage_pct": "97.3986523342278196",
+    "renewable_all_listed_lower_pct": "91.8992744403832996",
+    "renewable_all_listed_upper_pct": "94.5006221061554801"
+  },
+  {
+    "is_price_pressure": true,
+    "intervals": 176,
+    "mean_listed_mwh": "2662.2586590909090910",
+    "mean_renewable_mwh": "2329.1973011363636360",
+    "mean_fossil_mwh": "286.5291931818181820",
+    "mean_storage_mwh": "6.8384204545454545",
+    "mean_unclassified_mwh": "39.6937443181818180",
+    "renewable_primary_share_pct": "89.0459039274859201",
+    "fossil_primary_share_pct": "10.9540960725140799",
+    "storage_listed_share_pct": "0.25686536622555654447",
+    "unclassified_listed_share_pct": "1.4909800061176693",
+    "classification_coverage_pct": "98.5090199938823307",
+    "renewable_all_listed_lower_pct": "87.4895192164281626",
+    "renewable_all_listed_upper_pct": "88.9804992225458320"
+  }
+]

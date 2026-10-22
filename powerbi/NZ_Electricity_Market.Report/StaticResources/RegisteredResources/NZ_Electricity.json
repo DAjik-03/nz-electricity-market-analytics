@@ -1,0 +1,13 @@
+{
+  "name": "NZ Electricity | restrained",
+  "dataColors": [
+    "#12647A",
+    "#B34F19",
+    "#527A43",
+    "#755691",
+    "#687580"
+  ],
+  "background": "#F3F6F8",
+  "foreground": "#172B3A",
+  "tableAccent": "#12647A"
+}

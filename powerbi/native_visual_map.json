@@ -1,0 +1,692 @@
+[
+  {
+    "layout": "1.heading",
+    "page": "93094d1306a6556db820",
+    "visual": "499a5d874bd857a1bed5",
+    "type": "textbox"
+  },
+  {
+    "layout": "1.qualifier",
+    "page": "93094d1306a6556db820",
+    "visual": "b2afe59cd03e5ecf8b51",
+    "type": "textbox"
+  },
+  {
+    "layout": "1.nav0",
+    "page": "93094d1306a6556db820",
+    "visual": "9fb0c3b3d01a5a50bf8f",
+    "type": "actionButton"
+  },
+  {
+    "layout": "1.nav1",
+    "page": "93094d1306a6556db820",
+    "visual": "f6110d36ff3754ec83bd",
+    "type": "actionButton"
+  },
+  {
+    "layout": "1.nav2",
+    "page": "93094d1306a6556db820",
+    "visual": "b1b50fcd5e7d5fd38f7a",
+    "type": "actionButton"
+  },
+  {
+    "layout": "1.nav3",
+    "page": "93094d1306a6556db820",
+    "visual": "7905482438935e558107",
+    "type": "actionButton"
+  },
+  {
+    "layout": "1.nav4",
+    "page": "93094d1306a6556db820",
+    "visual": "d1757adb00ac5c4181b6",
+    "type": "actionButton"
+  },
+  {
+    "layout": "1.date",
+    "page": "93094d1306a6556db820",
+    "visual": "68cea5e0fe065b058023",
+    "type": "slicer"
+  },
+  {
+    "layout": "P1.1.1",
+    "page": "93094d1306a6556db820",
+    "visual": "00943a875415517f9c5c",
+    "type": "card"
+  },
+  {
+    "layout": "P1.1.2",
+    "page": "93094d1306a6556db820",
+    "visual": "36e9417793775e8e9556",
+    "type": "card"
+  },
+  {
+    "layout": "P1.1.3",
+    "page": "93094d1306a6556db820",
+    "visual": "c768bec1a0b657579a60",
+    "type": "card"
+  },
+  {
+    "layout": "P1.2.1",
+    "page": "93094d1306a6556db820",
+    "visual": "5bc0a0f3d8265d7dbda8",
+    "type": "card"
+  },
+  {
+    "layout": "P1.2.2",
+    "page": "93094d1306a6556db820",
+    "visual": "166a955d3c435ead93e3",
+    "type": "card"
+  },
+  {
+    "layout": "P1.2.3",
+    "page": "93094d1306a6556db820",
+    "visual": "bba27d7411e959f1a69a",
+    "type": "card"
+  },
+  {
+    "layout": "P1.2.4",
+    "page": "93094d1306a6556db820",
+    "visual": "06aa707a54665ae183ee",
+    "type": "card"
+  },
+  {
+    "layout": "P1.3",
+    "page": "93094d1306a6556db820",
+    "visual": "4d5aded61ad6544f834e",
+    "type": "lineChart"
+  },
+  {
+    "layout": "P1.4",
+    "page": "93094d1306a6556db820",
+    "visual": "f8705d782eb953c38ffa",
+    "type": "clusteredColumnChart"
+  },
+  {
+    "layout": "P1.5",
+    "page": "93094d1306a6556db820",
+    "visual": "dcd38029a2215e128ab3",
+    "type": "clusteredColumnChart"
+  },
+  {
+    "layout": "P1.6",
+    "page": "93094d1306a6556db820",
+    "visual": "9f267d63ca9a5dc98529",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P1.7",
+    "page": "93094d1306a6556db820",
+    "visual": "0c4707fc083051959281",
+    "type": "textbox"
+  },
+  {
+    "layout": "2.heading",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "acb2a4ddcbc85185bea8",
+    "type": "textbox"
+  },
+  {
+    "layout": "2.qualifier",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "2f4d774741b558eba1f3",
+    "type": "textbox"
+  },
+  {
+    "layout": "2.nav0",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "daf8b9ff56ff5d578542",
+    "type": "actionButton"
+  },
+  {
+    "layout": "2.nav1",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "d582d30de9055a139e64",
+    "type": "actionButton"
+  },
+  {
+    "layout": "2.nav2",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "e64a5d57cc4a5a00a9ba",
+    "type": "actionButton"
+  },
+  {
+    "layout": "2.nav3",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "c8c548868b82529dbed8",
+    "type": "actionButton"
+  },
+  {
+    "layout": "2.nav4",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "6509697274a25b07bbd4",
+    "type": "actionButton"
+  },
+  {
+    "layout": "2.date",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "2932da234e345174acad",
+    "type": "slicer"
+  },
+  {
+    "layout": "P2.1.1",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "a57959274de25d34a9e7",
+    "type": "card"
+  },
+  {
+    "layout": "P2.1.2",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "c9f2d94b5cff532eacc8",
+    "type": "card"
+  },
+  {
+    "layout": "P2.1.3",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "3f7b7b10f54c547a8ab6",
+    "type": "card"
+  },
+  {
+    "layout": "P2.2.1",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "23b0778f7fca516fb414",
+    "type": "card"
+  },
+  {
+    "layout": "P2.2.2",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "76ebeb745ed45abdb431",
+    "type": "card"
+  },
+  {
+    "layout": "P2.3",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "153524bda9d45595b1d8",
+    "type": "clusteredBarChart"
+  },
+  {
+    "layout": "P2.4",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "cc4c7447f13753b79e34",
+    "type": "lineChart"
+  },
+  {
+    "layout": "P2.5",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "8bc192f13032539ab6e8",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P2.6",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "df29cfff822e521c9669",
+    "type": "clusteredColumnChart"
+  },
+  {
+    "layout": "P2.7",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "e9bfbc8781c25c78aca8",
+    "type": "tableEx"
+  },
+  {
+    "layout": "2.zone",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "475b2d163b0358cc8175",
+    "type": "slicer"
+  },
+  {
+    "layout": "2.eventzone",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "d04e4a10471f501e9da5",
+    "type": "slicer"
+  },
+  {
+    "layout": "2.eventdate",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "a4a2e61e8def543aa854",
+    "type": "slicer"
+  },
+  {
+    "layout": "2.drill",
+    "page": "0b129eae8f9d5b818ec4",
+    "visual": "5948ed662a815e8eb2f9",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.heading",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "f7ed176adbf5558f9e42",
+    "type": "textbox"
+  },
+  {
+    "layout": "3.qualifier",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "ca1c55e70ef8554ea167",
+    "type": "textbox"
+  },
+  {
+    "layout": "3.nav0",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "d49501233e9e5961b956",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.nav1",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "0bc0de98b37b5c778e60",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.nav2",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "bb28c130bf5e511ba91a",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.nav3",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "2eb46cb3cfd1577b954d",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.nav4",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "e1e1d80b2aae51cd9298",
+    "type": "actionButton"
+  },
+  {
+    "layout": "3.date",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "f6e3260d530e57599eb2",
+    "type": "slicer"
+  },
+  {
+    "layout": "P3.1.1",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "34a8593e19805a65843b",
+    "type": "card"
+  },
+  {
+    "layout": "P3.1.2",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "f5e35730e70f5066927a",
+    "type": "card"
+  },
+  {
+    "layout": "P3.1.3",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "e0f5cfd1e34f5aa3933d",
+    "type": "card"
+  },
+  {
+    "layout": "P3.2",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "6d5bfc21f60859a19f9a",
+    "type": "columnChart"
+  },
+  {
+    "layout": "P3.3",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "5b421223327c52f282b5",
+    "type": "lineChart"
+  },
+  {
+    "layout": "P3.4",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "7c3ef10402b25cde9285",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P3.5.1",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "051edb67abde55c891e7",
+    "type": "card"
+  },
+  {
+    "layout": "P3.5.2",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "7fa7c19fdc7f511bbba1",
+    "type": "card"
+  },
+  {
+    "layout": "P3.5.3",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "c0cd5bf0fdf5573b8bbd",
+    "type": "card"
+  },
+  {
+    "layout": "P3.6",
+    "page": "644a02f89cae5eb3a397",
+    "visual": "39b2dc8c5d955ea48101",
+    "type": "textbox"
+  },
+  {
+    "layout": "4.heading",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "4c8cd4e4a0cc5fff81d2",
+    "type": "textbox"
+  },
+  {
+    "layout": "4.qualifier",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "5e482a1f66465f7aaa22",
+    "type": "textbox"
+  },
+  {
+    "layout": "4.nav0",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "bfa4da313c9f55c19b87",
+    "type": "actionButton"
+  },
+  {
+    "layout": "4.nav1",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "3f78b037d78a5e029879",
+    "type": "actionButton"
+  },
+  {
+    "layout": "4.nav2",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "dc622868239d56948974",
+    "type": "actionButton"
+  },
+  {
+    "layout": "4.nav3",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "5946b595eefa5cce9143",
+    "type": "actionButton"
+  },
+  {
+    "layout": "4.nav4",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "a1c69237b4125410b3a2",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.selector",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "8ec2a949492a5696ad74",
+    "type": "slicer"
+  },
+  {
+    "layout": "P4.1.E1",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "b54bd4a6ac5b545abef8",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.E2",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "b1e1599e023b5729bb40",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.E3",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "3b4a12bc76495a118786",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.E4",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "7d59286f5beb5f919e7b",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.E5",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "bc432c5ca3445454a694",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.1.Reset event",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "3fd3cfb7d1ea567a8647",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P4.2.1",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "db08f4abf94d5c139850",
+    "type": "card"
+  },
+  {
+    "layout": "P4.2.2",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "f8dc752bfa21567587ef",
+    "type": "card"
+  },
+  {
+    "layout": "P4.2.3",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "5b8408b3d01b5a10a270",
+    "type": "card"
+  },
+  {
+    "layout": "P4.2.4",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "2d26220b9b03534692d2",
+    "type": "card"
+  },
+  {
+    "layout": "P4.2.5",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "e57bd2dff29c5a04a4cc",
+    "type": "card"
+  },
+  {
+    "layout": "P4.3",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "fb110350ae36596db0fb",
+    "type": "lineChart"
+  },
+  {
+    "layout": "P4.4",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "e3872059a9c45a87ac03",
+    "type": "pivotTable"
+  },
+  {
+    "layout": "P4.5.1",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "0234109d99405ab4897a",
+    "type": "card"
+  },
+  {
+    "layout": "P4.5.2",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "9b43735899f95c05b0d8",
+    "type": "card"
+  },
+  {
+    "layout": "P4.5.3",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "aadde2560d115685ba60",
+    "type": "card"
+  },
+  {
+    "layout": "P4.5.4",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "a9f0aaad139e5cd1b6e1",
+    "type": "card"
+  },
+  {
+    "layout": "P4.5.5",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "76564e77fe815b15bf7c",
+    "type": "card"
+  },
+  {
+    "layout": "P4.5.6",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "ba9663720097543ab23a",
+    "type": "card"
+  },
+  {
+    "layout": "P4.6",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "52fe1dd37d4a563cba85",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P4.7",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "a8f1992c001854a8a4c4",
+    "type": "tableEx"
+  },
+  {
+    "layout": "4.back",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "c7332f9a3cc95f8eb78f",
+    "type": "actionButton"
+  },
+  {
+    "layout": "4.status",
+    "page": "f50f3da524c45d9591ec",
+    "visual": "7fb4385f9eb050db84e7",
+    "type": "card"
+  },
+  {
+    "layout": "5.heading",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "a4cd38aef01054d2b8d3",
+    "type": "textbox"
+  },
+  {
+    "layout": "5.qualifier",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "818606c895e256459d8d",
+    "type": "textbox"
+  },
+  {
+    "layout": "5.nav0",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "5dc0944e657a5f0caaad",
+    "type": "actionButton"
+  },
+  {
+    "layout": "5.nav1",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "dcf52f2726c5540fa33d",
+    "type": "actionButton"
+  },
+  {
+    "layout": "5.nav2",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "ba679b66d95857829e44",
+    "type": "actionButton"
+  },
+  {
+    "layout": "5.nav3",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "8bb84a9fac01553795bc",
+    "type": "actionButton"
+  },
+  {
+    "layout": "5.nav4",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "9a3c0135397e5e5e90a1",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P5.1.1",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "04efeab00d405123a078",
+    "type": "card"
+  },
+  {
+    "layout": "P5.1.2",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "fd9a7cbfbdb25daab0b2",
+    "type": "card"
+  },
+  {
+    "layout": "P5.1.3",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "f92287d5ec9353a28fc5",
+    "type": "card"
+  },
+  {
+    "layout": "P5.2",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "57c01c8782575a89b461",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P5.3",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "fd038d94bc7e58089200",
+    "type": "pivotTable"
+  },
+  {
+    "layout": "P5.4",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "1ced61152ee45b1fb47c",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P5.5",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "fb20e1e08708538db509",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P5.6",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "41a7d03fff535ebab38e",
+    "type": "lineChart"
+  },
+  {
+    "layout": "P5.7",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "cd0824bf1f305cbea157",
+    "type": "textbox"
+  },
+  {
+    "layout": "5.month",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "d3fd58a0600f59c5b4eb",
+    "type": "slicer"
+  },
+  {
+    "layout": "5.source",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "a0f9849070115ff39ab4",
+    "type": "slicer"
+  },
+  {
+    "layout": "P5.6.detail",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "51029f001d785a409f66",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P5.6.toggleFalse",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "b6398fad145252f1aa95",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P5.6.toggleTrue",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "5dad81da94cb5462a9d8",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P5.7.detail",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "0cb051b7cd2e59bc80a7",
+    "type": "tableEx"
+  },
+  {
+    "layout": "P5.7.toggleFalse",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "35f533e135f956f8b5a2",
+    "type": "actionButton"
+  },
+  {
+    "layout": "P5.7.toggleTrue",
+    "page": "66b8a0f7b4c45b85b176",
+    "visual": "83ac73cb43fd5a088785",
+    "type": "actionButton"
+  }
+]

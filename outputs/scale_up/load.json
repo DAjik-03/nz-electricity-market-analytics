@@ -1,0 +1,260 @@
+{
+  "status": "loaded_pending_candidate_validation",
+  "publications": [
+    {
+      "publication_id": 8,
+      "source": "prices",
+      "filename": "202509_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.002
+    },
+    {
+      "publication_id": 2,
+      "source": "generation",
+      "filename": "202509_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.007
+    },
+    {
+      "publication_id": 11,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 0.006
+    },
+    {
+      "publication_id": 100,
+      "source": "prices",
+      "filename": "202510_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 101,
+      "source": "generation",
+      "filename": "202510_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.128
+    },
+    {
+      "publication_id": 102,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202510_20260523_165223.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 6.26
+    },
+    {
+      "publication_id": 103,
+      "source": "prices",
+      "filename": "202511_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 104,
+      "source": "generation",
+      "filename": "202511_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.046
+    },
+    {
+      "publication_id": 105,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202511_20260625_100449.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 1.695
+    },
+    {
+      "publication_id": 106,
+      "source": "prices",
+      "filename": "202512_DailyFinalAggregate.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 0.005
+    },
+    {
+      "publication_id": 107,
+      "source": "generation",
+      "filename": "202512_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.035
+    },
+    {
+      "publication_id": 108,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202512_20260725_141500.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 2.199
+    },
+    {
+      "publication_id": 109,
+      "source": "prices",
+      "filename": "202601_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 110,
+      "source": "generation",
+      "filename": "202601_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.034
+    },
+    {
+      "publication_id": 111,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202601_20260824_145939.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 5.426
+    },
+    {
+      "publication_id": 112,
+      "source": "prices",
+      "filename": "202602_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 113,
+      "source": "generation",
+      "filename": "202602_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.078
+    },
+    {
+      "publication_id": 114,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202602_20260525_141229.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 19.33
+    },
+    {
+      "publication_id": 134,
+      "source": "prices",
+      "filename": "202603_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 135,
+      "source": "generation",
+      "filename": "202603_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.072
+    },
+    {
+      "publication_id": 136,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202603_20260624_165533.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 15.842
+    },
+    {
+      "publication_id": 9,
+      "source": "prices",
+      "filename": "202604_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 3,
+      "source": "generation",
+      "filename": "202604_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.203
+    },
+    {
+      "publication_id": 12,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 23.844
+    },
+    {
+      "publication_id": 162,
+      "source": "prices",
+      "filename": "202605_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 163,
+      "source": "generation",
+      "filename": "202605_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.347
+    },
+    {
+      "publication_id": 164,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202605_20260824_120747.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 35.103
+    },
+    {
+      "publication_id": 165,
+      "source": "prices",
+      "filename": "202606_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "publication_id": 166,
+      "source": "generation",
+      "filename": "202606_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.046
+    },
+    {
+      "publication_id": 167,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202606_20260725_092820.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 0.005
+    },
+    {
+      "publication_id": 168,
+      "source": "prices",
+      "filename": "202607_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.002
+    },
+    {
+      "publication_id": 169,
+      "source": "generation",
+      "filename": "202607_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.045
+    },
+    {
+      "publication_id": 170,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202607_20260822_092730.csv.gz",
+      "status": "loaded",
+      "staging_rows": 6128869,
+      "core_rows": 6128869,
+      "elapsed_seconds": 739.282
+    },
+    {
+      "publication_id": 10,
+      "source": "prices",
+      "filename": "202608_FinalEnergyPrices.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.006
+    },
+    {
+      "publication_id": 7,
+      "source": "generation",
+      "filename": "202608_Generation_MD.csv",
+      "status": "skipped",
+      "elapsed_seconds": 0.121
+    },
+    {
+      "publication_id": 13,
+      "source": "reconciliation",
+      "filename": "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz",
+      "status": "skipped",
+      "elapsed_seconds": 5.784
+    }
+  ],
+  "selection_promoted": false
+}

@@ -1,0 +1,455 @@
+{
+  "selected_versions": {
+    "prices/2025-09": "prices:202509_FinalEnergyPrices.csv:73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+    "prices/2026-04": "prices:202604_FinalEnergyPrices.csv:5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+    "prices/2026-08": "prices:202608_FinalEnergyPrices.csv:d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+    "reconciliation/2025-09": "reconciliation:ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz:184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+    "reconciliation/2026-04": "reconciliation:ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz:4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+    "reconciliation/2026-08": "reconciliation:ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz:99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+    "generation/2025-09": "generation:202509_Generation_MD.csv:4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+    "generation/2026-04": "generation:202604_Generation_MD.csv:90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+    "generation/2026-08": "generation:202608_Generation_MD.csv:1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+    "nsp/snapshot": "nsp:20260910_NetworkSupplyPointsTable.csv:5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c"
+  },
+  "generation_history": {
+    "2025-09": {
+      "hwa_kiwi_rows": 2876,
+      "hwa_kiwi_kwh": 11040597.0,
+      "hwa_kiwi_generators": [
+        "whareroa"
+      ],
+      "all_zero_series": [
+        {
+          "Gen_Code": "Waipori",
+          "PointOfConnection": "HWB0331",
+          "Network": "DUNE",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "arapuni",
+          "PointOfConnection": "ARI1102",
+          "Network": "POCO",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "highbank",
+          "PointOfConnection": "ASB0661",
+          "Network": "EASH",
+          "sum": 0.0,
+          "size": 1390
+        },
+        {
+          "Gen_Code": "kinleith",
+          "PointOfConnection": "KIN0112",
+          "Network": "POCO",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "roaring_meg",
+          "PointOfConnection": "CML0331",
+          "Network": "DUNE",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "rotohiko",
+          "PointOfConnection": "HLY0331",
+          "Network": "WAIK",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "PointOfConnection": "BRB0331",
+          "Network": "NPOW",
+          "sum": 0.0,
+          "size": 1438
+        },
+        {
+          "Gen_Code": "waitaki",
+          "PointOfConnection": "WTK0111",
+          "Network": "WATA",
+          "sum": 0.0,
+          "size": 1438
+        }
+      ]
+    },
+    "2026-04": {
+      "hwa_kiwi_rows": 2884,
+      "hwa_kiwi_kwh": 10319602.0,
+      "hwa_kiwi_generators": [
+        "whareroa"
+      ],
+      "all_zero_series": [
+        {
+          "Gen_Code": "Waipori",
+          "PointOfConnection": "HWB0331",
+          "Network": "DUNE",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "arapuni",
+          "PointOfConnection": "ARI1102",
+          "Network": "POCO",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "highbank",
+          "PointOfConnection": "ASB0661",
+          "Network": "EASH",
+          "sum": 0.0,
+          "size": 1394
+        },
+        {
+          "Gen_Code": "kawerau",
+          "PointOfConnection": "KAW0111",
+          "Network": "HEDL",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "roaring_meg",
+          "PointOfConnection": "CML0331",
+          "Network": "DUNE",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "PointOfConnection": "BRB0331",
+          "Network": "NPOW",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "te_herenga_o_te_rā_solar_farm",
+          "PointOfConnection": "WAI0331",
+          "Network": "HEDL",
+          "sum": 0.0,
+          "size": 1442
+        },
+        {
+          "Gen_Code": "whirinaki",
+          "PointOfConnection": "WHI2201",
+          "Network": "CTCT",
+          "sum": 0.0,
+          "size": 1442
+        }
+      ]
+    },
+    "2026-08": {
+      "hwa_kiwi_rows": 2976,
+      "hwa_kiwi_kwh": 2435484.0,
+      "hwa_kiwi_generators": [
+        "whareroa"
+      ],
+      "all_zero_series": [
+        {
+          "Gen_Code": "arapuni",
+          "PointOfConnection": "ARI1102",
+          "Network": "POCO",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "clandeboye_solar_farm",
+          "PointOfConnection": "TMK0331",
+          "Network": "ALPE",
+          "sum": 0.0,
+          "size": 816
+        },
+        {
+          "Gen_Code": "dannevirke_solar_farm",
+          "PointOfConnection": "DVK0111",
+          "Network": "SCAN",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "highbank",
+          "PointOfConnection": "ASB0661",
+          "Network": "EASH",
+          "sum": 0.0,
+          "size": 1440
+        },
+        {
+          "Gen_Code": "kaiwaikawe_wind_farm",
+          "PointOfConnection": "MPE1101",
+          "Network": "NPOW",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "kawerau",
+          "PointOfConnection": "KAW0111",
+          "Network": "HEDL",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "kōwhai_park_solar_farm",
+          "PointOfConnection": "ISL0661",
+          "Network": "ORON",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "pāmu_rā_ki_whitianga_solar_farm",
+          "PointOfConnection": "KPU0661",
+          "Network": "POCO",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "roaring_meg",
+          "PointOfConnection": "CML0331",
+          "Network": "DUNE",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "PointOfConnection": "BRB0331",
+          "Network": "NPOW",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "te_herenga_o_te_rā_solar_farm",
+          "PointOfConnection": "WAI0331",
+          "Network": "HEDL",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "waikaremoana",
+          "PointOfConnection": "TUI1101",
+          "Network": "EAST",
+          "sum": 0.0,
+          "size": 1488
+        },
+        {
+          "Gen_Code": "waitaki",
+          "PointOfConnection": "WTK0111",
+          "Network": "WATA",
+          "sum": 0.0,
+          "size": 1488
+        }
+      ]
+    }
+  },
+  "nsp_hwa_history": [
+    {
+      "NSP": "HWA1101KIWIGD",
+      "POC code": "HWA1101",
+      "Network participant": "KIWI",
+      "Start date": "2026-08-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "HWA1102KIWIGD",
+      "POC code": "HWA1102",
+      "Network participant": "KIWI",
+      "Start date": "2026-08-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "HWA1101CNIRGG",
+      "POC code": "HWA1101",
+      "Network participant": "CNIR",
+      "Start date": "2021-10-08",
+      "Start TP": "1",
+      "End date": "2026-07-31",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1101MERIGG",
+      "POC code": "HWA1101",
+      "Network participant": "MERI",
+      "Start date": "2016-12-01",
+      "Start TP": "1",
+      "End date": "2019-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1101TODDGG",
+      "POC code": "HWA1101",
+      "Network participant": "TODD",
+      "Start date": "2016-12-01",
+      "Start TP": "1",
+      "End date": "2019-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1101TODDGG",
+      "POC code": "HWA1101",
+      "Network participant": "TODD",
+      "Start date": "2019-05-01",
+      "Start TP": "1",
+      "End date": "2026-07-31",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1101TRUSGG",
+      "POC code": "HWA1101",
+      "Network participant": "TRUS",
+      "Start date": "1999-04-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1101TRUSGG",
+      "POC code": "HWA1101",
+      "Network participant": "TRUS",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "2021-10-07",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1102MERIGG",
+      "POC code": "HWA1102",
+      "Network participant": "MERI",
+      "Start date": "2001-08-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1102MERIGG",
+      "POC code": "HWA1102",
+      "Network participant": "MERI",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "2019-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1102TODDGG",
+      "POC code": "HWA1102",
+      "Network participant": "TODD",
+      "Start date": "2001-08-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1102TODDGG",
+      "POC code": "HWA1102",
+      "Network participant": "TODD",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "2019-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "HWA1102TODDGG",
+      "POC code": "HWA1102",
+      "Network participant": "TODD",
+      "Start date": "2019-05-01",
+      "Start TP": "1",
+      "End date": "2026-07-31",
+      "End TP": "48"
+    }
+  ],
+  "flow_flag_nsp_examples": [
+    {
+      "NSP": "BLN0331MARLGN",
+      "POC code": "BLN0331",
+      "Network participant": "MARL",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "BOB1101COUPGN",
+      "POC code": "BOB1101",
+      "Network participant": "COUP",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "RDF0331HAWKGN",
+      "POC code": "RDF0331",
+      "Network participant": "HAWK",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "TAK0331VECTGN",
+      "POC code": "TAK0331",
+      "Network participant": "VECT",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "2008-05-01",
+      "Start TP": "1",
+      "End date": "",
+      "End TP": ""
+    },
+    {
+      "NSP": "BLN0331MARLGN",
+      "POC code": "BLN0331",
+      "Network participant": "MARL",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "1999-04-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "BOB1101COUPGN",
+      "POC code": "BOB1101",
+      "Network participant": "COUP",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "2000-05-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "RDF0331HAWKGN",
+      "POC code": "RDF0331",
+      "Network participant": "HAWK",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "1999-04-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    },
+    {
+      "NSP": "TAK0331VECTGN",
+      "POC code": "TAK0331",
+      "Network participant": "VECT",
+      "I flow": "0",
+      "X flow": "1",
+      "Start date": "1999-04-01",
+      "Start TP": "1",
+      "End date": "2008-04-30",
+      "End TP": "48"
+    }
+  ]
+}

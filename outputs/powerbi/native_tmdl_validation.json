@@ -1,0 +1,26 @@
+{
+  "parser": "Microsoft.AnalysisServices.Tabular, Version=19.84.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91",
+  "tables": 16,
+  "expressions": 4,
+  "relationships": 8,
+  "measures": 59,
+  "columns": 163,
+  "tableNames": [
+    "CaseContext",
+    "Classification",
+    "DemandBenchmark",
+    "DimDate",
+    "DimInterval",
+    "DimMonth",
+    "DimZone",
+    "DQResults",
+    "EventInterval",
+    "Events",
+    "FactNational",
+    "FactZone",
+    "RegionalSignal",
+    "Release",
+    "SourceQuality",
+    "Threshold"
+  ]
+}

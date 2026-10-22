@@ -1,0 +1,802 @@
+[
+  {
+    "number": 1,
+    "title": "Executive Market Monitor",
+    "question": "How did price exposure and the extreme tail differ?",
+    "qualifier": "Historical release · Sep 2025–Aug 2026 · National includes Unknown",
+    "canvas": [
+      1280,
+      800
+    ],
+    "visuals": [
+      {
+        "id": "P1.1",
+        "title": "Price / P95 / population SD · NZD/MWh",
+        "type": "Card group",
+        "source": "FactNational",
+        "axis": "—",
+        "values": [
+          "Weighted Wholesale Price",
+          "P95 Price",
+          "Price Volatility"
+        ],
+        "rect": [
+          28,
+          128,
+          600,
+          108
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P1.2",
+        "title": "Demand GWh / peak MW / events / hours",
+        "type": "Card group",
+        "source": "FactNational; Events",
+        "axis": "—",
+        "values": [
+          "Total Demand GWh",
+          "Peak Demand MW",
+          "Pressure Events",
+          "Pressure Hours"
+        ],
+        "rect": [
+          648,
+          128,
+          604,
+          108
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Events start on selected dates; hours are selected flagged intervals",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P1.3",
+        "title": "Monthly exposure and tail · NZD/MWh",
+        "type": "Line chart",
+        "source": "DimDate; FactNational",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Weighted Wholesale Price",
+          "P95 Price"
+        ],
+        "rect": [
+          28,
+          254,
+          760,
+          252
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Weighted ratio of sums; P95 of half-hours; no average of monthly averages",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Solid teal exposure; dotted orange P95; one unit/axis"
+      },
+      {
+        "id": "P1.4",
+        "title": "Monthly price volatility · population SD",
+        "type": "Column chart",
+        "source": "DimDate; FactNational",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Price Volatility"
+        ],
+        "rect": [
+          808,
+          254,
+          444,
+          252
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Teal columns, zero baseline; highlight Aug with outline, not good/bad colour"
+      },
+      {
+        "id": "P1.5",
+        "title": "Regional pressure visible beyond National",
+        "type": "Column chart",
+        "source": "DimDate; RegionalSignal",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Any-Zone Flagged Half-hours",
+          "Zone-only Half-hours"
+        ],
+        "rect": [
+          28,
+          526,
+          760,
+          164
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Unique interval counts, not scoped event totals; known Zones only",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P1.6",
+        "title": "Coverage / threshold / retained assessment",
+        "type": "Table",
+        "source": "FactNational; Threshold; DQResults",
+        "axis": "—",
+        "values": [
+          "Priced Offtake Coverage",
+          "Offtake Zone Coverage",
+          "Full-period P99 threshold",
+          "DQ WARN"
+        ],
+        "rect": [
+          808,
+          526,
+          444,
+          164
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date changes coverage; threshold and retained DQ fixed",
+        "format": "Compact status table rather than extra headline cards; coverage %, P99 NZD/MWh, WARN label; no score"
+      },
+      {
+        "id": "P1.7",
+        "title": "Full-release finding",
+        "type": "Text",
+        "source": "Phase 5 F1",
+        "axis": "—",
+        "values": [],
+        "rect": [
+          28,
+          710,
+          1224,
+          52
+        ],
+        "filters": "Fixed full release",
+        "sort": "—",
+        "tooltip": "March 152.38 weighted; August 167.53 SD vs March 52.09",
+        "interaction": "None",
+        "format": "March: sustained exposure. August: stronger extreme tail. One year is not seasonality."
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "title": "Regional Price & Demand",
+    "question": "When did local price pressure differ from National?",
+    "qualifier": "Known-Zone comparison · Unknown retained separately · scoped events overlap",
+    "canvas": [
+      1280,
+      800
+    ],
+    "visuals": [
+      {
+        "id": "P2.1",
+        "title": "Any-Zone / analytical episodes / Zone-only",
+        "type": "Card group",
+        "source": "RegionalSignal",
+        "axis": "—",
+        "values": [
+          "Any-Zone Flagged Half-hours",
+          "Cross-regional Episodes",
+          "Zone-only Half-hours"
+        ],
+        "rect": [
+          28,
+          128,
+          760,
+          100
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Full release 264 / 108 / 88; episodes intersect selection and are non-additive",
+        "interaction": "Date only; never Zone",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P2.2",
+        "title": "Unknown Offtake / generation · GWh",
+        "type": "Card group",
+        "source": "FactNational",
+        "axis": "—",
+        "values": [
+          "Unknown Offtake GWh",
+          "Unknown Generation GWh"
+        ],
+        "rect": [
+          808,
+          128,
+          444,
+          100
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date only; never Zone",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P2.3",
+        "title": "Price and own full-period threshold · NZD/MWh",
+        "type": "Clustered bar chart",
+        "source": "DimZone; FactZone; Threshold",
+        "axis": "DimZone[zone]",
+        "values": [
+          "Zone Weighted Wholesale Price",
+          "Zone Full-period P99 threshold"
+        ],
+        "rect": [
+          28,
+          248,
+          580,
+          212
+        ],
+        "filters": "Visual: five known Zones; Date selection",
+        "sort": "Zone alphabetical",
+        "tooltip": "Own stored P99; priced Offtake coverage; mean exposure is not tail incidence",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P2.4",
+        "title": "Five-Zone spread · daily mean NZD/MWh",
+        "type": "Line chart",
+        "source": "DimDate; FactNational",
+        "axis": "DimDate[Date]",
+        "values": [
+          "Regional Spread"
+        ],
+        "rect": [
+          628,
+          248,
+          624,
+          212
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Spread Eligible Half-hours; blank for incomplete five-Zone observations",
+        "interaction": "Date only; Zone bar does not filter",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P2.5",
+        "title": "Zone demand and pressure",
+        "type": "Table",
+        "source": "DimZone; FactZone",
+        "axis": "DimZone[zone]",
+        "values": [
+          "Zone Total Demand GWh",
+          "Zone Peak Demand MW",
+          "Zone Flagged Half-hours",
+          "Zone Pressure Hours"
+        ],
+        "rect": [
+          28,
+          480,
+          580,
+          156
+        ],
+        "filters": "Five known Zones; Date; optional single Zone",
+        "sort": "Zone alphabetical",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Totals OFF; no sum of peaks or scoped flags"
+      },
+      {
+        "id": "P2.6",
+        "title": "Simultaneous Zone pressure · daily maximum",
+        "type": "Column chart",
+        "source": "DimDate; RegionalSignal",
+        "axis": "DimDate[Date]",
+        "values": [
+          "Simultaneous Zones"
+        ],
+        "rect": [
+          628,
+          480,
+          624,
+          156
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "0–5 maximum simultaneous known-Zone flags that day; drill to UTC detail",
+        "interaction": "Date only; Zone selection does not filter",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P2.7",
+        "title": "Full-release regional event browser → investigate",
+        "type": "Table",
+        "source": "Events",
+        "axis": "event_id, zone, local_start, local_end",
+        "values": [
+          "Event Duration",
+          "Event Weighted Price",
+          "Peak Event Price"
+        ],
+        "rect": [
+          28,
+          656,
+          1224,
+          106
+        ],
+        "filters": "Events[scope]=Zone; separate Events zone/start_date filter pane; NOT global Date/DimZone",
+        "sort": "local_start ascending, event_id tie-break",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Right-click event_id → P4; keep all filters OFF",
+        "format": "Full-release list label; do not label 361 or 429 unique market episodes"
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "title": "Generation Mix & Market Conditions",
+    "question": "Did absolute output and composition tell the same story?",
+    "qualifier": "Listed generation ≠ demand · ELE/BAT = Storage · associations, not causes",
+    "canvas": [
+      1280,
+      800
+    ],
+    "visuals": [
+      {
+        "id": "P3.1",
+        "title": "Listed generation / primary renewable / classified",
+        "type": "Card group",
+        "source": "FactNational",
+        "axis": "—",
+        "values": [
+          "Listed Generation GWh",
+          "Renewable Primary Share",
+          "Classification Coverage"
+        ],
+        "rect": [
+          28,
+          128,
+          1224,
+          98
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Primary denominator=Renewable+Fossil; classification denominator=all listed generation",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P3.2",
+        "title": "Absolute listed generation · GWh",
+        "type": "Stacked column chart",
+        "source": "DimDate; FactNational",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Renewable GWh",
+          "Fossil Thermal GWh",
+          "Storage GWh",
+          "Unclassified GWh"
+        ],
+        "rect": [
+          28,
+          246,
+          760,
+          250
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Renewable green; fossil orange; storage purple; unclassified grey; zero baseline"
+      },
+      {
+        "id": "P3.3",
+        "title": "Primary composition · Renewable + Fossil only",
+        "type": "Line chart",
+        "source": "DimDate; FactNational",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Renewable Primary Share",
+          "Fossil Thermal Share"
+        ],
+        "rect": [
+          808,
+          246,
+          444,
+          250
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "0–100%; explicit denominator; Storage/Unclassified excluded"
+      },
+      {
+        "id": "P3.4",
+        "title": "National pressure vs non-pressure context",
+        "type": "Table",
+        "source": "FactNational",
+        "axis": "FactNational[is_price_pressure]",
+        "values": [
+          "Mean Demand MW",
+          "Renewable Primary Share",
+          "Fossil Thermal GWh",
+          "Storage GWh",
+          "Classification Coverage"
+        ],
+        "rect": [
+          28,
+          516,
+          760,
+          170
+        ],
+        "filters": "Current local Date selection",
+        "sort": "Axis ascending",
+        "tooltip": "GWh is total exposure, not per-interval intensity; duration differs between groups",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Show true/false as Pressure/Non-pressure; descriptive only; no causal arrows"
+      },
+      {
+        "id": "P3.5",
+        "title": "Fixed full-release matched demand context · MW",
+        "type": "Card group",
+        "source": "DemandBenchmark",
+        "axis": "—",
+        "values": [
+          "Release Pressure Mean MW",
+          "Release Matched Comparator MW",
+          "Release Matched Difference Pct"
+        ],
+        "rect": [
+          808,
+          516,
+          444,
+          170
+        ],
+        "filters": "Full release, disconnected",
+        "sort": "Axis ascending",
+        "tooltip": "Same local month/hour; 176 matched; minimum 51 controls; not causal matching",
+        "interaction": "No date/pressure interaction",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P3.6",
+        "title": "Read both scale and mix",
+        "type": "Text",
+        "source": "Phase 5 F4/F5",
+        "axis": "—",
+        "values": [],
+        "rect": [
+          28,
+          706,
+          1224,
+          56
+        ],
+        "filters": "Fixed release",
+        "sort": "—",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "None",
+        "format": "Absolute renewable output is higher in pressure intervals; its primary share is lower. Classification limits remain visible."
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "title": "Price Pressure Investigation",
+    "question": "What happened during this specific scoped event?",
+    "qualifier": "Event end exclusive · full-event metrics · UTC identity, NZ local display",
+    "canvas": [
+      1280,
+      800
+    ],
+    "visuals": [
+      {
+        "id": "P4.1",
+        "title": "Choose one event · E1 E2 E3 E4 E5",
+        "type": "Slicer / bookmark buttons",
+        "source": "Events",
+        "axis": "Events[event_id]",
+        "values": [],
+        "rect": [
+          28,
+          126,
+          1224,
+          60
+        ],
+        "filters": "No synced date/hour/pressure filters",
+        "sort": "Event ID ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Single selection filters Events → bridge/context; presets only event slicer",
+        "format": "Event ID search ON; buttons E1–E5 and Reset event"
+      },
+      {
+        "id": "P4.2",
+        "title": "Full scoped event · hours / price / peak / demand",
+        "type": "Card group",
+        "source": "Events",
+        "axis": "—",
+        "values": [
+          "Event Duration",
+          "Event Weighted Price",
+          "Peak Event Price",
+          "Event Mean Demand MW",
+          "Event Regional Spread"
+        ],
+        "rect": [
+          28,
+          202,
+          1224,
+          104
+        ],
+        "filters": "Exactly one event; full duration",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, Zone, local_start/end, start_utc/end_utc, full-release threshold",
+        "interaction": "Event only; disable heatmap-to-card filtering",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P4.3",
+        "title": "Scoped interval price · NZD/MWh",
+        "type": "Line chart",
+        "source": "DimInterval; Events; facts",
+        "axis": "DimInterval[start_utc]",
+        "values": [
+          "Event Interval Price"
+        ],
+        "rect": [
+          28,
+          326,
+          710,
+          182
+        ],
+        "filters": "Event Interval Visible=1; no synced Date",
+        "sort": "UTC ascending",
+        "tooltip": "local_start, trading_period, utc_offset_minutes, fold; fixed event threshold",
+        "interaction": "Event only; do not filter summary cards",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P4.4",
+        "title": "Zone participation · each Zone’s own P99",
+        "type": "Matrix",
+        "source": "DimInterval; DimZone; FactZone",
+        "axis": "Rows=start_utc; columns=zone",
+        "values": [
+          "Zone Pressure Flag"
+        ],
+        "rect": [
+          758,
+          326,
+          494,
+          182
+        ],
+        "filters": "Event Interval Visible=1; known Zones only",
+        "sort": "UTC ascending / Zone alphabetical",
+        "tooltip": "Local time + TP + offset + fold; 1=flag, 0=below own P99",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "Text 0/1 plus orange/white; no totals"
+      },
+      {
+        "id": "P4.5",
+        "title": "National context across the complete selected event",
+        "type": "Card group",
+        "source": "FactNational via EventInterval",
+        "axis": "—",
+        "values": [
+          "Event National Demand MW",
+          "Event National Weighted Price",
+          "Event National Renewable Share",
+          "Event National Classification Coverage",
+          "Event National Offtake Coverage",
+          "Event National Generation Coverage"
+        ],
+        "rect": [
+          28,
+          528,
+          1224,
+          94
+        ],
+        "filters": "Event membership, full event",
+        "sort": "Axis ascending",
+        "tooltip": "Even for E3, this panel is National context; not the selected Zone",
+        "interaction": "Event only",
+        "format": "White card; dark text; teal; units in title"
+      },
+      {
+        "id": "P4.6",
+        "title": "Measured event identity",
+        "type": "Table",
+        "source": "Events",
+        "axis": "event_id, scope, zone, local_start, local_end, start_utc, end_utc",
+        "values": [],
+        "rect": [
+          28,
+          642,
+          580,
+          120
+        ],
+        "filters": "One event",
+        "sort": "—",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Event only",
+        "format": "UTC/local explicit; end exclusive; horizontal scroll if needed"
+      },
+      {
+        "id": "P4.7",
+        "title": "Electricity Authority context — separately sourced",
+        "type": "Table",
+        "source": "CaseContext",
+        "axis": "publisher, title, locator, url, supported_context, qualification, review_date",
+        "values": [],
+        "rect": [
+          628,
+          642,
+          624,
+          120
+        ],
+        "filters": "Events selection; non-case events have no curated context",
+        "sort": "—",
+        "tooltip": "Selected contrast cases, not incidence sample; exact cause can remain unresolved",
+        "interaction": "External URL manually opened; no local-file link integration",
+        "format": "Wrap text; larger focus-mode view for full qualification; never hide it"
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "title": "Data Quality & Methodology",
+    "question": "Which limitations must accompany the findings?",
+    "qualifier": "Historical and revision-eligible · retained run 5, as-of 1 Oct 2026 · no composite score",
+    "canvas": [
+      1280,
+      800
+    ],
+    "visuals": [
+      {
+        "id": "P5.1",
+        "title": "Retained DQ assessment · PASS / WARN / FAIL",
+        "type": "Card group",
+        "source": "DQResults",
+        "axis": "—",
+        "values": [
+          "DQ PASS",
+          "DQ WARN",
+          "DQ FAIL"
+        ],
+        "rect": [
+          28,
+          128,
+          580,
+          98
+        ],
+        "filters": "Fixed run 5; no Date/source filters",
+        "sort": "Axis ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "None; statuses keep original meaning",
+        "format": "21 PASS, 8 WARN, 0 FAIL text plus restrained colours"
+      },
+      {
+        "id": "P5.2",
+        "title": "Release and lineage",
+        "type": "Table",
+        "source": "Release",
+        "axis": "refresh_id, dq_run_id, dq_as_of_date, input_fingerprint, is_current",
+        "values": [],
+        "rect": [
+          628,
+          128,
+          624,
+          98
+        ],
+        "filters": "Release 38 only",
+        "sort": "—",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "None; full input_manifest accessible in focus/detail table",
+        "format": "Small readable identity; no claim of current market freshness"
+      },
+      {
+        "id": "P5.3",
+        "title": "Known geography coverage by source / month",
+        "type": "Matrix",
+        "source": "DimMonth; SourceQuality",
+        "axis": "Rows=source_name, denominator_unit; columns=Year-Month",
+        "values": [
+          "Source Geography Coverage"
+        ],
+        "rect": [
+          28,
+          246,
+          760,
+          190
+        ],
+        "filters": "Separate full-month/source controls",
+        "sort": "Axis ascending",
+        "tooltip": "Known/total; prices=rows; Offtake and generation=kWh",
+        "interaction": "Month/source filters this panel only",
+        "format": "No grand total across sources; 4 decimal percent for high Offtake coverage"
+      },
+      {
+        "id": "P5.4",
+        "title": "Unknown quantity · retain denominator",
+        "type": "Table",
+        "source": "SourceQuality",
+        "axis": "source_name, source_month, denominator_unit",
+        "values": [
+          "Unknown Source Quantity"
+        ],
+        "rect": [
+          808,
+          246,
+          444,
+          190
+        ],
+        "filters": "Separate full-month/source controls",
+        "sort": "source,month ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Date filters; chart clicks filter detail only",
+        "format": "No mixed-unit total; rows and kWh explicitly separate"
+      },
+      {
+        "id": "P5.5",
+        "title": "Original warnings and diagnostics",
+        "type": "Table",
+        "source": "DQResults",
+        "axis": "rule_id, result_status, affected_rows, expected_value, rule_snapshot, details",
+        "values": [],
+        "rect": [
+          28,
+          456,
+          760,
+          188
+        ],
+        "filters": "result_status=WARN",
+        "sort": "rule_id ascending",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Focus mode/export for full original JSON; DQ cards remain whole",
+        "format": "8 rows, word wrap; preserve 3 invalid NSP boundaries and all treatments"
+      },
+      {
+        "id": "P5.6",
+        "title": "Classification coverage / exceptions",
+        "type": "Line chart + reference table",
+        "source": "DimDate; FactNational; Classification",
+        "axis": "DimDate[Year-Month]",
+        "values": [
+          "Classification Coverage"
+        ],
+        "rect": [
+          808,
+          456,
+          444,
+          188
+        ],
+        "filters": "Full release trend; reference table exact source codes",
+        "sort": "Month; fuel_code,tech_code",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Independent from SourceQuality month; label full release",
+        "format": "Coverage 95.52–98.63%; reference detail includes ELE/BAT and unresolved exact pairs"
+      },
+      {
+        "id": "P5.7",
+        "title": "Methodology and source lineage detail",
+        "type": "Text / focus-mode table",
+        "source": "Release; project documentation",
+        "axis": "input_manifest",
+        "values": [],
+        "rect": [
+          28,
+          664,
+          1224,
+          98
+        ],
+        "filters": "Fixed release",
+        "sort": "—",
+        "tooltip": "Scope, units, selected dates, denominator, release 38",
+        "interaction": "Link methodology docs; full manifest in table focus/export",
+        "format": "37 selected publications; weighted ratios; full-period P99; Unknown/NSP quarantine; revision-eligible; associations only"
+      }
+    ]
+  }
+]

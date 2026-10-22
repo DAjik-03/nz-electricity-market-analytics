@@ -1,0 +1,31 @@
+model Model
+	culture: en-NZ
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-NZ
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["CaseContext", "Classification", "DemandBenchmark", "DimDate", "DimInterval", "DimMonth", "DimZone", "DQResults", "EventInterval", "Events", "FactNational", "FactZone", "pDatabase", "pServer", "RegionalSignal", "Release", "ReleaseGate", "Source", "SourceQuality", "Threshold"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_ProTooling = ["DevMode","DaxQueryView_Desktop"]
+
+ref table CaseContext
+ref table Classification
+ref table DemandBenchmark
+ref table DimDate
+ref table DimInterval
+ref table DimMonth
+ref table DimZone
+ref table DQResults
+ref table EventInterval
+ref table Events
+ref table FactNational
+ref table FactZone
+ref table RegionalSignal
+ref table Release
+ref table SourceQuality
+ref table Threshold
+

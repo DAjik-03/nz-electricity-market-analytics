@@ -1,0 +1,2 @@
+events,intervals,hours,isolated_events,duration_p50_p95,maximum_hours,event_peak_p50_p95,maximum_price
+68,176,88.0,28,"[1.0, 3.5]",5.0,"[260.13273509501676, 1288.602967917132]",3924.4474965692945927

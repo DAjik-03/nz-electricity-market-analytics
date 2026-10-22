@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "local_document_links": 149,
+  "broken_links": [],
+  "compile_passed": true,
+  "staged_diff_check_passed": true,
+  "finding_ids": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+  ],
+  "evidence_rows": 19,
+  "all_summary_csvs_match_sql_json": true,
+  "queries": 21,
+  "full_tests": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 978.012320400012,
+    "modules": {
+      "tests/analytics/test_analytics.py": 23,
+      "tests/historical/test_release.py": 6,
+      "tests/quality/test_quality.py": 14,
+      "tests/test_daily_final.py": 10,
+      "tests/test_ingestion.py": 16,
+      "tests/test_phase0.py": 13,
+      "tests/test_pilot_evidence.py": 7,
+      "tests/warehouse/test_postgresql.py": 14
+    }
+  },
+  "analysis_check_groups": 11,
+  "seven_approved_view_hashes_match": true,
+  "warehouse_mart_configuration_changes": false,
+  "ignore_examples_passed": [
+    "data/raw/example.csv",
+    ".env",
+    ".env.local",
+    ".venv/example",
+    "secrets/example.json",
+    "data/postgres/example",
+    "backups/example.dump"
+  ],
+  "findings_sha256": "60046d3f7a1213c292ced68570a379c9ed4252ba28910e166529e97dd03b5e82",
+  "manual_review": "Scope/denominators, National vs Zone, overlap, contextual comparisons, Unknown/unclassified, case selection, external timing and causal-language caveats reviewed. Markdown tables deliberately chosen for exact lookup; no charts claimed."
+}

@@ -1,0 +1,61 @@
+table Threshold
+	lineageTag: f47cc1c2-d7f0-57ab-be06-c28effd49f3a
+
+	column scope
+		dataType: string
+		lineageTag: c53f4c0e-4784-572b-96c0-febe93cd6214
+		summarizeBy: none
+		sourceColumn: scope
+
+	column zone
+		dataType: string
+		lineageTag: ea551a63-fda2-5d51-8b93-3895c9113a81
+		summarizeBy: none
+		sourceColumn: zone
+
+	column p99_price
+		dataType: double
+		lineageTag: 14a94bd0-e30d-54d9-8dd4-0b9886c31dd1
+		summarizeBy: none
+		sourceColumn: p99_price
+
+	column population_intervals
+		dataType: int64
+		formatString: 0
+		lineageTag: 157c5c01-3e05-5fec-9152-024d6f9a3be7
+		summarizeBy: none
+		sourceColumn: population_intervals
+
+	column first_start_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: afb1ecb0-967a-5648-af24-6477702d6fd6
+		summarizeBy: none
+		sourceColumn: first_start_utc
+
+	column last_end_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: e08419c7-defe-5970-928f-b6257c8f83d4
+		summarizeBy: none
+		sourceColumn: last_end_utc
+
+	column percentile
+		dataType: double
+		lineageTag: 6cbc6e02-4955-50dd-a7e0-b1e4815632c4
+		summarizeBy: none
+		sourceColumn: percentile
+
+	column comparison
+		dataType: string
+		lineageTag: b0324a31-939f-57b8-8a4d-bae33654eab6
+		summarizeBy: none
+		sourceColumn: comparison
+
+	partition Threshold = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT scope,zone,p99_price,population_intervals,#(lf) first_start_utc AT TIME ZONE 'UTC' AS first_start_utc,#(lf) last_end_utc AT TIME ZONE 'UTC' AS last_end_utc,percentile,comparison#(lf)FROM analytics.mart_price_pressure_threshold", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

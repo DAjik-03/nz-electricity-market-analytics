@@ -1,0 +1,14 @@
+release_mode: continuous_12_month
+pilot_months: ["2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06", "2026-07", "2026-08"]
+max_months: 12
+timezone: Pacific/Auckland
+nsp_snapshot: 20260910_NetworkSupplyPointsTable.csv
+sources:
+  prices: https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth
+  reconciliation: https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/{year}
+  generation: https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD
+  nsp: https://www.emi.ea.govt.nz/Wholesale/Datasets/MappingsAndGeospatial/NetworkSupplyPointsTable
+raw_directory: data/raw
+manifest: outputs/scale_up/source_manifest.json
+evidence_directory: outputs/scale_up
+staging_directory: data/interim/scale_up

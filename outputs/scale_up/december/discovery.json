@@ -1,0 +1,318 @@
+{
+  "retrieved_at_utc": "2026-09-27T02:36:05.210220+00:00",
+  "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices",
+  "sha256": "2536a8fb7487377f2a2192ac49da22c19bcdc93c554ce9558ad38f05aae230a2",
+  "files": {
+    "2025-12-31": {
+      "filename": "20251231_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251231_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-31",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-30": {
+      "filename": "20251230_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251230_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-30",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-29": {
+      "filename": "20251229_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251229_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-29",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-28": {
+      "filename": "20251228_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251228_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-28",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-27": {
+      "filename": "20251227_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251227_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-27",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-26": {
+      "filename": "20251226_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251226_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-26",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-25": {
+      "filename": "20251225_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251225_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-25",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-24": {
+      "filename": "20251224_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251224_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-24",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-23": {
+      "filename": "20251223_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251223_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-23",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-22": {
+      "filename": "20251222_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251222_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-22",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-21": {
+      "filename": "20251221_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251221_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-21",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-20": {
+      "filename": "20251220_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251220_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-20",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-19": {
+      "filename": "20251219_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251219_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-19",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-18": {
+      "filename": "20251218_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251218_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-18",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-17": {
+      "filename": "20251217_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251217_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-17",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-16": {
+      "filename": "20251216_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251216_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-16",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-15": {
+      "filename": "20251215_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251215_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-15",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-14": {
+      "filename": "20251214_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251214_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-14",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-13": {
+      "filename": "20251213_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251213_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-13",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-12": {
+      "filename": "20251212_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251212_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-12",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-11": {
+      "filename": "20251211_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251211_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-11",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-10": {
+      "filename": "20251210_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251210_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-10",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-09": {
+      "filename": "20251209_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251209_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-09",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-08": {
+      "filename": "20251208_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251208_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-08",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-07": {
+      "filename": "20251207_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251207_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-07",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-06": {
+      "filename": "20251206_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251206_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-06",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-05": {
+      "filename": "20251205_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251205_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-05",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-04": {
+      "filename": "20251204_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251204_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-04",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-03": {
+      "filename": "20251203_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251203_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-03",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-02": {
+      "filename": "20251202_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251202_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-02",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    },
+    "2025-12-01": {
+      "filename": "20251201_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/20251201_FinalEnergyPrices.csv",
+      "source": "prices_daily",
+      "month": "2025-12",
+      "trading_date": "2025-12-01",
+      "source_form": "official_daily",
+      "price_status": "final",
+      "prepared_at_unzoned": null
+    }
+  },
+  "missing_dates": []
+}

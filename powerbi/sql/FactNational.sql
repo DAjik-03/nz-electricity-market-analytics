@@ -1,0 +1,4 @@
+SELECT interval_id,offtake_kwh,priced_offtake_kwh,price_numerator,
+ weighted_price,demand_mw,generation_kwh,renewable_kwh,fossil_kwh,storage_kwh,
+ unclassified_kwh,known_zone_offtake_kwh,known_zone_generation_kwh,is_price_pressure,regional_price_spread,represented_zones,expected_zones
+FROM analytics.mart_market_interval_national;

@@ -1,0 +1,68 @@
+table Release
+	lineageTag: 36723e36-7cf0-5fca-8f00-38d8bf6a95d8
+
+	column refresh_id
+		dataType: int64
+		formatString: 0
+		lineageTag: dae3373c-a1ec-5aca-a632-2ffa6b2aa1e9
+		summarizeBy: none
+		sourceColumn: refresh_id
+
+	column input_fingerprint
+		dataType: string
+		lineageTag: 0822ed73-d143-59ca-a9ab-d4cc2f090c40
+		summarizeBy: none
+		sourceColumn: input_fingerprint
+
+	column dq_run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 31536f7c-8f03-5080-8dca-0301c42e2ee4
+		summarizeBy: none
+		sourceColumn: dq_run_id
+
+	column dq_as_of_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 09aaa15e-e582-595a-abeb-31200614dbaf
+		summarizeBy: none
+		sourceColumn: dq_as_of_date
+
+	column dq_status
+		dataType: string
+		lineageTag: 3b055b1a-8d8f-5572-8c2a-4b84c711e56d
+		summarizeBy: none
+		sourceColumn: dq_status
+
+	column is_current
+		dataType: boolean
+		lineageTag: f6a1e012-73ce-5ae7-9e43-fe75b6e3b689
+		summarizeBy: none
+		sourceColumn: is_current
+
+	column status
+		dataType: string
+		lineageTag: 009f5f33-71c0-5eab-b000-ecd6a4458c82
+		summarizeBy: none
+		sourceColumn: status
+
+	column completed_at_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 73ad7202-d2c3-5a82-8bb5-737f62b15230
+		summarizeBy: none
+		sourceColumn: completed_at_utc
+
+	column input_manifest
+		dataType: string
+		lineageTag: f27a8686-c56c-52b7-b35b-5e770206236b
+		summarizeBy: none
+		sourceColumn: input_manifest
+
+	partition Release = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT refresh_id,input_fingerprint,dq_run_id,dq_as_of_date,dq_status,#(lf) is_current,status,completed_at AT TIME ZONE 'UTC' AS completed_at_utc,#(lf) input_manifest::text AS input_manifest#(lf)FROM analytics.refresh_status", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

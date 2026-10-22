@@ -1,0 +1,638 @@
+{
+  "read_only": "on",
+  "before": [
+    [
+      38,
+      5,
+      "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6",
+      true
+    ]
+  ],
+  "after": [
+    [
+      38,
+      5,
+      "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6",
+      true
+    ]
+  ],
+  "sql_sha256": {
+    "FactNational": "52ce78bc8ade08bae6ee7bd2a140689ff32a046f54813a61cb20a84aee7f34f3",
+    "FactZone": "089d5129c10bce54a5cfa31d22e1ee81aaeab6ed667022858c9f81fe3cbb71e6",
+    "DimInterval": "76c0da5b5918ed03a3dae2803092b941e501bf5cd29bac8e723a3960fb1a59de",
+    "DimZone": "cdde367a9b313cf33f548f345001cd1946d7b666bd064c0e9c0b64f9129ac847",
+    "Threshold": "437485eaf120b2c51426bda9c638c818789a62f9f83e9b84062adfae4c5a71e3",
+    "Events": "731ed7e73c0b496e796f5a8eaf181d67d2d517f14e07f5cbb6e750382ab68331",
+    "EventInterval": "8b22cabb570f6f9eade2bdce205d6e879c3821ea26951ef2ed4c5613f1bbfe9e",
+    "RegionalSignal": "3d0a709dd0a14193a602ca9f289077928239fdedf82ac5c319612fcec9f498b9",
+    "SourceQuality": "428a19a34589c5c15f56489a1fc0f62ba92942d3587af5a81fc54faaaa4cab7e",
+    "DQResults": "bb35c23fd5b1dcf3da461886fe53a79142131e69fe68bb6dabaaae4373ca8193",
+    "Release": "5ebcbe3a5605842f401479e67a7f1e5c4f3810ac708b24b7a6e2fd91fde9e859",
+    "Classification": "b96c8f1530cdadd3340d8f478e5d7534feeff057d7fc77d15d8d6e4d87150e6f",
+    "DemandBenchmark": "51e52e783701c0a83e61793f3e9aa0e9a6d4b2e9a3ff905973c0e1458ad2f8de"
+  },
+  "snapshot_sha256": "2b1500b14512b865d795ac152bcab2c3c0f85277a891f5897e325e793a0cc9a1",
+  "rows": {
+    "FactNational": 17520,
+    "FactZone": 105120,
+    "DimInterval": 17520,
+    "DimZone": 6,
+    "Threshold": 6,
+    "Events": 429,
+    "EventInterval": 1056,
+    "RegionalSignal": 17520,
+    "SourceQuality": 36,
+    "DQResults": 29,
+    "Release": 1,
+    "Classification": 14,
+    "DemandBenchmark": 1
+  },
+  "columns": {
+    "FactNational": [
+      {
+        "name": "interval_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "priced_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "price_numerator",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "weighted_price",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "demand_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "generation_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "renewable_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "fossil_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "storage_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "unclassified_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "known_zone_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "known_zone_generation_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "is_price_pressure",
+        "postgres_type": "bool"
+      },
+      {
+        "name": "regional_price_spread",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "represented_zones",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "expected_zones",
+        "postgres_type": "int4"
+      }
+    ],
+    "FactZone": [
+      {
+        "name": "zone",
+        "postgres_type": "text"
+      },
+      {
+        "name": "interval_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "priced_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "price_numerator",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "weighted_price",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "demand_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "generation_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "renewable_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "fossil_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "storage_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "unclassified_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "known_zone_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "known_zone_generation_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "is_price_pressure",
+        "postgres_type": "bool"
+      }
+    ],
+    "DimInterval": [
+      {
+        "name": "interval_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "trading_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "trading_period",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "start_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "end_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "local_start",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "local_end",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "expected_periods",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "local_hour",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "utc_offset_minutes",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "is_dst",
+        "postgres_type": "bool"
+      },
+      {
+        "name": "fold",
+        "postgres_type": "int4"
+      }
+    ],
+    "DimZone": [
+      {
+        "name": "zone",
+        "postgres_type": "text"
+      }
+    ],
+    "Threshold": [
+      {
+        "name": "scope",
+        "postgres_type": "text"
+      },
+      {
+        "name": "zone",
+        "postgres_type": "text"
+      },
+      {
+        "name": "p99_price",
+        "postgres_type": "float8"
+      },
+      {
+        "name": "population_intervals",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "first_start_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "last_end_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "percentile",
+        "postgres_type": "float8"
+      },
+      {
+        "name": "comparison",
+        "postgres_type": "text"
+      }
+    ],
+    "Events": [
+      {
+        "name": "event_id",
+        "postgres_type": "text"
+      },
+      {
+        "name": "scope",
+        "postgres_type": "text"
+      },
+      {
+        "name": "zone",
+        "postgres_type": "text"
+      },
+      {
+        "name": "start_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "end_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "local_start",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "local_end",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "start_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "interval_count",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "duration_hours",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "weighted_price",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "peak_weighted_price",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "p99_threshold",
+        "postgres_type": "float8"
+      },
+      {
+        "name": "average_demand_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "peak_demand_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "total_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "priced_offtake_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "price_numerator",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "average_regional_spread",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "peak_regional_spread",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "listed_generation_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "renewable_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "fossil_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "storage_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "unclassified_kwh",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "renewable_primary_share_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "classification_coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "price_weighting_coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "offtake_zone_coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "generation_zone_coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "refresh_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "input_fingerprint",
+        "postgres_type": "text"
+      },
+      {
+        "name": "dq_run_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "dq_as_of_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "dq_status",
+        "postgres_type": "text"
+      }
+    ],
+    "EventInterval": [
+      {
+        "name": "event_id",
+        "postgres_type": "text"
+      },
+      {
+        "name": "interval_id",
+        "postgres_type": "int8"
+      }
+    ],
+    "RegionalSignal": [
+      {
+        "name": "interval_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "zones_flagged",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "episode_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "zone_only",
+        "postgres_type": "bool"
+      }
+    ],
+    "SourceQuality": [
+      {
+        "name": "run_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "source_name",
+        "postgres_type": "text"
+      },
+      {
+        "name": "source_month",
+        "postgres_type": "date"
+      },
+      {
+        "name": "denominator_unit",
+        "postgres_type": "text"
+      },
+      {
+        "name": "total_value",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "known_value",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "unknown_value",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "as_of_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "refresh_id",
+        "postgres_type": "int8"
+      }
+    ],
+    "DQResults": [
+      {
+        "name": "run_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "rule_id",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "rule_snapshot",
+        "postgres_type": "text"
+      },
+      {
+        "name": "result_status",
+        "postgres_type": "text"
+      },
+      {
+        "name": "affected_rows",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "observed_value",
+        "postgres_type": "text"
+      },
+      {
+        "name": "expected_value",
+        "postgres_type": "text"
+      },
+      {
+        "name": "coverage_pct",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "details",
+        "postgres_type": "text"
+      },
+      {
+        "name": "as_of_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "refresh_id",
+        "postgres_type": "int8"
+      }
+    ],
+    "Release": [
+      {
+        "name": "refresh_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "input_fingerprint",
+        "postgres_type": "text"
+      },
+      {
+        "name": "dq_run_id",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "dq_as_of_date",
+        "postgres_type": "date"
+      },
+      {
+        "name": "dq_status",
+        "postgres_type": "text"
+      },
+      {
+        "name": "is_current",
+        "postgres_type": "bool"
+      },
+      {
+        "name": "status",
+        "postgres_type": "text"
+      },
+      {
+        "name": "completed_at_utc",
+        "postgres_type": "timestamp"
+      },
+      {
+        "name": "input_manifest",
+        "postgres_type": "text"
+      }
+    ],
+    "Classification": [
+      {
+        "name": "classification_version",
+        "postgres_type": "int4"
+      },
+      {
+        "name": "fuel_code",
+        "postgres_type": "text"
+      },
+      {
+        "name": "tech_code",
+        "postgres_type": "text"
+      },
+      {
+        "name": "standard_category",
+        "postgres_type": "text"
+      },
+      {
+        "name": "generation_role",
+        "postgres_type": "text"
+      },
+      {
+        "name": "energy_status",
+        "postgres_type": "text"
+      },
+      {
+        "name": "evidence_url",
+        "postgres_type": "text"
+      },
+      {
+        "name": "review_status",
+        "postgres_type": "text"
+      },
+      {
+        "name": "rationale",
+        "postgres_type": "text"
+      }
+    ],
+    "DemandBenchmark": [
+      {
+        "name": "pressure_intervals",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "matched_intervals",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "minimum_control_n",
+        "postgres_type": "int8"
+      },
+      {
+        "name": "pressure_mean_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "matched_control_mean_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "mean_difference_mw",
+        "postgres_type": "numeric"
+      },
+      {
+        "name": "difference_pct",
+        "postgres_type": "numeric"
+      }
+    ]
+  }
+}

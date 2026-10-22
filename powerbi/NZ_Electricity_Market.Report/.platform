@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "NZ_Electricity_Market"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "742db356-e891-4c1d-b6d3-0fcf57197628"
+  }
+}

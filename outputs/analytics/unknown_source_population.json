@@ -1,0 +1,404 @@
+[
+  {
+    "trading_date": "2025-09-18",
+    "source_rows": 11,
+    "observed_intervals": 11,
+    "offtake_kwh": "283.000000"
+  },
+  {
+    "trading_date": "2025-09-19",
+    "source_rows": 48,
+    "observed_intervals": 48,
+    "offtake_kwh": "1300.000000"
+  },
+  {
+    "trading_date": "2025-09-20",
+    "source_rows": 39,
+    "observed_intervals": 39,
+    "offtake_kwh": "1042.000000"
+  },
+  {
+    "trading_date": "2025-09-21",
+    "source_rows": 48,
+    "observed_intervals": 48,
+    "offtake_kwh": "1520.000000"
+  },
+  {
+    "trading_date": "2025-09-22",
+    "source_rows": 27,
+    "observed_intervals": 27,
+    "offtake_kwh": "5536.000000"
+  },
+  {
+    "trading_date": "2025-09-23",
+    "source_rows": 4,
+    "observed_intervals": 4,
+    "offtake_kwh": "1829.000000"
+  },
+  {
+    "trading_date": "2026-04-01",
+    "source_rows": 682,
+    "observed_intervals": 48,
+    "offtake_kwh": "103890.000000"
+  },
+  {
+    "trading_date": "2026-04-02",
+    "source_rows": 674,
+    "observed_intervals": 48,
+    "offtake_kwh": "64603.000000"
+  },
+  {
+    "trading_date": "2026-04-03",
+    "source_rows": 717,
+    "observed_intervals": 48,
+    "offtake_kwh": "183668.000000"
+  },
+  {
+    "trading_date": "2026-04-04",
+    "source_rows": 712,
+    "observed_intervals": 48,
+    "offtake_kwh": "190733.000000"
+  },
+  {
+    "trading_date": "2026-04-05",
+    "source_rows": 740,
+    "observed_intervals": 50,
+    "offtake_kwh": "128939.000000"
+  },
+  {
+    "trading_date": "2026-04-06",
+    "source_rows": 735,
+    "observed_intervals": 48,
+    "offtake_kwh": "33214.000000"
+  },
+  {
+    "trading_date": "2026-04-07",
+    "source_rows": 695,
+    "observed_intervals": 48,
+    "offtake_kwh": "148400.000000"
+  },
+  {
+    "trading_date": "2026-04-08",
+    "source_rows": 701,
+    "observed_intervals": 48,
+    "offtake_kwh": "27820.000000"
+  },
+  {
+    "trading_date": "2026-04-09",
+    "source_rows": 663,
+    "observed_intervals": 48,
+    "offtake_kwh": "172817.000000"
+  },
+  {
+    "trading_date": "2026-04-10",
+    "source_rows": 665,
+    "observed_intervals": 48,
+    "offtake_kwh": "157401.000000"
+  },
+  {
+    "trading_date": "2026-04-11",
+    "source_rows": 677,
+    "observed_intervals": 48,
+    "offtake_kwh": "81223.000000"
+  },
+  {
+    "trading_date": "2026-04-12",
+    "source_rows": 399,
+    "observed_intervals": 47,
+    "offtake_kwh": "152271.000000"
+  },
+  {
+    "trading_date": "2026-04-13",
+    "source_rows": 325,
+    "observed_intervals": 48,
+    "offtake_kwh": "13800.000000"
+  },
+  {
+    "trading_date": "2026-04-14",
+    "source_rows": 677,
+    "observed_intervals": 48,
+    "offtake_kwh": "106293.000000"
+  },
+  {
+    "trading_date": "2026-04-15",
+    "source_rows": 667,
+    "observed_intervals": 48,
+    "offtake_kwh": "129118.000000"
+  },
+  {
+    "trading_date": "2026-04-16",
+    "source_rows": 661,
+    "observed_intervals": 48,
+    "offtake_kwh": "63727.000000"
+  },
+  {
+    "trading_date": "2026-04-17",
+    "source_rows": 643,
+    "observed_intervals": 48,
+    "offtake_kwh": "120470.000000"
+  },
+  {
+    "trading_date": "2026-04-18",
+    "source_rows": 654,
+    "observed_intervals": 48,
+    "offtake_kwh": "213926.000000"
+  },
+  {
+    "trading_date": "2026-04-19",
+    "source_rows": 668,
+    "observed_intervals": 48,
+    "offtake_kwh": "163219.000000"
+  },
+  {
+    "trading_date": "2026-04-20",
+    "source_rows": 655,
+    "observed_intervals": 48,
+    "offtake_kwh": "209413.000000"
+  },
+  {
+    "trading_date": "2026-04-21",
+    "source_rows": 630,
+    "observed_intervals": 48,
+    "offtake_kwh": "160852.000000"
+  },
+  {
+    "trading_date": "2026-04-22",
+    "source_rows": 653,
+    "observed_intervals": 48,
+    "offtake_kwh": "111004.000000"
+  },
+  {
+    "trading_date": "2026-04-23",
+    "source_rows": 681,
+    "observed_intervals": 48,
+    "offtake_kwh": "249513.000000"
+  },
+  {
+    "trading_date": "2026-04-24",
+    "source_rows": 654,
+    "observed_intervals": 48,
+    "offtake_kwh": "22099.000000"
+  },
+  {
+    "trading_date": "2026-04-25",
+    "source_rows": 673,
+    "observed_intervals": 48,
+    "offtake_kwh": "204708.000000"
+  },
+  {
+    "trading_date": "2026-04-26",
+    "source_rows": 676,
+    "observed_intervals": 48,
+    "offtake_kwh": "217619.000000"
+  },
+  {
+    "trading_date": "2026-04-27",
+    "source_rows": 673,
+    "observed_intervals": 48,
+    "offtake_kwh": "37805.000000"
+  },
+  {
+    "trading_date": "2026-04-28",
+    "source_rows": 663,
+    "observed_intervals": 48,
+    "offtake_kwh": "340165.000000"
+  },
+  {
+    "trading_date": "2026-04-29",
+    "source_rows": 708,
+    "observed_intervals": 48,
+    "offtake_kwh": "190051.000000"
+  },
+  {
+    "trading_date": "2026-04-30",
+    "source_rows": 680,
+    "observed_intervals": 48,
+    "offtake_kwh": "276224.000000"
+  },
+  {
+    "trading_date": "2026-08-01",
+    "source_rows": 1030,
+    "observed_intervals": 48,
+    "offtake_kwh": "75064.000000"
+  },
+  {
+    "trading_date": "2026-08-02",
+    "source_rows": 1043,
+    "observed_intervals": 48,
+    "offtake_kwh": "153875.000000"
+  },
+  {
+    "trading_date": "2026-08-03",
+    "source_rows": 1013,
+    "observed_intervals": 48,
+    "offtake_kwh": "197454.000000"
+  },
+  {
+    "trading_date": "2026-08-04",
+    "source_rows": 1007,
+    "observed_intervals": 48,
+    "offtake_kwh": "232914.000000"
+  },
+  {
+    "trading_date": "2026-08-05",
+    "source_rows": 1035,
+    "observed_intervals": 48,
+    "offtake_kwh": "193939.000000"
+  },
+  {
+    "trading_date": "2026-08-06",
+    "source_rows": 1068,
+    "observed_intervals": 48,
+    "offtake_kwh": "270573.000000"
+  },
+  {
+    "trading_date": "2026-08-07",
+    "source_rows": 1052,
+    "observed_intervals": 48,
+    "offtake_kwh": "299240.000000"
+  },
+  {
+    "trading_date": "2026-08-08",
+    "source_rows": 1094,
+    "observed_intervals": 48,
+    "offtake_kwh": "225058.000000"
+  },
+  {
+    "trading_date": "2026-08-09",
+    "source_rows": 1042,
+    "observed_intervals": 48,
+    "offtake_kwh": "142216.000000"
+  },
+  {
+    "trading_date": "2026-08-10",
+    "source_rows": 1021,
+    "observed_intervals": 48,
+    "offtake_kwh": "152314.000000"
+  },
+  {
+    "trading_date": "2026-08-11",
+    "source_rows": 1235,
+    "observed_intervals": 48,
+    "offtake_kwh": "348795.000000"
+  },
+  {
+    "trading_date": "2026-08-12",
+    "source_rows": 1267,
+    "observed_intervals": 48,
+    "offtake_kwh": "305524.000000"
+  },
+  {
+    "trading_date": "2026-08-13",
+    "source_rows": 1277,
+    "observed_intervals": 48,
+    "offtake_kwh": "253268.000000"
+  },
+  {
+    "trading_date": "2026-08-14",
+    "source_rows": 1264,
+    "observed_intervals": 48,
+    "offtake_kwh": "181835.000000"
+  },
+  {
+    "trading_date": "2026-08-15",
+    "source_rows": 1279,
+    "observed_intervals": 48,
+    "offtake_kwh": "141147.000000"
+  },
+  {
+    "trading_date": "2026-08-16",
+    "source_rows": 1284,
+    "observed_intervals": 48,
+    "offtake_kwh": "133198.000000"
+  },
+  {
+    "trading_date": "2026-08-17",
+    "source_rows": 1281,
+    "observed_intervals": 48,
+    "offtake_kwh": "165287.000000"
+  },
+  {
+    "trading_date": "2026-08-18",
+    "source_rows": 1287,
+    "observed_intervals": 48,
+    "offtake_kwh": "144805.000000"
+  },
+  {
+    "trading_date": "2026-08-19",
+    "source_rows": 1288,
+    "observed_intervals": 48,
+    "offtake_kwh": "278346.000000"
+  },
+  {
+    "trading_date": "2026-08-20",
+    "source_rows": 1277,
+    "observed_intervals": 48,
+    "offtake_kwh": "329836.000000"
+  },
+  {
+    "trading_date": "2026-08-21",
+    "source_rows": 1278,
+    "observed_intervals": 48,
+    "offtake_kwh": "238185.000000"
+  },
+  {
+    "trading_date": "2026-08-22",
+    "source_rows": 1287,
+    "observed_intervals": 48,
+    "offtake_kwh": "299830.000000"
+  },
+  {
+    "trading_date": "2026-08-23",
+    "source_rows": 1280,
+    "observed_intervals": 48,
+    "offtake_kwh": "149945.000000"
+  },
+  {
+    "trading_date": "2026-08-24",
+    "source_rows": 1275,
+    "observed_intervals": 48,
+    "offtake_kwh": "356860.000000"
+  },
+  {
+    "trading_date": "2026-08-25",
+    "source_rows": 1277,
+    "observed_intervals": 48,
+    "offtake_kwh": "382318.000000"
+  },
+  {
+    "trading_date": "2026-08-26",
+    "source_rows": 1323,
+    "observed_intervals": 48,
+    "offtake_kwh": "206023.000000"
+  },
+  {
+    "trading_date": "2026-08-27",
+    "source_rows": 1275,
+    "observed_intervals": 48,
+    "offtake_kwh": "262081.000000"
+  },
+  {
+    "trading_date": "2026-08-28",
+    "source_rows": 1274,
+    "observed_intervals": 48,
+    "offtake_kwh": "383967.000000"
+  },
+  {
+    "trading_date": "2026-08-29",
+    "source_rows": 1284,
+    "observed_intervals": 48,
+    "offtake_kwh": "203455.000000"
+  },
+  {
+    "trading_date": "2026-08-30",
+    "source_rows": 1324,
+    "observed_intervals": 48,
+    "offtake_kwh": "172322.000000"
+  },
+  {
+    "trading_date": "2026-08-31",
+    "source_rows": 1281,
+    "observed_intervals": 48,
+    "offtake_kwh": "147297.000000"
+  }
+]

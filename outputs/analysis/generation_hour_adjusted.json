@@ -1,0 +1,20 @@
+[
+  {
+    "intervals": 176,
+    "matched_intervals": 176,
+    "pressure_listed_mwh": "2662.2586590909090910",
+    "control_listed_mwh": "2480.8126751244159820",
+    "pressure_renewable_mwh": "2329.1973011363636360",
+    "control_renewable_mwh": "2234.8311454861486890",
+    "pressure_fossil_mwh": "286.5291931818181820",
+    "control_fossil_mwh": "194.7995566112606570",
+    "pressure_storage_mwh": "6.8384204545454545",
+    "control_storage_mwh": "3.6459349599445998",
+    "pressure_unclassified_mwh": "39.6937443181818180",
+    "control_unclassified_mwh": "47.5360380670620360",
+    "pressure_renewable_primary_pct": "89.0459039274859201",
+    "control_renewable_primary_pct": "91.9823388614945686",
+    "pressure_classification_pct": "98.5090199938823307",
+    "control_classification_pct": "98.0838521770017141"
+  }
+]

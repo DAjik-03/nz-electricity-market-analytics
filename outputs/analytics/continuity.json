@@ -1,0 +1,312 @@
+{
+  "boundary_rows": [
+    {
+      "scope": "National",
+      "zone": "National",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "National",
+      "zone": "National",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "National",
+      "zone": "National",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "CNI",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "CNI",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "CNI",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LNI",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LNI",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LNI",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LSI",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LSI",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "LSI",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "UNI",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "UNI",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "UNI",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "USI",
+      "trading_date": "2025-09-01",
+      "previous_date": null,
+      "contiguous_block": 1,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "USI",
+      "trading_date": "2026-04-01",
+      "previous_date": "2025-09-30",
+      "contiguous_block": 2,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    },
+    {
+      "scope": "Zone",
+      "zone": "USI",
+      "trading_date": "2026-08-01",
+      "previous_date": "2026-04-30",
+      "contiguous_block": 3,
+      "price_change_previous_day": null,
+      "demand_change_previous_day_gwh": null,
+      "rolling_days": 1,
+      "full_7_day_window": false
+    }
+  ],
+  "first_full_7_day_by_block": [
+    [
+      "National",
+      "National",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "National",
+      "National",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "National",
+      "National",
+      3,
+      "2026-08-07"
+    ],
+    [
+      "Zone",
+      "CNI",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "Zone",
+      "CNI",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "Zone",
+      "CNI",
+      3,
+      "2026-08-07"
+    ],
+    [
+      "Zone",
+      "LNI",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "Zone",
+      "LNI",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "Zone",
+      "LNI",
+      3,
+      "2026-08-07"
+    ],
+    [
+      "Zone",
+      "LSI",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "Zone",
+      "LSI",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "Zone",
+      "LSI",
+      3,
+      "2026-08-07"
+    ],
+    [
+      "Zone",
+      "UNI",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "Zone",
+      "UNI",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "Zone",
+      "UNI",
+      3,
+      "2026-08-07"
+    ],
+    [
+      "Zone",
+      "USI",
+      1,
+      "2025-09-07"
+    ],
+    [
+      "Zone",
+      "USI",
+      2,
+      "2026-04-07"
+    ],
+    [
+      "Zone",
+      "USI",
+      3,
+      "2026-08-07"
+    ]
+  ]
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "month": "2025-09-01",
+    "is_price_pressure": false,
+    "intervals": 1389,
+    "mean_demand_mw": "4999.1022663786897048",
+    "median_demand_mw": 5157.634
+  },
+  {
+    "month": "2025-09-01",
+    "is_price_pressure": true,
+    "intervals": 49,
+    "mean_demand_mw": "4976.3017142857142857",
+    "median_demand_mw": 5110.948
+  },
+  {
+    "month": "2025-10-01",
+    "is_price_pressure": false,
+    "intervals": 1479,
+    "mean_demand_mw": "4734.3658999323867478",
+    "median_demand_mw": 4927.614
+  },
+  {
+    "month": "2025-10-01",
+    "is_price_pressure": true,
+    "intervals": 9,
+    "mean_demand_mw": "5716.0753333333333333",
+    "median_demand_mw": 5808.754
+  },
+  {
+    "month": "2025-11-01",
+    "is_price_pressure": false,
+    "intervals": 1435,
+    "mean_demand_mw": "4684.4483512195121951",
+    "median_demand_mw": 4814.784
+  },
+  {
+    "month": "2025-11-01",
+    "is_price_pressure": true,
+    "intervals": 5,
+    "mean_demand_mw": "5536.2740000000000000",
+    "median_demand_mw": 5515.682
+  },
+  {
+    "month": "2025-12-01",
+    "is_price_pressure": false,
+    "intervals": 1481,
+    "mean_demand_mw": "4497.0279081701553005",
+    "median_demand_mw": 4568.66
+  },
+  {
+    "month": "2025-12-01",
+    "is_price_pressure": true,
+    "intervals": 7,
+    "mean_demand_mw": "5598.2234285714285714",
+    "median_demand_mw": 5628.384
+  },
+  {
+    "month": "2026-01-01",
+    "is_price_pressure": false,
+    "intervals": 1488,
+    "mean_demand_mw": "4392.3472634408602151",
+    "median_demand_mw": 4487.01
+  },
+  {
+    "month": "2026-02-01",
+    "is_price_pressure": false,
+    "intervals": 1344,
+    "mean_demand_mw": "4504.4688586309523810",
+    "median_demand_mw": 4598.102
+  },
+  {
+    "month": "2026-03-01",
+    "is_price_pressure": false,
+    "intervals": 1425,
+    "mean_demand_mw": "4588.3206470175438596",
+    "median_demand_mw": 4733.122
+  },
+  {
+    "month": "2026-03-01",
+    "is_price_pressure": true,
+    "intervals": 63,
+    "mean_demand_mw": "5042.3994603174603175",
+    "median_demand_mw": 5248.772
+  },
+  {
+    "month": "2026-04-01",
+    "is_price_pressure": false,
+    "intervals": 1423,
+    "mean_demand_mw": "4605.6459592410400562",
+    "median_demand_mw": 4709.154
+  },
+  {
+    "month": "2026-04-01",
+    "is_price_pressure": true,
+    "intervals": 19,
+    "mean_demand_mw": "5369.3623157894736842",
+    "median_demand_mw": 5228.936
+  },
+  {
+    "month": "2026-05-01",
+    "is_price_pressure": false,
+    "intervals": 1483,
+    "mean_demand_mw": "4851.4953135536075523",
+    "median_demand_mw": 4996.216
+  },
+  {
+    "month": "2026-05-01",
+    "is_price_pressure": true,
+    "intervals": 5,
+    "mean_demand_mw": "6272.9892000000000000",
+    "median_demand_mw": 6297.03
+  },
+  {
+    "month": "2026-06-01",
+    "is_price_pressure": false,
+    "intervals": 1438,
+    "mean_demand_mw": "5023.5341710709318498",
+    "median_demand_mw": 5169.457
+  },
+  {
+    "month": "2026-06-01",
+    "is_price_pressure": true,
+    "intervals": 2,
+    "mean_demand_mw": "6751.1220000000000000",
+    "median_demand_mw": 6751.121999999999
+  },
+  {
+    "month": "2026-07-01",
+    "is_price_pressure": false,
+    "intervals": 1481,
+    "mean_demand_mw": "5327.3571141120864281",
+    "median_demand_mw": 5431.556
+  },
+  {
+    "month": "2026-07-01",
+    "is_price_pressure": true,
+    "intervals": 7,
+    "mean_demand_mw": "6811.2608571428571429",
+    "median_demand_mw": 7011.516
+  },
+  {
+    "month": "2026-08-01",
+    "is_price_pressure": false,
+    "intervals": 1478,
+    "mean_demand_mw": "5298.2795845737483085",
+    "median_demand_mw": 5380.8150000000005
+  },
+  {
+    "month": "2026-08-01",
+    "is_price_pressure": true,
+    "intervals": 10,
+    "mean_demand_mw": "7093.5406000000000000",
+    "median_demand_mw": 7029.433
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "month": "2025-09-01",
+    "all_intervals": 1438,
+    "pressure_intervals": 49,
+    "pressure_rate_pct": "3.4075104311543811"
+  },
+  {
+    "month": "2025-10-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 9,
+    "pressure_rate_pct": "0.60483870967741935484"
+  },
+  {
+    "month": "2025-11-01",
+    "all_intervals": 1440,
+    "pressure_intervals": 5,
+    "pressure_rate_pct": "0.34722222222222222222"
+  },
+  {
+    "month": "2025-12-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 7,
+    "pressure_rate_pct": "0.47043010752688172043"
+  },
+  {
+    "month": "2026-01-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 0,
+    "pressure_rate_pct": "0E-20"
+  },
+  {
+    "month": "2026-02-01",
+    "all_intervals": 1344,
+    "pressure_intervals": 0,
+    "pressure_rate_pct": "0E-20"
+  },
+  {
+    "month": "2026-03-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 63,
+    "pressure_rate_pct": "4.2338709677419355"
+  },
+  {
+    "month": "2026-04-01",
+    "all_intervals": 1442,
+    "pressure_intervals": 19,
+    "pressure_rate_pct": "1.3176144244105409"
+  },
+  {
+    "month": "2026-05-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 5,
+    "pressure_rate_pct": "0.33602150537634408602"
+  },
+  {
+    "month": "2026-06-01",
+    "all_intervals": 1440,
+    "pressure_intervals": 2,
+    "pressure_rate_pct": "0.13888888888888888889"
+  },
+  {
+    "month": "2026-07-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 7,
+    "pressure_rate_pct": "0.47043010752688172043"
+  },
+  {
+    "month": "2026-08-01",
+    "all_intervals": 1488,
+    "pressure_intervals": 10,
+    "pressure_rate_pct": "0.67204301075268817204"
+  }
+]

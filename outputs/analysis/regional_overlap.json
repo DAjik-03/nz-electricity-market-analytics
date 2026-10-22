@@ -1,0 +1,47 @@
+[
+  {
+    "zones_flagged": 0,
+    "national_pressure": false,
+    "intervals": 17256
+  },
+  {
+    "zones_flagged": 1,
+    "national_pressure": false,
+    "intervals": 38
+  },
+  {
+    "zones_flagged": 1,
+    "national_pressure": true,
+    "intervals": 1
+  },
+  {
+    "zones_flagged": 2,
+    "national_pressure": false,
+    "intervals": 35
+  },
+  {
+    "zones_flagged": 2,
+    "national_pressure": true,
+    "intervals": 15
+  },
+  {
+    "zones_flagged": 3,
+    "national_pressure": false,
+    "intervals": 15
+  },
+  {
+    "zones_flagged": 3,
+    "national_pressure": true,
+    "intervals": 48
+  },
+  {
+    "zones_flagged": 4,
+    "national_pressure": true,
+    "intervals": 8
+  },
+  {
+    "zones_flagged": 5,
+    "national_pressure": true,
+    "intervals": 104
+  }
+]

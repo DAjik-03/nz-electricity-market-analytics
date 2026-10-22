@@ -1,0 +1,17 @@
+{
+  "refresh_id": 36,
+  "seconds": 17.110913500073366,
+  "fingerprint": "df9f80b74ed8aab9456c33044eaa8e0754747b6dc360046d10782ac08c57f932",
+  "products_sha256": "74b49db6d48c0439625acb0c704c6abae7eb3e157f56464997ab94239e635751",
+  "interval_cache_sha256": "f997dda791ab39d6faace111367188fc0c3e47e31e2ab45737729eb6d405954d",
+  "thresholds": 6,
+  "events": 113,
+  "view_hashes": {
+    "mart_market_interval": "507a41db70db28e874ab412bc79dacb539640caff9e1eea646f4d936140cddfd",
+    "mart_market_daily": "67df9a0837831d8bc5556884922d7efef9dce45fddf91751358bfb5fcb9b0bd8",
+    "mart_market_monthly": "8361b3c22e2ebdfcd84975791c137d3ca8fdbe46af18959d586b2d2436101c2a",
+    "mart_market_daily_rolling": "acf938c1bee5ce50e0fe71047c05dd87281b3c965391d0a836156b4397418a55",
+    "mart_price_pressure_threshold": "9c07efbe1f508a2b874145d9f96bdf57b1f5897bf6f5e74462270eee13abf639",
+    "mart_price_pressure_event": "2d85de5755dae67bbd2c4a156370225e8154044c595cf33988c1bdfd9341b4e1"
+  }
+}

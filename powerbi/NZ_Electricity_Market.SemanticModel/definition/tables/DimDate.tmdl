@@ -1,0 +1,97 @@
+table DimDate
+	lineageTag: 54dd77c7-2c91-557b-9c13-a32c678913a5
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: yyyy-MM-dd
+		lineageTag: 80ea216d-c636-5667-967b-b9b162a0037f
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: eaaf12ce-0686-5541-a785-2d05d185d150
+		summarizeBy: none
+		sourceColumn: Year
+
+	column 'Month Number'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 11d96709-5bf9-5788-bc84-8c2f0f0b2679
+		summarizeBy: none
+		sourceColumn: Month Number
+
+	column Month
+		dataType: string
+		lineageTag: 550687bb-4f50-505f-b964-5b6728f81a78
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: 'Month Number'
+
+	column Year-Month
+		dataType: string
+		lineageTag: 6cb88982-05f0-5477-8fee-7266dedc0cb4
+		summarizeBy: none
+		sourceColumn: Year-Month
+		sortByColumn: 'Year-Month Sort'
+
+	column 'Year-Month Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 6221695e-cd57-5889-b20a-22cbcc52f4d5
+		summarizeBy: none
+		sourceColumn: Year-Month Sort
+
+	column Quarter
+		dataType: string
+		lineageTag: ddeeb1e0-5334-5259-b57e-33d052f51d48
+		summarizeBy: none
+		sourceColumn: Quarter
+
+	column 'Weekday Number'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 34a8c8ed-dd2b-543b-9e6a-e0b0364ca2c9
+		summarizeBy: none
+		sourceColumn: Weekday Number
+
+	column Weekday
+		dataType: string
+		lineageTag: 06c3f2b7-e3e2-5254-8753-3f369aabc139
+		summarizeBy: none
+		sourceColumn: Weekday
+		sortByColumn: 'Weekday Number'
+
+	column 'Day Type'
+		dataType: string
+		lineageTag: 71c63c1b-7f4e-52a5-ac47-20e865c17bc1
+		summarizeBy: none
+		sourceColumn: Day Type
+
+	partition DimDate = m
+		mode: import
+		source =
+				let
+				    Dates = List.Dates(#date(2025,9,1),365,#duration(1,0,0,0)),
+				    Base = Table.FromColumns({Dates},type table [Date=date]),
+				    Y = Table.AddColumn(Base,"Year",each Date.Year([Date]),Int64.Type),
+				    MN = Table.AddColumn(Y,"Month Number",each Date.Month([Date]),Int64.Type),
+				    M = Table.AddColumn(MN,"Month",each Date.ToText([Date],"MMM","en-NZ"),type text),
+				    YM = Table.AddColumn(M,"Year-Month",each Date.ToText([Date],"yyyy-MM","en-NZ"),type text),
+				    YMK = Table.AddColumn(YM,"Year-Month Sort",each [Year]*100+[Month Number],Int64.Type),
+				    Q = Table.AddColumn(YMK,"Quarter",each "Q" & Text.From(Date.QuarterOfYear([Date])),type text),
+				    WN = Table.AddColumn(Q,"Weekday Number",each Date.DayOfWeek([Date],Day.Monday)+1,Int64.Type),
+				    W = Table.AddColumn(WN,"Weekday",each Date.ToText([Date],"ddd","en-NZ"),type text),
+				    DT = Table.AddColumn(W,"Day Type",each if [Weekday Number]>5 then "Weekend" else "Weekday",type text)
+				in DT
+
+	annotation PBI_ResultType = Table
+

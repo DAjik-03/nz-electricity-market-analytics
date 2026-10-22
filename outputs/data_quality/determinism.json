@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "first_run_id": 4,
+  "second_run_id": 5,
+  "as_of_date": "2026-10-01",
+  "comparison": "Same code, as-of date, lineage/population fingerprint, statuses, affected values, JSON diagnostics and all monthly coverage metrics; excludes run IDs and execution timestamps."
+}

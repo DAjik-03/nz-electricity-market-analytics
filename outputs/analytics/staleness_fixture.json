@@ -1,0 +1,7 @@
+{
+  "before": "df9f80b74ed8aab9456c33044eaa8e0754747b6dc360046d10782ac08c57f932",
+  "simulated": "7c2e7aa4aef1a69e0290486c97a16b032c8a5dbfcf01a6309c20c04401debc89",
+  "after_rollback": "df9f80b74ed8aab9456c33044eaa8e0754747b6dc360046d10782ac08c57f932",
+  "blocked": true,
+  "access_restored": true
+}

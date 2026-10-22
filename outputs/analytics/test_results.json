@@ -1,0 +1,15 @@
+{
+  "tests": 82,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 184.89600369997788,
+  "modules": {
+    "tests/analytics/test_analytics.py": 20,
+    "tests/quality/test_quality.py": 14,
+    "tests/test_ingestion.py": 16,
+    "tests/test_phase0.py": 13,
+    "tests/test_pilot_evidence.py": 7,
+    "tests/warehouse/test_postgresql.py": 12
+  }
+}

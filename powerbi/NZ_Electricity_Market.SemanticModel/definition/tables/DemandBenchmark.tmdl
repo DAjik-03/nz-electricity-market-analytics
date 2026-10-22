@@ -1,0 +1,55 @@
+table DemandBenchmark
+	lineageTag: a562026b-b878-566a-b26b-744dc96e232a
+
+	column pressure_intervals
+		dataType: int64
+		formatString: 0
+		lineageTag: af6adbd9-766b-5fb7-8d1b-2081648dd89c
+		summarizeBy: none
+		sourceColumn: pressure_intervals
+
+	column matched_intervals
+		dataType: int64
+		formatString: 0
+		lineageTag: a6db3b83-5bf8-5ded-9b06-c0a197470fa5
+		summarizeBy: none
+		sourceColumn: matched_intervals
+
+	column minimum_control_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 04a806c8-faed-5115-95c8-bc3ce7f1a25b
+		summarizeBy: none
+		sourceColumn: minimum_control_n
+
+	column pressure_mean_mw
+		dataType: double
+		lineageTag: a591e8ab-a523-5dd8-a95c-670ca3580804
+		summarizeBy: none
+		sourceColumn: pressure_mean_mw
+
+	column matched_control_mean_mw
+		dataType: double
+		lineageTag: ea7d1b51-b101-5d7d-a665-2624a74dfc9b
+		summarizeBy: none
+		sourceColumn: matched_control_mean_mw
+
+	column mean_difference_mw
+		dataType: double
+		lineageTag: 66cbbb62-8616-599d-99df-2e596162db5d
+		summarizeBy: none
+		sourceColumn: mean_difference_mw
+
+	column difference_pct
+		dataType: double
+		lineageTag: e917aecc-6bad-5903-bba2-45747ab30156
+		summarizeBy: none
+		sourceColumn: difference_pct
+
+	partition DemandBenchmark = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "WITH base AS MATERIALIZED (#(lf) SELECT *,date_trunc('month',trading_date)::date AS month,extract(hour FROM local_start)::int AS hour#(lf) FROM analytics.mart_market_interval_national#(lf)), control AS (#(lf) SELECT month,hour,count(*) AS control_n,avg(demand_mw) AS control_mean FROM base#(lf) WHERE NOT is_price_pressure GROUP BY month,hour#(lf))#(lf)SELECT count(*) AS pressure_intervals,count(c.control_mean) AS matched_intervals,min(control_n) AS minimum_control_n,#(lf) avg(p.demand_mw) AS pressure_mean_mw,avg(c.control_mean) AS matched_control_mean_mw,#(lf) avg(p.demand_mw-c.control_mean) AS mean_difference_mw,#(lf) 100*(avg(p.demand_mw)/avg(c.control_mean)-1) AS difference_pct#(lf)FROM base p LEFT JOIN control c USING(month,hour) WHERE p.is_price_pressure", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

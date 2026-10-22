@@ -1,0 +1,146 @@
+[
+  {
+    "local_hour": 0,
+    "all_intervals": 730,
+    "pressure_intervals": 2,
+    "pressure_rate_pct": "0.27397260273972602740"
+  },
+  {
+    "local_hour": 1,
+    "all_intervals": 730,
+    "pressure_intervals": 6,
+    "pressure_rate_pct": "0.82191780821917808219"
+  },
+  {
+    "local_hour": 2,
+    "all_intervals": 730,
+    "pressure_intervals": 5,
+    "pressure_rate_pct": "0.68493150684931506849"
+  },
+  {
+    "local_hour": 3,
+    "all_intervals": 730,
+    "pressure_intervals": 4,
+    "pressure_rate_pct": "0.54794520547945205479"
+  },
+  {
+    "local_hour": 4,
+    "all_intervals": 730,
+    "pressure_intervals": 3,
+    "pressure_rate_pct": "0.41095890410958904110"
+  },
+  {
+    "local_hour": 5,
+    "all_intervals": 730,
+    "pressure_intervals": 5,
+    "pressure_rate_pct": "0.68493150684931506849"
+  },
+  {
+    "local_hour": 6,
+    "all_intervals": 730,
+    "pressure_intervals": 10,
+    "pressure_rate_pct": "1.3698630136986301"
+  },
+  {
+    "local_hour": 7,
+    "all_intervals": 730,
+    "pressure_intervals": 26,
+    "pressure_rate_pct": "3.5616438356164384"
+  },
+  {
+    "local_hour": 8,
+    "all_intervals": 730,
+    "pressure_intervals": 11,
+    "pressure_rate_pct": "1.5068493150684932"
+  },
+  {
+    "local_hour": 9,
+    "all_intervals": 730,
+    "pressure_intervals": 5,
+    "pressure_rate_pct": "0.68493150684931506849"
+  },
+  {
+    "local_hour": 10,
+    "all_intervals": 730,
+    "pressure_intervals": 7,
+    "pressure_rate_pct": "0.95890410958904109589"
+  },
+  {
+    "local_hour": 11,
+    "all_intervals": 730,
+    "pressure_intervals": 6,
+    "pressure_rate_pct": "0.82191780821917808219"
+  },
+  {
+    "local_hour": 12,
+    "all_intervals": 730,
+    "pressure_intervals": 6,
+    "pressure_rate_pct": "0.82191780821917808219"
+  },
+  {
+    "local_hour": 13,
+    "all_intervals": 730,
+    "pressure_intervals": 2,
+    "pressure_rate_pct": "0.27397260273972602740"
+  },
+  {
+    "local_hour": 14,
+    "all_intervals": 730,
+    "pressure_intervals": 2,
+    "pressure_rate_pct": "0.27397260273972602740"
+  },
+  {
+    "local_hour": 15,
+    "all_intervals": 730,
+    "pressure_intervals": 6,
+    "pressure_rate_pct": "0.82191780821917808219"
+  },
+  {
+    "local_hour": 16,
+    "all_intervals": 730,
+    "pressure_intervals": 9,
+    "pressure_rate_pct": "1.2328767123287671"
+  },
+  {
+    "local_hour": 17,
+    "all_intervals": 730,
+    "pressure_intervals": 11,
+    "pressure_rate_pct": "1.5068493150684932"
+  },
+  {
+    "local_hour": 18,
+    "all_intervals": 730,
+    "pressure_intervals": 17,
+    "pressure_rate_pct": "2.3287671232876712"
+  },
+  {
+    "local_hour": 19,
+    "all_intervals": 730,
+    "pressure_intervals": 10,
+    "pressure_rate_pct": "1.3698630136986301"
+  },
+  {
+    "local_hour": 20,
+    "all_intervals": 730,
+    "pressure_intervals": 9,
+    "pressure_rate_pct": "1.2328767123287671"
+  },
+  {
+    "local_hour": 21,
+    "all_intervals": 730,
+    "pressure_intervals": 8,
+    "pressure_rate_pct": "1.0958904109589041"
+  },
+  {
+    "local_hour": 22,
+    "all_intervals": 730,
+    "pressure_intervals": 3,
+    "pressure_rate_pct": "0.41095890410958904110"
+  },
+  {
+    "local_hour": 23,
+    "all_intervals": 730,
+    "pressure_intervals": 3,
+    "pressure_rate_pct": "0.41095890410958904110"
+  }
+]

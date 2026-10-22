@@ -1,0 +1,425 @@
+table FactNational
+	lineageTag: 5a071185-f195-5ab7-ab0d-706671ce5489
+
+	measure 'Weighted Wholesale Price' = DIVIDE(SUM(FactNational[price_numerator]), SUM(FactNational[priced_offtake_kwh]))
+		formatString: #,0.00
+		displayFolder: Price\National
+		lineageTag: 5dc9c2ed-aa86-549d-af5d-8710ad475567
+
+	measure 'P95 Price' = IF(COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])))>0, PERCENTILEX.INC(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])), FactNational[weighted_price], 0.95))
+		formatString: #,0.00
+		displayFolder: Price\National
+		lineageTag: 01597c33-58b5-5894-8e0c-8d59bac98823
+
+	measure 'Price Volatility' = VAR N=COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price]))) RETURN IF(N=1,0,IF(N>1,STDEVX.P(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])),FactNational[weighted_price])))
+		formatString: #,0.00
+		displayFolder: Price\National
+		lineageTag: 4907ba79-a9d5-5647-9371-2bb60381da1d
+
+	measure 'Total Demand GWh' = DIVIDE(SUM(FactNational[offtake_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Demand\National
+		lineageTag: 93ed2318-4e10-5fbd-9016-db54c90ea27b
+
+	measure 'Listed Generation GWh' = DIVIDE(SUM(FactNational[generation_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Generation\National
+		lineageTag: f6420d94-74d2-5ab3-8c16-ea6eec9c3b1b
+
+	measure 'Renewable GWh' = DIVIDE(SUM(FactNational[renewable_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Generation\National
+		lineageTag: 0fad75f2-8280-537c-90a2-224c3157b8bf
+
+	measure 'Fossil Thermal GWh' = DIVIDE(SUM(FactNational[fossil_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Generation\National
+		lineageTag: ce1145d1-bef8-50f5-9d5d-f6a6c5fd3782
+
+	measure 'Storage GWh' = DIVIDE(SUM(FactNational[storage_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Generation\National
+		lineageTag: 9a4a4b39-7df9-54c5-ba15-24c9435dc83c
+
+	measure 'Unclassified GWh' = DIVIDE(SUM(FactNational[unclassified_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Generation\National
+		lineageTag: f05a4915-95da-54c0-9de0-80da0a313785
+
+	measure 'Peak Demand MW' = MAX(FactNational[demand_mw])
+		formatString: #,0.00
+		displayFolder: Demand\National
+		lineageTag: 8bdc1ffd-09d1-5589-8ea4-3269a24742d8
+
+	measure 'Mean Demand MW' = AVERAGE(FactNational[demand_mw])
+		formatString: #,0.00
+		displayFolder: Demand\National
+		lineageTag: a4ed0418-a44b-5d06-bea9-ba1573e2a003
+
+	measure 'Renewable Primary Share' = DIVIDE(SUM(FactNational[renewable_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))
+		formatString: 0.00%
+		displayFolder: Generation\National
+		lineageTag: 48697a42-ec37-5c0f-bfeb-6ca3bbdbdc38
+
+	measure 'Fossil Thermal Share' = DIVIDE(SUM(FactNational[fossil_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))
+		formatString: 0.00%
+		displayFolder: Generation\National
+		lineageTag: 73ec0c93-d816-5abd-bcbc-8de6ea225bd3
+
+	measure 'Classification Coverage' = DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[unclassified_kwh]),SUM(FactNational[generation_kwh]))
+		formatString: 0.00%
+		displayFolder: Coverage and Data Quality\National
+		lineageTag: 4013d23c-f65f-54b9-95e0-2cf2db4cfbf0
+
+	measure 'Offtake Zone Coverage' = DIVIDE(SUM(FactNational[known_zone_offtake_kwh]),SUM(FactNational[offtake_kwh]))
+		formatString: 0.00%
+		displayFolder: Coverage and Data Quality\National
+		lineageTag: a1b9d4eb-22a6-5944-b274-04e63f5ce4e3
+
+	measure 'Generation Zone Coverage' = DIVIDE(SUM(FactNational[known_zone_generation_kwh]),SUM(FactNational[generation_kwh]))
+		formatString: 0.00%
+		displayFolder: Coverage and Data Quality\National
+		lineageTag: 1a8d6b5b-f813-5121-b55a-501cc136aa95
+
+	measure 'Priced Offtake Coverage' = DIVIDE(SUM(FactNational[priced_offtake_kwh]),SUM(FactNational[offtake_kwh]))
+		formatString: 0.00%
+		displayFolder: Coverage and Data Quality\National
+		lineageTag: 15be3f05-39a4-53e5-94b5-d43666646985
+
+	measure 'Flagged Half-hours' = IF(COUNTROWS(FactNational)>0,COALESCE(COUNTROWS(FILTER(FactNational,FactNational[is_price_pressure]=TRUE())),0))
+		formatString: #,0
+		displayFolder: Price Pressure\National
+		lineageTag: 5c13386d-c26d-5c75-b4df-b715f6b8b363
+
+	measure 'Pressure Hours' = 0.5*[Flagged Half-hours]
+		formatString: #,0.00
+		displayFolder: Price Pressure\National
+		lineageTag: 084dc568-d92c-5058-b766-5dc3cd27740f
+
+	measure 'Zone Weighted Wholesale Price' = IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[price_numerator]), SUM(FactZone[priced_offtake_kwh])))
+		formatString: #,0.00
+		displayFolder: Price\Zone
+		lineageTag: 4e160517-8aab-5f96-b28a-673d92976a7a
+
+	measure 'Zone Total Demand GWh' = IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[offtake_kwh]),1000000))
+		formatString: #,0.00
+		displayFolder: Demand\Zone
+		lineageTag: 9bae5a20-763f-5315-ac69-8d466a98a333
+
+	measure 'Zone Peak Demand MW' = IF(HASONEVALUE(DimZone[zone]), MAX(FactZone[demand_mw]))
+		formatString: #,0.00
+		displayFolder: Demand\Zone
+		lineageTag: dbca77e6-715a-5b3d-bebe-a6a6c530d1fe
+
+	measure 'Zone Priced Offtake Coverage' = IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[priced_offtake_kwh]),SUM(FactZone[offtake_kwh])))
+		formatString: 0.00%
+		displayFolder: Coverage and Data Quality\Zone
+		lineageTag: 108e3015-10bc-5372-a65d-e86b38ac84a9
+
+	measure 'Zone Flagged Half-hours' = IF(HASONEVALUE(DimZone[zone]), IF(NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FactZone)>0,COALESCE(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE())),0))))
+		formatString: #,0
+		displayFolder: Price Pressure\Zone
+		lineageTag: d1489761-d9aa-5f6a-8338-114671d82b0a
+
+	measure 'Zone Pressure Hours' = IF(HASONEVALUE(DimZone[zone]), 0.5*[Zone Flagged Half-hours])
+		formatString: #,0.00
+		displayFolder: Price Pressure\Zone
+		lineageTag: f5f13c7d-8198-574d-8df3-ffffa0786b59
+
+	measure 'Full-period P99 threshold' = CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]="National")
+		formatString: #,0.00
+		displayFolder: Price Pressure
+		lineageTag: a8d6ec35-e3ac-5dd2-84e7-db4495e98313
+
+	measure 'Zone Full-period P99 threshold' = VAR Z=SELECTEDVALUE(DimZone[zone]) RETURN IF(HASONEVALUE(DimZone[zone]),CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]="Zone",Threshold[zone]=Z))
+		formatString: #,0.00
+		displayFolder: Price Pressure
+		lineageTag: 80ca0af0-36a1-54bc-9d34-de23bb9421f4
+
+	measure 'Regional Spread' = AVERAGE(FactNational[regional_price_spread])
+		formatString: #,0.00
+		displayFolder: Regional
+		lineageTag: 445c72e6-6715-5820-862b-8212cf073c39
+
+	measure 'Spread Eligible Half-hours' = COUNT(FactNational[regional_price_spread])
+		formatString: #,0
+		displayFolder: Regional
+		lineageTag: 8c4c8d38-7ef6-5e92-88f5-1a301dec186c
+
+	measure 'Any-Zone Flagged Half-hours' = COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zones_flagged]>0))
+		formatString: #,0
+		displayFolder: Price Pressure
+		lineageTag: 69f3c9a7-bc88-5c3e-9f08-81236e840649
+
+	measure 'Simultaneous Zones' = MAX(RegionalSignal[zones_flagged])
+		formatString: 0
+		displayFolder: Regional
+		lineageTag: 3b806533-273a-5b6c-87c5-d0283d440c46
+
+	measure 'Zone-only Half-hours' = COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zone_only]=TRUE()))
+		formatString: #,0
+		displayFolder: Regional
+		lineageTag: 2702cbe2-96d4-5e7c-88d5-d49f66c5679b
+
+	measure 'Cross-regional Episodes' = COUNTROWS(FILTER(VALUES(RegionalSignal[episode_id]),NOT ISBLANK(RegionalSignal[episode_id])))
+		formatString: #,0
+		displayFolder: Regional
+		lineageTag: 53087e82-55a6-5f2a-b6ae-7be2f6788bb6
+
+	measure 'Pressure Events' = COALESCE(CALCULATE(COUNTROWS(Events),REMOVEFILTERS(Events),Events[scope]="National",TREATAS(VALUES(DimDate[Date]),Events[start_date])),0)
+		formatString: #,0
+		displayFolder: Price Pressure
+		lineageTag: bed37a86-d1ad-5c30-bac1-96009d255092
+
+	measure 'Event Duration' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[duration_hours]))
+		formatString: 0.0
+		displayFolder: Event Investigation
+		lineageTag: 12af11bb-7228-5e7e-8b8d-6a903859c621
+
+	measure 'Peak Event Price' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[peak_weighted_price]))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: 431a8602-8e5d-5bab-90d3-be18641bd494
+
+	measure 'Event Weighted Price' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[weighted_price]))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: a6634017-5b7e-51b0-bdaa-021feac86f5e
+
+	measure 'Event Mean Demand MW' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_demand_mw]))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: 85dabe92-ed55-50c7-98da-0a6612c003eb
+
+	measure 'Event Regional Spread' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_regional_spread]))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: 496fed16-c6b9-5eaf-a3c5-f72454b0fd06
+
+	measure 'Event Selection Status' = IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[scope]) & " / " & SELECTEDVALUE(Events[zone]),"Select one event")
+		displayFolder: Event Investigation
+		lineageTag: 2e758413-97a6-509c-894b-60fabef192eb
+
+	measure 'Event National Demand MW' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Mean Demand MW],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: f0d325a2-5bd8-5c9f-8988-95a2072d87f5
+
+	measure 'Event National Weighted Price' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Weighted Wholesale Price],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: 5429eafd-3f08-55c9-84ba-67070f6c7a7e
+
+	measure 'Event National Renewable Share' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Renewable Primary Share],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: 0.00%
+		displayFolder: Event Investigation
+		lineageTag: 1245e5a3-0b9b-5498-983c-7e98aab80517
+
+	measure 'Event National Classification Coverage' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Classification Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: 0.00%
+		displayFolder: Event Investigation
+		lineageTag: 53aa4de7-58ac-55cd-a8ba-5e438ba70c39
+
+	measure 'Event National Offtake Coverage' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Offtake Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: 0.00%
+		displayFolder: Event Investigation
+		lineageTag: db8bc030-e249-5011-8ee5-9b8ea45bc007
+
+	measure 'Event National Generation Coverage' = VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Generation Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+		formatString: 0.00%
+		displayFolder: Event Investigation
+		lineageTag: 6d62c4e6-c9d9-520c-9546-dbf193d66e20
+
+	measure 'Event Interval Visible' = VAR I=SELECTEDVALUE(DimInterval[interval_id]) VAR IDs=VALUES(EventInterval[interval_id]) RETURN IF(HASONEVALUE(Events[event_id]) && I IN IDs,1,0)
+		formatString: 0
+		displayFolder: Event Investigation
+		lineageTag: 91ddb5a5-87ed-5307-8a5e-34d0eaf31518
+
+	measure 'Zone Pressure Flag' = IF(HASONEVALUE(DimZone[zone]) && HASONEVALUE(DimInterval[interval_id]) && NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE()))>0,1,0))
+		formatString: 0
+		displayFolder: Event Investigation
+		lineageTag: d832c738-c31b-5485-8cee-9eb9c26d82ca
+
+	measure 'Source Geography Coverage' = IF(HASONEVALUE(SourceQuality[source_name]),DIVIDE(SUM(SourceQuality[known_value]),SUM(SourceQuality[total_value])))
+		formatString: 0.0000%
+		displayFolder: Coverage and Data Quality
+		lineageTag: f625771e-9934-5bce-bad3-7fa7f6b138ce
+
+	measure 'Unknown Source Quantity' = IF(HASONEVALUE(SourceQuality[source_name]),SUM(SourceQuality[unknown_value]))
+		formatString: #,0.00
+		displayFolder: Coverage and Data Quality
+		lineageTag: dc815971-5fc5-5ef2-b889-e61ab3c607b0
+
+	measure 'DQ PASS' = COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="PASS"),0)
+		formatString: 0
+		displayFolder: Coverage and Data Quality
+		lineageTag: da8be11e-9eea-5822-a14a-2255c412e037
+
+	measure 'DQ WARN' = COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="WARN"),0)
+		formatString: 0
+		displayFolder: Coverage and Data Quality
+		lineageTag: 2f6ba8ac-0444-5f4e-8131-9085c6d33da5
+
+	measure 'DQ FAIL' = COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="FAIL"),0)
+		formatString: 0
+		displayFolder: Coverage and Data Quality
+		lineageTag: 9f2bdbf1-9eb5-5087-8b6c-30cd011e038c
+
+	measure 'Release Pressure Mean MW' = MAX(DemandBenchmark[pressure_mean_mw])
+		formatString: #,0.00
+		displayFolder: Demand
+		lineageTag: 3e00fa17-8748-5a6f-8fb0-89e662ee5f09
+
+	measure 'Release Matched Comparator MW' = MAX(DemandBenchmark[matched_control_mean_mw])
+		formatString: #,0.00
+		displayFolder: Demand
+		lineageTag: 8f506ca8-383a-5794-8138-d86105142433
+
+	measure 'Release Matched Difference Pct' = DIVIDE(MAX(DemandBenchmark[difference_pct]),100)
+		formatString: 0.00%
+		displayFolder: Demand
+		lineageTag: c53b8087-4291-5395-87b3-53af9ccc8458
+
+	measure 'Unknown Offtake GWh' = DIVIDE(SUM(FactNational[offtake_kwh])-SUM(FactNational[known_zone_offtake_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Coverage and Data Quality
+		lineageTag: 01aaa736-0668-5f44-b300-e91373223501
+
+	measure 'Unknown Generation GWh' = DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[known_zone_generation_kwh]),1000000)
+		formatString: #,0.00
+		displayFolder: Coverage and Data Quality
+		lineageTag: 75fa97ae-461a-5bd8-862e-06a7028b3a1b
+
+	measure 'Event Interval Price' = VAR S=SELECTEDVALUE(Events[scope]) VAR Z=SELECTEDVALUE(Events[zone]) RETURN IF(HASONEVALUE(Events[event_id]) && [Event Interval Visible]=1,IF(S="National",[Weighted Wholesale Price],CALCULATE([Zone Weighted Wholesale Price],REMOVEFILTERS(DimZone),TREATAS({Z},DimZone[zone]))))
+		formatString: #,0.00
+		displayFolder: Event Investigation
+		lineageTag: 8801580d-2c5c-55c6-ae2c-af4c3b56387a
+
+	column interval_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: faa4b34d-4416-51a8-8b35-7226c709c93b
+		summarizeBy: none
+		sourceColumn: interval_id
+
+	column offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: da55a7c0-6581-5752-9845-922951a924f2
+		summarizeBy: none
+		sourceColumn: offtake_kwh
+
+	column priced_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 23d1039f-b4bc-51a8-b657-246e53d3b043
+		summarizeBy: none
+		sourceColumn: priced_offtake_kwh
+
+	column price_numerator
+		dataType: double
+		isHidden
+		lineageTag: 6aecfa23-5921-5dfb-b4fc-37be258f9348
+		summarizeBy: none
+		sourceColumn: price_numerator
+
+	column weighted_price
+		dataType: double
+		isHidden
+		lineageTag: 31e36f82-128a-5ae5-b903-00fd919b73da
+		summarizeBy: none
+		sourceColumn: weighted_price
+
+	column demand_mw
+		dataType: double
+		isHidden
+		lineageTag: 0ded4ebb-07ee-5416-97f4-d00c0c4a7f0d
+		summarizeBy: none
+		sourceColumn: demand_mw
+
+	column generation_kwh
+		dataType: double
+		isHidden
+		lineageTag: e858bb04-5133-5ca5-ba0f-a7ce77f28f8d
+		summarizeBy: none
+		sourceColumn: generation_kwh
+
+	column renewable_kwh
+		dataType: double
+		isHidden
+		lineageTag: 30c11469-75f6-5ccf-a466-1b3779e31bee
+		summarizeBy: none
+		sourceColumn: renewable_kwh
+
+	column fossil_kwh
+		dataType: double
+		isHidden
+		lineageTag: 07796cdd-0b1b-5602-bc55-388d40229923
+		summarizeBy: none
+		sourceColumn: fossil_kwh
+
+	column storage_kwh
+		dataType: double
+		isHidden
+		lineageTag: 53e2c911-bdd7-550e-9833-6db87df2a96e
+		summarizeBy: none
+		sourceColumn: storage_kwh
+
+	column unclassified_kwh
+		dataType: double
+		isHidden
+		lineageTag: ea22e172-dade-5e84-9368-9fdbf9529a03
+		summarizeBy: none
+		sourceColumn: unclassified_kwh
+
+	column known_zone_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 83cf48e8-e5e0-5fc2-945f-e6956f3d7446
+		summarizeBy: none
+		sourceColumn: known_zone_offtake_kwh
+
+	column known_zone_generation_kwh
+		dataType: double
+		isHidden
+		lineageTag: 877af246-a5a9-5347-8f83-80eff4ff2971
+		summarizeBy: none
+		sourceColumn: known_zone_generation_kwh
+
+	column is_price_pressure
+		dataType: boolean
+		lineageTag: b5091882-becc-5326-b313-8ed0fef11b90
+		summarizeBy: none
+		sourceColumn: is_price_pressure
+
+	column regional_price_spread
+		dataType: double
+		isHidden
+		lineageTag: 2c94a0de-c470-51d1-913a-6b9310a209d4
+		summarizeBy: none
+		sourceColumn: regional_price_spread
+
+	column represented_zones
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: deaa6108-a240-571b-91f4-11a5cde76a6b
+		summarizeBy: none
+		sourceColumn: represented_zones
+
+	column expected_zones
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: df3d0d39-b065-5004-b5bc-fd7508321197
+		summarizeBy: none
+		sourceColumn: expected_zones
+
+	partition FactNational = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT interval_id,offtake_kwh,priced_offtake_kwh,price_numerator,#(lf) weighted_price,demand_mw,generation_kwh,renewable_kwh,fossil_kwh,storage_kwh,#(lf) unclassified_kwh,known_zone_offtake_kwh,known_zone_generation_kwh,is_price_pressure,regional_price_spread,represented_zones,expected_zones#(lf)FROM analytics.mart_market_interval_national", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

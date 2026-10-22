@@ -1,0 +1,11 @@
+[
+  {
+    "pressure_intervals": 176,
+    "matched_intervals": 176,
+    "minimum_control_n": 51,
+    "pressure_mean_mw": "5371.1526590909090909",
+    "matched_control_mean_mw": "5031.6687421828039247",
+    "mean_difference_mw": "339.4839169081051662",
+    "difference_pct": "6.7469448865354500"
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 1489.4727929125988,
+            "y": 224.23335043068442
+          },
+          "nodeIndex": "CaseContext",
+          "nodeLineageTag": "f2cda56b-f03a-50f0-906c-55c7c83a696d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2291.4727929125984,
+            "y": 292.65569941060716
+          },
+          "nodeIndex": "Classification",
+          "nodeLineageTag": "1beea3f2-53ed-5dec-9b33-fd8ac7cf3d34",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2575.4727929125984,
+            "y": 316.65569941060716
+          },
+          "nodeIndex": "DemandBenchmark",
+          "nodeLineageTag": "a562026b-b878-566a-b26b-744dc96e232a",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 637.0897428979049,
+            "y": 307.70713580202761
+          },
+          "nodeIndex": "DimDate",
+          "nodeLineageTag": "54dd77c7-2c91-557b-9c13-a32c678913a5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 336.7131317696273,
+            "y": 177.59440450666477
+          },
+          "nodeIndex": "DimInterval",
+          "nodeLineageTag": "c77dafa0-d555-5f6a-8c03-459c3700b56d",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2057.4727929125984,
+            "y": 314.65569941060716
+          },
+          "nodeIndex": "DimMonth",
+          "nodeLineageTag": "83870c7b-33ad-5d5a-9cce-c054a09b66c7",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 465.08122368766237
+          },
+          "nodeIndex": "DimZone",
+          "nodeLineageTag": "b3c46bdd-08bd-504b-95be-ec757b71f613",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2859.4727929125984,
+            "y": 290.65569941060716
+          },
+          "nodeIndex": "DQResults",
+          "nodeLineageTag": "dd12a9b9-73cb-5c5d-a5ea-164a5c68f5a2",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 921.0897428979049,
+            "y": 340.21846121028295
+          },
+          "nodeIndex": "EventInterval",
+          "nodeLineageTag": "bc7aa890-ee52-5363-adb4-f754eb938cb6",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1205.2913040910903,
+            "y": 257.07804839052994
+          },
+          "nodeIndex": "Events",
+          "nodeLineageTag": "d012ad79-7a3c-5ae6-b039-60741d096d6e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 350.0305669487675,
+            "y": 531.31139882121431
+          },
+          "nodeIndex": "FactNational",
+          "nodeLineageTag": "5a071185-f195-5ab7-ab0d-706671ce5489",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50.599243455993133,
+            "y": 114.13029154021945
+          },
+          "nodeIndex": "FactZone",
+          "nodeLineageTag": "db17255a-9f10-50f1-828b-5b8d31ccdabe",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 580.134711981864,
+            "y": -50
+          },
+          "nodeIndex": "RegionalSignal",
+          "nodeLineageTag": "8a009ae4-fcef-54ff-ae5f-6121c109e054",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3143.4727929125984,
+            "y": 292.65569941060716
+          },
+          "nodeIndex": "Release",
+          "nodeLineageTag": "36723e36-7cf0-5fca-8f00-38d8bf6a95d8",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1773.4727929125986,
+            "y": 240.65569941060716
+          },
+          "nodeIndex": "SourceQuality",
+          "nodeLineageTag": "131e9c90-c616-56b1-aa47-bfb86de13ae9",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3427.4727929125984,
+            "y": 304.65569941060716
+          },
+          "nodeIndex": "Threshold",
+          "nodeLineageTag": "f47cc1c2-d7f0-57ab-be06-c28effd49f3a",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 34.553572111257111,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

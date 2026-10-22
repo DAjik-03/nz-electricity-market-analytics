@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Page 2: Regional Price &amp; Demand — build wireframe</title>
+<rect width="1280" height="800" fill="#F3F6F8"/>
+<rect width="1280" height="6" fill="#12647A"/>
+<text x="28" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#172B3A">Regional Price &amp; Demand</text>
+<text x="28" y="66" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172B3A">When did local price pressure differ from National?</text>
+<text x="28" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" fill="#172B3A">Known-Zone comparison · Unknown retained separately · scoped events overlap</text>
+<text x="1000" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="bold" fill="#586975">BUILD WIREFRAME</text>
+<rect x="28" y="128" width="760" height="100" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.1  Any-Zone / analytical episodes / Zone-only</text>
+<text x="42" y="172" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Card group · RegionalSignal</text>
+<text x="42" y="193" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Any-Zone Flagged Half-hours · Cross-regional Episodes · Zone-only Half-hours</text>
+<rect x="808" y="128" width="444" height="100" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="822" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.2  Unknown Offtake / generation · GWh</text>
+<text x="822" y="172" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Card group · FactNational</text>
+<text x="822" y="193" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Unknown Offtake GWh · Unknown Generation GWh</text>
+<rect x="28" y="248" width="580" height="212" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="270" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.3  Price and own full-period threshold · NZD/MWh</text>
+<text x="42" y="292" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Clustered bar chart · DimZone; FactZone; Threshold</text>
+<text x="42" y="313" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Zone Weighted Wholesale Price · Zone Full-period P99 threshold</text>
+<rect x="628" y="248" width="624" height="212" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="642" y="270" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.4  Five-Zone spread · daily mean NZD/MWh</text>
+<text x="642" y="292" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Line chart · DimDate; FactNational</text>
+<text x="642" y="313" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Regional Spread</text>
+<rect x="28" y="480" width="580" height="156" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="502" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.5  Zone demand and pressure</text>
+<text x="42" y="524" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · DimZone; FactZone</text>
+<text x="42" y="545" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Zone Total Demand GWh · Zone Peak Demand MW · Zone Flagged Half-hours · Zone</text>
+<text x="42" y="562" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Pressure Hours</text>
+<rect x="628" y="480" width="624" height="156" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="642" y="502" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.6  Simultaneous Zone pressure · daily maximum</text>
+<text x="642" y="524" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Column chart · DimDate; RegionalSignal</text>
+<text x="642" y="545" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Simultaneous Zones</text>
+<rect x="28" y="656" width="1224" height="106" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="678" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P2.7  Full-release regional event browser → investigate</text>
+<text x="42" y="700" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · Events</text>
+<text x="42" y="721" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Event Duration · Event Weighted Price · Peak Event Price</text>
+<text x="28" y="785" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Layout specification only · source-backed build inputs · Desktop render/interaction acceptance still required</text>
+</svg>

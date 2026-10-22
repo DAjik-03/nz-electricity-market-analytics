@@ -1,0 +1,74 @@
+table SourceQuality
+	lineageTag: 131e9c90-c616-56b1-aa47-bfb86de13ae9
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 80d87224-e6f7-5a16-a108-c0097f8108b2
+		summarizeBy: none
+		sourceColumn: run_id
+
+	column source_name
+		dataType: string
+		lineageTag: 6207e632-6d33-5d19-970e-0f4f7b08a946
+		summarizeBy: none
+		sourceColumn: source_name
+
+	column source_month
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: ca52c3a8-28e1-5ab9-afa7-e590744a263d
+		summarizeBy: none
+		sourceColumn: source_month
+
+	column denominator_unit
+		dataType: string
+		lineageTag: 2964027a-c18a-5ddd-b7e0-2527640baf9c
+		summarizeBy: none
+		sourceColumn: denominator_unit
+
+	column total_value
+		dataType: double
+		lineageTag: 99db1aa8-9bec-59c5-864e-64e24f2e0ebc
+		summarizeBy: none
+		sourceColumn: total_value
+
+	column known_value
+		dataType: double
+		lineageTag: 3f972dfe-a3fc-565f-89c1-b1c1fc539b6c
+		summarizeBy: none
+		sourceColumn: known_value
+
+	column unknown_value
+		dataType: double
+		lineageTag: 9a479170-e5d7-510d-af80-b0767fc78fc1
+		summarizeBy: none
+		sourceColumn: unknown_value
+
+	column coverage_pct
+		dataType: double
+		lineageTag: 7fa22fdf-06f4-59ce-b020-c333b865734e
+		summarizeBy: none
+		sourceColumn: coverage_pct
+
+	column as_of_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 45674527-9c78-5119-9569-a967c704b302
+		summarizeBy: none
+		sourceColumn: as_of_date
+
+	column refresh_id
+		dataType: int64
+		formatString: 0
+		lineageTag: a402109a-75d0-55a0-bfb7-02e10dab517c
+		summarizeBy: none
+		sourceColumn: refresh_id
+
+	partition SourceQuality = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT run_id,source_name,source_month,denominator_unit,total_value,#(lf) known_value,unknown_value,coverage_pct,as_of_date,refresh_id#(lf)FROM analytics.mart_source_quality", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

@@ -1,0 +1,21 @@
+expression pServer = "127.0.0.1:55432" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 85f4c6f3-e2f1-5f7a-a6ac-d2e24578f905
+
+	annotation PBI_ResultType = Text
+
+expression pDatabase = "nz_market" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 19e273aa-b065-5416-9a97-6799d0762a25
+
+	annotation PBI_ResultType = Text
+
+expression Source = PostgreSQL.Database(pServer, pDatabase, [CreateNavigationProperties=false, CommandTimeout=#duration(0,0,10,0)])
+	lineageTag: 5fd988e2-dd8c-5c3b-831f-954f49ba9ba6
+
+expression ReleaseGate =
+		let
+		    T = Value.NativeQuery(Source, "SELECT refresh_id,input_fingerprint,dq_run_id,is_current,status FROM analytics.refresh_status", null, [EnableFolding=false]),
+		    R = if Table.RowCount(T)=1 then T{0} else error "Expected exactly one approved release",
+		    Valid = R[refresh_id]=38 and R[dq_run_id]=5 and R[is_current]=true and R[status]="COMPLETED" and R[input_fingerprint]="b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6"
+		in if Valid then true else error "Release differs from approved Phase 5. Investigate; do not refresh/promote warehouse."
+	lineageTag: 92fac44c-71fa-5057-8e43-f3b06f2c3eb7
+

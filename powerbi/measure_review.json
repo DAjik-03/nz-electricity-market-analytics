@@ -1,0 +1,28 @@
+{
+  "retained": 59,
+  "removed_unused": [
+    "Zone P95 Price",
+    "Zone Price Volatility",
+    "Zone Listed Generation GWh",
+    "Zone Renewable GWh",
+    "Zone Fossil Thermal GWh",
+    "Zone Storage GWh",
+    "Zone Unclassified GWh",
+    "Zone Mean Demand MW",
+    "Zone Renewable Primary Share",
+    "Zone Fossil Thermal Share",
+    "Zone Classification Coverage",
+    "Zone Offtake Zone Coverage",
+    "Zone Generation Zone Coverage",
+    "Zone Pressure Events",
+    "Release Matched Difference MW",
+    "Selected Pressure Mean MW",
+    "Selected Non-pressure Mean MW"
+  ],
+  "additional_exposures": {
+    "Spread Eligible Half-hours": "Spread tooltip",
+    "Event Selection Status": "Page 4 dynamic title",
+    "Zone Priced Offtake Coverage": "Regional price tooltip"
+  },
+  "engine_validated": false
+}

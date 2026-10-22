@@ -1,0 +1,360 @@
+{
+  "prices_to_nsp": {
+    "input_aggregate_rows": 366048,
+    "unfiltered_left_join_rows": 1651680,
+    "effective_matches": 369024,
+    "rows_without_nsp": 32736,
+    "rows_with_multiple_nsp": 32736,
+    "rows_with_unambiguous_zone": 327360,
+    "rows_with_unambiguous_network_region": 318432
+  },
+  "reconciliation_to_nsp": {
+    "input_aggregate_rows": 552435,
+    "unfiltered_left_join_rows": 2330069,
+    "effective_matches": 552435,
+    "rows_without_nsp": 0,
+    "rows_with_multiple_nsp": 0,
+    "rows_with_unambiguous_zone": 544726,
+    "rows_with_unambiguous_network_region": 544726,
+    "original_source_rows": 6403492,
+    "original_rows_without_nsp": 0,
+    "total_kwh": 8068054866.0,
+    "kwh_without_nsp": 0.0,
+    "kwh_without_unambiguous_zone": 66190254.0,
+    "island_disagreement_rows": 0,
+    "nsp_flow_flag_disagreement_matches": 75679,
+    "nsp_flow_flag_disagreement_kwh": 38750285.0
+  },
+  "reconciliation_to_prices": {
+    "distinct_pocs": 221,
+    "pocs_without_price": [],
+    "aggregate_rows": 552435,
+    "missing_price_rows": 0,
+    "offtake_kwh": 3950896316.0,
+    "offtake_kwh_without_price": 0.0
+  },
+  "reconciliation_zone_coverage_by_flow": [
+    {
+      "FlowDirection": "Offtake",
+      "mapped": false,
+      "kwh": 7026971.0,
+      "source_rows": 37302
+    },
+    {
+      "FlowDirection": "Offtake",
+      "mapped": true,
+      "kwh": 3943869345.0,
+      "source_rows": 5090312
+    },
+    {
+      "FlowDirection": "Injection",
+      "mapped": false,
+      "kwh": 59163283.0,
+      "source_rows": 6900
+    },
+    {
+      "FlowDirection": "Injection",
+      "mapped": true,
+      "kwh": 4057995267.0,
+      "source_rows": 1268978
+    }
+  ],
+  "generation_to_nsp": {
+    "input_aggregate_rows": 151536,
+    "unfiltered_left_join_rows": 345600,
+    "effective_matches": 151536,
+    "rows_without_nsp": 0,
+    "rows_with_multiple_nsp": 0,
+    "rows_with_unambiguous_zone": 148560,
+    "rows_with_unambiguous_network_region": 148560,
+    "total_kwh": 3932434942.0,
+    "kwh_without_nsp": 0.0,
+    "kwh_without_unambiguous_zone": 56117354.0
+  },
+  "generation_to_prices_direct": {
+    "pocs_without_price": [
+      "WPG0331"
+    ],
+    "kwh_at_pocs_without_price": 21457001.0
+  },
+  "generation_embedded_routes": [
+    {
+      "PointOfConnection": "WPG0331",
+      "Network": "TRPG",
+      "Gen_Code": "waipori",
+      "Embedded under POC code": "HWB0331",
+      "Embedded under network participant": "DUNE"
+    }
+  ],
+  "generation_to_prices_after_official_parent_route": {
+    "input_rows": 151536,
+    "routed_rows": 151536,
+    "missing_price_rows": 0,
+    "kwh_without_price": 0.0,
+    "limitation": "Sample requires one parent hop only; this is grid price context, not an exact plant settlement valuation."
+  },
+  "generation_short_series": [
+    {
+      "POC_Code": "ASB0661",
+      "Nwk_Code": "EASH",
+      "Gen_Code": "highbank",
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "days": 30,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "HLY2201",
+      "Nwk_Code": "GENE",
+      "Gen_Code": "huntly_1_4",
+      "Fuel_Code": "Coal",
+      "Tech_Code": "Thrml",
+      "days": 30,
+      "kwh": 71067103
+    },
+    {
+      "POC_Code": "HLY2201",
+      "Nwk_Code": "GENE",
+      "Gen_Code": "huntly_p40",
+      "Fuel_Code": "Gas",
+      "Tech_Code": "Thrml",
+      "days": 11,
+      "kwh": 2685898
+    },
+    {
+      "POC_Code": "TMK0331",
+      "Nwk_Code": "ALPE",
+      "Gen_Code": "clandeboye_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 17,
+      "kwh": 0
+    }
+  ],
+  "generation_all_zero_series": [
+    {
+      "POC_Code": "ARI1102",
+      "Nwk_Code": "POCO",
+      "Gen_Code": "arapuni",
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "ASB0661",
+      "Nwk_Code": "EASH",
+      "Gen_Code": "highbank",
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "days": 30,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "BRB0331",
+      "Nwk_Code": "NPOW",
+      "Gen_Code": "ruak\u0101k\u0101_energy_park",
+      "Fuel_Code": "ELE",
+      "Tech_Code": "BAT",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "CML0331",
+      "Nwk_Code": "DUNE",
+      "Gen_Code": "roaring_meg",
+      "Fuel_Code": "HYD",
+      "Tech_Code": "HYD",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "DVK0111",
+      "Nwk_Code": "SCAN",
+      "Gen_Code": "dannevirke_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "ISL0661",
+      "Nwk_Code": "ORON",
+      "Gen_Code": "k\u014dwhai_park_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "KAW0111",
+      "Nwk_Code": "HEDL",
+      "Gen_Code": "kawerau",
+      "Fuel_Code": "Geo",
+      "Tech_Code": "Geo",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "KPU0661",
+      "Nwk_Code": "POCO",
+      "Gen_Code": "p\u0101mu_r\u0101_ki_whitianga_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "MPE1101",
+      "Nwk_Code": "NPOW",
+      "Gen_Code": "kaiwaikawe_wind_farm",
+      "Fuel_Code": "WIN",
+      "Tech_Code": "ONW",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "TMK0331",
+      "Nwk_Code": "ALPE",
+      "Gen_Code": "clandeboye_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 17,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "TUI1101",
+      "Nwk_Code": "EAST",
+      "Gen_Code": "waikaremoana",
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "WAI0331",
+      "Nwk_Code": "HEDL",
+      "Gen_Code": "te_herenga_o_te_r\u0101_solar_farm",
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "days": 31,
+      "kwh": 0
+    },
+    {
+      "POC_Code": "WTK0111",
+      "Nwk_Code": "WATA",
+      "Gen_Code": "waitaki",
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "days": 31,
+      "kwh": 0
+    }
+  ],
+  "generation_fuel_technology_kwh": [
+    {
+      "Fuel_Code": "Coal",
+      "Tech_Code": "Thrml",
+      "rows": 1440,
+      "kwh": 71067103
+    },
+    {
+      "Fuel_Code": "Diesel",
+      "Tech_Code": "Thrml",
+      "rows": 1488,
+      "kwh": 85964
+    },
+    {
+      "Fuel_Code": "ELE",
+      "Tech_Code": "BAT",
+      "rows": 4464,
+      "kwh": 6491377
+    },
+    {
+      "Fuel_Code": "GEO",
+      "Tech_Code": "GEO",
+      "rows": 2976,
+      "kwh": 89218877
+    },
+    {
+      "Fuel_Code": "Gas",
+      "Tech_Code": "Cogen",
+      "rows": 5952,
+      "kwh": 41452871
+    },
+    {
+      "Fuel_Code": "Gas",
+      "Tech_Code": "Thrml",
+      "rows": 4992,
+      "kwh": 33480074
+    },
+    {
+      "Fuel_Code": "Geo",
+      "Tech_Code": "Geo",
+      "rows": 20832,
+      "kwh": 820252922
+    },
+    {
+      "Fuel_Code": "HYD",
+      "Tech_Code": "HYD",
+      "rows": 5952,
+      "kwh": 24880041
+    },
+    {
+      "Fuel_Code": "Hydro",
+      "Tech_Code": "Hydro",
+      "rows": 59472,
+      "kwh": 2403521302
+    },
+    {
+      "Fuel_Code": "SOL",
+      "Tech_Code": "PV",
+      "rows": 12720,
+      "kwh": 16210861
+    },
+    {
+      "Fuel_Code": "Solar",
+      "Tech_Code": "Solar",
+      "rows": 5952,
+      "kwh": 14206389
+    },
+    {
+      "Fuel_Code": "WIN",
+      "Tech_Code": "ONW",
+      "rows": 2976,
+      "kwh": 45998895
+    },
+    {
+      "Fuel_Code": "Wind",
+      "Tech_Code": "Wind",
+      "rows": 20832,
+      "kwh": 349404789
+    },
+    {
+      "Fuel_Code": "Wood",
+      "Tech_Code": "Cogen",
+      "rows": 1488,
+      "kwh": 16163477
+    }
+  ],
+  "time": {
+    "distinct_source_clock_labels_tested": 1488,
+    "clock_mismatches": 0,
+    "sample_contains_dst_transition": false,
+    "historical_dst_source_files_tested": false,
+    "calendar_example_counts": {
+      "2024-04-07": 50,
+      "2024-09-29": 46,
+      "2025-04-06": 50,
+      "2025-09-28": 46,
+      "2026-04-05": 50,
+      "2026-09-27": 46,
+      "2026-08-01": 48
+    }
+  },
+  "nsp_validity": {
+    "future_starts_after_snapshot": 13,
+    "current_flag_1_future_starts": 13,
+    "invalid_reversed_intervals": 0,
+    "overlapping_nsp_codes": []
+  }
+}

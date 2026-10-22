@@ -1,0 +1,73 @@
+{
+  "monthly_demand_deltas": [
+    {
+      "month": "2025-09",
+      "pressure_n": 49,
+      "control_n": 1389,
+      "difference_mw": -22.800552092975522
+    },
+    {
+      "month": "2025-10",
+      "pressure_n": 9,
+      "control_n": 1479,
+      "difference_mw": 981.7094334009462
+    },
+    {
+      "month": "2025-11",
+      "pressure_n": 5,
+      "control_n": 1435,
+      "difference_mw": 851.8256487804874
+    },
+    {
+      "month": "2025-12",
+      "pressure_n": 7,
+      "control_n": 1481,
+      "difference_mw": 1101.195520401273
+    },
+    {
+      "month": "2026-03",
+      "pressure_n": 63,
+      "control_n": 1425,
+      "difference_mw": 454.0788132999169
+    },
+    {
+      "month": "2026-04",
+      "pressure_n": 19,
+      "control_n": 1423,
+      "difference_mw": 763.7163565484334
+    },
+    {
+      "month": "2026-05",
+      "pressure_n": 5,
+      "control_n": 1483,
+      "difference_mw": 1421.493886446393
+    },
+    {
+      "month": "2026-06",
+      "pressure_n": 2,
+      "control_n": 1438,
+      "difference_mw": 1727.5878289290677
+    },
+    {
+      "month": "2026-07",
+      "pressure_n": 7,
+      "control_n": 1481,
+      "difference_mw": 1483.9037430307708
+    },
+    {
+      "month": "2026-08",
+      "pressure_n": 10,
+      "control_n": 1478,
+      "difference_mw": 1795.261015426252
+    }
+  ],
+  "months_with_positive_demand_difference": 9,
+  "month_count_with_pressure": 10,
+  "annual_demand_difference_pct": 12.03593821060065,
+  "september_march_pressure_share_pct": 63.63636363636363,
+  "unique_zone_pressure_intervals": 264,
+  "cross_regional_episodes": 108,
+  "zone_only_intervals": 88,
+  "five_zone_pressure_intervals": 104,
+  "all_five_share_of_national_pressure_pct": 59.09090909090909
+}

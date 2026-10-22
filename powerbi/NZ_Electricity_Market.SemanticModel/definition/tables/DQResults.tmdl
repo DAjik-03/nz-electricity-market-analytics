@@ -1,0 +1,81 @@
+table DQResults
+	lineageTag: dd12a9b9-73cb-5c5d-a5ea-164a5c68f5a2
+
+	column run_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 1d933598-17ab-5816-9068-8dfaa2a9a61b
+		summarizeBy: none
+		sourceColumn: run_id
+
+	column rule_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f1756e5-52eb-53d7-b16c-0e8dfae81690
+		summarizeBy: none
+		sourceColumn: rule_id
+
+	column rule_snapshot
+		dataType: string
+		lineageTag: 1060f91f-840a-5a6a-9e94-2db8500ba2dc
+		summarizeBy: none
+		sourceColumn: rule_snapshot
+
+	column result_status
+		dataType: string
+		lineageTag: 322eedf2-57aa-5784-a52e-1448567a15e3
+		summarizeBy: none
+		sourceColumn: result_status
+
+	column affected_rows
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d58f390-a2a7-5bff-9a41-6092bc3b4361
+		summarizeBy: none
+		sourceColumn: affected_rows
+
+	column observed_value
+		dataType: string
+		lineageTag: d9599317-dbb9-5788-974b-cfa6c7d9d385
+		summarizeBy: none
+		sourceColumn: observed_value
+
+	column expected_value
+		dataType: string
+		lineageTag: 832b99a9-2381-5d7f-91e7-0a7c0f749c20
+		summarizeBy: none
+		sourceColumn: expected_value
+
+	column coverage_pct
+		dataType: double
+		lineageTag: 836104b5-f34a-5f06-8af8-a0052f1e4380
+		summarizeBy: none
+		sourceColumn: coverage_pct
+
+	column details
+		dataType: string
+		lineageTag: f0713ffb-3791-59eb-ab56-dd3314e788e8
+		summarizeBy: none
+		sourceColumn: details
+
+	column as_of_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 05e7c771-d608-51c3-9643-d5d1eedf8068
+		summarizeBy: none
+		sourceColumn: as_of_date
+
+	column refresh_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 6e103fb9-a565-5e5c-a1be-092d6e591e04
+		summarizeBy: none
+		sourceColumn: refresh_id
+
+	partition DQResults = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT run_id,rule_id,rule_snapshot::text AS rule_snapshot,result_status,#(lf) affected_rows,observed_value::text AS observed_value,expected_value,#(lf) coverage_pct,details::text AS details,as_of_date,refresh_id#(lf)FROM analytics.mart_quality_results", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

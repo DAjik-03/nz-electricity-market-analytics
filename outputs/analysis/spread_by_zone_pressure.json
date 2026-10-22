@@ -1,0 +1,102 @@
+[
+  {
+    "zone": "CNI",
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "12.86089205357018865101",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 43.001241458285776,
+    "max_spread": "241.8835153365793098"
+  },
+  {
+    "zone": "CNI",
+    "is_price_pressure": true,
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "157.97475037219292542753",
+    "median_spread": 44.12438157954361,
+    "p95_spread": 751.3409646571542,
+    "max_spread": "2795.6486034310682981"
+  },
+  {
+    "zone": "LNI",
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "12.95744383895810491690",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 42.85230423318487,
+    "max_spread": "260.3134995199814385"
+  },
+  {
+    "zone": "LNI",
+    "is_price_pressure": true,
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "148.46001079396554067955",
+    "median_spread": 47.38364174025729,
+    "p95_spread": 751.3409646571542,
+    "max_spread": "2795.6486034310682981"
+  },
+  {
+    "zone": "LSI",
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "13.54291679193471606983",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 43.03964860799073,
+    "max_spread": "1108.7662392531818404"
+  },
+  {
+    "zone": "LSI",
+    "is_price_pressure": true,
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "90.7643125188158598",
+    "median_spread": 43.39325991940742,
+    "p95_spread": 231.9300372375155,
+    "max_spread": "2795.6486034310682981"
+  },
+  {
+    "zone": "UNI",
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "12.89844648909957558201",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 43.0567673739346,
+    "max_spread": "260.3134995199814385"
+  },
+  {
+    "zone": "UNI",
+    "is_price_pressure": true,
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "154.27393145275152240878",
+    "median_spread": 42.52465367453138,
+    "p95_spread": 751.3409646571542,
+    "max_spread": "2795.6486034310682981"
+  },
+  {
+    "zone": "USI",
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "13.54857347048334362662",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 43.22505352117733,
+    "max_spread": "1108.7662392531818404"
+  },
+  {
+    "zone": "USI",
+    "is_price_pressure": true,
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "90.2068725600238351",
+    "median_spread": 40.153247214721056,
+    "p95_spread": 231.9300372375155,
+    "max_spread": "2795.6486034310682981"
+  }
+]

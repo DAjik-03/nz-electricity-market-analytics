@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Page 5: Data Quality &amp; Methodology — build wireframe</title>
+<rect width="1280" height="800" fill="#F3F6F8"/>
+<rect width="1280" height="6" fill="#12647A"/>
+<text x="28" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#172B3A">Data Quality &amp; Methodology</text>
+<text x="28" y="66" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172B3A">Which limitations must accompany the findings?</text>
+<text x="28" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" fill="#172B3A">Historical and revision-eligible · retained run 5, as-of 1 Oct 2026 · no composite score</text>
+<text x="1000" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="bold" fill="#586975">BUILD WIREFRAME</text>
+<rect x="28" y="128" width="580" height="98" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.1  Retained DQ assessment · PASS / WARN / FAIL</text>
+<text x="42" y="172" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Card group · DQResults</text>
+<text x="42" y="193" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">DQ PASS · DQ WARN · DQ FAIL</text>
+<rect x="628" y="128" width="624" height="98" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="642" y="150" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.2  Release and lineage</text>
+<text x="642" y="172" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · Release</text>
+<text x="642" y="193" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">refresh_id, dq_run_id, dq_as_of_date, input_fingerprint, is_current</text>
+<rect x="28" y="246" width="760" height="190" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="268" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.3  Known geography coverage by source / month</text>
+<text x="42" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Matrix · DimMonth; SourceQuality</text>
+<text x="42" y="311" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Source Geography Coverage</text>
+<rect x="808" y="246" width="444" height="190" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="822" y="268" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.4  Unknown quantity · retain denominator</text>
+<text x="822" y="290" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · SourceQuality</text>
+<text x="822" y="311" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Unknown Source Quantity</text>
+<rect x="28" y="456" width="760" height="188" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.5  Original warnings and diagnostics</text>
+<text x="42" y="500" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · DQResults</text>
+<text x="42" y="521" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">rule_id, result_status, affected_rows, expected_value, rule_snapshot, details</text>
+<rect x="808" y="456" width="444" height="188" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="822" y="478" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.6  Classification coverage / exceptions</text>
+<text x="822" y="500" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Line chart + reference table · DimDate; FactNational;…</text>
+<text x="822" y="521" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Classification Coverage</text>
+<rect x="28" y="664" width="1224" height="98" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="686" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P5.7  Methodology and source lineage detail</text>
+<text x="42" y="708" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Text / focus-mode table · Release; project documentation</text>
+<text x="42" y="729" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">input_manifest</text>
+<text x="28" y="785" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Layout specification only · source-backed build inputs · Desktop render/interaction acceptance still required</text>
+</svg>

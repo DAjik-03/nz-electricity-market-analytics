@@ -1,0 +1,2588 @@
+{
+  "file_count": 516,
+  "payload_bytes_excluding_manifest": 20294884,
+  "history_included": false,
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 147,
+      "sha256": "b1e077fa1b38bf4dff0602a40b00d3770474f4f8a24aaac828bd5c5e2a056df2"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 169,
+      "sha256": "bd6f490a37428702705b8ce081856c0c88961e42bba2c1b8ede7daf815145e2c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 788,
+      "sha256": "6ecb3869cc747a71f2cb51fc8af55a8193cb17cf29a652a39bc0bfa6d8a7ec01"
+    },
+    {
+      "path": "config/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "config/project_config.yml",
+      "bytes": 684,
+      "sha256": "9e2353a738519915ef54a9701e12352c3a2993895228a775e38be07187cb30b3"
+    },
+    {
+      "path": "config/scale_up.yml",
+      "bytes": 828,
+      "sha256": "45432269f24b7f53a8985226974eef4c2fbd74d5b34a30aefcd98165db80b983"
+    },
+    {
+      "path": "config/source_schema.json",
+      "bytes": 1672,
+      "sha256": "b153439f3f67006709eeee41569a482a0ed76ae2ea85c002e424dbe5c1733ba7"
+    },
+    {
+      "path": "data/interim/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/reference/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/sample/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 610,
+      "sha256": "73c75ef916af953289a29c56bef2674f3f2dda54d84e73434f03520a0e475bb3"
+    },
+    {
+      "path": "docs/analysis_validation.md",
+      "bytes": 7866,
+      "sha256": "e693e1218d7856c0a2915e4d7b14a91d3fa6f03b9bd11228ca93f60809841fe9"
+    },
+    {
+      "path": "docs/analytics_design.md",
+      "bytes": 14072,
+      "sha256": "7e0ebfb0f77425cd42f7edcdc317d6198d1bf044f1733f3458d1ce993c1ab4f2"
+    },
+    {
+      "path": "docs/assets/architecture.svg",
+      "bytes": 4857,
+      "sha256": "6a600322e71a856fa447286c8a27b53aacbf4aa1411ce5e7d7d920e094b55062"
+    },
+    {
+      "path": "docs/assets/powerbi/data-quality.jpg",
+      "bytes": 256273,
+      "sha256": "581037e0b6931d9949b46bb2f672dab465dd2446ef18b553ba7c034c8c829751"
+    },
+    {
+      "path": "docs/assets/powerbi/executive.jpg",
+      "bytes": 223707,
+      "sha256": "d2b68b14f43644f0d39045ec3c142f42350d2589c88a1e978aceb56d20909864"
+    },
+    {
+      "path": "docs/assets/powerbi/generation.jpg",
+      "bytes": 227870,
+      "sha256": "1f0caef48b08fc73bc5dac5c6f6bb3051ca7d34c24dbdef4ba6b0697b9b9588a"
+    },
+    {
+      "path": "docs/assets/powerbi/investigation-E3.jpg",
+      "bytes": 221215,
+      "sha256": "48f683703d9873bf53a1791960efc49417243580dc788848eb05c8fd12031377"
+    },
+    {
+      "path": "docs/assets/powerbi/manifest.json",
+      "bytes": 1655,
+      "sha256": "e7924e5d8a249217a7dcbbef23fdfe1f979b5d37c2f379fa5ff7faf12c4e863f"
+    },
+    {
+      "path": "docs/assets/powerbi/regional.jpg",
+      "bytes": 244305,
+      "sha256": "c8695cd53ef928a57a838e7f86b5cd1a1b35f698fb483b78a28eaaeb0ceacd2d"
+    },
+    {
+      "path": "docs/career_pack.md",
+      "bytes": 9869,
+      "sha256": "901b29e46c1cb351f52c6d3dd0a9435af94f4ffe454fe223a4db6cee00a579cd"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 12274,
+      "sha256": "e4c952f8c4b927ceeb2a7419b566caa9029531e6177697477fa55118a9e960f1"
+    },
+    {
+      "path": "docs/data_quality_framework.md",
+      "bytes": 9790,
+      "sha256": "eaf4d510fe91855df55b77103a7c081d744258ec64bda8b13a2b8fdc3ca422ab"
+    },
+    {
+      "path": "docs/data_quality_register.md",
+      "bytes": 13425,
+      "sha256": "feb40f1ae900906cc0c9d3378de932d8156232f19b97eb1227b79e0de3f730e2"
+    },
+    {
+      "path": "docs/december_source_decision.md",
+      "bytes": 3061,
+      "sha256": "97736f75b23b127754952dccd562f8681a78dedcbfb8ac90a132d6db1e87ed82"
+    },
+    {
+      "path": "docs/desktop_acceptance.md",
+      "bytes": 2465,
+      "sha256": "12c85007d22d082ff89791df7533b289f8c4379eb470b633819aa05a5fde311f"
+    },
+    {
+      "path": "docs/findings.md",
+      "bytes": 25631,
+      "sha256": "8ba5ab3884909840ee12e38687ac0a39b32c6c6962692f380d4e89f93168993f"
+    },
+    {
+      "path": "docs/ingestion_design.md",
+      "bytes": 8956,
+      "sha256": "ded7add7ffa3a31c42d0fa649d3b31915a0e43028fb7b44b47c870fd242952ac"
+    },
+    {
+      "path": "docs/kpi_dictionary.md",
+      "bytes": 20416,
+      "sha256": "29bc2c6d38b9a70dac2dcd675af6ecbcf2dc19cbf267a77775f6352d6a648c28"
+    },
+    {
+      "path": "docs/portfolio_architecture.md",
+      "bytes": 2915,
+      "sha256": "747442dce82be550a1a3b4ff3da54d2f0511984ec15088c6687c130d4a5baf74"
+    },
+    {
+      "path": "docs/portfolio_case_study.md",
+      "bytes": 9125,
+      "sha256": "8bbb3f14889642eb569913ad2fc5d07e63136d20b00efc42895d7899f0d52915"
+    },
+    {
+      "path": "docs/powerbi_gallery.md",
+      "bytes": 2074,
+      "sha256": "c80da9c531beb7333917114dd8bef032b2ee583e75db566df378da649c59d279"
+    },
+    {
+      "path": "docs/powerbi_interactions.md",
+      "bytes": 7775,
+      "sha256": "1146e075b415e3e8f6ce7b1d3cde57d14b053a6b83c10077f854e5621b45d963"
+    },
+    {
+      "path": "docs/powerbi_model_spec.md",
+      "bytes": 12114,
+      "sha256": "a9fd5b45e05023914e7aa06ab184eaab7e02e1b61b845de207094ad30ef6081c"
+    },
+    {
+      "path": "docs/powerbi_pages.md",
+      "bytes": 16323,
+      "sha256": "d7b667d2f0446e4ab824ea485e5fc51005a70bd0f6fb33ff2a0acda96aa41123"
+    },
+    {
+      "path": "docs/public_export_audit.md",
+      "bytes": 4652,
+      "sha256": "f66863ca152799e21962fca63b260795e5fc0c25821ac1f473d2ebf60e1ac73e"
+    },
+    {
+      "path": "docs/release_validation.md",
+      "bytes": 2152,
+      "sha256": "7dac71158b0159e0b140e53cfe3eb4ececb6cfff11a7665a82999547ffcb9845"
+    },
+    {
+      "path": "docs/repository_metadata.md",
+      "bytes": 1596,
+      "sha256": "9bac3b9226ac49df1fca23e22adf6fc2b3c91a2eaa4949818bffcc3a79553155"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "bytes": 3635,
+      "sha256": "4685d8f309530609a1f8a13f348b06a7efebe785d2da9e8f67ef408218467a47"
+    },
+    {
+      "path": "docs/schema_dictionary.md",
+      "bytes": 14739,
+      "sha256": "289c522cf5ca1fa906eec9137b318ed8691379b0e69493fd93edb0eacf47f17b"
+    },
+    {
+      "path": "docs/source_audit.md",
+      "bytes": 21417,
+      "sha256": "b6d071f62e4ae37debcdfe37a1d8cc42856e4ca0b069d89db8ac1b501b332a99"
+    },
+    {
+      "path": "docs/warehouse_design.md",
+      "bytes": 4607,
+      "sha256": "0ff323eb0bcee9b7273d98586c08dfd3d8917b17b92d2ac2aeb9318b95719e19"
+    },
+    {
+      "path": "notebooks/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "notebooks/data_quality_review.ipynb",
+      "bytes": 2716,
+      "sha256": "054fdfba34d41b9f72a68f23aa8f1c81d74c5a9719950fa67898b5d2bd9077a7"
+    },
+    {
+      "path": "notebooks/source_audit.ipynb",
+      "bytes": 4591,
+      "sha256": "e95d789c4c72afa5543b2c2e4a274ea265b6f33097352f1b29cabadd07c53c14"
+    },
+    {
+      "path": "outputs/analysis/analysis_validation.json",
+      "bytes": 2009,
+      "sha256": "d40ec14ff0d662dc466e68c49f35412182bb8bedb15b59bcda921f3dfef038b1"
+    },
+    {
+      "path": "outputs/analysis/cross_regional_episodes.csv",
+      "bytes": 6876,
+      "sha256": "2fcfa3ac196d81439c7d6703f8482e694b478155b3514940db82ec75e4a40717"
+    },
+    {
+      "path": "outputs/analysis/cross_regional_episodes.json",
+      "bytes": 20958,
+      "sha256": "79c2580fbef0ae4ba95c93997ebd8a25d3d771bb56d9366e88b200a355dc7b08"
+    },
+    {
+      "path": "outputs/analysis/delivery_validation.json",
+      "bytes": 1465,
+      "sha256": "75940ad69a81f5bf6191a5e1df9930cb3294bae51fd454cb188c66a34294b1b9"
+    },
+    {
+      "path": "outputs/analysis/demand_comparison.csv",
+      "bytes": 244,
+      "sha256": "18eaedff479bf827fcc5b49cf6786fdb3355f23a201aff042a847013020df56e"
+    },
+    {
+      "path": "outputs/analysis/demand_comparison.json",
+      "bytes": 456,
+      "sha256": "0b708afd233e57d492d7c16e261e71ce13b1ae304c6964e6b24e08e300ae790f"
+    },
+    {
+      "path": "outputs/analysis/demand_hour_adjusted.csv",
+      "bytes": 225,
+      "sha256": "dda6212de5018cc2948b49d4133cb108d36e05a2633dcb9b86fdfe2bd5d8d4a8"
+    },
+    {
+      "path": "outputs/analysis/demand_hour_adjusted.json",
+      "bytes": 300,
+      "sha256": "0dea817296e89be7c553d86377a9ab42a95bafb435333d373c20b0bbf7dee0c7"
+    },
+    {
+      "path": "outputs/analysis/demand_within_month.csv",
+      "bytes": 1212,
+      "sha256": "dea595f6c91f5237912d7a3b1a21fde3b07e8a791b054ed195cf1e0d18b2120c"
+    },
+    {
+      "path": "outputs/analysis/demand_within_month.json",
+      "bytes": 3745,
+      "sha256": "7085f047a62def17c26367e34c1e8e7291ba6bc46c80a4fa519df2b674d64ace"
+    },
+    {
+      "path": "outputs/analysis/derived_comparisons.json",
+      "bytes": 1725,
+      "sha256": "fb9ffbb2b9ce3a42faf637e38e6f7c103fab2d0f7e6ef38c96f83e20d4ef5063"
+    },
+    {
+      "path": "outputs/analysis/event_investigation.csv",
+      "bytes": 227453,
+      "sha256": "f4290802d01883667b5da7ff90bbbfa58ac82bef8fc5f229405483b97702fe19"
+    },
+    {
+      "path": "outputs/analysis/event_investigation.json",
+      "bytes": 624564,
+      "sha256": "bce12bb73bb1a94aa4ced28b47fa0f6770f5ba02088fcd5b80fbc9263e5d32e3"
+    },
+    {
+      "path": "outputs/analysis/event_starts_by_month.csv",
+      "bytes": 151,
+      "sha256": "e755c1c9929b5bcf0cd252d3ae15ed39d9b0a4f3b3508b7828e78172ffa23c8c"
+    },
+    {
+      "path": "outputs/analysis/event_starts_by_month.json",
+      "bytes": 585,
+      "sha256": "f545c349b11d1ff51229203da6b0d1c5752825900c05cc2e3440ef3c2789aa63"
+    },
+    {
+      "path": "outputs/analysis/external_context.json",
+      "bytes": 3559,
+      "sha256": "f5b417b07cf966331d3e0c4637a96eecd597de43508e597a9ec7e2edbff6688c"
+    },
+    {
+      "path": "outputs/analysis/findings_evidence.csv",
+      "bytes": 53937,
+      "sha256": "d3163a212f89895a7aa23c12c31b785044f731bf06fcb17aacec1c943a9ebd55"
+    },
+    {
+      "path": "outputs/analysis/full_test_results.json",
+      "bytes": 435,
+      "sha256": "67b6f16f69aeb0ce4a15d5df1ae02214f5e5918751e454f19bde1dfea346efd1"
+    },
+    {
+      "path": "outputs/analysis/generation_comparison.csv",
+      "bytes": 828,
+      "sha256": "0175ec9a92ab2e709984753787ce2a761c7a9019fcd087a080334a906d6c65f2"
+    },
+    {
+      "path": "outputs/analysis/generation_comparison.json",
+      "bytes": 1435,
+      "sha256": "86b8d89e0265c55ce79ae886f3eefcc45f94ee6dd8234d1a6ede4846c76d6140"
+    },
+    {
+      "path": "outputs/analysis/generation_hour_adjusted.csv",
+      "bytes": 655,
+      "sha256": "8025d539d530ff8241f5090dd7bca98b232989e898e1643c3a39c74724261fe5"
+    },
+    {
+      "path": "outputs/analysis/generation_hour_adjusted.json",
+      "bytes": 822,
+      "sha256": "d711d6346c3c8ae9443962058cdf701cf3024dd54d68c3b81674a8a8276bc287"
+    },
+    {
+      "path": "outputs/analysis/initial_query_manifest.json",
+      "bytes": 192236,
+      "sha256": "6ff957cff3af339f6cdc25ebdb9fa21024032e7049c102e875a7dc5f5af0b92f"
+    },
+    {
+      "path": "outputs/analysis/monthly_overview.csv",
+      "bytes": 6791,
+      "sha256": "8e5d60217d523270ee166ffea60a7293056cd622c57cbe94ba4c2dcdb9c489d7"
+    },
+    {
+      "path": "outputs/analysis/monthly_overview.json",
+      "bytes": 15894,
+      "sha256": "9d6c5a74c29228e4843e89445c713eec2437ee06e90497fd525415e45da10863"
+    },
+    {
+      "path": "outputs/analysis/monthly_quality.csv",
+      "bytes": 4339,
+      "sha256": "7745211dd2121d3451532524ccd95e8e76cfd93be931ad087c5ee51c366c142c"
+    },
+    {
+      "path": "outputs/analysis/monthly_quality.json",
+      "bytes": 13206,
+      "sha256": "46fa62b34d89d321a6fefd083570ce5b1a56d8bb3eba03df9a67564877e4f584"
+    },
+    {
+      "path": "outputs/analysis/national_event_distribution.csv",
+      "bytes": 199,
+      "sha256": "a11686af82ea0b956343034d70dc134b5c3b1dbd501cbacaafe7d949edcf5819"
+    },
+    {
+      "path": "outputs/analysis/national_event_distribution.json",
+      "bytes": 314,
+      "sha256": "a62818cb98a7df3390f45f282e78fe52946f088c385e985e62f0bfaee2bb04dc"
+    },
+    {
+      "path": "outputs/analysis/national_intervals.json.gz",
+      "bytes": 3130943,
+      "sha256": "fc00781e90f4b95b6d082230795543a3f6ef178c2599dd7838577d2a7861a11a"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_day_type.csv",
+      "bytes": 140,
+      "sha256": "e3d54657e2b08c1776cf3d27ac8701b9b8fd6cf7fa028160543a7fecf2735c01"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_day_type.json",
+      "bytes": 291,
+      "sha256": "a62337707253e3e0d0ee4b253b07e32556390015f18aa0635db8ef4a39fb26ab"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_hour.csv",
+      "bytes": 790,
+      "sha256": "24be09823f3b9e41eb52bf3194d81b1f351851e54aea750b35155b41235003c2"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_hour.json",
+      "bytes": 3227,
+      "sha256": "4bb70e575ac3a73d7543d7667df498070abf1003acb1477b77be581a3a804a96"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_month.csv",
+      "bytes": 507,
+      "sha256": "8fa1b28f47fcd90fde16bbb792cbb97cfb303e03a829c7972ff3aad2e75f23ed"
+    },
+    {
+      "path": "outputs/analysis/pressure_by_month.json",
+      "bytes": 1665,
+      "sha256": "8308ea68b675f174df191e503d44238b5db0e002cd9fd6efb8c8af8b06f915cb"
+    },
+    {
+      "path": "outputs/analysis/query_manifest.json",
+      "bytes": 193358,
+      "sha256": "50e1f247684799735ee4ac8c258223093237163f2b6130f99cf53657d7824135"
+    },
+    {
+      "path": "outputs/analysis/regional_events.csv",
+      "bytes": 595,
+      "sha256": "de489d9aa66291cf4d9a57375fa9338d7fca00c041cef59719a2943c5250aee5"
+    },
+    {
+      "path": "outputs/analysis/regional_events.json",
+      "bytes": 1853,
+      "sha256": "c0b21779535a6250dee5348ca3792f51ef8e1e5f8a6cf7c774c89df79d257c33"
+    },
+    {
+      "path": "outputs/analysis/regional_overlap.csv",
+      "bytes": 138,
+      "sha256": "7675cc7c11488c0f9b0b338e9292796ee8f9dc3061a53d2fec03bf64d5047afe"
+    },
+    {
+      "path": "outputs/analysis/regional_overlap.json",
+      "bytes": 765,
+      "sha256": "c2e0e7f61f29c409fd584e00ad8bf842d604ceffceb67e73bd4315d4866884ab"
+    },
+    {
+      "path": "outputs/analysis/release_population.csv",
+      "bytes": 1118,
+      "sha256": "6fe72d7e329057c1315ccd0bc7ec4aae547717ac58a16e1b4c174e76ceea202b"
+    },
+    {
+      "path": "outputs/analysis/release_population.json",
+      "bytes": 2927,
+      "sha256": "37b538de9dbe2b9cb1c52a51dcca04383768479157a82a191527edf12c94395d"
+    },
+    {
+      "path": "outputs/analysis/representative_events.json",
+      "bytes": 7939,
+      "sha256": "5454fcd107539307536a8747c1702a4cedf5d6d504fdf9b0a6cf6aea8d8bad3b"
+    },
+    {
+      "path": "outputs/analysis/spread_by_zone_pressure.csv",
+      "bytes": 1108,
+      "sha256": "04a40e0426413088a84e3ce1a52a8fba571f5d3327b8eaa9437d6c2960f9cd3f"
+    },
+    {
+      "path": "outputs/analysis/spread_by_zone_pressure.json",
+      "bytes": 2791,
+      "sha256": "e36d8eeffbf28722f4e75103396608bf1d5948ef828aee713e5760fd13ffa44b"
+    },
+    {
+      "path": "outputs/analysis/spread_comparison.csv",
+      "bytes": 543,
+      "sha256": "e2bbd4ad0db94d64ac77ebff502f0d98760241f2d86f7e331701eace062d2bdb"
+    },
+    {
+      "path": "outputs/analysis/spread_comparison.json",
+      "bytes": 1090,
+      "sha256": "adf6e6f0ea86d780b086fa2488d469a01c21ad5e86e06b32abd445358333fb31"
+    },
+    {
+      "path": "outputs/analysis/zone_flags.json.gz",
+      "bytes": 1414914,
+      "sha256": "3e47136701a7183089bbf6fa8c3beadafc2948d4c79bfb85dc490b811092a9a5"
+    },
+    {
+      "path": "outputs/analytics/classification_review.json",
+      "bytes": 5527,
+      "sha256": "5fbf46aaf292889ffe168e9b7b3f6c137bc32c85a314b96034d4756304785071"
+    },
+    {
+      "path": "outputs/analytics/continuity.json",
+      "bytes": 6767,
+      "sha256": "3c56bff79d36745fca6ba0a8fec290ee36a159ed638da3abc6c63613ada5e2db"
+    },
+    {
+      "path": "outputs/analytics/daily_plan.json",
+      "bytes": 25921,
+      "sha256": "07f5c3ab691120755c46b0ff69899376f20260fc7d50e12d2306b250b57b4402"
+    },
+    {
+      "path": "outputs/analytics/determinism.json",
+      "bytes": 2455,
+      "sha256": "cb87d373b0163d94fa68aabdb6a54d6c854f3368c7c399959e95afaa85bbf50e"
+    },
+    {
+      "path": "outputs/analytics/events.json",
+      "bytes": 526305,
+      "sha256": "574434bc9052c845fb9fe2d3e568cc3e6b0e57df658852100f78f5b80e73cd6e"
+    },
+    {
+      "path": "outputs/analytics/events_plan.json",
+      "bytes": 67115,
+      "sha256": "f99d8890d6d7655e7f1d71aceb2865bce5d06c73403e64fd3573071b9952089f"
+    },
+    {
+      "path": "outputs/analytics/export_lineage.json",
+      "bytes": 20389,
+      "sha256": "03f9d24c76451fb94a97c0e614306dba3c712fe2a7d71dcfcd582916a1724bf4"
+    },
+    {
+      "path": "outputs/analytics/final_checks.json",
+      "bytes": 1543,
+      "sha256": "6937a059d1136da797c1d3fb238740d34288a8dfa9b7ac0c9d1a2e3ef00d3fe4"
+    },
+    {
+      "path": "outputs/analytics/generation_zone_codes_plan.json",
+      "bytes": 16541,
+      "sha256": "1d2efd0cb3fd9db9f95caf0eaa72d1ba25a006f0b6f40578177884787fd287b2"
+    },
+    {
+      "path": "outputs/analytics/monthly.json",
+      "bytes": 68148,
+      "sha256": "63db3fa6dc802cddda02e0870402a7bb3a01fb9bbccbab9e64cd29b0d0b275df"
+    },
+    {
+      "path": "outputs/analytics/offtake_poc_zone_plan.json",
+      "bytes": 20642,
+      "sha256": "e519e910a38f8ec0aab43b937ad78c86e1eecbec0a9e76965789b625a2f063c0"
+    },
+    {
+      "path": "outputs/analytics/refresh_36.json",
+      "bytes": 975,
+      "sha256": "aeac533bbacb8305a3b8e7865e1ebc8cac286767b7c0b584c4a60c8c8195f955"
+    },
+    {
+      "path": "outputs/analytics/refresh_37.json",
+      "bytes": 1079,
+      "sha256": "c9fe6a2d706314555e021c7ca62278649a13f6c0a59fe7f5f8419fc758aae66a"
+    },
+    {
+      "path": "outputs/analytics/refresh_38.json",
+      "bytes": 1079,
+      "sha256": "5efcc35c985edae5b7e91aebd61e6db3cfbad00e75ad592bd1e0fa5472fa55c2"
+    },
+    {
+      "path": "outputs/analytics/rolling_plan.json",
+      "bytes": 45276,
+      "sha256": "12994e97d8103895d154b2295aa777c08efd2e85c4e881c80fb66d8b44f7bdb7"
+    },
+    {
+      "path": "outputs/analytics/staleness_fixture.json",
+      "bytes": 300,
+      "sha256": "f41396eca6f4fd1023880465e8fd6dd7d2f8ef082f424272a3c4cf2287cea86d"
+    },
+    {
+      "path": "outputs/analytics/test_results.json",
+      "bytes": 356,
+      "sha256": "f1a66a88ed1b3d9db2b5c1824175b9592fe5bc47ca09ea372048e19380016892"
+    },
+    {
+      "path": "outputs/analytics/thresholds.json",
+      "bytes": 3431,
+      "sha256": "f4c14b3fa06292547e3f88ce824317621822b81ed3131c085ce9710e31d29d2e"
+    },
+    {
+      "path": "outputs/analytics/unknown_dates.json",
+      "bytes": 905,
+      "sha256": "5a4057f7441015ba134a3149c69cf608410e79187ebf3f642110f50a00d23893"
+    },
+    {
+      "path": "outputs/analytics/unknown_source_population.json",
+      "bytes": 8848,
+      "sha256": "e80f937e022ec2102edc571160d7be85dcac9f8c2e37e88bca900314ba3a6eea"
+    },
+    {
+      "path": "outputs/analytics/validation.json",
+      "bytes": 7646,
+      "sha256": "27d64e8f01b9518915b23a94e49d0fa4b440576297e545afcd405c15f6a574f6"
+    },
+    {
+      "path": "outputs/audit/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/audit/generation_embedded_routes.csv",
+      "bytes": 128,
+      "sha256": "4b92e839783938758412634a5e27a44b7431a4ce8fb945beb9af618cbda04590"
+    },
+    {
+      "path": "outputs/audit/generation_mapping_exceptions.csv",
+      "bytes": 178,
+      "sha256": "a77b92599fd47a4339a729bfe5b4f6d6476857c813872611817ab31ece18486e"
+    },
+    {
+      "path": "outputs/audit/generation_plant_date_collisions.csv",
+      "bytes": 180160,
+      "sha256": "2308b392622a7b85aad18e6a57e2faf021362c1f0aabaeafbd7fec44028bc7be"
+    },
+    {
+      "path": "outputs/audit/generation_series.csv",
+      "bytes": 4008,
+      "sha256": "cb58a7b046eb785a69842a163def5dc3cc6e7f9462f06c02d2f33aca0cbbbcfc"
+    },
+    {
+      "path": "outputs/audit/generation_series_coverage.csv",
+      "bytes": 4719,
+      "sha256": "86056e2ffa7549890b173e7216e0d690d72c59e1d40bf1c00dfd5e93b9ae2609"
+    },
+    {
+      "path": "outputs/audit/mapping_and_time.json",
+      "bytes": 8259,
+      "sha256": "1b4b04974232a433f7fa67d9a9dd44c5f7f3f5a4f0a1377c4abcc70f03037477"
+    },
+    {
+      "path": "outputs/audit/prices_mapping_exceptions.csv",
+      "bytes": 820,
+      "sha256": "ded576acde0f97af75ccacb50a50df8748aaeba6c27ddf3626785a7a813ec931"
+    },
+    {
+      "path": "outputs/audit/prices_series_coverage.csv",
+      "bytes": 3233,
+      "sha256": "8c177deff185ecb7e6ddd27a6a7adaa62a192207a920e7be76de7a652db4c8de"
+    },
+    {
+      "path": "outputs/audit/profiles.json",
+      "bytes": 55926,
+      "sha256": "e38dbee42ea1984aab63358e9350c1ad914d5447614d6407ab37b8f62efac7ad"
+    },
+    {
+      "path": "outputs/audit/reconciliation_flow_flag_disagreements.csv",
+      "bytes": 2555,
+      "sha256": "90114c9fab77a74751cc0f27de6fa2a071129d73d9ea59976c852eea19c602b5"
+    },
+    {
+      "path": "outputs/audit/reconciliation_mapping_exceptions.csv",
+      "bytes": 362,
+      "sha256": "e96ac2bf4f1cab1883f6e3d6681b2ec3a598699cc5a8847b4f8143413f07f904"
+    },
+    {
+      "path": "outputs/audit/reconciliation_series_coverage.csv",
+      "bytes": 12053,
+      "sha256": "dbd677074862b5f7a6dfa0d325d99eb162680e9b8bcb1615b5192805ce54e874"
+    },
+    {
+      "path": "outputs/audit/source_discovery.json",
+      "bytes": 235880,
+      "sha256": "fc9ad20bac5229adbb36c19686ca6c9197affd5a547b2d3dea6494a94c3d4f10"
+    },
+    {
+      "path": "outputs/audit/source_manifest.json",
+      "bytes": 5098,
+      "sha256": "8357f9c6c08d2654d074508c215c51bc67d2b48d620a04570e9b6cf2eaa88a6c"
+    },
+    {
+      "path": "outputs/audit/trading_period_examples.csv",
+      "bytes": 49293,
+      "sha256": "3d46f9633fd55d2d949859462f05daa8f99cc2fb5b1a2f94041959418d6881bd"
+    },
+    {
+      "path": "outputs/audit/validation_summary.json",
+      "bytes": 184,
+      "sha256": "9c7a23f8289b53907a1babbb073d7b818432bb604e009216661886ee085650a4"
+    },
+    {
+      "path": "outputs/data_quality/determinism.json",
+      "bytes": 289,
+      "sha256": "81439207b1fad4465245e6f236a9d76ef883a154383b71235b524d0d0105e48a"
+    },
+    {
+      "path": "outputs/data_quality/latest_coverage.csv",
+      "bytes": 2978,
+      "sha256": "6ba98942ea998ec0a69b8b028243f9ae9116e355897440700b1fa010403c3693"
+    },
+    {
+      "path": "outputs/data_quality/latest_results.csv",
+      "bytes": 70729,
+      "sha256": "f3901029b7deff037e2b8f539fe2bf255716680a7bdd2e5a46366e7abe0b5502"
+    },
+    {
+      "path": "outputs/data_quality/latest_summary.json",
+      "bytes": 139625,
+      "sha256": "23522b1c48ef618c1a04afb6404056e702bfb93a1851d8f998c6bff108441239"
+    },
+    {
+      "path": "outputs/data_quality/run_4.json",
+      "bytes": 139625,
+      "sha256": "87c6b13ebb915e8a5260478becf49d9d7801791625f51b9614049b82b70fda10"
+    },
+    {
+      "path": "outputs/data_quality/run_5.json",
+      "bytes": 139625,
+      "sha256": "23522b1c48ef618c1a04afb6404056e702bfb93a1851d8f998c6bff108441239"
+    },
+    {
+      "path": "outputs/data_quality/test_results.json",
+      "bytes": 6740,
+      "sha256": "859040193d7be694529694c58b54bdfefe8e877b58c3a6b524f13e33a32abc97"
+    },
+    {
+      "path": "outputs/pilot/discovery.json",
+      "bytes": 8383,
+      "sha256": "760022f0f7877222aa2b500e1399c8c8d6d8ab69554b248fa65c4c29ff4ede7a"
+    },
+    {
+      "path": "outputs/pilot/idempotency.json",
+      "bytes": 1861,
+      "sha256": "635e5ef351f8216a89ff6dbaae9669ce2401f0179633e5b537077311d2ab8e5c"
+    },
+    {
+      "path": "outputs/pilot/investigations.json",
+      "bytes": 12066,
+      "sha256": "7d3e71fc3564fa7bf92543aa8147019a7be448953c7a6e011174281b5e52e484"
+    },
+    {
+      "path": "outputs/pilot/source_manifest.json",
+      "bytes": 16117,
+      "sha256": "2573862626556bd4d63f66ac0513e43f01d20e9b12dbe28d451f76e7fa651803"
+    },
+    {
+      "path": "outputs/pilot/validation.json",
+      "bytes": 172928,
+      "sha256": "47328d3621aa8923836ae1c3cd3823d7ad91fb5c29de4ed2e1a45079eb684503"
+    },
+    {
+      "path": "outputs/pilot/validation_2025-09.json",
+      "bytes": 46639,
+      "sha256": "4f60b93b50212ebde32265604a032da28e99dc054b0f1b8afe26b3f04076d046"
+    },
+    {
+      "path": "outputs/pilot/validation_2026-04.json",
+      "bytes": 49051,
+      "sha256": "ec994fdddf9b1d78df44b23afd13f1a96bb7fb2c9d0a68212703c726b8fe4de6"
+    },
+    {
+      "path": "outputs/pilot/validation_2026-08.json",
+      "bytes": 41840,
+      "sha256": "e6d0293668b19b8c80d3d993e2bb72f72a50a2d9da2114972a3f1f862278d0f8"
+    },
+    {
+      "path": "outputs/portfolio/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/powerbi/artifact_validation.json",
+      "bytes": 6600,
+      "sha256": "f029e57613e83b771d43d5f1194b8fa6a57cf9108c42255fda1f423e77cfe7b0"
+    },
+    {
+      "path": "outputs/powerbi/import_snapshot.json.gz",
+      "bytes": 7858229,
+      "sha256": "2b1500b14512b865d795ac152bcab2c3c0f85277a891f5897e325e793a0cc9a1"
+    },
+    {
+      "path": "outputs/powerbi/native_static_validation.json",
+      "bytes": 670,
+      "sha256": "351bfb0a750ef8915e128f38839c0a571efd6187bdd7a4706ae1b7a167bba4b8"
+    },
+    {
+      "path": "outputs/powerbi/native_tmdl_validation.json",
+      "bytes": 530,
+      "sha256": "4f00a81af40440997fbc97265e1d39ecc8270fe939164b8e540ac8025f8b8a93"
+    },
+    {
+      "path": "outputs/powerbi/phase6c_runtime_acceptance.json",
+      "bytes": 680,
+      "sha256": "383482eead8c5ce0c27b1c64407b17fcc4e33cb7f2a87ddac6dbaf936425ef26"
+    },
+    {
+      "path": "outputs/powerbi/release_integrity.json",
+      "bytes": 903,
+      "sha256": "65a984e62d86e78cdbccbe25851553d1924813d985d3e61837a712c8930b665d"
+    },
+    {
+      "path": "outputs/powerbi/reporting_input_contract.json",
+      "bytes": 4755,
+      "sha256": "435e5b5e73bce6a8795d9817a41b8f60b9d625e5c5ada6da0c309bec12f1495c"
+    },
+    {
+      "path": "outputs/powerbi/source_validation.json",
+      "bytes": 13948,
+      "sha256": "cd087cd16a232d6852532517e6b2b71a05ef25746d35fda6cb09edda7bbc8875"
+    },
+    {
+      "path": "outputs/powerbi/validation.json",
+      "bytes": 2170,
+      "sha256": "f0482d94ce98da801622f6755c02fb9e4994ad7d3a63197a0d90d810a6356555"
+    },
+    {
+      "path": "outputs/powerbi/wireframe_review.json",
+      "bytes": 1561,
+      "sha256": "52f85d48dcfdcf36f62ee1abfb68740aed1853cbf9e8a40079621b6597b3cb96"
+    },
+    {
+      "path": "outputs/scale_up/acquisition.json",
+      "bytes": 11785,
+      "sha256": "e37a1a036603b073ec74a7afd4c3e4d3f6eaf3341334ac8d337e2195f87e7a76"
+    },
+    {
+      "path": "outputs/scale_up/availability_audit.json",
+      "bytes": 22978,
+      "sha256": "8830c0c25d469701e4007f6b85df52c6ede6f5eaa3f8b4745ec9f42d0a26b65d"
+    },
+    {
+      "path": "outputs/scale_up/candidate_validation.json",
+      "bytes": 92874,
+      "sha256": "061a273f684a41059c352b2a56bb86640744e0edd2e0991427be2f5677a5e041"
+    },
+    {
+      "path": "outputs/scale_up/december/audit.json",
+      "bytes": 13222,
+      "sha256": "32d706a74e798848ecf075930c89c49ce4d7cfc9a4e5f6d37f48d3d04ed3ed5f"
+    },
+    {
+      "path": "outputs/scale_up/december/discovery.json",
+      "bytes": 13110,
+      "sha256": "5c8ada88c968051f9073359fd689eb436bfff15b6d9bef5e196ee1c4eb7e1982"
+    },
+    {
+      "path": "outputs/scale_up/december/source_manifest.json",
+      "bytes": 90015,
+      "sha256": "57daa9e24bc0fbc96aadc6e5badaa786aa417db976c4f3d46acd5f8093085c00"
+    },
+    {
+      "path": "outputs/scale_up/december/tests.json",
+      "bytes": 126,
+      "sha256": "39ee838b041de1e0d912939b7f40624d6120cdb4f5cda1ed6d2a68006d4e5234"
+    },
+    {
+      "path": "outputs/scale_up/december_daily_review.json",
+      "bytes": 7035,
+      "sha256": "317bc33875a17f93f071705cfd694f6d7d1ffbf9225c0c86017d3c36daf6f462"
+    },
+    {
+      "path": "outputs/scale_up/discovery.json",
+      "bytes": 65710,
+      "sha256": "60ecfd38dd6cd7125742806a13bdaa697a63a48bd0092a4f8c95254add1ea410"
+    },
+    {
+      "path": "outputs/scale_up/final_checks.json",
+      "bytes": 1456,
+      "sha256": "e8b3557dab2bb8452aa571e192e9fc6be9329a2d74ca0c18d0c6588be2e7ecf3"
+    },
+    {
+      "path": "outputs/scale_up/final_evidence.json",
+      "bytes": 338361,
+      "sha256": "192aa7535dec51b648152d107d635287c481ee969a14740d41c59eb97ddc2a11"
+    },
+    {
+      "path": "outputs/scale_up/final_tests.json",
+      "bytes": 437,
+      "sha256": "390e7c5811ba0f3678e65649b7375e1fc4c8edd9fe808560e7c7885f7656bb9b"
+    },
+    {
+      "path": "outputs/scale_up/generation_source_profile.json",
+      "bytes": 267386,
+      "sha256": "1e8d551b99fa560120b050a685ccda546e5bdfc7d478faf5b5cb41ff20bfb808"
+    },
+    {
+      "path": "outputs/scale_up/load.json",
+      "bytes": 6966,
+      "sha256": "8b02dde1585b21faeed11d5d71229b5ffae433fb075e7793f13fac46a8d3bde9"
+    },
+    {
+      "path": "outputs/scale_up/price_listing_review.json",
+      "bytes": 123391,
+      "sha256": "6080dae1e06b81a241d101df996d64e537890508c5d7398db34e998c60d9f577"
+    },
+    {
+      "path": "outputs/scale_up/source_manifest.json",
+      "bytes": 101403,
+      "sha256": "a224029ada4ad4b5dd264c35f9b3ecd8e5990fed40073c01dda1a6bb54d2cfdc"
+    },
+    {
+      "path": "outputs/warehouse/idempotency.json",
+      "bytes": 4854,
+      "sha256": "d930bf9a30304ef0d67e14249f3b8f1249ed63fd8c21682ac944261c5b8418a7"
+    },
+    {
+      "path": "outputs/warehouse/mapping_plan.json",
+      "bytes": 23150,
+      "sha256": "ef703940f4f14fcf7075b50508e8b3f49d00ecca7979770494a60ab45f8658c6"
+    },
+    {
+      "path": "outputs/warehouse/test_results.json",
+      "bytes": 3576,
+      "sha256": "732cb1675047966735b0d3986b2c7aea32fa7b9a616a4999e2692b88ffb61a2b"
+    },
+    {
+      "path": "outputs/warehouse/validation.json",
+      "bytes": 12999,
+      "sha256": "bd3b0004be33a1b62038bc126da4a46a8baf636f9301a8e2d91f456dc0714f97"
+    },
+    {
+      "path": "powerbi/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "powerbi/build_native_project.py",
+      "bytes": 21782,
+      "sha256": "c43b7e5134475bf61a4bdff93950f29c9166b574d6b8842ecdc835a6e716e011"
+    },
+    {
+      "path": "powerbi/build_package.py",
+      "bytes": 20990,
+      "sha256": "839b475768653a01552278291cc485e53bb6486451c59d0bd9b35a2f7babd1fd"
+    },
+    {
+      "path": "powerbi/build_pages.py",
+      "bytes": 17900,
+      "sha256": "761ff2d98248536a30c3b6216db6ffb7fac2800b9340e0c9eb0845306dfa3cbd"
+    },
+    {
+      "path": "powerbi/case_presets.json",
+      "bytes": 4510,
+      "sha256": "d378b828a2a9171fe31d75e7b9ba4ebaa5aa2f90cc18e6512c30b3a73e020940"
+    },
+    {
+      "path": "powerbi/check_artifacts.py",
+      "bytes": 4768,
+      "sha256": "03117abca3c87a384b681a1f380d3255143fa7dfae0b4f8113bac976e55091b7"
+    },
+    {
+      "path": "powerbi/fetch_pbip_schemas.py",
+      "bytes": 2286,
+      "sha256": "f6b32e2c79a17fad94281d31a4222aec45d1e2bdf412113c9e00cfc035cfc388"
+    },
+    {
+      "path": "powerbi/measure_catalog.json",
+      "bytes": 19424,
+      "sha256": "25f5a66626826194fe04fc77f3c6a2ca22beda53096806931957f1df37806324"
+    },
+    {
+      "path": "powerbi/measure_review.json",
+      "bytes": 809,
+      "sha256": "28440532984a5c56d51cacb6d434d5e6dbeaa9bc2113bf27d7c0ceda492e6f4c"
+    },
+    {
+      "path": "powerbi/measures.dax",
+      "bytes": 12466,
+      "sha256": "09b1f8c946f4a7898bf8fb2165dba138eebfef2b273ea8e635b2c0e614669a45"
+    },
+    {
+      "path": "powerbi/model_relationships.mmd",
+      "bytes": 871,
+      "sha256": "6aeb801a8135691573ae360c3710016fee4f4afb3d54624dabb8cff8eed60e06"
+    },
+    {
+      "path": "powerbi/native_input_hashes.json",
+      "bytes": 2652,
+      "sha256": "13faa7df2c48cb2db4433389bcdedf9605e7507ae32a66a4543160ce79a96ff0"
+    },
+    {
+      "path": "powerbi/native_schema_hashes.json",
+      "bytes": 4595,
+      "sha256": "1c6687763d2ca1b5de6fe919e3c8ac2c554126c88c10b17a6358061916ebc9af"
+    },
+    {
+      "path": "powerbi/native_visual_map.json",
+      "bytes": 15062,
+      "sha256": "8c4be7623aeaf711e814b61e31a8b2f78c55d262b663441de1dcad630f7e4f6f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.pbip",
+      "bytes": 181,
+      "sha256": "3e5fe71f4e6106ee2f76156b62e8341607c66382b7a7f1fa914030c832a59bbb"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/.platform",
+      "bytes": 315,
+      "sha256": "f525322764987b7ce3c0114e6211226cf6f86d310591606d4dbd9d6aae1a56e0"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/1557b71f929b517681cd.bookmark.json",
+      "bytes": 2633,
+      "sha256": "80b55ea5a80ec69abac36c21e8fa68e9961b72c5d314131dd66be64a4f9568fa"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/2488b3a45f495fe3ba96.bookmark.json",
+      "bytes": 845,
+      "sha256": "0c428683571336e04724a82fa15fc7710da6898a4ef81b0df84125b355538a7a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/27138c8807305833b3a1.bookmark.json",
+      "bytes": 2624,
+      "sha256": "9635d81941e537045633316f3e340e2cdc71045a062dedd9805ffcb56e00efc5"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/5be9e21bd0f7541981c3.bookmark.json",
+      "bytes": 2633,
+      "sha256": "8c110fe669b87e599356ba184d541ea520b0c959fa97a1b449bdad75562daa30"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/73c5007f2fbe587ab87f.bookmark.json",
+      "bytes": 845,
+      "sha256": "89735f761c8f12b041734845fb8070a9a8a19ba443d6a5655800d3bc192ed1d0"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/919927cdc81850e886a2.bookmark.json",
+      "bytes": 849,
+      "sha256": "7e232245855bc75afcf80478be2edacedd57b3944279567c4cd316446e64f0b5"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/bookmarks.json",
+      "bytes": 646,
+      "sha256": "c7d7e498be01fbe9b6a9ce46fde6c56909e02fc6683c3827a69cd56045de1d3d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/c450a8f25d82567ca083.bookmark.json",
+      "bytes": 849,
+      "sha256": "6778939dd34cd74aaef19454104133b641cd9376cfa2178b6e7ec137b88accc1"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/cd63da6e19e7570a836e.bookmark.json",
+      "bytes": 858,
+      "sha256": "3e37589b31dd941bb4830f726de0a0825d2aa8a269a10b6dc9b39fed0b039f98"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/da0079493f9258cfa726.bookmark.json",
+      "bytes": 2633,
+      "sha256": "382a6339454976627243e16164fa1bbfc7ed78fb270a0497559dc08c3357370c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/bookmarks/f3a1101515d55a7c8ff0.bookmark.json",
+      "bytes": 2633,
+      "sha256": "0dad7a361da8039517d52e4241d2baa4d978f7a56467148b3d1ef9f48c077851"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/page.json",
+      "bytes": 54836,
+      "sha256": "02c23ec7be84e5f2d38ed8de4db8a3eb687c44652c9a7a913e3a863b18ab902b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/153524bda9d45595b1d8/visual.json",
+      "bytes": 5974,
+      "sha256": "55c00c0d4ae4149bbd438d7674a12387bd8ecadca70e529e248c64c4782643d0"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/23b0778f7fca516fb414/visual.json",
+      "bytes": 2944,
+      "sha256": "ed046139b5a56f37936bd24c6e01113de0ba8aef1d235cad03ce62d15e406d29"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/2932da234e345174acad/visual.json",
+      "bytes": 5614,
+      "sha256": "30d44548d9b879a97caebbe9ecd9fc1b09a503e2bc22d61d21a92fc668edc39e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/2f4d774741b558eba1f3/visual.json",
+      "bytes": 2469,
+      "sha256": "50e002fb1da8179c1464fdc9ca501089d33dfaa9a91c73e24e45b4a5f809d644"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/3f7b7b10f54c547a8ab6/visual.json",
+      "bytes": 2977,
+      "sha256": "f16aa7f299c42cbc78e1723edfec672f535a54380cb8db06fdfa459db496c538"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/475b2d163b0358cc8175/visual.json",
+      "bytes": 5400,
+      "sha256": "da9825626e65dc0645d915071c417b64c7943d319bcc85db1f815b7a8c160cd3"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/5948ed662a815e8eb2f9/visual.json",
+      "bytes": 5433,
+      "sha256": "721a2d5099fd14b229a054e24f0efae493427b58358b6a59279eb49bace23206"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/6509697274a25b07bbd4/visual.json",
+      "bytes": 5428,
+      "sha256": "3d175a3d3e4c8c6701c25002c069af89cafa7bca6fe7944409bc93684d9beecf"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/76ebeb745ed45abdb431/visual.json",
+      "bytes": 2954,
+      "sha256": "aa80bb37181c056a0e62d8be73b37be34148912fda55e7f2e867bc7ffcc633fd"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/8bc192f13032539ab6e8/visual.json",
+      "bytes": 6883,
+      "sha256": "4744d5a2d9c6aff808319006513050df77ba87b0e1ce5b3ec89e63c11db5aebd"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/a4a2e61e8def543aa854/visual.json",
+      "bytes": 2948,
+      "sha256": "e5e5744a0873f2eeed7ffe6c74d2ba44879ec3eb714c1e7620b6cc0e687d5a2b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/a57959274de25d34a9e7/visual.json",
+      "bytes": 2980,
+      "sha256": "cebdba4776b23032afd078e1437786931b99ffddad5d6d6827a7bf81278e3bd0"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/acb2a4ddcbc85185bea8/visual.json",
+      "bytes": 2413,
+      "sha256": "bc872c3f81e6ffcb8aed86317989313d7d28fe42135c7f5bd3abd367f9c6424c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/c8c548868b82529dbed8/visual.json",
+      "bytes": 5430,
+      "sha256": "f110e033ed9b67c1de7133b40447fbcf926ec8d5341d871391556ba5aefb24c6"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/c9f2d94b5cff532eacc8/visual.json",
+      "bytes": 2984,
+      "sha256": "b549014cc9be74533d6830af736c13b08a8bf949a89467fd9bcac12642d13a9f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/cc4c7447f13753b79e34/visual.json",
+      "bytes": 4026,
+      "sha256": "222607a012e147d74c8378ea718c083950b726d3ed70e332eba26ba028498df5"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/d04e4a10471f501e9da5/visual.json",
+      "bytes": 3272,
+      "sha256": "95dc57081efdddfe64c6b151214ff6dbee831a68f799da6a440f3292a324e9ae"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/d582d30de9055a139e64/visual.json",
+      "bytes": 5425,
+      "sha256": "cf9c12571d4d3ff10a542b273e9b828a3c937fa9964d99096bbbd51854729aa8"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/daf8b9ff56ff5d578542/visual.json",
+      "bytes": 5425,
+      "sha256": "e9b4e408d094cb41eff0be10a7845a2a1b8074cb51d27c14b7d030061d4cebf9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/df29cfff822e521c9669/visual.json",
+      "bytes": 3573,
+      "sha256": "4ef616e54ef417f8186e94ed4560de7f8a9e86cb70ec9a0a36c7c3684ecd3b67"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/e64a5d57cc4a5a00a9ba/visual.json",
+      "bytes": 5436,
+      "sha256": "9b924145221885fd339c6e148318e84fd7976675f2d49686d1aa8a2440d7edd7"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/0b129eae8f9d5b818ec4/visuals/e9bfbc8781c25c78aca8/visual.json",
+      "bytes": 9290,
+      "sha256": "6b644da30f5467650d395037e36aeb438f39d1e3e85e867255ba12d87727f841"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/page.json",
+      "bytes": 36429,
+      "sha256": "5070e65e53a5e1963f9efa334c60f62411e0f6a2b5d6567553e8069b08a57bf9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/051edb67abde55c891e7/visual.json",
+      "bytes": 2959,
+      "sha256": "708c7e5da72b28f37010ec7a4c9a3da3c0c458201f7daea87c2d24985d73eb9d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/0bc0de98b37b5c778e60/visual.json",
+      "bytes": 5425,
+      "sha256": "0766e4cd4993708564e5419b7f265afd7885cad4500c15c69028be0d2faf5dc3"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/2eb46cb3cfd1577b954d/visual.json",
+      "bytes": 5430,
+      "sha256": "5a207964b7ff382d3b0b2da79a039c55830d2a0d1641387dc226c672cddf9bf2"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/34a8593e19805a65843b/visual.json",
+      "bytes": 2946,
+      "sha256": "3b632ac7e7585121f22b64e048f49f2ed7104b32866b37c26de0c5f5fbc71f79"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/39b2dc8c5d955ea48101/visual.json",
+      "bytes": 2579,
+      "sha256": "c6258c941e25029da7b9c463f5b15ee5ea7cac084a2cb2784d17c45dbdb8c6ee"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/5b421223327c52f282b5/visual.json",
+      "bytes": 3985,
+      "sha256": "cd486bc3fcc00a35463ce67f1c62fbc1e8717a59d94b04643a1b77642461cb3d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/6d5bfc21f60859a19f9a/visual.json",
+      "bytes": 4707,
+      "sha256": "1227aa2523bbaff3f7bc8a440cee0a682496d8ae2d99987ecba5b516de88705e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/7c3ef10402b25cde9285/visual.json",
+      "bytes": 5146,
+      "sha256": "a3f787de6416716beb52f49f69ced837fd1d6d7bdb1eb367a582870c7620e2ca"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/7fa7c19fdc7f511bbba1/visual.json",
+      "bytes": 2974,
+      "sha256": "885d5c13dea263e908250a2ce51c37518fc8fc4d143a3d9027441d265679994f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/bb28c130bf5e511ba91a/visual.json",
+      "bytes": 5436,
+      "sha256": "8ffb93de0c41541b5f345ac7c021776034c1d67b785d4795f3c2ee73b60136ce"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/c0cd5bf0fdf5573b8bbd/visual.json",
+      "bytes": 2978,
+      "sha256": "461006e9ad3e99ea264d97e3e0e484687fc477036fe75067377fdd7d3ece29c2"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/ca1c55e70ef8554ea167/visual.json",
+      "bytes": 2469,
+      "sha256": "326bccec249f6fb0f4d83a76eb5a91f6d0388280bf1ef94a6c2c0ec90418df49"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/d49501233e9e5961b956/visual.json",
+      "bytes": 5425,
+      "sha256": "ce85d5ea69863cf3950986abc6ded6103934fe459e4f425e77c6a3f331d8af1c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/e0f5cfd1e34f5aa3933d/visual.json",
+      "bytes": 2955,
+      "sha256": "118ff9332bf1f2746a75bdb448eb7ee40503f4367529827fd24395849f0e9364"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/e1e1d80b2aae51cd9298/visual.json",
+      "bytes": 5428,
+      "sha256": "2a37c2802bb847e66301b2212d5bfce341c673b270d01e913ad36b091f29a34a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/f5e35730e70f5066927a/visual.json",
+      "bytes": 2953,
+      "sha256": "96bbd449db4cff960a4272ddc7cce5222121d110b6af61f49f0eaf9586e1ab84"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/f6e3260d530e57599eb2/visual.json",
+      "bytes": 5614,
+      "sha256": "1982ac5c5b16a7a83ef5888ca791728415311dbd8a4b10ad66aab882281e3efe"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/644a02f89cae5eb3a397/visuals/f7ed176adbf5558f9e42/visual.json",
+      "bytes": 2424,
+      "sha256": "20d69f1aeee9caea85b0817c46c0691fd1274eb4fdf359cb4ba42c68d2edd5c6"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/page.json",
+      "bytes": 65437,
+      "sha256": "9c6a7a588507fd64c6bb502a5c0b53e1cd466e1390359d9e23c2cc57466cd025"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/04efeab00d405123a078/visual.json",
+      "bytes": 2919,
+      "sha256": "882faba5229df49d2de8984e808aacff2b98fd5893b55626fac2bb0ff5df3ff3"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/0cb051b7cd2e59bc80a7/visual.json",
+      "bytes": 2427,
+      "sha256": "ea24506413709034f871fcc636359a8ab875d0bcc5b8f8cf39974abcdecd4b70"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/1ced61152ee45b1fb47c/visual.json",
+      "bytes": 4356,
+      "sha256": "e50124fea9546dee6584b3323d2b644e9fbb59092b8588a9c776045aa021e88f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/35f533e135f956f8b5a2/visual.json",
+      "bytes": 5406,
+      "sha256": "c0a3226e9322919920f70d1bbacd6fb7ece6be12a957ab04578dbba0283c16b8"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/41a7d03fff535ebab38e/visual.json",
+      "bytes": 3583,
+      "sha256": "f0abdd407170565184a780af3b56465472e83ab36b67ec2adaa8df0cbf902639"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/51029f001d785a409f66/visual.json",
+      "bytes": 4713,
+      "sha256": "0ca9c91a01681ec5f00bcd152a4498295dfd055a25368117ac309bd317c45c2b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/57c01c8782575a89b461/visual.json",
+      "bytes": 4624,
+      "sha256": "1faf8a36eb32fc6cfef19b9e60c3cb5d040749714b268758a5cff58e6b232417"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/5dad81da94cb5462a9d8/visual.json",
+      "bytes": 5423,
+      "sha256": "1e167ae778967095ae613af56954e187e2b2e24c4efc9dcbd6a068afae70e0ae"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/5dc0944e657a5f0caaad/visual.json",
+      "bytes": 5425,
+      "sha256": "49e5d745897a75a0f36cacef3f22ad0dbe411dd5f03a4c5f477d63437f4a20c6"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/818606c895e256459d8d/visual.json",
+      "bytes": 2482,
+      "sha256": "712834460bceedf09bd0996ea0c1334ae884231190c0000cc4be122839de2245"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/83ac73cb43fd5a088785/visual.json",
+      "bytes": 5414,
+      "sha256": "013ea32f46be549ac99440b35488ac0f8eabdb6fd60903709bf527943c68792d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/8bb84a9fac01553795bc/visual.json",
+      "bytes": 5430,
+      "sha256": "0f0e33816fa584cca950968c5fb4990e6c488f5d01caf33ce2aeb7893d7d1dba"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/9a3c0135397e5e5e90a1/visual.json",
+      "bytes": 5428,
+      "sha256": "d6532aec754ccc7c4f02aff7a3a5afcad4be24e427e5aee8908ac4227c2e425d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/a0f9849070115ff39ab4/visual.json",
+      "bytes": 2942,
+      "sha256": "1c23625f7889c40ddd7e48720172ff123e998f823024c1d3842a9b475c55b39c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/a4cd38aef01054d2b8d3/visual.json",
+      "bytes": 2416,
+      "sha256": "ff0fbb81d9b8ee85b6d772387f737c122b8203c0331eb32d7a000bc8a914abf7"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/b6398fad145252f1aa95/visual.json",
+      "bytes": 5407,
+      "sha256": "0ab328d15efc5214935314cf555b6c8b9b19198ad87d18e3190776eb781cba42"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/ba679b66d95857829e44/visual.json",
+      "bytes": 5436,
+      "sha256": "1fab1e18f9aee1796f57726766929dbc7442b900c0259bfe3023f5a7c4964b80"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/cd0824bf1f305cbea157/visual.json",
+      "bytes": 2612,
+      "sha256": "56b8e4666b332efe3cab60dae3e4447a0b080ef9dcb25f0d5107111cb28364c4"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/d3fd58a0600f59c5b4eb/visual.json",
+      "bytes": 2934,
+      "sha256": "a44fcb3b87d655f9ce498ec670827a4ee7c9bb9f6d935688159ef421071ab1d7"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/dcf52f2726c5540fa33d/visual.json",
+      "bytes": 5425,
+      "sha256": "15d4c1d69eaf377f92878249c5f3ec1a3544c50eb3140601dbe3ac443fbaa8af"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/f92287d5ec9353a28fc5/visual.json",
+      "bytes": 2935,
+      "sha256": "40fd6f8b19d11b463583066922f4f6b801e0c7cb2d6c4d20f60da20d41be5b6d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/fb20e1e08708538db509/visual.json",
+      "bytes": 6402,
+      "sha256": "49cc38151ad29cb7b80bd546bac112f3c11bbbd07644e0db95953cd32a8bc6d9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/fd038d94bc7e58089200/visual.json",
+      "bytes": 4833,
+      "sha256": "9ca1e557990b053c5838084a21ba906ecb6aa39c72e90f60f081dad23c825e34"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/66b8a0f7b4c45b85b176/visuals/fd9a7cbfbdb25daab0b2/visual.json",
+      "bytes": 2935,
+      "sha256": "cb3a4d17ed91cd78bd8112909a4f6e97ea7218bc7f41d06c5e1057a05f25d572"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/page.json",
+      "bytes": 45161,
+      "sha256": "cc57f1ce744e55f60e94c34a7a99adad341d26ee18d56e4f91fc544d028dd6e5"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/00943a875415517f9c5c/visual.json",
+      "bytes": 2956,
+      "sha256": "74e7c006f9ebb35ade59b741748db8b29f9d260e7ea0080a4144d5ab99a2464a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/06aa707a54665ae183ee/visual.json",
+      "bytes": 2930,
+      "sha256": "387a9dfdb320e2d829370dbe90ccbd1d3036454852780bc99414d11a4a1b885b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/0c4707fc083051959281/visual.json",
+      "bytes": 2523,
+      "sha256": "8d6dbcae5b4740b9341cd81a593fa0e0629009510fe821d726693b005525e44e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/166a955d3c435ead93e3/visual.json",
+      "bytes": 2929,
+      "sha256": "a47cce4c7ca610eca98e1f33bd4965993e5261db1ea4440b433caab6323efc3c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/36e9417793775e8e9556/visual.json",
+      "bytes": 2912,
+      "sha256": "cb7064e47241de4ac6f8a139adf952d0a715c85e1d5a305fa86a56c17a12c30f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/499a5d874bd857a1bed5/visual.json",
+      "bytes": 2414,
+      "sha256": "1665b6061fa6fdea549382657728f3d522b8b6e569784c96060429bfe677ecae"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/4d5aded61ad6544f834e/visual.json",
+      "bytes": 4956,
+      "sha256": "b317c47e888176bb7e4aeb980d74d3646f32167da1dd643a9e6b291f9126fbbb"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/5bc0a0f3d8265d7dbda8/visual.json",
+      "bytes": 2935,
+      "sha256": "9ee6d2fff2fddd615608e8ffbf6c0ec239a7d6621c0e14212a0ce62732001e65"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/68cea5e0fe065b058023/visual.json",
+      "bytes": 5967,
+      "sha256": "49b4b4791d291a632c1fa546ce231186ae5e18381730b6ae75d70b166ef538f3"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/7905482438935e558107/visual.json",
+      "bytes": 5430,
+      "sha256": "beb2d7d3d7cc708e50ff884c79e95721d0a5b1a64d7308ee2617ca78ae5ec94c"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/9f267d63ca9a5dc98529/visual.json",
+      "bytes": 4385,
+      "sha256": "a8b2d082ea27bcc697b73e09eeb138071436c4beef4c334b94b7b5e8f803f751"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/9fb0c3b3d01a5a50bf8f/visual.json",
+      "bytes": 5425,
+      "sha256": "0455632d6ebfe627d486fe0c2e6f92799c041f18762110427b941aa4ec610bb4"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/b1b50fcd5e7d5fd38f7a/visual.json",
+      "bytes": 5436,
+      "sha256": "57f40359cddf28f006425d702926c002120df0b4a2e968ac821ed61acb9201dc"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/b2afe59cd03e5ecf8b51/visual.json",
+      "bytes": 2462,
+      "sha256": "431fa2fc15fc7955e28910277e25bb902130cb8e9c71c56b8524aa0a43bab1bc"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/bba27d7411e959f1a69a/visual.json",
+      "bytes": 2932,
+      "sha256": "9b68ead4c0451493fbdb181b56228af35de94e7b404fe49ca2b64cd82ead93c4"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/c768bec1a0b657579a60/visual.json",
+      "bytes": 2935,
+      "sha256": "d6eb7312ed3599c8b0fd3f952f1eda356e4ab05c18fe77994bd2bd2112fc3f69"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/d1757adb00ac5c4181b6/visual.json",
+      "bytes": 5428,
+      "sha256": "f5344ec470d1737dcc0c502f4e28c1994cffba34fafcb8873c36bd12ec8bf91d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/dcd38029a2215e128ab3/visual.json",
+      "bytes": 3998,
+      "sha256": "7f0e65699e6cfdbf9d48c70bbf80766c4c67aead5fd9d9bc16d9cccbc7bd353a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/f6110d36ff3754ec83bd/visual.json",
+      "bytes": 5425,
+      "sha256": "982c458f8269b277db8cca22de0a2c8c538f32e9237dcaefcf7812e04d97152d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/93094d1306a6556db820/visuals/f8705d782eb953c38ffa/visual.json",
+      "bytes": 3585,
+      "sha256": "53d82ed51ffe513a1e572c623283a9379b1b4c42a36bcce1299ec2ba94fe81b9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/page.json",
+      "bytes": 110951,
+      "sha256": "9f03e12fc336313e3b8c306ad6040b588e1fa38786d916619c4e99d8f578a2d3"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/0234109d99405ab4897a/visual.json",
+      "bytes": 2957,
+      "sha256": "07f24db6e9dae23559aa710a7ce4a107935f8f121ee3c4c12ae8f8d2d9cf076d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/2d26220b9b03534692d2/visual.json",
+      "bytes": 2951,
+      "sha256": "beea02245ba67054e118b1c3844ef86b3da87967e591efa5ce5d37e6d546c6b6"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/3b4a12bc76495a118786/visual.json",
+      "bytes": 5392,
+      "sha256": "2a00db88f2cbf2a20eeaf4a6315680911ae39bd26b8a9207c349205bf211a6e2"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/3f78b037d78a5e029879/visual.json",
+      "bytes": 5425,
+      "sha256": "d8ee49c5d4283bf39d205f7f053d519bf0c9b6259888b31c17681f9397e2fe1a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/3fd3cfb7d1ea567a8647/visual.json",
+      "bytes": 5411,
+      "sha256": "63c02f3e77be0a4a7c811c18f1a460bb8aeb17b75c6b4792caea970a20acb0c1"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/4c8cd4e4a0cc5fff81d2/visual.json",
+      "bytes": 2418,
+      "sha256": "1054ff60fff6e68a57c7ce8a65ee996ebbc6164f791a1391768a164a698aa051"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/52fe1dd37d4a563cba85/visual.json",
+      "bytes": 5284,
+      "sha256": "8ce823a08ae8d2a02bfc1da8db8ba45c76421ab19d49db3aae9883158e779b34"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/5946b595eefa5cce9143/visual.json",
+      "bytes": 5430,
+      "sha256": "cfae7c20be07790854aba852d88a307ec9ca9272485c37d4bf469ae9dfb3edda"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/5b8408b3d01b5a10a270/visual.json",
+      "bytes": 2939,
+      "sha256": "6538525679efbbb44840fc52191cff688af3333ae640ee4aba1a4dc9e63d8107"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/5e482a1f66465f7aaa22/visual.json",
+      "bytes": 2467,
+      "sha256": "b5b2efc33ffb1c66a169e0ba3f19e65580d78c182e0d4f8e4202162454061a2f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/76564e77fe815b15bf7c/visual.json",
+      "bytes": 2979,
+      "sha256": "d7c2ccbded1da2bc4d146b8f86b9cbd832bd12f9003f0482f0065a24c683e603"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/7d59286f5beb5f919e7b/visual.json",
+      "bytes": 5392,
+      "sha256": "b4dce4b79e3f2092d0f45fa2f53e1f93afb65e6b58cfd3fa79a97709d3cc4a92"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/7fb4385f9eb050db84e7/visual.json",
+      "bytes": 2932,
+      "sha256": "752b6f53dcb97266ef8cf3ea56f5c131b432ec7d6d11765f1cb222fb7304b52b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/8ec2a949492a5696ad74/visual.json",
+      "bytes": 4722,
+      "sha256": "74385e01d126dddacdbc7a7434bcae3b23be2ed61ffab83034c1ab1c09b76de9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/9b43735899f95c05b0d8/visual.json",
+      "bytes": 2973,
+      "sha256": "0de43e908897e5b2134add52c90651b88884c5b85a4c6e64bb3231add7205c6e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/a1c69237b4125410b3a2/visual.json",
+      "bytes": 5428,
+      "sha256": "cabe5f47d3c8c255d6b038bea9c99833bbb0a5d7449cc1dcc29860074c7c4764"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/a8f1992c001854a8a4c4/visual.json",
+      "bytes": 5408,
+      "sha256": "3796d136061da18df3c059f6d5ee013f4c29f8f1eced59c141ccf4bddeecf940"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/a9f0aaad139e5cd1b6e1/visual.json",
+      "bytes": 3000,
+      "sha256": "67deb6baed420c6b50b632f6dc3deaa3db9908147182d3e58d6eaad70b467e59"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/aadde2560d115685ba60/visual.json",
+      "bytes": 2976,
+      "sha256": "85d5d06a1328845f45e86edad07afa2b32d9a7533f28c110e350a04426d35488"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/b1e1599e023b5729bb40/visual.json",
+      "bytes": 5390,
+      "sha256": "1e361fe8bad019a8f4ec0c6b50b7dfd3634ed3db397c6b04bfc94f42e8a101be"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/b54bd4a6ac5b545abef8/visual.json",
+      "bytes": 5390,
+      "sha256": "7d28a06282b7d13627a3f57761ea2e7a0ef9ed71237488ee53cefa659095eb81"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/ba9663720097543ab23a/visual.json",
+      "bytes": 2989,
+      "sha256": "eb777b1e9f5b617de5722d6818b5488eaac10c9c4490581a4b437975c01c204a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/bc432c5ca3445454a694/visual.json",
+      "bytes": 5393,
+      "sha256": "fe34f1f43de357959515d2a530ddd32892e0ab8260b9d9be8333710d88fbb42a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/bfa4da313c9f55c19b87/visual.json",
+      "bytes": 5425,
+      "sha256": "5dca655b3e84db1994aceadd6a9c66e7579bafa24cb49cb62c4454c81ac47113"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/c7332f9a3cc95f8eb78f/visual.json",
+      "bytes": 5379,
+      "sha256": "6bd51f0cb75fec710e4eade7e1d641bfb1a63f3854842c5d0796294e57757a17"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/db08f4abf94d5c139850/visual.json",
+      "bytes": 2930,
+      "sha256": "774ffd4eef27cdd91abec4a35e701ace741131322a65d48c644c607aa541211a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/dc622868239d56948974/visual.json",
+      "bytes": 5436,
+      "sha256": "860bfa03769ef5d8fe990288426f8c3263e82dab4602b9f6adae8ee41d2c082b"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/e3872059a9c45a87ac03/visual.json",
+      "bytes": 8377,
+      "sha256": "86e5eb112f8182e7b502a88c80d45979262a2f3beca115a235fd6a02dd30cddb"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/e57bd2dff29c5a04a4cc/visual.json",
+      "bytes": 2955,
+      "sha256": "01a5465907756c2ef9b5d1ac26857a64ca0122689ac30381c07a3fc29ea1d1af"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/f8dc752bfa21567587ef/visual.json",
+      "bytes": 2951,
+      "sha256": "7ff2c1d618a23b24eb576905e1009a7aae82f55f030e846652c917f39151bb24"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/f50f3da524c45d9591ec/visuals/fb110350ae36596db0fb/visual.json",
+      "bytes": 8557,
+      "sha256": "c6f5ee1f27cc87660c4aba8b850f68715f2453a120ed163ec6f450a630f0140f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/pages/pages.json",
+      "bytes": 330,
+      "sha256": "4f41bcc221977b4039d8bddbfc7c6161ce5ce578c6ee1feac6ad52db636bc026"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/report.json",
+      "bytes": 763,
+      "sha256": "506f876f2db6faa70e9ca6e1e87a684c2b29c82c07abd863e2e0653b8c6ccd08"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition/version.json",
+      "bytes": 149,
+      "sha256": "32bc72b8e7996a054f96e655c8dd8fda82e5f502532610b45bc21a18cffe30b6"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/definition.pbir",
+      "bytes": 128,
+      "sha256": "6d236532f914c65fe63bb7d4d6713e440faa315f440ee186800ea45b22923328"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.Report/StaticResources/RegisteredResources/NZ_Electricity.json",
+      "bytes": 222,
+      "sha256": "d9a1c0a9e38fcab33445ad5d790b7b0f7b1ee12f0df76c3f41dc7704b163899f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/.platform",
+      "bytes": 322,
+      "sha256": "e1a89f750dcf8a14068facc154d31ac986a48608371d1ca5489b5f1bbc9a8d67"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/DAXQueries/Query 1.dax",
+      "bytes": 3257,
+      "sha256": "08da2c350f63db08e20e3c9fde7451436cee4003670eeea5fe6fa60822f855f8"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/DAXQueries/Query 2.dax",
+      "bytes": 1714,
+      "sha256": "4963527382f42f8e6ee5f3b42335c089b4eec07bff6479b96b1bd45aa0a43b4a"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/DAXQueries/Query 3.dax",
+      "bytes": 407,
+      "sha256": "215a34bb2ce3b0d6241404a675da4eb71817f067429687dc1f552be17f2f97ca"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/database.tmdl",
+      "bytes": 36,
+      "sha256": "05e6e4d3963c40921d429c883e83714a9dd42aeadbb8470e671a6b38dbb34872"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/expressions.tmdl",
+      "bytes": 1229,
+      "sha256": "ced71c745020570b297317c705c831a314dbddc45da54db7eb80f03339e6b2bb"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/model.tmdl",
+      "bytes": 922,
+      "sha256": "d6e5c6cadfe5e4f2e46aaded77d077b73d50aa056a6f107d12478a4707c0e271"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/relationships.tmdl",
+      "bytes": 933,
+      "sha256": "ec454628d49da54f31017049607d0807458853e983d05885eb4a7f78a9c06e96"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/CaseContext.tmdl",
+      "bytes": 5333,
+      "sha256": "4af53b2a5b374997282b7730eed70c847a154f7d0cdf0726a7f5b6b0b7d6e39f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/Classification.tmdl",
+      "bytes": 1827,
+      "sha256": "636013169387880f205d75827675e2268500f387d84c1c7f4305a57e39412d5e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DemandBenchmark.tmdl",
+      "bytes": 2162,
+      "sha256": "8a60390169d072ec2141ce893eb46f9c470bab90e926d654466e5c5339cf6d91"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DimDate.tmdl",
+      "bytes": 2807,
+      "sha256": "88c1e8b64aa01e0cb83652eada4ce8c78b8b2766cf594548b8abaa268a168bd0"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DimInterval.tmdl",
+      "bytes": 2808,
+      "sha256": "0221960f6743510e46f112a925887eab3fb06cb0079601b6d9fe23d3757fecaf"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DimMonth.tmdl",
+      "bytes": 885,
+      "sha256": "b898ba839d4cea74b0c4d129bff8b3664b034c17ad10f6af04d7952527995f4e"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DimZone.tmdl",
+      "bytes": 448,
+      "sha256": "4b6ed854c8a40dd1954bdc1fe50f13785649ba524ced164f0d763f8d1bb690c5"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/DQResults.tmdl",
+      "bytes": 2140,
+      "sha256": "d2fd74546c814512b4c4f7dcd702560f0d1008ccf39e11d2ae3767dcbbc57824"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/EventInterval.tmdl",
+      "bytes": 783,
+      "sha256": "4fd3a9421236ea69ce320cef9a3488507ff64328023dc779f04311ef8fea2148"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/Events.tmdl",
+      "bytes": 6653,
+      "sha256": "b28d37de4d0f04e197e59d89480ae869bfda0e438c82334f8334085d7399c3c9"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/FactNational.tmdl",
+      "bytes": 18028,
+      "sha256": "dee7f597b1136108c87f6291b0808eac1232a5e908b5906460d96dd5e418071f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/FactZone.tmdl",
+      "bytes": 2899,
+      "sha256": "a640f1c75187baebc57865d4fcf7fa63a50625bada4916bbd3e9a84088669599"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/RegionalSignal.tmdl",
+      "bytes": 1729,
+      "sha256": "c11bc7a948419e61f7a27398493eff4ac5a9bd7a5afcb959f78ce8235b624931"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/Release.tmdl",
+      "bytes": 1846,
+      "sha256": "e88a41348f90b85b59a97428f9aea64e2fc4491c773e08d0297876718eab7b4f"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/SourceQuality.tmdl",
+      "bytes": 1933,
+      "sha256": "1ba73017d4da61ae5cbffa1416daa2ab7d3687eb2b49a404f239b19da3ac3c66"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition/tables/Threshold.tmdl",
+      "bytes": 1692,
+      "sha256": "11e418b8a7ccd62d3542be5291441c7e68605c2f53e06c9399579ad7e038847d"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/definition.pbism",
+      "bytes": 40,
+      "sha256": "00dc543752fb328e18e9967a25d0b39f5aecef9179ae94e4ed15eb7e078c7944"
+    },
+    {
+      "path": "powerbi/NZ_Electricity_Market.SemanticModel/diagramLayout.json",
+      "bytes": 5900,
+      "sha256": "57a00a4d01e634f8a6e77606123e6772b0c4d86398662e6cfec7d44a9124f750"
+    },
+    {
+      "path": "powerbi/package_manifest.json",
+      "bytes": 626,
+      "sha256": "4cd3b2ac704d384109513a2c065cde6f159380e1d7a211d18453c78e106c011f"
+    },
+    {
+      "path": "powerbi/page_specification.json",
+      "bytes": 25904,
+      "sha256": "907f1d284d5d052ea0d43392e68164267693af1fe41713c2a0063efa13791169"
+    },
+    {
+      "path": "powerbi/preview.html",
+      "bytes": 1444,
+      "sha256": "4c94cc6d47f8aa702993b6f2d6e2ce53c883abe231be4b5af10977e89692cf5c"
+    },
+    {
+      "path": "powerbi/queries/CaseContext.pq",
+      "bytes": 3804,
+      "sha256": "8d14a82af67f239cae5e414909d60ac8fe2ce8b5a19d9d06ad77b181337c938f"
+    },
+    {
+      "path": "powerbi/queries/Classification.pq",
+      "bytes": 358,
+      "sha256": "80df88ca1f0e5582d8f0845a4c8ed9c1da0ecb5be562bcc305f00f7d0ae7a523"
+    },
+    {
+      "path": "powerbi/queries/DemandBenchmark.pq",
+      "bytes": 906,
+      "sha256": "0f2a6d316ec7d699c3912989c2e4067494bf9e9cb3c4b1246b4bf13c8b5c6796"
+    },
+    {
+      "path": "powerbi/queries/DimDate.pq",
+      "bytes": 963,
+      "sha256": "7a73974fa256a6558d29025bbcc772da6c8c380a8a4e146adf16e8fc51ade666"
+    },
+    {
+      "path": "powerbi/queries/DimInterval.pq",
+      "bytes": 695,
+      "sha256": "512a6a283f3911ac34b73ddf06ba86059c904a7f61820d16fc79584377cbac23"
+    },
+    {
+      "path": "powerbi/queries/DimMonth.pq",
+      "bytes": 194,
+      "sha256": "720a5a354b9704740352ea32f422eb56eb73514f388c88f9586e6b3ab336634a"
+    },
+    {
+      "path": "powerbi/queries/DimZone.pq",
+      "bytes": 199,
+      "sha256": "c7b0658467b70460aef411d5567eb8320dab2f5a172c6fa9f0e9737ca27d7ffe"
+    },
+    {
+      "path": "powerbi/queries/DQResults.pq",
+      "bytes": 390,
+      "sha256": "9033f5299e6956c58e10724d909acf8c6bd32c21f4a300f2e9db2b93639ffea3"
+    },
+    {
+      "path": "powerbi/queries/EventInterval.pq",
+      "bytes": 326,
+      "sha256": "e5b9399b7c634dc4880574118af5625ed9d3276531e451e29feec806d47dc78d"
+    },
+    {
+      "path": "powerbi/queries/Events.pq",
+      "bytes": 873,
+      "sha256": "906f1682daeabe4bb798165f5214afa68c42d258b5d5d74269b1da2d6fbb2da1"
+    },
+    {
+      "path": "powerbi/queries/FactNational.pq",
+      "bytes": 480,
+      "sha256": "30cf3b2613ecbad74e0c0f6d94d5ebda62aa7e6733b3d341d7de53ffd87a1328"
+    },
+    {
+      "path": "powerbi/queries/FactZone.pq",
+      "bytes": 426,
+      "sha256": "7588ad68cdb671144c741859b05bba4ebc7a2f35889a1e8a2f20ae5e2f41ba7f"
+    },
+    {
+      "path": "powerbi/queries/pDatabase.pq",
+      "bytes": 86,
+      "sha256": "e1b1ce8403bb53a399c8e017939987b3b733c493187666b165b4bc8015941948"
+    },
+    {
+      "path": "powerbi/queries/pServer.pq",
+      "bytes": 92,
+      "sha256": "5d85aa350bde72eadc0966aa4244c9d4052ac8be8f109709255290547a403c27"
+    },
+    {
+      "path": "powerbi/queries/RegionalSignal.pq",
+      "bytes": 941,
+      "sha256": "a0c87a5571434518a0965056acc94c95c9eeff5ed9fcb6944222f40b379d9796"
+    },
+    {
+      "path": "powerbi/queries/Release.pq",
+      "bytes": 362,
+      "sha256": "b028dc83fb54505bba2dc686232ef7a17dcbe8bf6e113049ce1a20967630e21f"
+    },
+    {
+      "path": "powerbi/queries/ReleaseGate.pq",
+      "bytes": 573,
+      "sha256": "00ce6226423323dc2b5e2894088a80bcd4522000dbc979306ef248aebd4541f3"
+    },
+    {
+      "path": "powerbi/queries/Source.pq",
+      "bytes": 113,
+      "sha256": "5809a6f1c118ebafd0ad4bfe67d1e753efdff83ae9d2ded15411e8f83947e9de"
+    },
+    {
+      "path": "powerbi/queries/SourceQuality.pq",
+      "bytes": 311,
+      "sha256": "fc659b7f34b6e2ed4e59e5483e0ad0346b27d0491c91f1fc140ea260d2c3c3b9"
+    },
+    {
+      "path": "powerbi/queries/Threshold.pq",
+      "bytes": 371,
+      "sha256": "526713734dc66a5289b89046d19464b7bbc631e7d63a7b6f35ad80e1e14613f8"
+    },
+    {
+      "path": "powerbi/relationships.json",
+      "bytes": 1720,
+      "sha256": "a6e8b60a6878bd687ba07351153597b33524c8242c11c79d928d4bcd3bc4a3af"
+    },
+    {
+      "path": "powerbi/repair_runtime_definitions.py",
+      "bytes": 5794,
+      "sha256": "5ec9c3ba2575097f683e41226c6aac626dabb90bd34df52a27aec703d961e667"
+    },
+    {
+      "path": "powerbi/repair_runtime_layout.py",
+      "bytes": 1041,
+      "sha256": "13be48665ead52b4bf3d2c0f07176f1e58eacf39707fd16ec02d8b37cc404d58"
+    },
+    {
+      "path": "powerbi/runtime_acceptance.dax",
+      "bytes": 3257,
+      "sha256": "08da2c350f63db08e20e3c9fde7451436cee4003670eeea5fe6fa60822f855f8"
+    },
+    {
+      "path": "powerbi/runtime_e3.dax",
+      "bytes": 407,
+      "sha256": "215a34bb2ce3b0d6241404a675da4eb71817f067429687dc1f552be17f2f97ca"
+    },
+    {
+      "path": "powerbi/runtime_rowcounts.dax",
+      "bytes": 1714,
+      "sha256": "4963527382f42f8e6ee5f3b42335c089b4eec07bff6479b96b1bd45aa0a43b4a"
+    },
+    {
+      "path": "powerbi/sql/Classification.sql",
+      "bytes": 217,
+      "sha256": "b96c8f1530cdadd3340d8f478e5d7534feeff057d7fc77d15d8d6e4d87150e6f"
+    },
+    {
+      "path": "powerbi/sql/DemandBenchmark.sql",
+      "bytes": 738,
+      "sha256": "51e52e783701c0a83e61793f3e9aa0e9a6d4b2e9a3ff905973c0e1458ad2f8de"
+    },
+    {
+      "path": "powerbi/sql/DimInterval.sql",
+      "bytes": 542,
+      "sha256": "76c0da5b5918ed03a3dae2803092b941e501bf5cd29bac8e723a3960fb1a59de"
+    },
+    {
+      "path": "powerbi/sql/DimZone.sql",
+      "bytes": 64,
+      "sha256": "cdde367a9b313cf33f548f345001cd1946d7b666bd064c0e9c0b64f9129ac847"
+    },
+    {
+      "path": "powerbi/sql/DQResults.sql",
+      "bytes": 246,
+      "sha256": "bb35c23fd5b1dcf3da461886fe53a79142131e69fe68bb6dabaaae4373ca8193"
+    },
+    {
+      "path": "powerbi/sql/EventInterval.sql",
+      "bytes": 182,
+      "sha256": "8b22cabb570f6f9eade2bdce205d6e879c3821ea26951ef2ed4c5613f1bbfe9e"
+    },
+    {
+      "path": "powerbi/sql/Events.sql",
+      "bytes": 714,
+      "sha256": "731ed7e73c0b496e796f5a8eaf181d67d2d517f14e07f5cbb6e750382ab68331"
+    },
+    {
+      "path": "powerbi/sql/FactNational.sql",
+      "bytes": 336,
+      "sha256": "52ce78bc8ade08bae6ee7bd2a140689ff32a046f54813a61cb20a84aee7f34f3"
+    },
+    {
+      "path": "powerbi/sql/FactZone.sql",
+      "bytes": 282,
+      "sha256": "089d5129c10bce54a5cfa31d22e1ee81aaeab6ed667022858c9f81fe3cbb71e6"
+    },
+    {
+      "path": "powerbi/sql/RegionalSignal.sql",
+      "bytes": 764,
+      "sha256": "3d0a709dd0a14193a602ca9f289077928239fdedf82ac5c319612fcec9f498b9"
+    },
+    {
+      "path": "powerbi/sql/Release.sql",
+      "bytes": 218,
+      "sha256": "5ebcbe3a5605842f401479e67a7f1e5c4f3810ac708b24b7a6e2fd91fde9e859"
+    },
+    {
+      "path": "powerbi/sql/SourceQuality.sql",
+      "bytes": 170,
+      "sha256": "428a19a34589c5c15f56489a1fc0f62ba92942d3587af5a81fc54faaaa4cab7e"
+    },
+    {
+      "path": "powerbi/sql/Threshold.sql",
+      "bytes": 227,
+      "sha256": "437485eaf120b2c51426bda9c638c818789a62f9f83e9b84062adfae4c5a71e3"
+    },
+    {
+      "path": "powerbi/theme.json",
+      "bytes": 223,
+      "sha256": "362d9e0cf4e5ed25092661f03de3989f6caf42927715303be86ac8e0571e6067"
+    },
+    {
+      "path": "powerbi/tmdl_validator/Program.cs",
+      "bytes": 943,
+      "sha256": "d6826b67662cdd55463e763dcb39b3bd9f4265a3d747143e752aee24fdefa181"
+    },
+    {
+      "path": "powerbi/tmdl_validator/TmdlValidator.csproj",
+      "bytes": 313,
+      "sha256": "e57fddc2778f55d34ba28650c73f5653652426b23d7b1a49f865924e28392d55"
+    },
+    {
+      "path": "powerbi/validate_native_project.py",
+      "bytes": 4456,
+      "sha256": "39682edbe5a92c775b40a95230eb9a7889058a73d046633a5f61033e1e379c38"
+    },
+    {
+      "path": "powerbi/validate_package.py",
+      "bytes": 16154,
+      "sha256": "86c3d8122eb307b3cf2ae58f4a24f50231fab06283f2160df71a8448426c6d28"
+    },
+    {
+      "path": "powerbi/verify_release.py",
+      "bytes": 1514,
+      "sha256": "7a644dc95957ae93a26b34ec9c67e48b60c0d2c68f20354f20d293f5cc172dc2"
+    },
+    {
+      "path": "powerbi/wireframes/page_1.svg",
+      "bytes": 5204,
+      "sha256": "aa7fdae1fde61ecdb7f55732dc4ea2208b13a8456f90b22166bd65e1ad0251a2"
+    },
+    {
+      "path": "powerbi/wireframes/page_2.svg",
+      "bytes": 5332,
+      "sha256": "12095849ea768a9bae81adc3c2784050b0c978f4ad74b670b7c9b07cfb718bee"
+    },
+    {
+      "path": "powerbi/wireframes/page_3.svg",
+      "bytes": 4819,
+      "sha256": "ab522aee5987c205d70f185ecf9a48215a61a4c8a1309050195322e885ba249b"
+    },
+    {
+      "path": "powerbi/wireframes/page_4.svg",
+      "bytes": 5307,
+      "sha256": "8044f6fde3f36002d403a96b08d1b3856db44f7ab94698bb6e1625320618b224"
+    },
+    {
+      "path": "powerbi/wireframes/page_5.svg",
+      "bytes": 5086,
+      "sha256": "f3ce1b31b64344fbdb6cbb78fc06b070f441a552a86a73fced06e2b9008ee5b4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6764,
+      "sha256": "7327387a62442659ed45f749f90fd573069b156278b3427e9c0ccb4a00bfdc27"
+    },
+    {
+      "path": "requirements-powerbi.txt",
+      "bytes": 20,
+      "sha256": "48ee7d1db1cfddbb445bdff4adca44ee15724e2d52b531d9d5bb7c77e2f1455f"
+    },
+    {
+      "path": "requirements-warehouse.txt",
+      "bytes": 46,
+      "sha256": "31ba7844d8c62fb3bb3f6a144f39f542f6242f3c8ecd5c68be44444efdf097b7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 158,
+      "sha256": "6e0e888ca7c85f3c5fad21c2e94ce50592dc8de4fcca5a55b5214cc2080b680c"
+    },
+    {
+      "path": "sql/00_database/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/00_database/001_metadata.sql",
+      "bytes": 2902,
+      "sha256": "8f7cf8d7587c2b3a04733a925943e1b36944b1d98db00eb440f6190a03c2c61c"
+    },
+    {
+      "path": "sql/00_database/003_source_packaging.sql",
+      "bytes": 1226,
+      "sha256": "fd7e98de4902c0430814be4b22913c0141d0023b5d5c915d89e1b8c74a7b3280"
+    },
+    {
+      "path": "sql/01_staging/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/01_staging/001_sources.sql",
+      "bytes": 3608,
+      "sha256": "b27d407980568a4b565143e74e1d38a837960744a25b15f00afc526fdc2e541b"
+    },
+    {
+      "path": "sql/02_dimensions/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/02_dimensions/001_dimensions.sql",
+      "bytes": 4158,
+      "sha256": "7a44166dd9bf0f72c6be2addd856618767b53adc1ee2987cc80eef589a39862e"
+    },
+    {
+      "path": "sql/02_dimensions/002_calendar.sql",
+      "bytes": 1934,
+      "sha256": "7ca7e83df15a42b9f02a69caa450090f3f23ddeae4bd516bb07119beace37ed1"
+    },
+    {
+      "path": "sql/02_dimensions/003_load_nsp.sql",
+      "bytes": 2578,
+      "sha256": "db12bc386b6dd54d1210ca1c1f237c4007b19755c8c169ce85da6e0665eaf0f8"
+    },
+    {
+      "path": "sql/03_facts/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/03_facts/001_facts.sql",
+      "bytes": 4626,
+      "sha256": "14dfb1ce01267fd40565851113d32abd7c0e3dd408e144bf62e9c9ed871d99bb"
+    },
+    {
+      "path": "sql/03_facts/002_load_price.sql",
+      "bytes": 1390,
+      "sha256": "9c0d0cd9fb60d5f51194a6dcfd3c38d8418150cdd54d6a51206a380dd0380b41"
+    },
+    {
+      "path": "sql/03_facts/003_mapping.sql",
+      "bytes": 1514,
+      "sha256": "655cd21f49c9ef56de53194e27d57814078358f17c1aa6b02402cfe4cbe3cb88"
+    },
+    {
+      "path": "sql/03_facts/004_load_volume.sql",
+      "bytes": 2540,
+      "sha256": "f3e0726793c41e8fe21f0cc2212371f836e9e3bc984285cadb75dcd8274d7702"
+    },
+    {
+      "path": "sql/03_facts/005_load_generation.sql",
+      "bytes": 3854,
+      "sha256": "b7b3d09e304c84a4ecf51f5dc11ba1c94bc23a21f0fa80d1fe8f0b6b38aa9ad2"
+    },
+    {
+      "path": "sql/03_facts/006_mapping_plan.sql",
+      "bytes": 1614,
+      "sha256": "c8ceb152baca3c521e29d36ee21176f281b4a49954201ac5461e380b275bcb88"
+    },
+    {
+      "path": "sql/04_marts/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/04_marts/001_foundation.sql",
+      "bytes": 7124,
+      "sha256": "ef2a73559100aa97cd4fd80814909ecf5fac2a179c4cfa2eb55ea340ec1bf961"
+    },
+    {
+      "path": "sql/04_marts/002_products.sql",
+      "bytes": 11636,
+      "sha256": "5122dbafd85fe5856740e5712fdd184039ae8b916530658263dc1a45ef932ab2"
+    },
+    {
+      "path": "sql/04_marts/003_quality_context.sql",
+      "bytes": 732,
+      "sha256": "778bd35a2553b7d3884be4ebb6166615990c246b3c194e793497b9894a6efd0c"
+    },
+    {
+      "path": "sql/04_marts/004_continuous_release.sql",
+      "bytes": 2368,
+      "sha256": "3e2f41188f345f18c8cbdec28fd0b6460406af6b4c2139b2e4bf255f5012e8df"
+    },
+    {
+      "path": "sql/04_marts/queries/combine.sql",
+      "bytes": 2413,
+      "sha256": "6a0e5f7d393d66f4328d6f91b8a59016e699b589a94a8b937f6e31995d3867bb"
+    },
+    {
+      "path": "sql/04_marts/queries/generation.sql",
+      "bytes": 846,
+      "sha256": "f6065f932e2fa9cb52a55081b66c3e1c5f8c03885ec05492efa00a8d075f57c3"
+    },
+    {
+      "path": "sql/04_marts/queries/offtake.sql",
+      "bytes": 354,
+      "sha256": "dedbd5a40629ab32991432db969c7381d8135e728d15f582e11f65f97131310d"
+    },
+    {
+      "path": "sql/05_analysis/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/05_analysis/01_market_overview.sql",
+      "bytes": 1450,
+      "sha256": "34b7140639e7ad0d9d6efbf12b40896b35303eb1a7ca04b0a509d2381f216578"
+    },
+    {
+      "path": "sql/05_analysis/02_price_pressure_timing.sql",
+      "bytes": 1856,
+      "sha256": "3ce83970dcff7daafc080ab78f8ed4502fff1c7a79de56b45645baa557075635"
+    },
+    {
+      "path": "sql/05_analysis/03_regional_patterns.sql",
+      "bytes": 3935,
+      "sha256": "b33a47c9c5ba0455094c8d2401c071d8da9f58bc2c242eba54cbfbb170b5de42"
+    },
+    {
+      "path": "sql/05_analysis/04_demand_association.sql",
+      "bytes": 1719,
+      "sha256": "285e797174ad43863b7fc5419b53ae8bb1f5b40302d04879175443439937caaa"
+    },
+    {
+      "path": "sql/05_analysis/05_generation_mix_association.sql",
+      "bytes": 2680,
+      "sha256": "9d045e16b1f23ff9973e5db3d3116d2c68d30c1b05abe4a57a86414731435f3c"
+    },
+    {
+      "path": "sql/05_analysis/06_event_investigation.sql",
+      "bytes": 2587,
+      "sha256": "9ad7c771d3edd225905c136a84dc132f3c9fd3dfd26a45b46786f9761fc81008"
+    },
+    {
+      "path": "sql/05_analysis/07_monitoring_priorities.sql",
+      "bytes": 602,
+      "sha256": "db45a087393e56c5b99ba70258994e9fc7caf9dce1950a27e3f5d984713ee113"
+    },
+    {
+      "path": "sql/06_data_quality/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "sql/06_data_quality/001_framework.sql",
+      "bytes": 4687,
+      "sha256": "ef16b10e910b96fd33db86de945d4dcbbedbde4acf629233849d822c9940e4ad"
+    },
+    {
+      "path": "sql/06_data_quality/002_profiles.sql",
+      "bytes": 6456,
+      "sha256": "15d96decfbd0671870fe1357782755ad81070cb12018592289d5abb23a65b917"
+    },
+    {
+      "path": "sql/06_data_quality/003_baseline.sql",
+      "bytes": 1951,
+      "sha256": "99b5becc5fda36a4ec56c0179ab3a836f80b73c07ea20aceb75a38ea473332b9"
+    },
+    {
+      "path": "sql/06_data_quality/004_rules.sql",
+      "bytes": 40801,
+      "sha256": "1f653acc8052b66bc6aedb26b9f2081c9aed5b8424e6ec9408ea67f8d63e9ce9"
+    },
+    {
+      "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+      "bytes": 2141,
+      "sha256": "1be4033171c9d9a0b4e659d7c883165a76ffc0fb59dc096cd9bd52739e86ab1d"
+    },
+    {
+      "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+      "bytes": 180,
+      "sha256": "e23ef33982e34b759082146d7577714dfd92ea12c4fbb82bdb012fd49d7e1c94"
+    },
+    {
+      "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+      "bytes": 1463,
+      "sha256": "cbbf51c4471cf068b3edca2249baa3c4c6aeb1057e458afad6067c69e1702f89"
+    },
+    {
+      "path": "sql/06_data_quality/008_historical_release_scope.sql",
+      "bytes": 1638,
+      "sha256": "7d2040af5726330fa22b5c523e8e7320df4bbc112259141d27845fb9f4141587"
+    },
+    {
+      "path": "src/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/acquire_audit_samples.py",
+      "bytes": 6276,
+      "sha256": "a7914998dd6af660bf8f31089cbfd8551029c2a6078e15ac82a2ed50c3aa8e1d"
+    },
+    {
+      "path": "src/analytics/__init__.py",
+      "bytes": 61,
+      "sha256": "ede1af46840566ad4b869836ede07e2d5560f93ec7aad8fe000cbc80e38822ad"
+    },
+    {
+      "path": "src/analytics/runner.py",
+      "bytes": 8863,
+      "sha256": "554daf91ae95887147912e70e3dfb4929989317d11ba34f3d9f03719d2a53d01"
+    },
+    {
+      "path": "src/analytics/validation.py",
+      "bytes": 7073,
+      "sha256": "aebb834ea3d565721169022b5e8eb0db3ea5d699e8130e74f03ec816d1cf3550"
+    },
+    {
+      "path": "src/audit_december_daily_final.py",
+      "bytes": 6854,
+      "sha256": "a3cfc6d47f35a462680c9bccb54536ce32734c1fd55a26b6cbd2c99c38c9f02b"
+    },
+    {
+      "path": "src/audit_mapping_and_time.py",
+      "bytes": 11751,
+      "sha256": "d0cb5a587f171253424e34aa64e27e621248fafcc490af0fb3b83f667063f868"
+    },
+    {
+      "path": "src/build_audit_companion.py",
+      "bytes": 10340,
+      "sha256": "bbe397ec108b80f8ba934b37ecd005a56e5f3428ca2bf3054b5a00a155a33e6b"
+    },
+    {
+      "path": "src/check_analytics_determinism.py",
+      "bytes": 1803,
+      "sha256": "7789a42277cdf40cc333e2a4a4688b10ce3004ba1e642a955315f8fef0dee60f"
+    },
+    {
+      "path": "src/check_data_quality_determinism.py",
+      "bytes": 2248,
+      "sha256": "1c609faba9b045c017ac49e85bfd1ca6db1ef0f4785af9363a7f87972ebb2c48"
+    },
+    {
+      "path": "src/check_pilot_idempotency.py",
+      "bytes": 1624,
+      "sha256": "673fd2b1581c10265bffed62b7033eaa6be5a5ac2fef827b60f48a9316422dfc"
+    },
+    {
+      "path": "src/check_warehouse_idempotency.py",
+      "bytes": 2154,
+      "sha256": "f817a73df1aa407be510b6adc93a7f4e25769f57511c77b1915e4e229b299624"
+    },
+    {
+      "path": "src/collect_historical_evidence.py",
+      "bytes": 3784,
+      "sha256": "f70e54960b725867c276f8130d4307d806247f99d95b2aaee76c51dfd5f5fa53"
+    },
+    {
+      "path": "src/export_data_quality_review.py",
+      "bytes": 4617,
+      "sha256": "e87ed599005db3aff2d307e30c5b436dd5bf7fb585919f6c350c2c30bf0ef623"
+    },
+    {
+      "path": "src/finish_historical_release.py",
+      "bytes": 2983,
+      "sha256": "62c8447d3b29b8bb53e9e031c126b83860ced504fd5c8560e0dc6302a411f71f"
+    },
+    {
+      "path": "src/historical/__init__.py",
+      "bytes": 87,
+      "sha256": "8351080d05ca7aca2799f1c8358565daa86db522b2555ef3dca5addb6c3f40d7"
+    },
+    {
+      "path": "src/historical/config.py",
+      "bytes": 950,
+      "sha256": "5c75570997eec11830a735dbcd0182c1622dffa1ece65748c0ca5e349f241a89"
+    },
+    {
+      "path": "src/historical/daily_final.py",
+      "bytes": 4704,
+      "sha256": "68ce88476f92bfe6d57006ee7748ff3e5e93814e8bd3d40110180c2a43e458b3"
+    },
+    {
+      "path": "src/historical/regression.py",
+      "bytes": 1132,
+      "sha256": "9409e9a3f2066b14d132787362bb09afa78333e0b476c938cbe8d1420721e5cc"
+    },
+    {
+      "path": "src/ingestion/__init__.py",
+      "bytes": 68,
+      "sha256": "2baa7a43b4b41896cc33bd30c5067179495d82e174e54b57d1754f1a494f48f6"
+    },
+    {
+      "path": "src/ingestion/acquisition.py",
+      "bytes": 10122,
+      "sha256": "6ecddb37901b9470c978d37464971e01912910e763678420c6cd04bf48cb889f"
+    },
+    {
+      "path": "src/ingestion/intervals.py",
+      "bytes": 1836,
+      "sha256": "f275a0398a456b91b61ba92e45a66f4516f6c96be10f1810cff187ec24138c6c"
+    },
+    {
+      "path": "src/ingestion/mapping.py",
+      "bytes": 4414,
+      "sha256": "ae3f8e68320f5a17553d064161058ac9f2c2c6e45b5069de635c757ff99ed1cf"
+    },
+    {
+      "path": "src/ingestion/parsers.py",
+      "bytes": 12892,
+      "sha256": "3c8693bb93f2fcbe9bd71856b86e7a2313f1d7ed774f4c2ee387bb4d79a51117"
+    },
+    {
+      "path": "src/ingestion/revisions.py",
+      "bytes": 1142,
+      "sha256": "58b926271b771a9d560b98b097db945452bed8663baaa3374da4856652415e44"
+    },
+    {
+      "path": "src/ingestion/validation.py",
+      "bytes": 10963,
+      "sha256": "95acf0e723bd30b66ab311157c748829840ec31ade9a7fbe36b9ccfe1875db68"
+    },
+    {
+      "path": "src/inspect_historical_recovery.py",
+      "bytes": 2159,
+      "sha256": "fa965250dcb6101f259754fa3ac9eb11b072fa4ac147aa0e4a307fe41e8e39ec"
+    },
+    {
+      "path": "src/inspect_warehouse_plan.py",
+      "bytes": 1753,
+      "sha256": "d9334e4c4c3d0699fc24a1bb6cc92c2ceb0c0d22adc2ecb677052098da7f4e7c"
+    },
+    {
+      "path": "src/investigate_pilot.py",
+      "bytes": 2158,
+      "sha256": "6173ba317a0992f85d567ae804dd3720b408d70fdc5b0a744a3d31c04ca7b52e"
+    },
+    {
+      "path": "src/profile_audit_samples.py",
+      "bytes": 6299,
+      "sha256": "6eabe04c0e2a63f3c8df07596db4d287b9745650461f474cc4017f29d35fb015"
+    },
+    {
+      "path": "src/profile_historical_generation.py",
+      "bytes": 2268,
+      "sha256": "590181d5b4e061774a4a132900d5b077d772319c29c05df1dcf8634e107c3a43"
+    },
+    {
+      "path": "src/quality/__init__.py",
+      "bytes": 46,
+      "sha256": "16bcc33d50a9faf5a97f2bc4d5db5b0368d95df7525a4b0980245a5e703e606b"
+    },
+    {
+      "path": "src/quality/runner.py",
+      "bytes": 6740,
+      "sha256": "529afc9ca7398f9d2a694cd29e96b4ed4b8bab838a7e425cec16933ab11613cd"
+    },
+    {
+      "path": "src/run_all_tests.py",
+      "bytes": 1449,
+      "sha256": "8444a78073f8d2f64cdfb46795f4ea80568f7c6c22561617f2c2615c2ccb705b"
+    },
+    {
+      "path": "src/run_analytics.py",
+      "bytes": 73,
+      "sha256": "a969c619903d9c1a819808657e9eb47f7eaea90f168341cb9953139de35bb2b4"
+    },
+    {
+      "path": "src/run_data_quality.py",
+      "bytes": 65,
+      "sha256": "109e8eda8328d032d307cba80db8fc5de8879dbe1dd43a9c602723a8fad4652f"
+    },
+    {
+      "path": "src/run_findings.py",
+      "bytes": 4053,
+      "sha256": "621c4893d62e71f59d4501b13b6220b27fc36b5c8cc28459eb305ff91f132119"
+    },
+    {
+      "path": "src/run_historical_scale_up.py",
+      "bytes": 11131,
+      "sha256": "1e683ab08dfca71f2c5c01ffdcf45341cedee59f27253906d8a5de68dfef8f2e"
+    },
+    {
+      "path": "src/run_ingestion_pilot.py",
+      "bytes": 1996,
+      "sha256": "5cb5db19642462bfbcb523ec8d0e3dfb6aa1cfbb085dccad336617b3c8e102ad"
+    },
+    {
+      "path": "src/run_warehouse.py",
+      "bytes": 440,
+      "sha256": "789469af53e068be0c666b61f0056f607f0b0fddf4f81765a20e9ff919167c28"
+    },
+    {
+      "path": "src/validate_analytics.py",
+      "bytes": 781,
+      "sha256": "a7219b74b20dd89aefa687bea894d09a217a611c5970d4aee128189ed0ff98bf"
+    },
+    {
+      "path": "src/validate_and_promote_historical.py",
+      "bytes": 7021,
+      "sha256": "43728fea117354ec198725168b20a5b943afbb7ca946ebf3159df8e2a0db35d0"
+    },
+    {
+      "path": "src/validate_findings.py",
+      "bytes": 13739,
+      "sha256": "c6bf9474f64d2e8acbe33f7876aa85f2af1d23616fed51cf74733236f17e1770"
+    },
+    {
+      "path": "src/verify_pilot_during_scale_up.py",
+      "bytes": 2200,
+      "sha256": "c2eb64af8af0e7e38732c451a3620795fa103f6e5785f332792c1379264fb90a"
+    },
+    {
+      "path": "src/warehouse/__init__.py",
+      "bytes": 76,
+      "sha256": "1951386fa981b7e21a1a2fb3686e2c0f07c1ecc0dc19283d1cd412afcc7aaa42"
+    },
+    {
+      "path": "src/warehouse/db.py",
+      "bytes": 1081,
+      "sha256": "d2f8883e7ef3e15086a5f2b7ecfb2cd68357ea79824fc7fb7b5f2c939bfe96eb"
+    },
+    {
+      "path": "src/warehouse/loader.py",
+      "bytes": 11838,
+      "sha256": "81ea5ed369ef43bd19f264a989bd01cf498d731b9a087ab468ccd7cb078a9fdc"
+    },
+    {
+      "path": "src/warehouse/validation.py",
+      "bytes": 10077,
+      "sha256": "d1173ac6caa0f62363938182f4b93282769ec52e658418d61b8ca4afc6d56d11"
+    },
+    {
+      "path": "src/write_findings.py",
+      "bytes": 25458,
+      "sha256": "005bd0df0de266d442cc1cb794f55a967a48ddbfadc85b85b2fcd1e1b0a43693"
+    },
+    {
+      "path": "src/write_phase4b_report.py",
+      "bytes": 13868,
+      "sha256": "cd2cc69d1eba8e0034fda9cfaa9fd49cfb271aa43d6342b003cbdf26fadd0316"
+    },
+    {
+      "path": "tests/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tests/analytics/test_analytics.py",
+      "bytes": 17961,
+      "sha256": "4da815e25326f30f71c4d9bbb3f1de9fafdaa7e7f9ba06e747c327545b55db2e"
+    },
+    {
+      "path": "tests/historical/test_release.py",
+      "bytes": 6087,
+      "sha256": "82e7a198859094c3973db5241a957cbae280a351e4b069b6fb99b3421368ab00"
+    },
+    {
+      "path": "tests/quality/test_quality.py",
+      "bytes": 8378,
+      "sha256": "e345a8feed335219b8e0f315cb85703dc0f1611ba53846e50dfe3bf6e5eac2e8"
+    },
+    {
+      "path": "tests/test_daily_final.py",
+      "bytes": 4175,
+      "sha256": "d9a71301e2ea6e9d9804af11b36458819322baa6fae0a0f9939dbaeb3c9c4952"
+    },
+    {
+      "path": "tests/test_ingestion.py",
+      "bytes": 10624,
+      "sha256": "0638ac159a624976cdc53a3795b3f36c4e5935716f932afa23214458a2672f6c"
+    },
+    {
+      "path": "tests/test_native_powerbi.py",
+      "bytes": 4140,
+      "sha256": "554d48d8c4a304b51a9c81956539d75f2cf22d5977cb27e9b145c69c4ea40d80"
+    },
+    {
+      "path": "tests/test_phase0.py",
+      "bytes": 5852,
+      "sha256": "4961dbc919aa1f2e8fa3c1689eee0ee27d038d7520d2aa017aa8abbc65550702"
+    },
+    {
+      "path": "tests/test_pilot_evidence.py",
+      "bytes": 5008,
+      "sha256": "b34ef3a8b22f212a4af459e441ca63c5d35331eb8d2e38e7079e66d115dba1ba"
+    },
+    {
+      "path": "tests/warehouse/test_postgresql.py",
+      "bytes": 11906,
+      "sha256": "a6b9f7224796af57627106be91e0da0dbde07e4f874b9b513c680c42b22166a5"
+    },
+    {
+      "path": "PUBLIC_EXPORT_MANIFEST.json",
+      "bytes": null,
+      "sha256": null,
+      "note": "Manifest self-entry; size/hash omitted to avoid recursive self-hashing."
+    }
+  ]
+}

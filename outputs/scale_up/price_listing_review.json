@@ -1,0 +1,2531 @@
+{
+  "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth",
+  "accepted": [
+    {
+      "filename": "202608_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202608_FinalEnergyPrices.csv",
+      "listing_text": "202608_FinalEnergyPrices.csv 05 Sep 2026 9,964 KB",
+      "period": "202608",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202607_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202607_FinalEnergyPrices.csv",
+      "listing_text": "202607_FinalEnergyPrices.csv 05 Aug 2026 9,913 KB",
+      "period": "202607",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202606_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202606_FinalEnergyPrices.csv",
+      "listing_text": "202606_FinalEnergyPrices.csv 05 Jul 2026 9,493 KB",
+      "period": "202606",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202605_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202605_FinalEnergyPrices.csv",
+      "listing_text": "202605_FinalEnergyPrices.csv 05 Jun 2026 9,984 KB",
+      "period": "202605",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202604_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202604_FinalEnergyPrices.csv",
+      "listing_text": "202604_FinalEnergyPrices.csv 05 May 2026 9,732 KB",
+      "period": "202604",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202603_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202603_FinalEnergyPrices.csv",
+      "listing_text": "202603_FinalEnergyPrices.csv 05 Apr 2026 10,164 KB",
+      "period": "202603",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202602_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202602_FinalEnergyPrices.csv",
+      "listing_text": "202602_FinalEnergyPrices.csv 05 Mar 2026 8,811 KB",
+      "period": "202602",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202601_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202601_FinalEnergyPrices.csv",
+      "listing_text": "202601_FinalEnergyPrices.csv 05 Feb 2026 9,492 KB",
+      "period": "202601",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202511_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202511_FinalEnergyPrices.csv",
+      "listing_text": "202511_FinalEnergyPrices.csv 05 Dec 2025 9,520 KB",
+      "period": "202511",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202510_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202510_FinalEnergyPrices.csv",
+      "listing_text": "202510_FinalEnergyPrices.csv 05 Nov 2025 9,623 KB",
+      "period": "202510",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202509_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202509_FinalEnergyPrices.csv",
+      "listing_text": "202509_FinalEnergyPrices.csv 05 Oct 2025 9,613 KB",
+      "period": "202509",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202508_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202508_FinalEnergyPrices.csv",
+      "listing_text": "202508_FinalEnergyPrices.csv 05 Sep 2025 10,108 KB",
+      "period": "202508",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202507_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202507_FinalEnergyPrices.csv",
+      "listing_text": "202507_FinalEnergyPrices.csv 05 Aug 2025 9,923 KB",
+      "period": "202507",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202506_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202506_FinalEnergyPrices.csv",
+      "listing_text": "202506_FinalEnergyPrices.csv 05 Jul 2025 9,673 KB",
+      "period": "202506",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202505_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202505_FinalEnergyPrices.csv",
+      "listing_text": "202505_FinalEnergyPrices.csv 05 Jun 2025 10,011 KB",
+      "period": "202505",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202504_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202504_FinalEnergyPrices.csv",
+      "listing_text": "202504_FinalEnergyPrices.csv 05 May 2025 9,789 KB",
+      "period": "202504",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202503_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202503_FinalEnergyPrices.csv",
+      "listing_text": "202503_FinalEnergyPrices.csv 05 Apr 2025 10,123 KB",
+      "period": "202503",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202502_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202502_FinalEnergyPrices.csv",
+      "listing_text": "202502_FinalEnergyPrices.csv 05 Mar 2025 9,125 KB",
+      "period": "202502",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202501_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202501_FinalEnergyPrices.csv",
+      "listing_text": "202501_FinalEnergyPrices.csv 05 Feb 2025 9,913 KB",
+      "period": "202501",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202412_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202412_FinalEnergyPrices.csv",
+      "listing_text": "202412_FinalEnergyPrices.csv 05 Jan 2025 9,633 KB",
+      "period": "202412",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202411_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202411_FinalEnergyPrices.csv",
+      "listing_text": "202411_FinalEnergyPrices.csv 05 Dec 2024 9,298 KB",
+      "period": "202411",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202410_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202410_FinalEnergyPrices.csv",
+      "listing_text": "202410_FinalEnergyPrices.csv 05 Nov 2024 9,708 KB",
+      "period": "202410",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202409_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202409_FinalEnergyPrices.csv",
+      "listing_text": "202409_FinalEnergyPrices.csv 05 Oct 2024 9,404 KB",
+      "period": "202409",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202408_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202408_FinalEnergyPrices.csv",
+      "listing_text": "202408_FinalEnergyPrices.csv 05 Sep 2024 10,029 KB",
+      "period": "202408",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202407_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202407_FinalEnergyPrices.csv",
+      "listing_text": "202407_FinalEnergyPrices.csv 05 Aug 2024 10,088 KB",
+      "period": "202407",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202406_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202406_FinalEnergyPrices.csv",
+      "listing_text": "202406_FinalEnergyPrices.csv 05 Jul 2024 9,750 KB",
+      "period": "202406",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202405_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202405_FinalEnergyPrices.csv",
+      "listing_text": "202405_FinalEnergyPrices.csv 05 Jun 2024 10,048 KB",
+      "period": "202405",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202404_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202404_FinalEnergyPrices.csv",
+      "listing_text": "202404_FinalEnergyPrices.csv 05 May 2024 9,679 KB",
+      "period": "202404",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202403_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202403_FinalEnergyPrices.csv",
+      "listing_text": "202403_FinalEnergyPrices.csv 05 Apr 2024 9,975 KB",
+      "period": "202403",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202402_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202402_FinalEnergyPrices.csv",
+      "listing_text": "202402_FinalEnergyPrices.csv 06 Mar 2024 9,276 KB",
+      "period": "202402",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202401_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202401_FinalEnergyPrices.csv",
+      "listing_text": "202401_FinalEnergyPrices.csv 06 Feb 2024 9,966 KB",
+      "period": "202401",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202312_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202312_FinalEnergyPrices.csv",
+      "listing_text": "202312_FinalEnergyPrices.csv 12 Jan 2024 10,031 KB",
+      "period": "202312",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202311_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202311_FinalEnergyPrices.csv",
+      "listing_text": "202311_FinalEnergyPrices.csv 12 Jan 2024 9,711 KB",
+      "period": "202311",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202310_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202310_FinalEnergyPrices.csv",
+      "listing_text": "202310_FinalEnergyPrices.csv 12 Jan 2024 9,987 KB",
+      "period": "202310",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202309_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202309_FinalEnergyPrices.csv",
+      "listing_text": "202309_FinalEnergyPrices.csv 12 Jan 2024 9,621 KB",
+      "period": "202309",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202308_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202308_FinalEnergyPrices.csv",
+      "listing_text": "202308_FinalEnergyPrices.csv 12 Jan 2024 10,014 KB",
+      "period": "202308",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202307_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202307_FinalEnergyPrices.csv",
+      "listing_text": "202307_FinalEnergyPrices.csv 12 Jan 2024 9,895 KB",
+      "period": "202307",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202306_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202306_FinalEnergyPrices.csv",
+      "listing_text": "202306_FinalEnergyPrices.csv 12 Jan 2024 9,354 KB",
+      "period": "202306",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202305_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202305_FinalEnergyPrices.csv",
+      "listing_text": "202305_FinalEnergyPrices.csv 12 Jan 2024 9,629 KB",
+      "period": "202305",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202304_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202304_FinalEnergyPrices.csv",
+      "listing_text": "202304_FinalEnergyPrices.csv 12 Jan 2024 9,537 KB",
+      "period": "202304",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202303_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202303_FinalEnergyPrices.csv",
+      "listing_text": "202303_FinalEnergyPrices.csv 12 Jan 2024 9,993 KB",
+      "period": "202303",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202302_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202302_FinalEnergyPrices.csv",
+      "listing_text": "202302_FinalEnergyPrices.csv 12 Jan 2024 8,976 KB",
+      "period": "202302",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202301_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202301_FinalEnergyPrices.csv",
+      "listing_text": "202301_FinalEnergyPrices.csv 12 Jan 2024 9,872 KB",
+      "period": "202301",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202212_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202212_FinalEnergyPrices.csv",
+      "listing_text": "202212_FinalEnergyPrices.csv 12 Jan 2024 9,492 KB",
+      "period": "202212",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202211_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202211_FinalEnergyPrices.csv",
+      "listing_text": "202211_FinalEnergyPrices.csv 12 Jan 2024 9,312 KB",
+      "period": "202211",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202210_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202210_FinalEnergyPrices.csv",
+      "listing_text": "202210_FinalEnergyPrices.csv 12 Jan 2024 9,765 KB",
+      "period": "202210",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202209_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202209_FinalEnergyPrices.csv",
+      "listing_text": "202209_FinalEnergyPrices.csv 12 Jan 2024 9,331 KB",
+      "period": "202209",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202208_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202208_FinalEnergyPrices.csv",
+      "listing_text": "202208_FinalEnergyPrices.csv 12 Jan 2024 9,634 KB",
+      "period": "202208",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202207_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202207_FinalEnergyPrices.csv",
+      "listing_text": "202207_FinalEnergyPrices.csv 12 Jan 2024 9,833 KB",
+      "period": "202207",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202206_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202206_FinalEnergyPrices.csv",
+      "listing_text": "202206_FinalEnergyPrices.csv 12 Jan 2024 9,669 KB",
+      "period": "202206",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202205_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202205_FinalEnergyPrices.csv",
+      "listing_text": "202205_FinalEnergyPrices.csv 12 Jan 2024 10,079 KB",
+      "period": "202205",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202204_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202204_FinalEnergyPrices.csv",
+      "listing_text": "202204_FinalEnergyPrices.csv 12 Jan 2024 9,809 KB",
+      "period": "202204",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202203_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202203_FinalEnergyPrices.csv",
+      "listing_text": "202203_FinalEnergyPrices.csv 12 Jan 2024 10,116 KB",
+      "period": "202203",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202202_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202202_FinalEnergyPrices.csv",
+      "listing_text": "202202_FinalEnergyPrices.csv 31 Oct 2022 8,982 KB",
+      "period": "202202",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202201_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202201_FinalEnergyPrices.csv",
+      "listing_text": "202201_FinalEnergyPrices.csv 31 Oct 2022 10,061 KB",
+      "period": "202201",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202112_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202112_FinalEnergyPrices.csv",
+      "listing_text": "202112_FinalEnergyPrices.csv 31 Oct 2022 10,064 KB",
+      "period": "202112",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202111_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202111_FinalEnergyPrices.csv",
+      "listing_text": "202111_FinalEnergyPrices.csv 31 Oct 2022 9,794 KB",
+      "period": "202111",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202110_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202110_FinalEnergyPrices.csv",
+      "listing_text": "202110_FinalEnergyPrices.csv 31 Oct 2022 10,088 KB",
+      "period": "202110",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202109_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202109_FinalEnergyPrices.csv",
+      "listing_text": "202109_FinalEnergyPrices.csv 31 Oct 2022 9,814 KB",
+      "period": "202109",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202108_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202108_FinalEnergyPrices.csv",
+      "listing_text": "202108_FinalEnergyPrices.csv 24 May 2024 10,270 KB",
+      "period": "202108",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202107_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202107_FinalEnergyPrices.csv",
+      "listing_text": "202107_FinalEnergyPrices.csv 31 Oct 2022 10,394 KB",
+      "period": "202107",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202106_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202106_FinalEnergyPrices.csv",
+      "listing_text": "202106_FinalEnergyPrices.csv 31 Oct 2022 10,075 KB",
+      "period": "202106",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202105_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202105_FinalEnergyPrices.csv",
+      "listing_text": "202105_FinalEnergyPrices.csv 31 Oct 2022 10,425 KB",
+      "period": "202105",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202104_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202104_FinalEnergyPrices.csv",
+      "listing_text": "202104_FinalEnergyPrices.csv 31 Oct 2022 10,066 KB",
+      "period": "202104",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202103_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202103_FinalEnergyPrices.csv",
+      "listing_text": "202103_FinalEnergyPrices.csv 31 Oct 2022 10,391 KB",
+      "period": "202103",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202102_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202102_FinalEnergyPrices.csv",
+      "listing_text": "202102_FinalEnergyPrices.csv 31 Oct 2022 9,382 KB",
+      "period": "202102",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202101_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202101_FinalEnergyPrices.csv",
+      "listing_text": "202101_FinalEnergyPrices.csv 31 Oct 2022 10,277 KB",
+      "period": "202101",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202012_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202012_FinalEnergyPrices.csv",
+      "listing_text": "202012_FinalEnergyPrices.csv 31 Oct 2022 9,952 KB",
+      "period": "202012",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202011_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202011_FinalEnergyPrices.csv",
+      "listing_text": "202011_FinalEnergyPrices.csv 31 Oct 2022 9,559 KB",
+      "period": "202011",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202010_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202010_FinalEnergyPrices.csv",
+      "listing_text": "202010_FinalEnergyPrices.csv 31 Oct 2022 9,935 KB",
+      "period": "202010",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202009_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202009_FinalEnergyPrices.csv",
+      "listing_text": "202009_FinalEnergyPrices.csv 31 Oct 2022 9,626 KB",
+      "period": "202009",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202008_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202008_FinalEnergyPrices.csv",
+      "listing_text": "202008_FinalEnergyPrices.csv 31 Oct 2022 9,879 KB",
+      "period": "202008",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202007_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202007_FinalEnergyPrices.csv",
+      "listing_text": "202007_FinalEnergyPrices.csv 31 Oct 2022 9,970 KB",
+      "period": "202007",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202006_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202006_FinalEnergyPrices.csv",
+      "listing_text": "202006_FinalEnergyPrices.csv 31 Oct 2022 9,649 KB",
+      "period": "202006",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202005_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202005_FinalEnergyPrices.csv",
+      "listing_text": "202005_FinalEnergyPrices.csv 31 Oct 2022 9,897 KB",
+      "period": "202005",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202004_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202004_FinalEnergyPrices.csv",
+      "listing_text": "202004_FinalEnergyPrices.csv 31 Oct 2022 9,399 KB",
+      "period": "202004",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202003_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202003_FinalEnergyPrices.csv",
+      "listing_text": "202003_FinalEnergyPrices.csv 31 Oct 2022 9,797 KB",
+      "period": "202003",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202002_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202002_FinalEnergyPrices.csv",
+      "listing_text": "202002_FinalEnergyPrices.csv 31 Oct 2022 9,207 KB",
+      "period": "202002",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "202001_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202001_FinalEnergyPrices.csv",
+      "listing_text": "202001_FinalEnergyPrices.csv 31 Oct 2022 9,988 KB",
+      "period": "202001",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201912_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201912_FinalEnergyPrices.csv",
+      "listing_text": "201912_FinalEnergyPrices.csv 31 Oct 2022 9,814 KB",
+      "period": "201912",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201911_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201911_FinalEnergyPrices.csv",
+      "listing_text": "201911_FinalEnergyPrices.csv 31 Oct 2022 9,708 KB",
+      "period": "201911",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201910_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201910_FinalEnergyPrices.csv",
+      "listing_text": "201910_FinalEnergyPrices.csv 31 Oct 2022 10,080 KB",
+      "period": "201910",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201909_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201909_FinalEnergyPrices.csv",
+      "listing_text": "201909_FinalEnergyPrices.csv 31 Oct 2022 9,786 KB",
+      "period": "201909",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201908_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201908_FinalEnergyPrices.csv",
+      "listing_text": "201908_FinalEnergyPrices.csv 31 Oct 2022 10,100 KB",
+      "period": "201908",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201907_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201907_FinalEnergyPrices.csv",
+      "listing_text": "201907_FinalEnergyPrices.csv 31 Oct 2022 10,033 KB",
+      "period": "201907",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201906_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201906_FinalEnergyPrices.csv",
+      "listing_text": "201906_FinalEnergyPrices.csv 31 Oct 2022 9,693 KB",
+      "period": "201906",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201905_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201905_FinalEnergyPrices.csv",
+      "listing_text": "201905_FinalEnergyPrices.csv 31 Oct 2022 10,067 KB",
+      "period": "201905",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201904_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201904_FinalEnergyPrices.csv",
+      "listing_text": "201904_FinalEnergyPrices.csv 31 Oct 2022 9,733 KB",
+      "period": "201904",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201903_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201903_FinalEnergyPrices.csv",
+      "listing_text": "201903_FinalEnergyPrices.csv 31 Oct 2022 10,191 KB",
+      "period": "201903",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201902_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201902_FinalEnergyPrices.csv",
+      "listing_text": "201902_FinalEnergyPrices.csv 31 Oct 2022 9,168 KB",
+      "period": "201902",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201901_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201901_FinalEnergyPrices.csv",
+      "listing_text": "201901_FinalEnergyPrices.csv 31 Oct 2022 10,099 KB",
+      "period": "201901",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201812_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201812_FinalEnergyPrices.csv",
+      "listing_text": "201812_FinalEnergyPrices.csv 31 Oct 2022 10,005 KB",
+      "period": "201812",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201811_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201811_FinalEnergyPrices.csv",
+      "listing_text": "201811_FinalEnergyPrices.csv 31 Oct 2022 9,738 KB",
+      "period": "201811",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201810_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201810_FinalEnergyPrices.csv",
+      "listing_text": "201810_FinalEnergyPrices.csv 31 Oct 2022 10,159 KB",
+      "period": "201810",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201809_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201809_FinalEnergyPrices.csv",
+      "listing_text": "201809_FinalEnergyPrices.csv 31 Oct 2022 9,544 KB",
+      "period": "201809",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201808_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201808_FinalEnergyPrices.csv",
+      "listing_text": "201808_FinalEnergyPrices.csv 31 Oct 2022 9,860 KB",
+      "period": "201808",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201807_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201807_FinalEnergyPrices.csv",
+      "listing_text": "201807_FinalEnergyPrices.csv 31 Oct 2022 9,844 KB",
+      "period": "201807",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201806_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201806_FinalEnergyPrices.csv",
+      "listing_text": "201806_FinalEnergyPrices.csv 31 Oct 2022 9,572 KB",
+      "period": "201806",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201805_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201805_FinalEnergyPrices.csv",
+      "listing_text": "201805_FinalEnergyPrices.csv 31 Oct 2022 9,828 KB",
+      "period": "201805",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201804_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201804_FinalEnergyPrices.csv",
+      "listing_text": "201804_FinalEnergyPrices.csv 31 Oct 2022 9,513 KB",
+      "period": "201804",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201803_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201803_FinalEnergyPrices.csv",
+      "listing_text": "201803_FinalEnergyPrices.csv 31 Oct 2022 9,822 KB",
+      "period": "201803",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201802_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201802_FinalEnergyPrices.csv",
+      "listing_text": "201802_FinalEnergyPrices.csv 31 Oct 2022 8,849 KB",
+      "period": "201802",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201801_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201801_FinalEnergyPrices.csv",
+      "listing_text": "201801_FinalEnergyPrices.csv 31 Oct 2022 9,996 KB",
+      "period": "201801",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201712_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201712_FinalEnergyPrices.csv",
+      "listing_text": "201712_FinalEnergyPrices.csv 31 Oct 2022 10,006 KB",
+      "period": "201712",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201711_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201711_FinalEnergyPrices.csv",
+      "listing_text": "201711_FinalEnergyPrices.csv 31 Oct 2022 9,569 KB",
+      "period": "201711",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201710_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201710_FinalEnergyPrices.csv",
+      "listing_text": "201710_FinalEnergyPrices.csv 31 Oct 2022 9,777 KB",
+      "period": "201710",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201709_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201709_FinalEnergyPrices.csv",
+      "listing_text": "201709_FinalEnergyPrices.csv 31 Oct 2022 9,463 KB",
+      "period": "201709",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201708_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201708_FinalEnergyPrices.csv",
+      "listing_text": "201708_FinalEnergyPrices.csv 31 Oct 2022 9,873 KB",
+      "period": "201708",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201707_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201707_FinalEnergyPrices.csv",
+      "listing_text": "201707_FinalEnergyPrices.csv 31 Oct 2022 10,083 KB",
+      "period": "201707",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201706_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201706_FinalEnergyPrices.csv",
+      "listing_text": "201706_FinalEnergyPrices.csv 31 Oct 2022 9,704 KB",
+      "period": "201706",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201705_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201705_FinalEnergyPrices.csv",
+      "listing_text": "201705_FinalEnergyPrices.csv 31 Oct 2022 9,840 KB",
+      "period": "201705",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201704_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201704_FinalEnergyPrices.csv",
+      "listing_text": "201704_FinalEnergyPrices.csv 31 Oct 2022 9,494 KB",
+      "period": "201704",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201703_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201703_FinalEnergyPrices.csv",
+      "listing_text": "201703_FinalEnergyPrices.csv 31 Oct 2022 9,815 KB",
+      "period": "201703",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201702_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201702_FinalEnergyPrices.csv",
+      "listing_text": "201702_FinalEnergyPrices.csv 31 Oct 2022 8,867 KB",
+      "period": "201702",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201701_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201701_FinalEnergyPrices.csv",
+      "listing_text": "201701_FinalEnergyPrices.csv 31 Oct 2022 9,814 KB",
+      "period": "201701",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201612_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201612_FinalEnergyPrices.csv",
+      "listing_text": "201612_FinalEnergyPrices.csv 31 Oct 2022 9,811 KB",
+      "period": "201612",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201611_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201611_FinalEnergyPrices.csv",
+      "listing_text": "201611_FinalEnergyPrices.csv 31 Oct 2022 9,489 KB",
+      "period": "201611",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201610_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201610_FinalEnergyPrices.csv",
+      "listing_text": "201610_FinalEnergyPrices.csv 31 Oct 2022 9,816 KB",
+      "period": "201610",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201609_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201609_FinalEnergyPrices.csv",
+      "listing_text": "201609_FinalEnergyPrices.csv 31 Oct 2022 9,489 KB",
+      "period": "201609",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201608_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201608_FinalEnergyPrices.csv",
+      "listing_text": "201608_FinalEnergyPrices.csv 31 Oct 2022 9,826 KB",
+      "period": "201608",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201607_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201607_FinalEnergyPrices.csv",
+      "listing_text": "201607_FinalEnergyPrices.csv 31 Oct 2022 9,865 KB",
+      "period": "201607",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201606_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201606_FinalEnergyPrices.csv",
+      "listing_text": "201606_FinalEnergyPrices.csv 31 Oct 2022 9,533 KB",
+      "period": "201606",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201605_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201605_FinalEnergyPrices.csv",
+      "listing_text": "201605_FinalEnergyPrices.csv 31 Oct 2022 9,859 KB",
+      "period": "201605",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201604_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201604_FinalEnergyPrices.csv",
+      "listing_text": "201604_FinalEnergyPrices.csv 31 Oct 2022 9,556 KB",
+      "period": "201604",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201603_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201603_FinalEnergyPrices.csv",
+      "listing_text": "201603_FinalEnergyPrices.csv 31 Oct 2022 9,856 KB",
+      "period": "201603",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201602_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201602_FinalEnergyPrices.csv",
+      "listing_text": "201602_FinalEnergyPrices.csv 31 Oct 2022 9,226 KB",
+      "period": "201602",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201601_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201601_FinalEnergyPrices.csv",
+      "listing_text": "201601_FinalEnergyPrices.csv 31 Oct 2022 9,871 KB",
+      "period": "201601",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201512_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201512_FinalEnergyPrices.csv",
+      "listing_text": "201512_FinalEnergyPrices.csv 31 Oct 2022 9,874 KB",
+      "period": "201512",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201511_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201511_FinalEnergyPrices.csv",
+      "listing_text": "201511_FinalEnergyPrices.csv 31 Oct 2022 9,542 KB",
+      "period": "201511",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201510_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201510_FinalEnergyPrices.csv",
+      "listing_text": "201510_FinalEnergyPrices.csv 31 Oct 2022 9,862 KB",
+      "period": "201510",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201509_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201509_FinalEnergyPrices.csv",
+      "listing_text": "201509_FinalEnergyPrices.csv 31 Oct 2022 9,536 KB",
+      "period": "201509",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201508_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201508_FinalEnergyPrices.csv",
+      "listing_text": "201508_FinalEnergyPrices.csv 31 Oct 2022 9,844 KB",
+      "period": "201508",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201507_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201507_FinalEnergyPrices.csv",
+      "listing_text": "201507_FinalEnergyPrices.csv 31 Oct 2022 9,817 KB",
+      "period": "201507",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201506_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201506_FinalEnergyPrices.csv",
+      "listing_text": "201506_FinalEnergyPrices.csv 31 Oct 2022 9,506 KB",
+      "period": "201506",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201505_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201505_FinalEnergyPrices.csv",
+      "listing_text": "201505_FinalEnergyPrices.csv 31 Oct 2022 9,828 KB",
+      "period": "201505",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201504_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201504_FinalEnergyPrices.csv",
+      "listing_text": "201504_FinalEnergyPrices.csv 31 Oct 2022 9,575 KB",
+      "period": "201504",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201503_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201503_FinalEnergyPrices.csv",
+      "listing_text": "201503_FinalEnergyPrices.csv 31 Oct 2022 10,195 KB",
+      "period": "201503",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201502_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201502_FinalEnergyPrices.csv",
+      "listing_text": "201502_FinalEnergyPrices.csv 31 Oct 2022 9,332 KB",
+      "period": "201502",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201501_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201501_FinalEnergyPrices.csv",
+      "listing_text": "201501_FinalEnergyPrices.csv 31 Oct 2022 10,425 KB",
+      "period": "201501",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201412_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201412_FinalEnergyPrices.csv",
+      "listing_text": "201412_FinalEnergyPrices.csv 31 Oct 2022 10,315 KB",
+      "period": "201412",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201411_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201411_FinalEnergyPrices.csv",
+      "listing_text": "201411_FinalEnergyPrices.csv 31 Oct 2022 9,910 KB",
+      "period": "201411",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201410_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201410_FinalEnergyPrices.csv",
+      "listing_text": "201410_FinalEnergyPrices.csv 31 Oct 2022 10,226 KB",
+      "period": "201410",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201409_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201409_FinalEnergyPrices.csv",
+      "listing_text": "201409_FinalEnergyPrices.csv 31 Oct 2022 9,876 KB",
+      "period": "201409",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201408_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201408_FinalEnergyPrices.csv",
+      "listing_text": "201408_FinalEnergyPrices.csv 31 Oct 2022 10,214 KB",
+      "period": "201408",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201407_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201407_FinalEnergyPrices.csv",
+      "listing_text": "201407_FinalEnergyPrices.csv 31 Oct 2022 10,224 KB",
+      "period": "201407",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201406_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201406_FinalEnergyPrices.csv",
+      "listing_text": "201406_FinalEnergyPrices.csv 31 Oct 2022 9,886 KB",
+      "period": "201406",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201405_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201405_FinalEnergyPrices.csv",
+      "listing_text": "201405_FinalEnergyPrices.csv 31 Oct 2022 10,222 KB",
+      "period": "201405",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201404_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201404_FinalEnergyPrices.csv",
+      "listing_text": "201404_FinalEnergyPrices.csv 31 Oct 2022 10,148 KB",
+      "period": "201404",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201403_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201403_FinalEnergyPrices.csv",
+      "listing_text": "201403_FinalEnergyPrices.csv 31 Oct 2022 10,639 KB",
+      "period": "201403",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201402_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201402_FinalEnergyPrices.csv",
+      "listing_text": "201402_FinalEnergyPrices.csv 31 Oct 2022 9,620 KB",
+      "period": "201402",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201401_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201401_FinalEnergyPrices.csv",
+      "listing_text": "201401_FinalEnergyPrices.csv 31 Oct 2022 10,417 KB",
+      "period": "201401",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201312_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201312_FinalEnergyPrices.csv",
+      "listing_text": "201312_FinalEnergyPrices.csv 31 Oct 2022 10,382 KB",
+      "period": "201312",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201311_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201311_FinalEnergyPrices.csv",
+      "listing_text": "201311_FinalEnergyPrices.csv 31 Oct 2022 10,037 KB",
+      "period": "201311",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201310_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201310_FinalEnergyPrices.csv",
+      "listing_text": "201310_FinalEnergyPrices.csv 31 Oct 2022 10,361 KB",
+      "period": "201310",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201309_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201309_FinalEnergyPrices.csv",
+      "listing_text": "201309_FinalEnergyPrices.csv 31 Oct 2022 10,079 KB",
+      "period": "201309",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201308_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201308_FinalEnergyPrices.csv",
+      "listing_text": "201308_FinalEnergyPrices.csv 31 Oct 2022 10,428 KB",
+      "period": "201308",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201307_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201307_FinalEnergyPrices.csv",
+      "listing_text": "201307_FinalEnergyPrices.csv 31 Oct 2022 10,415 KB",
+      "period": "201307",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201306_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201306_FinalEnergyPrices.csv",
+      "listing_text": "201306_FinalEnergyPrices.csv 31 Oct 2022 10,005 KB",
+      "period": "201306",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201305_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201305_FinalEnergyPrices.csv",
+      "listing_text": "201305_FinalEnergyPrices.csv 31 Oct 2022 10,354 KB",
+      "period": "201305",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201304_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201304_FinalEnergyPrices.csv",
+      "listing_text": "201304_FinalEnergyPrices.csv 31 Oct 2022 10,110 KB",
+      "period": "201304",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201303_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201303_FinalEnergyPrices.csv",
+      "listing_text": "201303_FinalEnergyPrices.csv 31 Oct 2022 10,555 KB",
+      "period": "201303",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201302_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201302_FinalEnergyPrices.csv",
+      "listing_text": "201302_FinalEnergyPrices.csv 31 Oct 2022 9,327 KB",
+      "period": "201302",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201301_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201301_FinalEnergyPrices.csv",
+      "listing_text": "201301_FinalEnergyPrices.csv 31 Oct 2022 10,288 KB",
+      "period": "201301",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201212_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201212_FinalEnergyPrices.csv",
+      "listing_text": "201212_FinalEnergyPrices.csv 31 Oct 2022 10,276 KB",
+      "period": "201212",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201211_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201211_FinalEnergyPrices.csv",
+      "listing_text": "201211_FinalEnergyPrices.csv 31 Oct 2022 9,841 KB",
+      "period": "201211",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201210_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201210_FinalEnergyPrices.csv",
+      "listing_text": "201210_FinalEnergyPrices.csv 31 Oct 2022 10,190 KB",
+      "period": "201210",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201209_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201209_FinalEnergyPrices.csv",
+      "listing_text": "201209_FinalEnergyPrices.csv 31 Oct 2022 9,851 KB",
+      "period": "201209",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201208_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201208_FinalEnergyPrices.csv",
+      "listing_text": "201208_FinalEnergyPrices.csv 31 Oct 2022 10,225 KB",
+      "period": "201208",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201207_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201207_FinalEnergyPrices.csv",
+      "listing_text": "201207_FinalEnergyPrices.csv 31 Oct 2022 10,285 KB",
+      "period": "201207",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201206_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201206_FinalEnergyPrices.csv",
+      "listing_text": "201206_FinalEnergyPrices.csv 31 Oct 2022 10,098 KB",
+      "period": "201206",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201205_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201205_FinalEnergyPrices.csv",
+      "listing_text": "201205_FinalEnergyPrices.csv 31 Oct 2022 10,531 KB",
+      "period": "201205",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201204_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201204_FinalEnergyPrices.csv",
+      "listing_text": "201204_FinalEnergyPrices.csv 31 Oct 2022 10,034 KB",
+      "period": "201204",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201203_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201203_FinalEnergyPrices.csv",
+      "listing_text": "201203_FinalEnergyPrices.csv 31 Oct 2022 10,367 KB",
+      "period": "201203",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201202_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201202_FinalEnergyPrices.csv",
+      "listing_text": "201202_FinalEnergyPrices.csv 31 Oct 2022 9,893 KB",
+      "period": "201202",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201201_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201201_FinalEnergyPrices.csv",
+      "listing_text": "201201_FinalEnergyPrices.csv 31 Oct 2022 10,351 KB",
+      "period": "201201",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201112_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201112_FinalEnergyPrices.csv",
+      "listing_text": "201112_FinalEnergyPrices.csv 31 Oct 2022 10,274 KB",
+      "period": "201112",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201111_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201111_FinalEnergyPrices.csv",
+      "listing_text": "201111_FinalEnergyPrices.csv 31 Oct 2022 9,933 KB",
+      "period": "201111",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201110_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201110_FinalEnergyPrices.csv",
+      "listing_text": "201110_FinalEnergyPrices.csv 31 Oct 2022 10,411 KB",
+      "period": "201110",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201109_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201109_FinalEnergyPrices.csv",
+      "listing_text": "201109_FinalEnergyPrices.csv 31 Oct 2022 10,131 KB",
+      "period": "201109",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201108_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201108_FinalEnergyPrices.csv",
+      "listing_text": "201108_FinalEnergyPrices.csv 31 Oct 2022 10,462 KB",
+      "period": "201108",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201107_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201107_FinalEnergyPrices.csv",
+      "listing_text": "201107_FinalEnergyPrices.csv 31 Oct 2022 10,326 KB",
+      "period": "201107",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201106_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201106_FinalEnergyPrices.csv",
+      "listing_text": "201106_FinalEnergyPrices.csv 31 Oct 2022 9,933 KB",
+      "period": "201106",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201105_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201105_FinalEnergyPrices.csv",
+      "listing_text": "201105_FinalEnergyPrices.csv 31 Oct 2022 10,252 KB",
+      "period": "201105",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201104_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201104_FinalEnergyPrices.csv",
+      "listing_text": "201104_FinalEnergyPrices.csv 31 Oct 2022 9,991 KB",
+      "period": "201104",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201103_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201103_FinalEnergyPrices.csv",
+      "listing_text": "201103_FinalEnergyPrices.csv 31 Oct 2022 10,240 KB",
+      "period": "201103",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201102_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201102_FinalEnergyPrices.csv",
+      "listing_text": "201102_FinalEnergyPrices.csv 31 Oct 2022 9,222 KB",
+      "period": "201102",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201101_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201101_FinalEnergyPrices.csv",
+      "listing_text": "201101_FinalEnergyPrices.csv 31 Oct 2022 10,188 KB",
+      "period": "201101",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201012_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201012_FinalEnergyPrices.csv",
+      "listing_text": "201012_FinalEnergyPrices.csv 31 Oct 2022 10,406 KB",
+      "period": "201012",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201011_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201011_FinalEnergyPrices.csv",
+      "listing_text": "201011_FinalEnergyPrices.csv 31 Oct 2022 9,936 KB",
+      "period": "201011",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201010_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201010_FinalEnergyPrices.csv",
+      "listing_text": "201010_FinalEnergyPrices.csv 31 Oct 2022 10,104 KB",
+      "period": "201010",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201009_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201009_FinalEnergyPrices.csv",
+      "listing_text": "201009_FinalEnergyPrices.csv 31 Oct 2022 9,705 KB",
+      "period": "201009",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201008_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201008_FinalEnergyPrices.csv",
+      "listing_text": "201008_FinalEnergyPrices.csv 31 Oct 2022 10,219 KB",
+      "period": "201008",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201007_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201007_FinalEnergyPrices.csv",
+      "listing_text": "201007_FinalEnergyPrices.csv 31 Oct 2022 10,285 KB",
+      "period": "201007",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201006_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201006_FinalEnergyPrices.csv",
+      "listing_text": "201006_FinalEnergyPrices.csv 31 Oct 2022 9,958 KB",
+      "period": "201006",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201005_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201005_FinalEnergyPrices.csv",
+      "listing_text": "201005_FinalEnergyPrices.csv 31 Oct 2022 10,257 KB",
+      "period": "201005",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201004_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201004_FinalEnergyPrices.csv",
+      "listing_text": "201004_FinalEnergyPrices.csv 31 Oct 2022 10,046 KB",
+      "period": "201004",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201003_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201003_FinalEnergyPrices.csv",
+      "listing_text": "201003_FinalEnergyPrices.csv 31 Oct 2022 10,582 KB",
+      "period": "201003",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201002_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201002_FinalEnergyPrices.csv",
+      "listing_text": "201002_FinalEnergyPrices.csv 31 Oct 2022 9,355 KB",
+      "period": "201002",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "201001_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/201001_FinalEnergyPrices.csv",
+      "listing_text": "201001_FinalEnergyPrices.csv 31 Oct 2022 10,307 KB",
+      "period": "201001",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200912_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200912_FinalEnergyPrices.csv",
+      "listing_text": "200912_FinalEnergyPrices.csv 31 Oct 2022 10,303 KB",
+      "period": "200912",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200911_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200911_FinalEnergyPrices.csv",
+      "listing_text": "200911_FinalEnergyPrices.csv 31 Oct 2022 10,004 KB",
+      "period": "200911",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200910_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200910_FinalEnergyPrices.csv",
+      "listing_text": "200910_FinalEnergyPrices.csv 31 Oct 2022 10,116 KB",
+      "period": "200910",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200909_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200909_FinalEnergyPrices.csv",
+      "listing_text": "200909_FinalEnergyPrices.csv 31 Oct 2022 9,768 KB",
+      "period": "200909",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200908_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200908_FinalEnergyPrices.csv",
+      "listing_text": "200908_FinalEnergyPrices.csv 31 Oct 2022 10,308 KB",
+      "period": "200908",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200907_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200907_FinalEnergyPrices.csv",
+      "listing_text": "200907_FinalEnergyPrices.csv 31 Oct 2022 10,359 KB",
+      "period": "200907",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200906_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200906_FinalEnergyPrices.csv",
+      "listing_text": "200906_FinalEnergyPrices.csv 31 Oct 2022 9,930 KB",
+      "period": "200906",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200905_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200905_FinalEnergyPrices.csv",
+      "listing_text": "200905_FinalEnergyPrices.csv 31 Oct 2022 10,112 KB",
+      "period": "200905",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200904_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200904_FinalEnergyPrices.csv",
+      "listing_text": "200904_FinalEnergyPrices.csv 31 Oct 2022 9,931 KB",
+      "period": "200904",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200903_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200903_FinalEnergyPrices.csv",
+      "listing_text": "200903_FinalEnergyPrices.csv 31 Oct 2022 10,206 KB",
+      "period": "200903",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200902_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200902_FinalEnergyPrices.csv",
+      "listing_text": "200902_FinalEnergyPrices.csv 31 Oct 2022 9,224 KB",
+      "period": "200902",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200901_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200901_FinalEnergyPrices.csv",
+      "listing_text": "200901_FinalEnergyPrices.csv 31 Oct 2022 10,093 KB",
+      "period": "200901",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200812_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200812_FinalEnergyPrices.csv",
+      "listing_text": "200812_FinalEnergyPrices.csv 31 Oct 2022 10,164 KB",
+      "period": "200812",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200811_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200811_FinalEnergyPrices.csv",
+      "listing_text": "200811_FinalEnergyPrices.csv 31 Oct 2022 9,839 KB",
+      "period": "200811",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200810_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200810_FinalEnergyPrices.csv",
+      "listing_text": "200810_FinalEnergyPrices.csv 31 Oct 2022 10,103 KB",
+      "period": "200810",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200809_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200809_FinalEnergyPrices.csv",
+      "listing_text": "200809_FinalEnergyPrices.csv 31 Oct 2022 9,719 KB",
+      "period": "200809",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200808_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200808_FinalEnergyPrices.csv",
+      "listing_text": "200808_FinalEnergyPrices.csv 31 Oct 2022 10,235 KB",
+      "period": "200808",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200807_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200807_FinalEnergyPrices.csv",
+      "listing_text": "200807_FinalEnergyPrices.csv 31 Oct 2022 10,252 KB",
+      "period": "200807",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200806_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200806_FinalEnergyPrices.csv",
+      "listing_text": "200806_FinalEnergyPrices.csv 31 Oct 2022 10,109 KB",
+      "period": "200806",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200805_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200805_FinalEnergyPrices.csv",
+      "listing_text": "200805_FinalEnergyPrices.csv 31 Oct 2022 10,428 KB",
+      "period": "200805",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200804_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200804_FinalEnergyPrices.csv",
+      "listing_text": "200804_FinalEnergyPrices.csv 31 Oct 2022 9,952 KB",
+      "period": "200804",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200803_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200803_FinalEnergyPrices.csv",
+      "listing_text": "200803_FinalEnergyPrices.csv 31 Oct 2022 10,235 KB",
+      "period": "200803",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200802_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200802_FinalEnergyPrices.csv",
+      "listing_text": "200802_FinalEnergyPrices.csv 31 Oct 2022 9,543 KB",
+      "period": "200802",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200801_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200801_FinalEnergyPrices.csv",
+      "listing_text": "200801_FinalEnergyPrices.csv 31 Oct 2022 9,938 KB",
+      "period": "200801",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200712_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200712_FinalEnergyPrices.csv",
+      "listing_text": "200712_FinalEnergyPrices.csv 31 Oct 2022 9,907 KB",
+      "period": "200712",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200711_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200711_FinalEnergyPrices.csv",
+      "listing_text": "200711_FinalEnergyPrices.csv 31 Oct 2022 9,578 KB",
+      "period": "200711",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200710_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200710_FinalEnergyPrices.csv",
+      "listing_text": "200710_FinalEnergyPrices.csv 31 Oct 2022 9,890 KB",
+      "period": "200710",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200709_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200709_FinalEnergyPrices.csv",
+      "listing_text": "200709_FinalEnergyPrices.csv 31 Oct 2022 9,567 KB",
+      "period": "200709",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200708_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200708_FinalEnergyPrices.csv",
+      "listing_text": "200708_FinalEnergyPrices.csv 31 Oct 2022 9,900 KB",
+      "period": "200708",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200707_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200707_FinalEnergyPrices.csv",
+      "listing_text": "200707_FinalEnergyPrices.csv 31 Oct 2022 9,900 KB",
+      "period": "200707",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200706_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200706_FinalEnergyPrices.csv",
+      "listing_text": "200706_FinalEnergyPrices.csv 31 Oct 2022 9,600 KB",
+      "period": "200706",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200705_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200705_FinalEnergyPrices.csv",
+      "listing_text": "200705_FinalEnergyPrices.csv 31 Oct 2022 9,950 KB",
+      "period": "200705",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200704_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200704_FinalEnergyPrices.csv",
+      "listing_text": "200704_FinalEnergyPrices.csv 31 Oct 2022 9,592 KB",
+      "period": "200704",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200703_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200703_FinalEnergyPrices.csv",
+      "listing_text": "200703_FinalEnergyPrices.csv 31 Oct 2022 9,914 KB",
+      "period": "200703",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200702_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200702_FinalEnergyPrices.csv",
+      "listing_text": "200702_FinalEnergyPrices.csv 31 Oct 2022 8,943 KB",
+      "period": "200702",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200701_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200701_FinalEnergyPrices.csv",
+      "listing_text": "200701_FinalEnergyPrices.csv 31 Oct 2022 9,881 KB",
+      "period": "200701",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200612_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200612_FinalEnergyPrices.csv",
+      "listing_text": "200612_FinalEnergyPrices.csv 31 Oct 2022 9,820 KB",
+      "period": "200612",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200611_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200611_FinalEnergyPrices.csv",
+      "listing_text": "200611_FinalEnergyPrices.csv 31 Oct 2022 9,495 KB",
+      "period": "200611",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200610_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200610_FinalEnergyPrices.csv",
+      "listing_text": "200610_FinalEnergyPrices.csv 31 Oct 2022 9,804 KB",
+      "period": "200610",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200609_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200609_FinalEnergyPrices.csv",
+      "listing_text": "200609_FinalEnergyPrices.csv 31 Oct 2022 9,504 KB",
+      "period": "200609",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200608_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200608_FinalEnergyPrices.csv",
+      "listing_text": "200608_FinalEnergyPrices.csv 31 Oct 2022 9,829 KB",
+      "period": "200608",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200607_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200607_FinalEnergyPrices.csv",
+      "listing_text": "200607_FinalEnergyPrices.csv 31 Oct 2022 9,826 KB",
+      "period": "200607",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200606_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200606_FinalEnergyPrices.csv",
+      "listing_text": "200606_FinalEnergyPrices.csv 31 Oct 2022 9,528 KB",
+      "period": "200606",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200605_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200605_FinalEnergyPrices.csv",
+      "listing_text": "200605_FinalEnergyPrices.csv 31 Oct 2022 9,838 KB",
+      "period": "200605",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200604_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200604_FinalEnergyPrices.csv",
+      "listing_text": "200604_FinalEnergyPrices.csv 31 Oct 2022 9,760 KB",
+      "period": "200604",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200603_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200603_FinalEnergyPrices.csv",
+      "listing_text": "200603_FinalEnergyPrices.csv 31 Oct 2022 10,115 KB",
+      "period": "200603",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200602_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200602_FinalEnergyPrices.csv",
+      "listing_text": "200602_FinalEnergyPrices.csv 31 Oct 2022 8,985 KB",
+      "period": "200602",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200601_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200601_FinalEnergyPrices.csv",
+      "listing_text": "200601_FinalEnergyPrices.csv 31 Oct 2022 9,914 KB",
+      "period": "200601",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200512_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200512_FinalEnergyPrices.csv",
+      "listing_text": "200512_FinalEnergyPrices.csv 31 Oct 2022 9,997 KB",
+      "period": "200512",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200511_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200511_FinalEnergyPrices.csv",
+      "listing_text": "200511_FinalEnergyPrices.csv 31 Oct 2022 9,659 KB",
+      "period": "200511",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200510_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200510_FinalEnergyPrices.csv",
+      "listing_text": "200510_FinalEnergyPrices.csv 31 Oct 2022 9,723 KB",
+      "period": "200510",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200509_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200509_FinalEnergyPrices.csv",
+      "listing_text": "200509_FinalEnergyPrices.csv 31 Oct 2022 9,391 KB",
+      "period": "200509",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200508_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200508_FinalEnergyPrices.csv",
+      "listing_text": "200508_FinalEnergyPrices.csv 31 Oct 2022 9,704 KB",
+      "period": "200508",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200507_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200507_FinalEnergyPrices.csv",
+      "listing_text": "200507_FinalEnergyPrices.csv 31 Oct 2022 9,711 KB",
+      "period": "200507",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200506_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200506_FinalEnergyPrices.csv",
+      "listing_text": "200506_FinalEnergyPrices.csv 31 Oct 2022 9,402 KB",
+      "period": "200506",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200505_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200505_FinalEnergyPrices.csv",
+      "listing_text": "200505_FinalEnergyPrices.csv 31 Oct 2022 9,681 KB",
+      "period": "200505",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200504_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200504_FinalEnergyPrices.csv",
+      "listing_text": "200504_FinalEnergyPrices.csv 31 Oct 2022 9,351 KB",
+      "period": "200504",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200503_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200503_FinalEnergyPrices.csv",
+      "listing_text": "200503_FinalEnergyPrices.csv 31 Oct 2022 9,687 KB",
+      "period": "200503",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200502_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200502_FinalEnergyPrices.csv",
+      "listing_text": "200502_FinalEnergyPrices.csv 31 Oct 2022 8,756 KB",
+      "period": "200502",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200501_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200501_FinalEnergyPrices.csv",
+      "listing_text": "200501_FinalEnergyPrices.csv 31 Oct 2022 9,603 KB",
+      "period": "200501",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200412_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200412_FinalEnergyPrices.csv",
+      "listing_text": "200412_FinalEnergyPrices.csv 31 Oct 2022 9,662 KB",
+      "period": "200412",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200411_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200411_FinalEnergyPrices.csv",
+      "listing_text": "200411_FinalEnergyPrices.csv 31 Oct 2022 9,359 KB",
+      "period": "200411",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200410_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200410_FinalEnergyPrices.csv",
+      "listing_text": "200410_FinalEnergyPrices.csv 31 Oct 2022 9,693 KB",
+      "period": "200410",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200409_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200409_FinalEnergyPrices.csv",
+      "listing_text": "200409_FinalEnergyPrices.csv 31 Oct 2022 9,421 KB",
+      "period": "200409",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200408_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200408_FinalEnergyPrices.csv",
+      "listing_text": "200408_FinalEnergyPrices.csv 31 Oct 2022 9,624 KB",
+      "period": "200408",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200407_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200407_FinalEnergyPrices.csv",
+      "listing_text": "200407_FinalEnergyPrices.csv 31 Oct 2022 9,566 KB",
+      "period": "200407",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200406_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200406_FinalEnergyPrices.csv",
+      "listing_text": "200406_FinalEnergyPrices.csv 31 Oct 2022 9,253 KB",
+      "period": "200406",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200405_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200405_FinalEnergyPrices.csv",
+      "listing_text": "200405_FinalEnergyPrices.csv 31 Oct 2022 9,610 KB",
+      "period": "200405",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200404_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200404_FinalEnergyPrices.csv",
+      "listing_text": "200404_FinalEnergyPrices.csv 31 Oct 2022 9,313 KB",
+      "period": "200404",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200403_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200403_FinalEnergyPrices.csv",
+      "listing_text": "200403_FinalEnergyPrices.csv 31 Oct 2022 9,506 KB",
+      "period": "200403",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200402_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200402_FinalEnergyPrices.csv",
+      "listing_text": "200402_FinalEnergyPrices.csv 31 Oct 2022 8,826 KB",
+      "period": "200402",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200401_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200401_FinalEnergyPrices.csv",
+      "listing_text": "200401_FinalEnergyPrices.csv 31 Oct 2022 9,628 KB",
+      "period": "200401",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200312_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200312_FinalEnergyPrices.csv",
+      "listing_text": "200312_FinalEnergyPrices.csv 31 Oct 2022 9,611 KB",
+      "period": "200312",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200311_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200311_FinalEnergyPrices.csv",
+      "listing_text": "200311_FinalEnergyPrices.csv 31 Oct 2022 9,256 KB",
+      "period": "200311",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200310_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200310_FinalEnergyPrices.csv",
+      "listing_text": "200310_FinalEnergyPrices.csv 31 Oct 2022 9,515 KB",
+      "period": "200310",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200309_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200309_FinalEnergyPrices.csv",
+      "listing_text": "200309_FinalEnergyPrices.csv 31 Oct 2022 9,211 KB",
+      "period": "200309",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200308_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200308_FinalEnergyPrices.csv",
+      "listing_text": "200308_FinalEnergyPrices.csv 31 Oct 2022 9,462 KB",
+      "period": "200308",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200307_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200307_FinalEnergyPrices.csv",
+      "listing_text": "200307_FinalEnergyPrices.csv 31 Oct 2022 9,480 KB",
+      "period": "200307",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200306_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200306_FinalEnergyPrices.csv",
+      "listing_text": "200306_FinalEnergyPrices.csv 31 Oct 2022 9,157 KB",
+      "period": "200306",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200305_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200305_FinalEnergyPrices.csv",
+      "listing_text": "200305_FinalEnergyPrices.csv 31 Oct 2022 9,688 KB",
+      "period": "200305",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200304_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200304_FinalEnergyPrices.csv",
+      "listing_text": "200304_FinalEnergyPrices.csv 31 Oct 2022 9,433 KB",
+      "period": "200304",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200303_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200303_FinalEnergyPrices.csv",
+      "listing_text": "200303_FinalEnergyPrices.csv 31 Oct 2022 9,671 KB",
+      "period": "200303",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200302_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200302_FinalEnergyPrices.csv",
+      "listing_text": "200302_FinalEnergyPrices.csv 31 Oct 2022 8,582 KB",
+      "period": "200302",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200301_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200301_FinalEnergyPrices.csv",
+      "listing_text": "200301_FinalEnergyPrices.csv 31 Oct 2022 9,441 KB",
+      "period": "200301",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200212_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200212_FinalEnergyPrices.csv",
+      "listing_text": "200212_FinalEnergyPrices.csv 31 Oct 2022 9,445 KB",
+      "period": "200212",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200211_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200211_FinalEnergyPrices.csv",
+      "listing_text": "200211_FinalEnergyPrices.csv 31 Oct 2022 9,139 KB",
+      "period": "200211",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200210_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200210_FinalEnergyPrices.csv",
+      "listing_text": "200210_FinalEnergyPrices.csv 31 Oct 2022 9,439 KB",
+      "period": "200210",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200209_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200209_FinalEnergyPrices.csv",
+      "listing_text": "200209_FinalEnergyPrices.csv 31 Oct 2022 9,145 KB",
+      "period": "200209",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200208_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200208_FinalEnergyPrices.csv",
+      "listing_text": "200208_FinalEnergyPrices.csv 31 Oct 2022 9,538 KB",
+      "period": "200208",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200207_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200207_FinalEnergyPrices.csv",
+      "listing_text": "200207_FinalEnergyPrices.csv 31 Oct 2022 9,616 KB",
+      "period": "200207",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200206_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200206_FinalEnergyPrices.csv",
+      "listing_text": "200206_FinalEnergyPrices.csv 31 Oct 2022 9,297 KB",
+      "period": "200206",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200205_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200205_FinalEnergyPrices.csv",
+      "listing_text": "200205_FinalEnergyPrices.csv 31 Oct 2022 9,608 KB",
+      "period": "200205",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200204_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200204_FinalEnergyPrices.csv",
+      "listing_text": "200204_FinalEnergyPrices.csv 31 Oct 2022 9,313 KB",
+      "period": "200204",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200203_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200203_FinalEnergyPrices.csv",
+      "listing_text": "200203_FinalEnergyPrices.csv 31 Oct 2022 9,640 KB",
+      "period": "200203",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200202_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200202_FinalEnergyPrices.csv",
+      "listing_text": "200202_FinalEnergyPrices.csv 31 Oct 2022 8,770 KB",
+      "period": "200202",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200201_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200201_FinalEnergyPrices.csv",
+      "listing_text": "200201_FinalEnergyPrices.csv 31 Oct 2022 9,778 KB",
+      "period": "200201",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200112_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200112_FinalEnergyPrices.csv",
+      "listing_text": "200112_FinalEnergyPrices.csv 31 Oct 2022 9,677 KB",
+      "period": "200112",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200111_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200111_FinalEnergyPrices.csv",
+      "listing_text": "200111_FinalEnergyPrices.csv 31 Oct 2022 9,534 KB",
+      "period": "200111",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200110_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200110_FinalEnergyPrices.csv",
+      "listing_text": "200110_FinalEnergyPrices.csv 31 Oct 2022 9,844 KB",
+      "period": "200110",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200109_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200109_FinalEnergyPrices.csv",
+      "listing_text": "200109_FinalEnergyPrices.csv 31 Oct 2022 9,548 KB",
+      "period": "200109",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200108_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200108_FinalEnergyPrices.csv",
+      "listing_text": "200108_FinalEnergyPrices.csv 31 Oct 2022 10,027 KB",
+      "period": "200108",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200107_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200107_FinalEnergyPrices.csv",
+      "listing_text": "200107_FinalEnergyPrices.csv 31 Oct 2022 10,085 KB",
+      "period": "200107",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200106_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200106_FinalEnergyPrices.csv",
+      "listing_text": "200106_FinalEnergyPrices.csv 31 Oct 2022 9,699 KB",
+      "period": "200106",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200105_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200105_FinalEnergyPrices.csv",
+      "listing_text": "200105_FinalEnergyPrices.csv 31 Oct 2022 9,854 KB",
+      "period": "200105",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200104_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200104_FinalEnergyPrices.csv",
+      "listing_text": "200104_FinalEnergyPrices.csv 31 Oct 2022 9,502 KB",
+      "period": "200104",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200103_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200103_FinalEnergyPrices.csv",
+      "listing_text": "200103_FinalEnergyPrices.csv 31 Oct 2022 9,758 KB",
+      "period": "200103",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200102_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200102_FinalEnergyPrices.csv",
+      "listing_text": "200102_FinalEnergyPrices.csv 31 Oct 2022 8,801 KB",
+      "period": "200102",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200101_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200101_FinalEnergyPrices.csv",
+      "listing_text": "200101_FinalEnergyPrices.csv 31 Oct 2022 9,749 KB",
+      "period": "200101",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200012_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200012_FinalEnergyPrices.csv",
+      "listing_text": "200012_FinalEnergyPrices.csv 31 Oct 2022 9,739 KB",
+      "period": "200012",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200011_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200011_FinalEnergyPrices.csv",
+      "listing_text": "200011_FinalEnergyPrices.csv 31 Oct 2022 9,437 KB",
+      "period": "200011",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200010_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200010_FinalEnergyPrices.csv",
+      "listing_text": "200010_FinalEnergyPrices.csv 31 Oct 2022 9,696 KB",
+      "period": "200010",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200009_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200009_FinalEnergyPrices.csv",
+      "listing_text": "200009_FinalEnergyPrices.csv 31 Oct 2022 9,438 KB",
+      "period": "200009",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200008_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200008_FinalEnergyPrices.csv",
+      "listing_text": "200008_FinalEnergyPrices.csv 31 Oct 2022 9,749 KB",
+      "period": "200008",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200007_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200007_FinalEnergyPrices.csv",
+      "listing_text": "200007_FinalEnergyPrices.csv 31 Oct 2022 9,836 KB",
+      "period": "200007",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200006_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200006_FinalEnergyPrices.csv",
+      "listing_text": "200006_FinalEnergyPrices.csv 31 Oct 2022 9,527 KB",
+      "period": "200006",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200005_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200005_FinalEnergyPrices.csv",
+      "listing_text": "200005_FinalEnergyPrices.csv 31 Oct 2022 9,815 KB",
+      "period": "200005",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200004_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200004_FinalEnergyPrices.csv",
+      "listing_text": "200004_FinalEnergyPrices.csv 31 Oct 2022 8,336 KB",
+      "period": "200004",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200003_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200003_FinalEnergyPrices.csv",
+      "listing_text": "200003_FinalEnergyPrices.csv 31 Oct 2022 8,631 KB",
+      "period": "200003",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200002_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200002_FinalEnergyPrices.csv",
+      "listing_text": "200002_FinalEnergyPrices.csv 31 Oct 2022 8,052 KB",
+      "period": "200002",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "200001_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/200001_FinalEnergyPrices.csv",
+      "listing_text": "200001_FinalEnergyPrices.csv 31 Oct 2022 8,846 KB",
+      "period": "200001",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199912_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199912_FinalEnergyPrices.csv",
+      "listing_text": "199912_FinalEnergyPrices.csv 31 Oct 2022 8,902 KB",
+      "period": "199912",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199911_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199911_FinalEnergyPrices.csv",
+      "listing_text": "199911_FinalEnergyPrices.csv 31 Oct 2022 9,642 KB",
+      "period": "199911",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199910_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199910_FinalEnergyPrices.csv",
+      "listing_text": "199910_FinalEnergyPrices.csv 31 Oct 2022 10,094 KB",
+      "period": "199910",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199909_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199909_FinalEnergyPrices.csv",
+      "listing_text": "199909_FinalEnergyPrices.csv 31 Oct 2022 9,723 KB",
+      "period": "199909",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199908_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199908_FinalEnergyPrices.csv",
+      "listing_text": "199908_FinalEnergyPrices.csv 31 Oct 2022 9,707 KB",
+      "period": "199908",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199907_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199907_FinalEnergyPrices.csv",
+      "listing_text": "199907_FinalEnergyPrices.csv 31 Oct 2022 9,670 KB",
+      "period": "199907",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199906_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199906_FinalEnergyPrices.csv",
+      "listing_text": "199906_FinalEnergyPrices.csv 31 Oct 2022 9,415 KB",
+      "period": "199906",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199905_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199905_FinalEnergyPrices.csv",
+      "listing_text": "199905_FinalEnergyPrices.csv 31 Oct 2022 9,657 KB",
+      "period": "199905",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199904_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199904_FinalEnergyPrices.csv",
+      "listing_text": "199904_FinalEnergyPrices.csv 31 Oct 2022 9,209 KB",
+      "period": "199904",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199903_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199903_FinalEnergyPrices.csv",
+      "listing_text": "199903_FinalEnergyPrices.csv 31 Oct 2022 9,756 KB",
+      "period": "199903",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199902_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199902_FinalEnergyPrices.csv",
+      "listing_text": "199902_FinalEnergyPrices.csv 31 Oct 2022 8,775 KB",
+      "period": "199902",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199901_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199901_FinalEnergyPrices.csv",
+      "listing_text": "199901_FinalEnergyPrices.csv 31 Oct 2022 9,680 KB",
+      "period": "199901",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199812_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199812_FinalEnergyPrices.csv",
+      "listing_text": "199812_FinalEnergyPrices.csv 31 Oct 2022 9,630 KB",
+      "period": "199812",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199811_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199811_FinalEnergyPrices.csv",
+      "listing_text": "199811_FinalEnergyPrices.csv 31 Oct 2022 9,310 KB",
+      "period": "199811",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199810_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199810_FinalEnergyPrices.csv",
+      "listing_text": "199810_FinalEnergyPrices.csv 31 Oct 2022 9,729 KB",
+      "period": "199810",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199809_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199809_FinalEnergyPrices.csv",
+      "listing_text": "199809_FinalEnergyPrices.csv 31 Oct 2022 9,337 KB",
+      "period": "199809",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199808_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199808_FinalEnergyPrices.csv",
+      "listing_text": "199808_FinalEnergyPrices.csv 31 Oct 2022 9,705 KB",
+      "period": "199808",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199807_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199807_FinalEnergyPrices.csv",
+      "listing_text": "199807_FinalEnergyPrices.csv 31 Oct 2022 9,712 KB",
+      "period": "199807",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199806_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199806_FinalEnergyPrices.csv",
+      "listing_text": "199806_FinalEnergyPrices.csv 31 Oct 2022 9,418 KB",
+      "period": "199806",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199805_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199805_FinalEnergyPrices.csv",
+      "listing_text": "199805_FinalEnergyPrices.csv 31 Oct 2022 9,765 KB",
+      "period": "199805",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199804_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199804_FinalEnergyPrices.csv",
+      "listing_text": "199804_FinalEnergyPrices.csv 31 Oct 2022 9,418 KB",
+      "period": "199804",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199803_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199803_FinalEnergyPrices.csv",
+      "listing_text": "199803_FinalEnergyPrices.csv 31 Oct 2022 9,757 KB",
+      "period": "199803",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199802_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199802_FinalEnergyPrices.csv",
+      "listing_text": "199802_FinalEnergyPrices.csv 31 Oct 2022 8,835 KB",
+      "period": "199802",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199801_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199801_FinalEnergyPrices.csv",
+      "listing_text": "199801_FinalEnergyPrices.csv 31 Oct 2022 9,776 KB",
+      "period": "199801",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199712_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199712_FinalEnergyPrices.csv",
+      "listing_text": "199712_FinalEnergyPrices.csv 31 Oct 2022 9,766 KB",
+      "period": "199712",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199711_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199711_FinalEnergyPrices.csv",
+      "listing_text": "199711_FinalEnergyPrices.csv 31 Oct 2022 9,465 KB",
+      "period": "199711",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199710_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199710_FinalEnergyPrices.csv",
+      "listing_text": "199710_FinalEnergyPrices.csv 31 Oct 2022 9,767 KB",
+      "period": "199710",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199709_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199709_FinalEnergyPrices.csv",
+      "listing_text": "199709_FinalEnergyPrices.csv 31 Oct 2022 9,428 KB",
+      "period": "199709",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199708_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199708_FinalEnergyPrices.csv",
+      "listing_text": "199708_FinalEnergyPrices.csv 31 Oct 2022 9,782 KB",
+      "period": "199708",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199707_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199707_FinalEnergyPrices.csv",
+      "listing_text": "199707_FinalEnergyPrices.csv 31 Oct 2022 9,780 KB",
+      "period": "199707",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199706_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199706_FinalEnergyPrices.csv",
+      "listing_text": "199706_FinalEnergyPrices.csv 31 Oct 2022 9,427 KB",
+      "period": "199706",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199705_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199705_FinalEnergyPrices.csv",
+      "listing_text": "199705_FinalEnergyPrices.csv 31 Oct 2022 9,698 KB",
+      "period": "199705",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199704_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199704_FinalEnergyPrices.csv",
+      "listing_text": "199704_FinalEnergyPrices.csv 31 Oct 2022 9,347 KB",
+      "period": "199704",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199703_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199703_FinalEnergyPrices.csv",
+      "listing_text": "199703_FinalEnergyPrices.csv 31 Oct 2022 9,632 KB",
+      "period": "199703",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199702_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199702_FinalEnergyPrices.csv",
+      "listing_text": "199702_FinalEnergyPrices.csv 31 Oct 2022 8,688 KB",
+      "period": "199702",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199701_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199701_FinalEnergyPrices.csv",
+      "listing_text": "199701_FinalEnergyPrices.csv 31 Oct 2022 9,600 KB",
+      "period": "199701",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199612_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199612_FinalEnergyPrices.csv",
+      "listing_text": "199612_FinalEnergyPrices.csv 31 Oct 2022 9,579 KB",
+      "period": "199612",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199611_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199611_FinalEnergyPrices.csv",
+      "listing_text": "199611_FinalEnergyPrices.csv 31 Oct 2022 9,275 KB",
+      "period": "199611",
+      "prepared_at_unzoned": null
+    },
+    {
+      "filename": "199610_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/199610_FinalEnergyPrices.csv",
+      "listing_text": "199610_FinalEnergyPrices.csv 31 Oct 2022 9,109 KB",
+      "period": "199610",
+      "prepared_at_unzoned": null
+    }
+  ],
+  "rejected": [
+    {
+      "filename": "202512_FinalEnergyPrices_incomplete.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+      "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+      "reason": "explicitly_incomplete"
+    },
+    {
+      "filename": "202512_FinalEnergyPrices_incomplete.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+      "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+      "reason": "explicitly_incomplete"
+    },
+    {
+      "filename": "202512_FinalEnergyPrices_incomplete.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+      "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+      "reason": "explicitly_incomplete"
+    }
+  ]
+}

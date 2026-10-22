@@ -1,0 +1,295 @@
+// Create each measure individually using New measure. Not a standalone DAX query.
+// Folder: Price\National; Format: #,0.00
+// NZD/MWh; ratio of sums, never average weighted prices.
+Weighted Wholesale Price =
+DIVIDE(SUM(FactNational[price_numerator]), SUM(FactNational[priced_offtake_kwh]))
+
+// Folder: Price\National; Format: #,0.00
+//
+P95 Price =
+IF(COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])))>0, PERCENTILEX.INC(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])), FactNational[weighted_price], 0.95))
+
+// Folder: Price\National; Format: #,0.00
+// Population SD of half-hour weighted prices; blanks excluded; one observation = 0.
+Price Volatility =
+VAR N=COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price]))) RETURN IF(N=1,0,IF(N>1,STDEVX.P(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])),FactNational[weighted_price])))
+
+// Folder: Demand\National; Format: #,0.00
+//
+Total Demand GWh =
+DIVIDE(SUM(FactNational[offtake_kwh]),1000000)
+
+// Folder: Generation\National; Format: #,0.00
+//
+Listed Generation GWh =
+DIVIDE(SUM(FactNational[generation_kwh]),1000000)
+
+// Folder: Generation\National; Format: #,0.00
+//
+Renewable GWh =
+DIVIDE(SUM(FactNational[renewable_kwh]),1000000)
+
+// Folder: Generation\National; Format: #,0.00
+//
+Fossil Thermal GWh =
+DIVIDE(SUM(FactNational[fossil_kwh]),1000000)
+
+// Folder: Generation\National; Format: #,0.00
+//
+Storage GWh =
+DIVIDE(SUM(FactNational[storage_kwh]),1000000)
+
+// Folder: Generation\National; Format: #,0.00
+//
+Unclassified GWh =
+DIVIDE(SUM(FactNational[unclassified_kwh]),1000000)
+
+// Folder: Demand\National; Format: #,0.00
+//
+Peak Demand MW =
+MAX(FactNational[demand_mw])
+
+// Folder: Demand\National; Format: #,0.00
+//
+Mean Demand MW =
+AVERAGE(FactNational[demand_mw])
+
+// Folder: Generation\National; Format: 0.00%
+//
+Renewable Primary Share =
+DIVIDE(SUM(FactNational[renewable_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))
+
+// Folder: Generation\National; Format: 0.00%
+//
+Fossil Thermal Share =
+DIVIDE(SUM(FactNational[fossil_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))
+
+// Folder: Coverage and Data Quality\National; Format: 0.00%
+//
+Classification Coverage =
+DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[unclassified_kwh]),SUM(FactNational[generation_kwh]))
+
+// Folder: Coverage and Data Quality\National; Format: 0.00%
+//
+Offtake Zone Coverage =
+DIVIDE(SUM(FactNational[known_zone_offtake_kwh]),SUM(FactNational[offtake_kwh]))
+
+// Folder: Coverage and Data Quality\National; Format: 0.00%
+//
+Generation Zone Coverage =
+DIVIDE(SUM(FactNational[known_zone_generation_kwh]),SUM(FactNational[generation_kwh]))
+
+// Folder: Coverage and Data Quality\National; Format: 0.00%
+//
+Priced Offtake Coverage =
+DIVIDE(SUM(FactNational[priced_offtake_kwh]),SUM(FactNational[offtake_kwh]))
+
+// Folder: Price Pressure\National; Format: #,0
+//
+Flagged Half-hours =
+IF(COUNTROWS(FactNational)>0,COALESCE(COUNTROWS(FILTER(FactNational,FactNational[is_price_pressure]=TRUE())),0))
+
+// Folder: Price Pressure\National; Format: #,0.00
+//
+Pressure Hours =
+0.5*[Flagged Half-hours]
+
+// Folder: Price\Zone; Format: #,0.00
+// NZD/MWh; ratio of sums, never average weighted prices.
+Zone Weighted Wholesale Price =
+IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[price_numerator]), SUM(FactZone[priced_offtake_kwh])))
+
+// Folder: Demand\Zone; Format: #,0.00
+//
+Zone Total Demand GWh =
+IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[offtake_kwh]),1000000))
+
+// Folder: Demand\Zone; Format: #,0.00
+//
+Zone Peak Demand MW =
+IF(HASONEVALUE(DimZone[zone]), MAX(FactZone[demand_mw]))
+
+// Folder: Coverage and Data Quality\Zone; Format: 0.00%
+//
+Zone Priced Offtake Coverage =
+IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[priced_offtake_kwh]),SUM(FactZone[offtake_kwh])))
+
+// Folder: Price Pressure\Zone; Format: #,0
+//
+Zone Flagged Half-hours =
+IF(HASONEVALUE(DimZone[zone]), IF(NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FactZone)>0,COALESCE(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE())),0))))
+
+// Folder: Price Pressure\Zone; Format: #,0.00
+//
+Zone Pressure Hours =
+IF(HASONEVALUE(DimZone[zone]), 0.5*[Zone Flagged Half-hours])
+
+// Folder: Price Pressure; Format: #,0.00
+// Full release; disconnected from Date. Not an official scarcity threshold.
+Full-period P99 threshold =
+CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]="National")
+
+// Folder: Price Pressure; Format: #,0.00
+//
+Zone Full-period P99 threshold =
+VAR Z=SELECTEDVALUE(DimZone[zone]) RETURN IF(HASONEVALUE(DimZone[zone]),CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]="Zone",Threshold[zone]=Z))
+
+// Folder: Regional; Format: #,0.00
+// Mean of complete five-known-Zone half-hour ranges; date filter only.
+Regional Spread =
+AVERAGE(FactNational[regional_price_spread])
+
+// Folder: Regional; Format: #,0
+//
+Spread Eligible Half-hours =
+COUNT(FactNational[regional_price_spread])
+
+// Folder: Price Pressure; Format: #,0
+//
+Any-Zone Flagged Half-hours =
+COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zones_flagged]>0))
+
+// Folder: Regional; Format: 0
+// Use at interval grain; at higher grain means maximum simultaneous count.
+Simultaneous Zones =
+MAX(RegionalSignal[zones_flagged])
+
+// Folder: Regional; Format: #,0
+//
+Zone-only Half-hours =
+COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zone_only]=TRUE()))
+
+// Folder: Regional; Format: #,0
+// Episodes intersecting selection; assigned on full release; non-additive across dates.
+Cross-regional Episodes =
+COUNTROWS(FILTER(VALUES(RegionalSignal[episode_id]),NOT ISBLANK(RegionalSignal[episode_id])))
+
+// Folder: Price Pressure; Format: #,0
+// National events starting on selected dates; not all scoped records.
+Pressure Events =
+COALESCE(CALCULATE(COUNTROWS(Events),REMOVEFILTERS(Events),Events[scope]="National",TREATAS(VALUES(DimDate[Date]),Events[start_date])),0)
+
+// Folder: Event Investigation; Format: 0.0
+// Full selected scoped event, ignoring global Date.
+Event Duration =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[duration_hours]))
+
+// Folder: Event Investigation; Format: #,0.00
+// Full selected scoped event, ignoring global Date.
+Peak Event Price =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[peak_weighted_price]))
+
+// Folder: Event Investigation; Format: #,0.00
+// Full selected scoped event, ignoring global Date.
+Event Weighted Price =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[weighted_price]))
+
+// Folder: Event Investigation; Format: #,0.00
+// Full selected scoped event, ignoring global Date.
+Event Mean Demand MW =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_demand_mw]))
+
+// Folder: Event Investigation; Format: #,0.00
+// Full selected scoped event, ignoring global Date.
+Event Regional Spread =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_regional_spread]))
+
+// Folder: Event Investigation; Format:
+//
+Event Selection Status =
+IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[scope]) & " / " & SELECTEDVALUE(Events[zone]),"Select one event")
+
+// Folder: Event Investigation; Format: #,0.00
+// National context, even for a regional event.
+Event National Demand MW =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Mean Demand MW],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: #,0.00
+// National context, even for a regional event.
+Event National Weighted Price =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Weighted Wholesale Price],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: 0.00%
+// National context, even for a regional event.
+Event National Renewable Share =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Renewable Primary Share],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: 0.00%
+// National context, even for a regional event.
+Event National Classification Coverage =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Classification Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: 0.00%
+// National context, even for a regional event.
+Event National Offtake Coverage =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Offtake Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: 0.00%
+// National context, even for a regional event.
+Event National Generation Coverage =
+VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Generation Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))
+
+// Folder: Event Investigation; Format: 0
+// Apply visual filter =1 on interval heatmap; no global date on event page.
+Event Interval Visible =
+VAR I=SELECTEDVALUE(DimInterval[interval_id]) VAR IDs=VALUES(EventInterval[interval_id]) RETURN IF(HASONEVALUE(Events[event_id]) && I IN IDs,1,0)
+
+// Folder: Event Investigation; Format: 0
+//
+Zone Pressure Flag =
+IF(HASONEVALUE(DimZone[zone]) && HASONEVALUE(DimInterval[interval_id]) && NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE()))>0,1,0))
+
+// Folder: Coverage and Data Quality; Format: 0.0000%
+// Never pool sources with different denominators.
+Source Geography Coverage =
+IF(HASONEVALUE(SourceQuality[source_name]),DIVIDE(SUM(SourceQuality[known_value]),SUM(SourceQuality[total_value])))
+
+// Folder: Coverage and Data Quality; Format: #,0.00
+// Unit comes from denominator_unit; rows and kWh never added.
+Unknown Source Quantity =
+IF(HASONEVALUE(SourceQuality[source_name]),SUM(SourceQuality[unknown_value]))
+
+// Folder: Coverage and Data Quality; Format: 0
+// Full retained run; no composite score.
+DQ PASS =
+COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="PASS"),0)
+
+// Folder: Coverage and Data Quality; Format: 0
+// Full retained run; no composite score.
+DQ WARN =
+COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="WARN"),0)
+
+// Folder: Coverage and Data Quality; Format: 0
+// Full retained run; no composite score.
+DQ FAIL =
+COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]="FAIL"),0)
+
+// Folder: Demand; Format: #,0.00
+// Full-release month/hour standardisation, not affected by dates; descriptive, not causal.
+Release Pressure Mean MW =
+MAX(DemandBenchmark[pressure_mean_mw])
+
+// Folder: Demand; Format: #,0.00
+// Full-release month/hour standardisation, not affected by dates; descriptive, not causal.
+Release Matched Comparator MW =
+MAX(DemandBenchmark[matched_control_mean_mw])
+
+// Folder: Demand; Format: 0.00%
+//
+Release Matched Difference Pct =
+DIVIDE(MAX(DemandBenchmark[difference_pct]),100)
+
+// Folder: Coverage and Data Quality; Format: #,0.00
+//
+Unknown Offtake GWh =
+DIVIDE(SUM(FactNational[offtake_kwh])-SUM(FactNational[known_zone_offtake_kwh]),1000000)
+
+// Folder: Coverage and Data Quality; Format: #,0.00
+//
+Unknown Generation GWh =
+DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[known_zone_generation_kwh]),1000000)
+
+// Folder: Event Investigation; Format: #,0.00
+// Scoped event interval price; use UTC interval axis and Event Interval Visible=1.
+Event Interval Price =
+VAR S=SELECTEDVALUE(Events[scope]) VAR Z=SELECTEDVALUE(Events[zone]) RETURN IF(HASONEVALUE(Events[event_id]) && [Event Interval Visible]=1,IF(S="National",[Weighted Wholesale Price],CALCULATE([Zone Weighted Wholesale Price],REMOVEFILTERS(DimZone),TREATAS({Z},DimZone[zone]))))

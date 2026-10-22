@@ -1,0 +1,26 @@
+{
+  "artifact": "Power BI build package; not a compiled report",
+  "approved_commit": "84fa1474ad1e55944df87792357beb34dcec4edf",
+  "refresh_id": 38,
+  "dq_run_id": 5,
+  "input_fingerprint": "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6",
+  "sql_queries": [
+    "FactNational",
+    "FactZone",
+    "DimInterval",
+    "DimZone",
+    "Threshold",
+    "Events",
+    "EventInterval",
+    "RegionalSignal",
+    "SourceQuality",
+    "DQResults",
+    "Release",
+    "Classification",
+    "DemandBenchmark"
+  ],
+  "measure_count": 59,
+  "mode": "Import",
+  "date_start": "2025-09-01",
+  "date_end": "2026-08-31"
+}

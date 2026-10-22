@@ -1,0 +1,115 @@
+table FactZone
+	lineageTag: db17255a-9f10-50f1-828b-5b8d31ccdabe
+
+	column zone
+		dataType: string
+		isHidden
+		lineageTag: 68614d83-3d32-5f0b-939e-6c3dc79de597
+		summarizeBy: none
+		sourceColumn: zone
+
+	column interval_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: dee05f3b-ca3d-55a7-8783-0a2255a42ed2
+		summarizeBy: none
+		sourceColumn: interval_id
+
+	column offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 9bb99db4-38a2-5f63-a5af-b2cc33ae3bcd
+		summarizeBy: none
+		sourceColumn: offtake_kwh
+
+	column priced_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 796c77fa-11a1-5df2-9d44-60735fd10373
+		summarizeBy: none
+		sourceColumn: priced_offtake_kwh
+
+	column price_numerator
+		dataType: double
+		isHidden
+		lineageTag: e86376b2-580d-5b1c-ade1-98aa0f891110
+		summarizeBy: none
+		sourceColumn: price_numerator
+
+	column weighted_price
+		dataType: double
+		isHidden
+		lineageTag: a9d0c2cd-b61a-5ca2-8f17-4ec0c907e5bd
+		summarizeBy: none
+		sourceColumn: weighted_price
+
+	column demand_mw
+		dataType: double
+		isHidden
+		lineageTag: 26a4bded-f5ea-548f-a368-004ce2dfe6be
+		summarizeBy: none
+		sourceColumn: demand_mw
+
+	column generation_kwh
+		dataType: double
+		isHidden
+		lineageTag: 7c110d11-e788-5dbe-a198-eb8e823ea396
+		summarizeBy: none
+		sourceColumn: generation_kwh
+
+	column renewable_kwh
+		dataType: double
+		isHidden
+		lineageTag: e38edad2-fc46-57f5-8249-acefb3b457d6
+		summarizeBy: none
+		sourceColumn: renewable_kwh
+
+	column fossil_kwh
+		dataType: double
+		isHidden
+		lineageTag: 88cada97-e341-5d22-b775-acba3f65decd
+		summarizeBy: none
+		sourceColumn: fossil_kwh
+
+	column storage_kwh
+		dataType: double
+		isHidden
+		lineageTag: 92ef1883-48ca-5d43-9726-f70d29ae1958
+		summarizeBy: none
+		sourceColumn: storage_kwh
+
+	column unclassified_kwh
+		dataType: double
+		isHidden
+		lineageTag: 9ade8b0b-a11e-5a70-b435-25942ff64cc4
+		summarizeBy: none
+		sourceColumn: unclassified_kwh
+
+	column known_zone_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 6d117a3d-62d0-5073-bcc9-13f2c0660699
+		summarizeBy: none
+		sourceColumn: known_zone_offtake_kwh
+
+	column known_zone_generation_kwh
+		dataType: double
+		isHidden
+		lineageTag: eec23be0-e0a7-5970-830b-a3391d7cd845
+		summarizeBy: none
+		sourceColumn: known_zone_generation_kwh
+
+	column is_price_pressure
+		dataType: boolean
+		lineageTag: fcdfa120-51e5-5a54-b139-0c189d7c3e52
+		summarizeBy: none
+		sourceColumn: is_price_pressure
+
+	partition FactZone = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT zone,interval_id,offtake_kwh,priced_offtake_kwh,price_numerator,#(lf) weighted_price,demand_mw,generation_kwh,renewable_kwh,fossil_kwh,storage_kwh,#(lf) unclassified_kwh,known_zone_offtake_kwh,known_zone_generation_kwh,is_price_pressure#(lf)FROM analytics.mart_market_interval_zone", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

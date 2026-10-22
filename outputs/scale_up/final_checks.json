@@ -1,0 +1,63 @@
+{
+  "python_compile": {
+    "passed": true,
+    "returncode": 0
+  },
+  "git_diff_check": {
+    "passed": true,
+    "returncode": 0
+  },
+  "documentation_links": {
+    "local_links": 98,
+    "issues": [],
+    "passed": true
+  },
+  "ignore_examples": {
+    "passed": true,
+    "paths": [
+      "data/raw/example.csv",
+      "data/postgres/example",
+      ".env",
+      ".env.local",
+      ".venv/example",
+      "secrets/example.json",
+      "backups/example.dump",
+      "outputs/scale_up/completion.log"
+    ]
+  },
+  "pilot_archive": {
+    "files": 34,
+    "git_normalised_hash_mismatches": 0,
+    "mismatches": []
+  },
+  "latest_completion_stages": {
+    "candidate": "passed",
+    "dq": "passed",
+    "dq_repeat": "passed",
+    "analytics_repeat": "passed",
+    "analytics_validation": "passed",
+    "evidence": "passed",
+    "tests": "passed",
+    "dq_export": "passed",
+    "report": "passed"
+  },
+  "tests": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 1100.6874835000017,
+    "modules": {
+      "tests/analytics/test_analytics.py": 23,
+      "tests/historical/test_release.py": 6,
+      "tests/quality/test_quality.py": 14,
+      "tests/test_daily_final.py": 10,
+      "tests/test_ingestion.py": 16,
+      "tests/test_phase0.py": 13,
+      "tests/test_pilot_evidence.py": 7,
+      "tests/warehouse/test_postgresql.py": 14
+    }
+  },
+  "applied_migrations": 24,
+  "post_test_migration_hashes_valid": true
+}

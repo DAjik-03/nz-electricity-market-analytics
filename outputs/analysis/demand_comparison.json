@@ -1,0 +1,18 @@
+[
+  {
+    "is_price_pressure": false,
+    "intervals": 17344,
+    "mean_demand_mw": "4794.1336903828413284",
+    "median_demand_mw": 4886.373,
+    "p95_demand_mw": 6063.919099999999,
+    "peak_demand_mw": "7517.4920000000000000"
+  },
+  {
+    "is_price_pressure": true,
+    "intervals": 176,
+    "mean_demand_mw": "5371.1526590909090909",
+    "median_demand_mw": 5335.254,
+    "p95_demand_mw": 6993.4545,
+    "peak_demand_mw": "7565.1020000000000000"
+  }
+]

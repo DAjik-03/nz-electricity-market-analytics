@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    "All seven approved mart hashes, applied migration checksums and repeated SQL outputs unchanged after full tests",
+    "Read-only snapshot, approved fingerprint, 37 selections and all saved output hashes",
+    "National and Zone grain, full date range, UTC continuity and actual DST populations",
+    "Monthly weighted numerators/denominators, P95, population SD, demand and generation",
+    "Local month/hour/day-type exposure denominators and flag rates",
+    "Demand mean/median/P95 and pressure-weighted month/hour comparator independently recomputed",
+    "Absolute generation, pooled primary/listed shares, classification coverage and sensitivity bounds",
+    "Zone overlap deduplicated by interval and analysis-only UTC episodes independently reconstructed",
+    "Every Zone-specific pressure/non-pressure spread comparison",
+    "Spread eligibility, mean/median/P95/max for normal, National and Zone-only pressure",
+    "Every scoped event duration, National context and annual demand cume_dist; event totals"
+  ],
+  "repeat_query_hashes": {
+    "monthly_overview": true,
+    "release_population": true,
+    "national_event_distribution": true,
+    "pressure_by_month": true,
+    "pressure_by_hour": true,
+    "pressure_by_day_type": true,
+    "event_starts_by_month": true,
+    "regional_events": true,
+    "regional_overlap": true,
+    "cross_regional_episodes": true,
+    "spread_comparison": true,
+    "demand_comparison": true,
+    "demand_within_month": true,
+    "demand_hour_adjusted": true,
+    "generation_comparison": true,
+    "generation_hour_adjusted": true,
+    "event_investigation": true,
+    "national_intervals": true,
+    "zone_flags": true,
+    "monthly_quality": true
+  },
+  "approved_view_hashes_match": true,
+  "applied_migrations": 24,
+  "case_ids": [
+    "National:National:202608040730",
+    "National:National:202509051930",
+    "Zone:CNI:202603021830",
+    "National:National:202608040630",
+    "National:National:202603291430"
+  ]
+}

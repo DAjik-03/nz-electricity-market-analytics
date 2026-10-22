@@ -1,0 +1,55 @@
+{
+  "by_month": [
+    {
+      "source_month": "2025-09-01",
+      "affected_dates": 28,
+      "absent_offtake_dates": 24,
+      "zero_priced_denominator_dates": 0,
+      "partial_population_dates": 4
+    },
+    {
+      "source_month": "2026-04-01",
+      "affected_dates": 1,
+      "absent_offtake_dates": 0,
+      "zero_priced_denominator_dates": 0,
+      "partial_population_dates": 1
+    }
+  ],
+  "partial_population_days": [
+    [
+      "2025-09-18",
+      "283.000000",
+      "283.000000",
+      11,
+      48
+    ],
+    [
+      "2025-09-20",
+      "1042.000000",
+      "1042.000000",
+      39,
+      48
+    ],
+    [
+      "2025-09-22",
+      "5536.000000",
+      "5536.000000",
+      27,
+      48
+    ],
+    [
+      "2025-09-23",
+      "1829.000000",
+      "1829.000000",
+      4,
+      48
+    ],
+    [
+      "2026-04-12",
+      "152271.000000",
+      "152271.000000",
+      47,
+      48
+    ]
+  ]
+}

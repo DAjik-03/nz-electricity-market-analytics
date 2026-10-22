@@ -1,0 +1,517 @@
+{
+  "server_version": "17.9 (Debian 17.9-1.pgdg12+1)",
+  "sources": {
+    "prices": [
+      {
+        "publication_id": 8,
+        "month": "2025-09-01",
+        "filename": "202509_FinalEnergyPrices.csv",
+        "staging_rows": 349098,
+        "core_rows": 349098,
+        "measure_total": "39668682.14000000",
+        "phase1_total_delta": "0E-8",
+        "comparison_tolerance": "1E-8",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 9,
+        "month": "2026-04-01",
+        "filename": "202604_FinalEnergyPrices.csv",
+        "staging_rows": 352931,
+        "core_rows": 352931,
+        "measure_total": "35699320.60000000",
+        "phase1_total_delta": "0E-8",
+        "comparison_tolerance": "1E-8",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 10,
+        "month": "2026-08-01",
+        "filename": "202608_FinalEnergyPrices.csv",
+        "staging_rows": 366048,
+        "core_rows": 366048,
+        "measure_total": "27333751.31000000",
+        "phase1_total_delta": "-2E-9",
+        "comparison_tolerance": "1E-8",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      }
+    ],
+    "reconciliation": [
+      {
+        "publication_id": 11,
+        "month": "2025-09-01",
+        "filename": "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz",
+        "staging_rows": 5738649,
+        "core_rows": 5738649,
+        "measure_total": "7306484244.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 12,
+        "month": "2026-04-01",
+        "filename": "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz",
+        "staging_rows": 5754153,
+        "core_rows": 5754153,
+        "measure_total": "6766855553.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 13,
+        "month": "2026-08-01",
+        "filename": "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz",
+        "staging_rows": 6403492,
+        "core_rows": 6403492,
+        "measure_total": "8068054866.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      }
+    ],
+    "generation": [
+      {
+        "publication_id": 2,
+        "month": "2025-09-01",
+        "filename": "202509_Generation_MD.csv",
+        "staging_rows": 2734,
+        "core_rows": 131050,
+        "measure_total": "3529741413.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 3,
+        "month": "2026-04-01",
+        "filename": "202604_Generation_MD.csv",
+        "staging_rows": 2832,
+        "core_rows": 136124,
+        "measure_total": "3260315118.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      },
+      {
+        "publication_id": 7,
+        "month": "2026-08-01",
+        "filename": "202608_Generation_MD.csv",
+        "staging_rows": 3157,
+        "core_rows": 151536,
+        "measure_total": "3932434942.000000",
+        "phase1_total_delta": "0.000000",
+        "comparison_tolerance": "0",
+        "interval_orphans": 0,
+        "selected_versions": 1
+      }
+    ],
+    "nsp": [
+      {
+        "publication_id": 1,
+        "month": "2026-09-01",
+        "filename": "20260910_NetworkSupplyPointsTable.csv",
+        "staging_rows": 2617
+      }
+    ]
+  },
+  "checks": {
+    "manifest_lineage_and_no_running_attempts": true,
+    "staging_populations": true,
+    "facts_counts_totals_intervals_selected_versions": true,
+    "actual_fact_periods_and_generation_padding": true,
+    "unknown_retained": true,
+    "flow_totals": true,
+    "nsp_quarantine": true,
+    "dst_calendar": true,
+    "enforced_constraints": true
+  },
+  "volume_by_flow": [
+    {
+      "month": "2025-09-01",
+      "flow": "Injection",
+      "rows": 1147104,
+      "kwh": "3712688328.000000",
+      "unknown_zone_kwh": "4934283.000000",
+      "unmapped": 0
+    },
+    {
+      "month": "2025-09-01",
+      "flow": "Offtake",
+      "rows": 4591545,
+      "kwh": "3593795916.000000",
+      "unknown_zone_kwh": "11510.000000",
+      "unmapped": 0
+    },
+    {
+      "month": "2026-04-01",
+      "flow": "Injection",
+      "rows": 1133812,
+      "kwh": "3438929511.000000",
+      "unknown_zone_kwh": "43346930.000000",
+      "unmapped": 0
+    },
+    {
+      "month": "2026-04-01",
+      "flow": "Offtake",
+      "rows": 4620341,
+      "kwh": "3327926042.000000",
+      "unknown_zone_kwh": "4274985.000000",
+      "unmapped": 0
+    },
+    {
+      "month": "2026-08-01",
+      "flow": "Injection",
+      "rows": 1275878,
+      "kwh": "4117158550.000000",
+      "unknown_zone_kwh": "59163283.000000",
+      "unmapped": 0
+    },
+    {
+      "month": "2026-08-01",
+      "flow": "Offtake",
+      "rows": 5127614,
+      "kwh": "3950896316.000000",
+      "unknown_zone_kwh": "7026971.000000",
+      "unmapped": 0
+    }
+  ],
+  "generation_mapping": [
+    {
+      "month": "2025-09-01",
+      "unmapped": 2876,
+      "unknown_zone_kwh": "15974877.000000"
+    },
+    {
+      "month": "2026-04-01",
+      "unmapped": 2884,
+      "unknown_zone_kwh": "50608115.000000"
+    },
+    {
+      "month": "2026-08-01",
+      "unmapped": 0,
+      "unknown_zone_kwh": "56117354.000000"
+    }
+  ],
+  "nsp_boundaries": [
+    {
+      "status": "invalid_boundary",
+      "rows": 3
+    },
+    {
+      "status": "valid_bounded",
+      "rows": 1837
+    },
+    {
+      "status": "valid_open",
+      "rows": 777
+    }
+  ],
+  "invalid_nsp": [
+    {
+      "nsp": "KFA0111VMOLEN",
+      "end_date": "2014-09-28",
+      "end_tp": "48"
+    },
+    {
+      "nsp": "KNA0011KIPTEN",
+      "end_date": "2014-09-28",
+      "end_tp": "48"
+    },
+    {
+      "nsp": "WQG0011DMFLEN",
+      "end_date": "2018-09-30",
+      "end_tp": "48"
+    }
+  ],
+  "calendar": {
+    "days": 91,
+    "intervals": 4368,
+    "transition_days": [
+      {
+        "date": "2025-09-28",
+        "periods": 46,
+        "fold_sum": 0
+      },
+      {
+        "date": "2026-04-05",
+        "periods": 50,
+        "fold_sum": 2
+      }
+    ]
+  },
+  "fact_period_coverage": {
+    "prices": {
+      "days": 91,
+      "transition_days": [
+        {
+          "date": "2025-09-28",
+          "periods": 46
+        },
+        {
+          "date": "2026-04-05",
+          "periods": 50
+        }
+      ]
+    },
+    "reconciliation": {
+      "days": 91,
+      "transition_days": [
+        {
+          "date": "2025-09-28",
+          "periods": 46
+        },
+        {
+          "date": "2026-04-05",
+          "periods": 50
+        }
+      ]
+    },
+    "generation": {
+      "days": 91,
+      "transition_days": [
+        {
+          "date": "2025-09-28",
+          "periods": 46
+        },
+        {
+          "date": "2026-04-05",
+          "periods": 50
+        }
+      ]
+    }
+  },
+  "constraints": {
+    "total": 90,
+    "unvalidated": 0
+  },
+  "objects": [
+    {
+      "schema": "core",
+      "name": "dim_connection",
+      "kind": "r",
+      "bytes": 204800
+    },
+    {
+      "schema": "core",
+      "name": "dim_date",
+      "kind": "r",
+      "bytes": 24576
+    },
+    {
+      "schema": "core",
+      "name": "dim_generator",
+      "kind": "r",
+      "bytes": 49152
+    },
+    {
+      "schema": "core",
+      "name": "dim_nsp_version",
+      "kind": "r",
+      "bytes": 3276800
+    },
+    {
+      "schema": "core",
+      "name": "dim_participant",
+      "kind": "r",
+      "bytes": 49152
+    },
+    {
+      "schema": "core",
+      "name": "dim_pricing_node",
+      "kind": "r",
+      "bytes": 81920
+    },
+    {
+      "schema": "core",
+      "name": "dim_trading_interval",
+      "kind": "r",
+      "bytes": 1056768
+    },
+    {
+      "schema": "core",
+      "name": "fact_generation_connection",
+      "kind": "r",
+      "bytes": 90742784
+    },
+    {
+      "schema": "core",
+      "name": "fact_price",
+      "kind": "r",
+      "bytes": 190136320
+    },
+    {
+      "schema": "core",
+      "name": "fact_reconciled_volume",
+      "kind": "r",
+      "bytes": 3905732608
+    },
+    {
+      "schema": "core",
+      "name": "v_selected_generation",
+      "kind": "v",
+      "bytes": 0
+    },
+    {
+      "schema": "core",
+      "name": "v_selected_price",
+      "kind": "v",
+      "bytes": 0
+    },
+    {
+      "schema": "core",
+      "name": "v_selected_reconciled_volume",
+      "kind": "v",
+      "bytes": 0
+    },
+    {
+      "schema": "metadata",
+      "name": "load_attempt",
+      "kind": "r",
+      "bytes": 32768
+    },
+    {
+      "schema": "metadata",
+      "name": "publication_selection",
+      "kind": "r",
+      "bytes": 32768
+    },
+    {
+      "schema": "metadata",
+      "name": "schema_migration",
+      "kind": "r",
+      "bytes": 32768
+    },
+    {
+      "schema": "metadata",
+      "name": "source_publication",
+      "kind": "r",
+      "bytes": 114688
+    },
+    {
+      "schema": "staging",
+      "name": "final_energy_price",
+      "kind": "r",
+      "bytes": 115621888
+    },
+    {
+      "schema": "staging",
+      "name": "generation_daily",
+      "kind": "r",
+      "bytes": 4431872
+    },
+    {
+      "schema": "staging",
+      "name": "network_supply_point",
+      "kind": "r",
+      "bytes": 720896
+    },
+    {
+      "schema": "staging",
+      "name": "reconciled_volume",
+      "kind": "r",
+      "bytes": 2381004800
+    }
+  ],
+  "database_bytes": 6702503603,
+  "load_attempts": [
+    {
+      "filename": "20260910_NetworkSupplyPointsTable.csv",
+      "status": "succeeded",
+      "seconds": "0.483",
+      "error": null
+    },
+    {
+      "filename": "202509_Generation_MD.csv",
+      "status": "succeeded",
+      "seconds": "115.892",
+      "error": null
+    },
+    {
+      "filename": "202604_Generation_MD.csv",
+      "status": "failed",
+      "seconds": null,
+      "error": "canceling statement due to user request\nCONTEXT:  SQL statement \"CREATE TEMP TABLE load_mapping ON COMMIT DROP AS\n WITH observed AS (\n   SELECT DISTINCT trading_date,trading_period,poc,network FROM load_rows\n ), candidates AS (\n   SELECT i.interval_id,c.connection_id,n.nsp_version_id\n   FROM observed o\n   JOIN core.dim_trading_interval i USING (trading_date,trading_period)\n   JOIN core.dim_connection c USING (poc,network)\n   LEFT JOIN core.dim_nsp_version n ON n.connection_id=c.connection_id\n     AND n.publication_id=snapshot_pid AND n.boundary_status<>'invalid_boundary'\n     AND i.start_utc>=n.valid_from_utc\n     AND (n.boundary_status='valid_open' OR i.start_utc<n.valid_to_utc_exclusive)\n )\n SELECT interval_id,connection_id,\n   CASE WHEN count(nsp_version_id)=1 THEN min(nsp_version_id) END AS nsp_version_id,\n   CASE count(nsp_version_id) WHEN 0 THEN 'unmapped' WHEN 1 THEN 'mapped' ELSE 'ambiguous' END AS mapping_status\n FROM candidates GROUP BY interval_id,connection_id\"\nPL/pgSQL function core.prepare_load_mapping(bigint) line 6 at SQL statement\nSQL statement \"SELECT core.prepare_load_mapping(snapshot_pid)\"\nPL/pgSQL function core.load_generation(bigint,bigint) line 75 at PERFORM"
+    },
+    {
+      "filename": "202604_Generation_MD.csv",
+      "status": "succeeded",
+      "seconds": "10.452",
+      "error": null
+    },
+    {
+      "filename": "202608_Generation_MD.csv",
+      "status": "succeeded",
+      "seconds": "18.604",
+      "error": null
+    },
+    {
+      "filename": "202509_FinalEnergyPrices.csv",
+      "status": "succeeded",
+      "seconds": "14.615",
+      "error": null
+    },
+    {
+      "filename": "202604_FinalEnergyPrices.csv",
+      "status": "succeeded",
+      "seconds": "14.563",
+      "error": null
+    },
+    {
+      "filename": "202608_FinalEnergyPrices.csv",
+      "status": "succeeded",
+      "seconds": "15.058",
+      "error": null
+    },
+    {
+      "filename": "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz",
+      "status": "succeeded",
+      "seconds": "515.072",
+      "error": null
+    },
+    {
+      "filename": "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz",
+      "status": "succeeded",
+      "seconds": "507.913",
+      "error": null
+    },
+    {
+      "filename": "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz",
+      "status": "succeeded",
+      "seconds": "634.962",
+      "error": null
+    }
+  ],
+  "publication_status": [
+    {
+      "source": "generation",
+      "status": "loaded",
+      "count": 3
+    },
+    {
+      "source": "nsp",
+      "status": "loaded",
+      "count": 1
+    },
+    {
+      "source": "prices",
+      "status": "loaded",
+      "count": 3
+    },
+    {
+      "source": "reconciliation",
+      "status": "loaded",
+      "count": 3
+    }
+  ],
+  "elapsed_seconds": 53.041
+}

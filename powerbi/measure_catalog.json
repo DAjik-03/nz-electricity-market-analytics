@@ -1,0 +1,474 @@
+[
+  {
+    "name": "Weighted Wholesale Price",
+    "expression": "DIVIDE(SUM(FactNational[price_numerator]), SUM(FactNational[priced_offtake_kwh]))",
+    "display_folder": "Price\\National",
+    "format_string": "#,0.00",
+    "description": "NZD/MWh; ratio of sums, never average weighted prices.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "P95 Price",
+    "expression": "IF(COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])))>0, PERCENTILEX.INC(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])), FactNational[weighted_price], 0.95))",
+    "display_folder": "Price\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Price Volatility",
+    "expression": "VAR N=COUNTROWS(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price]))) RETURN IF(N=1,0,IF(N>1,STDEVX.P(FILTER(FactNational, NOT ISBLANK(FactNational[weighted_price])),FactNational[weighted_price])))",
+    "display_folder": "Price\\National",
+    "format_string": "#,0.00",
+    "description": "Population SD of half-hour weighted prices; blanks excluded; one observation = 0.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Total Demand GWh",
+    "expression": "DIVIDE(SUM(FactNational[offtake_kwh]),1000000)",
+    "display_folder": "Demand\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Listed Generation GWh",
+    "expression": "DIVIDE(SUM(FactNational[generation_kwh]),1000000)",
+    "display_folder": "Generation\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Renewable GWh",
+    "expression": "DIVIDE(SUM(FactNational[renewable_kwh]),1000000)",
+    "display_folder": "Generation\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Fossil Thermal GWh",
+    "expression": "DIVIDE(SUM(FactNational[fossil_kwh]),1000000)",
+    "display_folder": "Generation\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Storage GWh",
+    "expression": "DIVIDE(SUM(FactNational[storage_kwh]),1000000)",
+    "display_folder": "Generation\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Unclassified GWh",
+    "expression": "DIVIDE(SUM(FactNational[unclassified_kwh]),1000000)",
+    "display_folder": "Generation\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Peak Demand MW",
+    "expression": "MAX(FactNational[demand_mw])",
+    "display_folder": "Demand\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Mean Demand MW",
+    "expression": "AVERAGE(FactNational[demand_mw])",
+    "display_folder": "Demand\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Renewable Primary Share",
+    "expression": "DIVIDE(SUM(FactNational[renewable_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))",
+    "display_folder": "Generation\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Fossil Thermal Share",
+    "expression": "DIVIDE(SUM(FactNational[fossil_kwh]),SUM(FactNational[renewable_kwh])+SUM(FactNational[fossil_kwh]))",
+    "display_folder": "Generation\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Classification Coverage",
+    "expression": "DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[unclassified_kwh]),SUM(FactNational[generation_kwh]))",
+    "display_folder": "Coverage and Data Quality\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Offtake Zone Coverage",
+    "expression": "DIVIDE(SUM(FactNational[known_zone_offtake_kwh]),SUM(FactNational[offtake_kwh]))",
+    "display_folder": "Coverage and Data Quality\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Generation Zone Coverage",
+    "expression": "DIVIDE(SUM(FactNational[known_zone_generation_kwh]),SUM(FactNational[generation_kwh]))",
+    "display_folder": "Coverage and Data Quality\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Priced Offtake Coverage",
+    "expression": "DIVIDE(SUM(FactNational[priced_offtake_kwh]),SUM(FactNational[offtake_kwh]))",
+    "display_folder": "Coverage and Data Quality\\National",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Flagged Half-hours",
+    "expression": "IF(COUNTROWS(FactNational)>0,COALESCE(COUNTROWS(FILTER(FactNational,FactNational[is_price_pressure]=TRUE())),0))",
+    "display_folder": "Price Pressure\\National",
+    "format_string": "#,0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Pressure Hours",
+    "expression": "0.5*[Flagged Half-hours]",
+    "display_folder": "Price Pressure\\National",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Weighted Wholesale Price",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[price_numerator]), SUM(FactZone[priced_offtake_kwh])))",
+    "display_folder": "Price\\Zone",
+    "format_string": "#,0.00",
+    "description": "NZD/MWh; ratio of sums, never average weighted prices.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Total Demand GWh",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[offtake_kwh]),1000000))",
+    "display_folder": "Demand\\Zone",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Peak Demand MW",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), MAX(FactZone[demand_mw]))",
+    "display_folder": "Demand\\Zone",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Priced Offtake Coverage",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), DIVIDE(SUM(FactZone[priced_offtake_kwh]),SUM(FactZone[offtake_kwh])))",
+    "display_folder": "Coverage and Data Quality\\Zone",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Flagged Half-hours",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), IF(NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FactZone)>0,COALESCE(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE())),0))))",
+    "display_folder": "Price Pressure\\Zone",
+    "format_string": "#,0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Pressure Hours",
+    "expression": "IF(HASONEVALUE(DimZone[zone]), 0.5*[Zone Flagged Half-hours])",
+    "display_folder": "Price Pressure\\Zone",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Full-period P99 threshold",
+    "expression": "CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]=\"National\")",
+    "display_folder": "Price Pressure",
+    "format_string": "#,0.00",
+    "description": "Full release; disconnected from Date. Not an official scarcity threshold.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Full-period P99 threshold",
+    "expression": "VAR Z=SELECTEDVALUE(DimZone[zone]) RETURN IF(HASONEVALUE(DimZone[zone]),CALCULATE(MAX(Threshold[p99_price]),REMOVEFILTERS(Threshold),Threshold[scope]=\"Zone\",Threshold[zone]=Z))",
+    "display_folder": "Price Pressure",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Regional Spread",
+    "expression": "AVERAGE(FactNational[regional_price_spread])",
+    "display_folder": "Regional",
+    "format_string": "#,0.00",
+    "description": "Mean of complete five-known-Zone half-hour ranges; date filter only.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Spread Eligible Half-hours",
+    "expression": "COUNT(FactNational[regional_price_spread])",
+    "display_folder": "Regional",
+    "format_string": "#,0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Any-Zone Flagged Half-hours",
+    "expression": "COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zones_flagged]>0))",
+    "display_folder": "Price Pressure",
+    "format_string": "#,0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Simultaneous Zones",
+    "expression": "MAX(RegionalSignal[zones_flagged])",
+    "display_folder": "Regional",
+    "format_string": "0",
+    "description": "Use at interval grain; at higher grain means maximum simultaneous count.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone-only Half-hours",
+    "expression": "COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zone_only]=TRUE()))",
+    "display_folder": "Regional",
+    "format_string": "#,0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Cross-regional Episodes",
+    "expression": "COUNTROWS(FILTER(VALUES(RegionalSignal[episode_id]),NOT ISBLANK(RegionalSignal[episode_id])))",
+    "display_folder": "Regional",
+    "format_string": "#,0",
+    "description": "Episodes intersecting selection; assigned on full release; non-additive across dates.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Pressure Events",
+    "expression": "COALESCE(CALCULATE(COUNTROWS(Events),REMOVEFILTERS(Events),Events[scope]=\"National\",TREATAS(VALUES(DimDate[Date]),Events[start_date])),0)",
+    "display_folder": "Price Pressure",
+    "format_string": "#,0",
+    "description": "National events starting on selected dates; not all scoped records.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Duration",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[duration_hours]))",
+    "display_folder": "Event Investigation",
+    "format_string": "0.0",
+    "description": "Full selected scoped event, ignoring global Date.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Peak Event Price",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[peak_weighted_price]))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "Full selected scoped event, ignoring global Date.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Weighted Price",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[weighted_price]))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "Full selected scoped event, ignoring global Date.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Mean Demand MW",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_demand_mw]))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "Full selected scoped event, ignoring global Date.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Regional Spread",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[average_regional_spread]))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "Full selected scoped event, ignoring global Date.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Selection Status",
+    "expression": "IF(HASONEVALUE(Events[event_id]),SELECTEDVALUE(Events[scope]) & \" / \" & SELECTEDVALUE(Events[zone]),\"Select one event\")",
+    "display_folder": "Event Investigation",
+    "format_string": "",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Demand MW",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Mean Demand MW],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Weighted Price",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Weighted Wholesale Price],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Renewable Share",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Renewable Primary Share],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "0.00%",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Classification Coverage",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Classification Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "0.00%",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Offtake Coverage",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Offtake Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "0.00%",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event National Generation Coverage",
+    "expression": "VAR IDs=CALCULATETABLE(VALUES(EventInterval[interval_id])) RETURN IF(HASONEVALUE(Events[event_id]),CALCULATE([Generation Zone Coverage],REMOVEFILTERS(DimDate),REMOVEFILTERS(DimInterval),TREATAS(IDs,DimInterval[interval_id])))",
+    "display_folder": "Event Investigation",
+    "format_string": "0.00%",
+    "description": "National context, even for a regional event.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Interval Visible",
+    "expression": "VAR I=SELECTEDVALUE(DimInterval[interval_id]) VAR IDs=VALUES(EventInterval[interval_id]) RETURN IF(HASONEVALUE(Events[event_id]) && I IN IDs,1,0)",
+    "display_folder": "Event Investigation",
+    "format_string": "0",
+    "description": "Apply visual filter =1 on interval heatmap; no global date on event page.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Zone Pressure Flag",
+    "expression": "IF(HASONEVALUE(DimZone[zone]) && HASONEVALUE(DimInterval[interval_id]) && NOT ISBLANK([Zone Full-period P99 threshold]),IF(COUNTROWS(FILTER(FactZone,FactZone[is_price_pressure]=TRUE()))>0,1,0))",
+    "display_folder": "Event Investigation",
+    "format_string": "0",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Source Geography Coverage",
+    "expression": "IF(HASONEVALUE(SourceQuality[source_name]),DIVIDE(SUM(SourceQuality[known_value]),SUM(SourceQuality[total_value])))",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "0.0000%",
+    "description": "Never pool sources with different denominators.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Unknown Source Quantity",
+    "expression": "IF(HASONEVALUE(SourceQuality[source_name]),SUM(SourceQuality[unknown_value]))",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "#,0.00",
+    "description": "Unit comes from denominator_unit; rows and kWh never added.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "DQ PASS",
+    "expression": "COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]=\"PASS\"),0)",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "0",
+    "description": "Full retained run; no composite score.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "DQ WARN",
+    "expression": "COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]=\"WARN\"),0)",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "0",
+    "description": "Full retained run; no composite score.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "DQ FAIL",
+    "expression": "COALESCE(CALCULATE(COUNTROWS(DQResults),REMOVEFILTERS(DQResults),DQResults[result_status]=\"FAIL\"),0)",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "0",
+    "description": "Full retained run; no composite score.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Release Pressure Mean MW",
+    "expression": "MAX(DemandBenchmark[pressure_mean_mw])",
+    "display_folder": "Demand",
+    "format_string": "#,0.00",
+    "description": "Full-release month/hour standardisation, not affected by dates; descriptive, not causal.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Release Matched Comparator MW",
+    "expression": "MAX(DemandBenchmark[matched_control_mean_mw])",
+    "display_folder": "Demand",
+    "format_string": "#,0.00",
+    "description": "Full-release month/hour standardisation, not affected by dates; descriptive, not causal.",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Release Matched Difference Pct",
+    "expression": "DIVIDE(MAX(DemandBenchmark[difference_pct]),100)",
+    "display_folder": "Demand",
+    "format_string": "0.00%",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Unknown Offtake GWh",
+    "expression": "DIVIDE(SUM(FactNational[offtake_kwh])-SUM(FactNational[known_zone_offtake_kwh]),1000000)",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Unknown Generation GWh",
+    "expression": "DIVIDE(SUM(FactNational[generation_kwh])-SUM(FactNational[known_zone_generation_kwh]),1000000)",
+    "display_folder": "Coverage and Data Quality",
+    "format_string": "#,0.00",
+    "description": "",
+    "home_table": "FactNational"
+  },
+  {
+    "name": "Event Interval Price",
+    "expression": "VAR S=SELECTEDVALUE(Events[scope]) VAR Z=SELECTEDVALUE(Events[zone]) RETURN IF(HASONEVALUE(Events[event_id]) && [Event Interval Visible]=1,IF(S=\"National\",[Weighted Wholesale Price],CALCULATE([Zone Weighted Wholesale Price],REMOVEFILTERS(DimZone),TREATAS({Z},DimZone[zone]))))",
+    "display_folder": "Event Investigation",
+    "format_string": "#,0.00",
+    "description": "Scoped event interval price; use UTC interval axis and Event Interval Visible=1.",
+    "home_table": "FactNational"
+  }
+]

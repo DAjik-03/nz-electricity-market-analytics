@@ -1,0 +1,32 @@
+relationship 591e8e1f-9bcf-57c6-88a5-04153f087878
+	fromColumn: DimInterval.trading_date
+	toColumn: DimDate.Date
+
+relationship f332479d-99f9-527f-87b1-8c38e8ff2848
+	fromColumn: FactNational.interval_id
+	toColumn: DimInterval.interval_id
+
+relationship 256d3e14-f6c7-5b2a-9747-db0542b774ec
+	fromColumn: FactZone.interval_id
+	toColumn: DimInterval.interval_id
+
+relationship 4cb9d381-1057-5c0d-8cc5-84922fb7fcb3
+	fromColumn: FactZone.zone
+	toColumn: DimZone.zone
+
+relationship 69faed06-59ca-5688-968b-602c4914977a
+	fromColumn: RegionalSignal.interval_id
+	toColumn: DimInterval.interval_id
+
+relationship 6a4a9f74-0e8c-564d-abcf-acf96ef96ecb
+	fromColumn: EventInterval.event_id
+	toColumn: Events.event_id
+
+relationship 411bca76-d924-59dc-a105-4ad8725bd63c
+	fromColumn: CaseContext.event_id
+	toColumn: Events.event_id
+
+relationship 7c33dfcf-8276-592e-aea5-09f32907fe84
+	fromColumn: SourceQuality.source_month
+	toColumn: DimMonth.MonthStart
+

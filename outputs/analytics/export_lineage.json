@@ -1,0 +1,519 @@
+{
+  "status": "COMPLETED",
+  "dq_run_id": 5,
+  "dq_status": "COMPLETED",
+  "is_current": true,
+  "refresh_id": 38,
+  "started_at": "2026-10-01T03:57:56.219273+00:00",
+  "code_sha256": "098456ae9beb8ba51882edf3eb5a63ffcc56d21a2da2df27cbad802c3c625e03",
+  "completed_at": "2026-10-01T03:59:28.616564+00:00",
+  "dq_as_of_date": "2026-10-01",
+  "error_message": null,
+  "input_manifest": {
+    "migrations": [
+      {
+        "path": "sql/00_database/001_metadata.sql",
+        "sha256": "3eb66716ba3f642a66c6141a083b1be1a926a09682df38eabdd1fdd574bf8a20"
+      },
+      {
+        "path": "sql/00_database/003_source_packaging.sql",
+        "sha256": "5233e515c7d1978b406c38c244de875256c2c431fcc7c3a70a5612246205cfe8"
+      },
+      {
+        "path": "sql/01_staging/001_sources.sql",
+        "sha256": "e16b18a9f35959f9dc5b80310c0a5c07d72c38752e008ac31d0de6d0ea148b39"
+      },
+      {
+        "path": "sql/02_dimensions/001_dimensions.sql",
+        "sha256": "88f7100258d138ceb5d635d29a855070c2e48148f3b619624a4b943c7ace7345"
+      },
+      {
+        "path": "sql/02_dimensions/002_calendar.sql",
+        "sha256": "b3a3308eb845eedaefc38e783a05f3b9d20cecd4902a7215c92fe2803b67f66b"
+      },
+      {
+        "path": "sql/02_dimensions/003_load_nsp.sql",
+        "sha256": "bd209b87ac9ffcf6c4d2eeb6c4780ecc3dd7909e6d1b60a7c6bfcc84d78d4d97"
+      },
+      {
+        "path": "sql/03_facts/001_facts.sql",
+        "sha256": "1ebbdb51aa59b3f339663f8ab3307af0cdcb5f7157f60e882a4d743515eae2cb"
+      },
+      {
+        "path": "sql/03_facts/002_load_price.sql",
+        "sha256": "ee3571de41b6f7410f05e8b6b46fc33b5c492cae4461b3a293797a6f14b4c2be"
+      },
+      {
+        "path": "sql/03_facts/003_mapping.sql",
+        "sha256": "d4d20066394f49c5e998ceb39d15213e7dfc18a2e83963f2f05cc9cda850d48f"
+      },
+      {
+        "path": "sql/03_facts/004_load_volume.sql",
+        "sha256": "2d1a77cc15087e4ae54d7e5f200257a724da05f102d66c33bc67df9ce33428c3"
+      },
+      {
+        "path": "sql/03_facts/005_load_generation.sql",
+        "sha256": "6da9da51e41c6551e8d4618788e176eafe95684759880cde35665f33a840bd6e"
+      },
+      {
+        "path": "sql/03_facts/006_mapping_plan.sql",
+        "sha256": "a0b765497f95be303394213ffe4ee62813dc9b57da8cca661608250b5969404f"
+      },
+      {
+        "path": "sql/04_marts/001_foundation.sql",
+        "sha256": "23515159e00236b2890918614ede5af70841438f821c0aa2e77c19c669a3c8c7"
+      },
+      {
+        "path": "sql/04_marts/002_products.sql",
+        "sha256": "6468709a0252d6c352d404389a9511d19e19d766d94535a4735e2fc35cd833e0"
+      },
+      {
+        "path": "sql/04_marts/003_quality_context.sql",
+        "sha256": "521e8d9408094b7a3450fbdedfb76e1839933d28c4d266a638e650d7a384cba8"
+      },
+      {
+        "path": "sql/04_marts/004_continuous_release.sql",
+        "sha256": "faeaaae992a364acffa24cab59ebf9c8d33116ac20cf97f936ffdd9102fca65c"
+      },
+      {
+        "path": "sql/06_data_quality/001_framework.sql",
+        "sha256": "ab9f1981c00d1d6fc2267a56571b208a42acce72f7252a504a6b13c065f5ebcd"
+      },
+      {
+        "path": "sql/06_data_quality/002_profiles.sql",
+        "sha256": "ea30b102d0abdfacd0481c12e33dc98311363bd078ab85d2c31bd3de651c33a2"
+      },
+      {
+        "path": "sql/06_data_quality/003_baseline.sql",
+        "sha256": "3dc7e901e5490cc4c7afbaddd573a9183a434d691d642043ca045d2dca93c8b6"
+      },
+      {
+        "path": "sql/06_data_quality/004_rules.sql",
+        "sha256": "5717cce5863f81772193bfdb22ac212d889c136358ea979f3014eeec108a0ebe"
+      },
+      {
+        "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+        "sha256": "f80960f758e680e4dd75031e8fcc3f8934e2e4defa6ebdf6ce7e5244fe9eb06a"
+      },
+      {
+        "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+        "sha256": "885bb0b348d9d192b04dc7cf87ef24824f144aa018e8dbe3ae77ef855e511f3d"
+      },
+      {
+        "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+        "sha256": "e9a419b5f7d0f1e02c46bf92d851022585ac847508a849978cf42a1b5c826c51"
+      },
+      {
+        "path": "sql/06_data_quality/008_historical_release_scope.sql",
+        "sha256": "7b68df4c90b519d96e0a1d8e83546f2d4e0b8060ff99d0358d2f35052fcd364b"
+      }
+    ],
+    "selections": [
+      {
+        "month": "2025-09-01",
+        "sha256": "4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+        "source": "generation",
+        "publication": 2
+      },
+      {
+        "month": "2025-10-01",
+        "sha256": "81fdc21f3e9e8606f732f8414d81505d158931af56e7f175b3f5619a2a523a44",
+        "source": "generation",
+        "publication": 101
+      },
+      {
+        "month": "2025-11-01",
+        "sha256": "64a0f528e8815577774c7ee21913e69a64f4962b6f769aae07b3cbc2afe52692",
+        "source": "generation",
+        "publication": 104
+      },
+      {
+        "month": "2025-12-01",
+        "sha256": "8b027250f1b349cf90822979b07317d2a346018f218772c82bf1e3f7a69500bb",
+        "source": "generation",
+        "publication": 107
+      },
+      {
+        "month": "2026-01-01",
+        "sha256": "691c3304d4c454dfaef489092db6fb3656be41e381c2dc6b331d029e95615656",
+        "source": "generation",
+        "publication": 110
+      },
+      {
+        "month": "2026-02-01",
+        "sha256": "166a3e1700147480ac8bb0d0d7c9c5e477b3e33cbea79d38d895dbf6b345ab6a",
+        "source": "generation",
+        "publication": 113
+      },
+      {
+        "month": "2026-03-01",
+        "sha256": "0c7016c96ea28a32c614f549ef4228b6ceece003df89cfc3ce611269cb9cece9",
+        "source": "generation",
+        "publication": 135
+      },
+      {
+        "month": "2026-04-01",
+        "sha256": "90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+        "source": "generation",
+        "publication": 3
+      },
+      {
+        "month": "2026-05-01",
+        "sha256": "9b412a3ca5bbaef782b4435bee1c5a8b4126c51b2df8511f9e6ffab6e73ebeb6",
+        "source": "generation",
+        "publication": 163
+      },
+      {
+        "month": "2026-06-01",
+        "sha256": "eeeaf630ba365fd91d1cc57b9af68b6ab65508497f44659611dd006def9e42d8",
+        "source": "generation",
+        "publication": 166
+      },
+      {
+        "month": "2026-07-01",
+        "sha256": "18901932bfe778b1b98c2fd98e51ad52df01749838b4b5c4f1de81eb5b1bd680",
+        "source": "generation",
+        "publication": 169
+      },
+      {
+        "month": "2026-08-01",
+        "sha256": "1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+        "source": "generation",
+        "publication": 7
+      },
+      {
+        "month": "2026-09-01",
+        "sha256": "5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c",
+        "source": "nsp",
+        "publication": 1
+      },
+      {
+        "month": "2025-09-01",
+        "sha256": "73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+        "source": "prices",
+        "publication": 8
+      },
+      {
+        "month": "2025-10-01",
+        "sha256": "3ebab31bc79046878a52a3fa33bbcb3b2b5baf5fe1ea2aaa9996f146c50da787",
+        "source": "prices",
+        "publication": 100
+      },
+      {
+        "month": "2025-11-01",
+        "sha256": "83295a84d9b9d73403650422f4f211bdce5d763b5613760279bdc5dd1667cd3a",
+        "source": "prices",
+        "publication": 103
+      },
+      {
+        "month": "2025-12-01",
+        "sha256": "d1165dd49cfd86d7c2ddc372b4e18eb7bc285f63fd47c9fa0e45c839e1b49142",
+        "source": "prices",
+        "publication": 106
+      },
+      {
+        "month": "2026-01-01",
+        "sha256": "e050a9d4170490e87faf330029b4353092afb7bd498fbe09b6db92fe17e18063",
+        "source": "prices",
+        "publication": 109
+      },
+      {
+        "month": "2026-02-01",
+        "sha256": "83a2f3eda678484ac7b9886cd05cc525e48b491ef64f86b380314e695eecf06c",
+        "source": "prices",
+        "publication": 112
+      },
+      {
+        "month": "2026-03-01",
+        "sha256": "925ec88125f599e9ae63703eab080039a457c63a8c73050bdf022f38b2d21b2a",
+        "source": "prices",
+        "publication": 134
+      },
+      {
+        "month": "2026-04-01",
+        "sha256": "5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+        "source": "prices",
+        "publication": 9
+      },
+      {
+        "month": "2026-05-01",
+        "sha256": "f319402a1ee6959f4b60b9c9cd710fa49cb6f48dc4078e269ddb6a7f5c05d7da",
+        "source": "prices",
+        "publication": 162
+      },
+      {
+        "month": "2026-06-01",
+        "sha256": "813889414ed5bbb683bb00e16bcab8fc4285c2cb7ceb90c995d1f0785ce478d0",
+        "source": "prices",
+        "publication": 165
+      },
+      {
+        "month": "2026-07-01",
+        "sha256": "dd1728b539cd77d8c97679ad61a44f63cecfa92e1c140443c1eaa309f86855e2",
+        "source": "prices",
+        "publication": 168
+      },
+      {
+        "month": "2026-08-01",
+        "sha256": "d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+        "source": "prices",
+        "publication": 10
+      },
+      {
+        "month": "2025-09-01",
+        "sha256": "184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+        "source": "reconciliation",
+        "publication": 11
+      },
+      {
+        "month": "2025-10-01",
+        "sha256": "64d777c6d519e917e09034171135c8c577cb4d3d6eb93a1c506d17e501d8f0d0",
+        "source": "reconciliation",
+        "publication": 102
+      },
+      {
+        "month": "2025-11-01",
+        "sha256": "ac060a1bb1c6bbf04e2272149c2533597f24ea80a5e06d4fde017c8e538dc3cf",
+        "source": "reconciliation",
+        "publication": 105
+      },
+      {
+        "month": "2025-12-01",
+        "sha256": "f065d596c72b3c0190101ec6f9c9b8c72d0aec8a63b9bafb34297a861eb4c975",
+        "source": "reconciliation",
+        "publication": 108
+      },
+      {
+        "month": "2026-01-01",
+        "sha256": "c5ee4042d061a2b12c4040ef60f37ce5c110d17954bc4e0cfb47d26d51fc9976",
+        "source": "reconciliation",
+        "publication": 111
+      },
+      {
+        "month": "2026-02-01",
+        "sha256": "485cbe16074235f481b4be08d3227904629992b79308a6639e1f23fc7a1bd796",
+        "source": "reconciliation",
+        "publication": 114
+      },
+      {
+        "month": "2026-03-01",
+        "sha256": "dc74862d8c1913e615d018a2efce6b92c63c1c26538f20bcf9a57a1fef8692d4",
+        "source": "reconciliation",
+        "publication": 136
+      },
+      {
+        "month": "2026-04-01",
+        "sha256": "4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+        "source": "reconciliation",
+        "publication": 12
+      },
+      {
+        "month": "2026-05-01",
+        "sha256": "35219daad27c3fba90adc0d1a48e500e8ea47dae7c84ca6fd1e26a588c4e601b",
+        "source": "reconciliation",
+        "publication": 164
+      },
+      {
+        "month": "2026-06-01",
+        "sha256": "594e92d973ff5430c41ad77bc930deebdf5f0bc0b1919653b9aeda54697a37df",
+        "source": "reconciliation",
+        "publication": 167
+      },
+      {
+        "month": "2026-07-01",
+        "sha256": "b0fa77b64d5011b567722380b4fce4b008423fbd19b856e0570c06a9f46f8ae7",
+        "source": "reconciliation",
+        "publication": 170
+      },
+      {
+        "month": "2026-08-01",
+        "sha256": "99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+        "source": "reconciliation",
+        "publication": 13
+      }
+    ],
+    "configuration": {
+      "singleton": true,
+      "percentile": 0.99,
+      "pilot_months": [
+        "2025-09-01",
+        "2025-10-01",
+        "2025-11-01",
+        "2025-12-01",
+        "2026-01-01",
+        "2026-02-01",
+        "2026-03-01",
+        "2026-04-01",
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01",
+        "2026-08-01"
+      ],
+      "expected_zones": [
+        "CNI",
+        "LNI",
+        "LSI",
+        "UNI",
+        "USI"
+      ],
+      "classification_version": 1
+    },
+    "classification": [
+      {
+        "fuel_code": "Coal",
+        "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+        "tech_code": "Thrml",
+        "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+        "energy_status": "Fossil",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Fossil thermal",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Diesel",
+        "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+        "tech_code": "Thrml",
+        "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+        "energy_status": "Fossil",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Fossil thermal",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "ELE",
+        "rationale": "Observed plants are rotohiko and ruak\u0101k\u0101_energy_park; EA identifies both as batteries. Approved storage treatment; charging energy origin is not inferred.",
+        "tech_code": "BAT",
+        "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/eye-on-electricity-battery-performance-in-new-zealand/",
+        "energy_status": "Storage",
+        "review_status": "Reviewed pilot plant evidence",
+        "generation_role": "Storage",
+        "standard_category": "Battery storage",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Gas",
+        "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+        "tech_code": "Cogen",
+        "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+        "energy_status": "Fossil",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Fossil thermal",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Gas",
+        "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+        "tech_code": "Thrml",
+        "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+        "energy_status": "Fossil",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Fossil thermal",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Geo",
+        "rationale": "Legacy Geo/Geothermal correspondence appears in EMI discussion acknowledged by administrator; MBIE classifies geothermal as renewable. No case folding of other codes.",
+        "tech_code": "Geo",
+        "evidence_url": "https://forum.emi.ea.govt.nz/thread/changes-in-tech-codes-for-generation-md-files-causing-automation-errors/",
+        "energy_status": "Renewable",
+        "review_status": "Reviewed legacy descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Geothermal",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "GEO",
+        "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+        "tech_code": "GEO",
+        "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+        "energy_status": "Unclassified",
+        "review_status": "Unresolved code legend",
+        "generation_role": "Unclassified",
+        "standard_category": "Unclassified",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "HYD",
+        "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+        "tech_code": "HYD",
+        "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+        "energy_status": "Unclassified",
+        "review_status": "Unresolved code legend",
+        "generation_role": "Unclassified",
+        "standard_category": "Unclassified",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Hydro",
+        "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+        "tech_code": "Hydro",
+        "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+        "energy_status": "Renewable",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Hydro",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "SOL",
+        "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+        "tech_code": "PV",
+        "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+        "energy_status": "Unclassified",
+        "review_status": "Unresolved code legend",
+        "generation_role": "Unclassified",
+        "standard_category": "Unclassified",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Solar",
+        "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+        "tech_code": "Solar",
+        "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+        "energy_status": "Renewable",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Solar",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "WIN",
+        "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+        "tech_code": "ONW",
+        "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+        "energy_status": "Unclassified",
+        "review_status": "Unresolved code legend",
+        "generation_role": "Unclassified",
+        "standard_category": "Unclassified",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Wind",
+        "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+        "tech_code": "Wind",
+        "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+        "energy_status": "Renewable",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Wind",
+        "classification_version": 1
+      },
+      {
+        "fuel_code": "Wood",
+        "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+        "tech_code": "Cogen",
+        "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+        "energy_status": "Renewable",
+        "review_status": "Reviewed fuel descriptor",
+        "generation_role": "Primary",
+        "standard_category": "Bioenergy",
+        "classification_version": 1
+      }
+    ]
+  },
+  "input_fingerprint": "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6"
+}

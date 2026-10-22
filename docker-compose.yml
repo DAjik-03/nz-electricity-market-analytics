@@ -1,0 +1,20 @@
+name: nz-electricity-pilot
+services:
+  postgres:
+    image: postgres:17.9-bookworm
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-nz_market}
+      POSTGRES_USER: ${POSTGRES_USER:-warehouse_owner}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a local password in .env}
+    ports:
+      - "127.0.0.1:${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    shm_size: 256mb
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+volumes:
+  postgres_data:

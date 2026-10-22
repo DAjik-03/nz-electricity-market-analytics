@@ -1,0 +1,4 @@
+EVALUATE
+CALCULATETABLE(
+ROW("Scoped",[Event Weighted Price],"National",[Event National Weighted Price],"National flagged",VAR IDs=VALUES(EventInterval[interval_id]) RETURN CALCULATE([Flagged Half-hours],TREATAS(IDs,DimInterval[interval_id])),"Fingerprint pass",MAX(Release[input_fingerprint])="b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6"),
+Events[event_id]="Zone:CNI:202603021830")

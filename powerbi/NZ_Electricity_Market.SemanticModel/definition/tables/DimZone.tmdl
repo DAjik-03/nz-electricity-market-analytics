@@ -1,0 +1,16 @@
+table DimZone
+	lineageTag: b3c46bdd-08bd-504b-95be-ec757b71f613
+
+	column zone
+		dataType: string
+		lineageTag: e311f91a-39a8-54c9-9529-e848b290efc4
+		summarizeBy: none
+		sourceColumn: zone
+
+	partition DimZone = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT DISTINCT zone FROM analytics.mart_market_interval_zone", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

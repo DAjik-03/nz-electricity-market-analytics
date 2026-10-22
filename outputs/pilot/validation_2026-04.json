@@ -1,0 +1,1932 @@
+{
+  "prices": {
+    "source_rows": 352931,
+    "schema": {
+      "columns": [
+        "TradingDate",
+        "TradingPeriod",
+        "PointOfConnection",
+        "DollarsPerMegawattHour"
+      ],
+      "missing": [],
+      "added": [],
+      "reordered": false
+    },
+    "calendar": {
+      "expected_intervals": 1442,
+      "observed_intervals": 1442,
+      "missing_intervals": []
+    },
+    "natural_key": {
+      "columns": [
+        "TradingDate",
+        "TradingPeriod",
+        "PointOfConnection"
+      ],
+      "rows": 352931,
+      "duplicates": 0
+    },
+    "node_calendar": {
+      "nodes": 245,
+      "internal_missing_intervals": 0,
+      "partial_month_nodes": [
+        {
+          "PointOfConnection": "WHU1101",
+          "rows": 1083,
+          "first": "2026-04-07T22:30:00+00:00",
+          "last": "2026-04-30T11:30:00+00:00",
+          "internal_missing_intervals": 0
+        }
+      ],
+      "note": "Check continuity between each node first/last observed interval; partial edge activity is reported, not filled."
+    },
+    "measure": {
+      "column": "DollarsPerMegawattHour",
+      "sum": 35699320.6,
+      "min": -2.66,
+      "max": 624.88,
+      "zero_rows": 0,
+      "negative_rows": 2
+    },
+    "dst_days": [
+      {
+        "date": "2026-04-05",
+        "expected_periods": 50,
+        "observed_periods": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 12200,
+        "active_series": 244,
+        "series_with_all_periods": 244,
+        "sparse_series": 0,
+        "actual_rows": [
+          {
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "4",
+            "PointOfConnection": "ABY0111",
+            "DollarsPerMegawattHour": "223.46",
+            "interval_start_utc": "2026-04-04T12:30:00+00:00"
+          },
+          {
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "5",
+            "PointOfConnection": "ABY0111",
+            "DollarsPerMegawattHour": "220.44",
+            "interval_start_utc": "2026-04-04T13:00:00+00:00"
+          },
+          {
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "6",
+            "PointOfConnection": "ABY0111",
+            "DollarsPerMegawattHour": "215.39",
+            "interval_start_utc": "2026-04-04T13:30:00+00:00"
+          },
+          {
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "7",
+            "PointOfConnection": "ABY0111",
+            "DollarsPerMegawattHour": "216.87",
+            "interval_start_utc": "2026-04-04T14:00:00+00:00"
+          },
+          {
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "50",
+            "PointOfConnection": "ABY0111",
+            "DollarsPerMegawattHour": "132.85",
+            "interval_start_utc": "2026-04-05T11:30:00+00:00"
+          }
+        ]
+      }
+    ],
+    "mapping": {
+      "aggregate_rows": 352931,
+      "original_rows": 352931,
+      "rows_without_nsp": 32807,
+      "rows_with_multiple_nsp": 30282,
+      "unknown_zone_rows": 37133,
+      "unknown_zone_row_pct": 10.521320031394238,
+      "unknown_network_region_rows": 45785,
+      "exceptions": [
+        {
+          "PointOfConnection": "ARI1102",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "ASY0111",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "BDE0111",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "BEN2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "BPE2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "BRB0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "CYD0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "DOB0661",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "FKN0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "GLN0332",
+          "observed_intervals": 1442,
+          "min_matches": 3,
+          "max_matches": 3
+        },
+        {
+          "PointOfConnection": "HAM2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HAY1101",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HAY2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HEN2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HEP0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "HWA1101",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "HWB0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "HWB1101",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HWB2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "INV0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "INV2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "INV2202",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "ISL2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "KAW2201",
+          "observed_intervals": 1442,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "KIK2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "MAT1101",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "MDN1101",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "MDN2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "MNI0111",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "OKN0111",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "OTA2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "PEN0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "RDF2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "STK2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "SWN2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "TKU0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "TMU1101",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "TRK2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "TUI1101",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "TWZ0331",
+          "observed_intervals": 1442,
+          "min_matches": 3,
+          "max_matches": 3
+        },
+        {
+          "PointOfConnection": "WAI0331",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "WHU1101",
+          "observed_intervals": 1083,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "WKM2201",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "WTK0111",
+          "observed_intervals": 1442,
+          "min_matches": 2,
+          "max_matches": 2
+        },
+        {
+          "PointOfConnection": "WTK2201",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        }
+      ]
+    }
+  },
+  "reconciliation": {
+    "source_rows": 5754153,
+    "schema": {
+      "columns": [
+        "PointOfConnection",
+        "Network",
+        "Island",
+        "Participant",
+        "TradingDate",
+        "TradingPeriod",
+        "TradingPeriodStartTime",
+        "FlowDirection",
+        "KilowattHours"
+      ],
+      "missing": [],
+      "added": [],
+      "reordered": false
+    },
+    "calendar": {
+      "expected_intervals": 1442,
+      "observed_intervals": 1442,
+      "missing_intervals": []
+    },
+    "natural_key": {
+      "columns": [
+        "TradingDate",
+        "TradingPeriod",
+        "PointOfConnection",
+        "Network",
+        "Participant",
+        "FlowDirection"
+      ],
+      "rows": 5754153,
+      "duplicates": 0
+    },
+    "measure": {
+      "column": "KilowattHours",
+      "sum": 6766855553.0,
+      "min": 1.0,
+      "max": 324947.0,
+      "zero_rows": 0,
+      "negative_rows": 0
+    },
+    "dst_days": [
+      {
+        "date": "2026-04-05",
+        "expected_periods": 50,
+        "observed_periods": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 197891,
+        "active_series": 5168,
+        "series_with_all_periods": 3203,
+        "sparse_series": 1965,
+        "actual_rows": [
+          {
+            "PointOfConnection": "HTI0331",
+            "Network": "LINE",
+            "Island": "NI",
+            "Participant": "MERX",
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "4",
+            "TradingPeriodStartTime": "01:30",
+            "FlowDirection": "Offtake",
+            "KilowattHours": "748.0",
+            "interval_start_utc": "2026-04-04T12:30:00+00:00"
+          },
+          {
+            "PointOfConnection": "HTI0331",
+            "Network": "LINE",
+            "Island": "NI",
+            "Participant": "MERX",
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "5",
+            "TradingPeriodStartTime": "02:00",
+            "FlowDirection": "Offtake",
+            "KilowattHours": "708.0",
+            "interval_start_utc": "2026-04-04T13:00:00+00:00"
+          },
+          {
+            "PointOfConnection": "HTI0331",
+            "Network": "LINE",
+            "Island": "NI",
+            "Participant": "MERX",
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "6",
+            "TradingPeriodStartTime": "02:30",
+            "FlowDirection": "Offtake",
+            "KilowattHours": "685.0",
+            "interval_start_utc": "2026-04-04T13:30:00+00:00"
+          },
+          {
+            "PointOfConnection": "HTI0331",
+            "Network": "LINE",
+            "Island": "NI",
+            "Participant": "MERX",
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "7",
+            "TradingPeriodStartTime": "02:00",
+            "FlowDirection": "Offtake",
+            "KilowattHours": "669.0",
+            "interval_start_utc": "2026-04-04T14:00:00+00:00"
+          },
+          {
+            "PointOfConnection": "HTI0331",
+            "Network": "LINE",
+            "Island": "NI",
+            "Participant": "MERX",
+            "TradingDate": "2026-04-05",
+            "TradingPeriod": "50",
+            "TradingPeriodStartTime": "23:30",
+            "FlowDirection": "Offtake",
+            "KilowattHours": "871.0",
+            "interval_start_utc": "2026-04-05T11:30:00+00:00"
+          }
+        ]
+      }
+    ],
+    "local_start_time_validation": {
+      "mismatched_rows": 0,
+      "examples": []
+    },
+    "source_sha256": "4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+    "revision_comparisons": [],
+    "observed_distinct_content_versions": 1,
+    "flows": [
+      {
+        "FlowDirection": "Offtake",
+        "size": 4620341,
+        "sum": 3327926042.0
+      },
+      {
+        "FlowDirection": "Injection",
+        "size": 1133812,
+        "sum": 3438929511.0
+      }
+    ],
+    "mapping": {
+      "aggregate_rows": 525922,
+      "original_rows": 5754153,
+      "rows_without_nsp": 0,
+      "rows_with_multiple_nsp": 0,
+      "unknown_zone_rows": 23040,
+      "unknown_zone_row_pct": 0.40040645426007965,
+      "unknown_network_region_rows": 23040,
+      "total_kwh": 6766855553.0,
+      "unknown_zone_kwh": 47621915.0,
+      "unknown_zone_energy_pct": 0.7037524981435052,
+      "by_flow": [
+        {
+          "flow": "Offtake",
+          "total_kwh": 3327926042.0,
+          "unknown_zone_kwh": 4274985.0,
+          "unknown_zone_energy_pct": 0.12845793284008322,
+          "original_rows": 4620341,
+          "unknown_zone_rows": 19701
+        },
+        {
+          "flow": "Injection",
+          "total_kwh": 3438929511.0,
+          "unknown_zone_kwh": 43346930.0,
+          "unknown_zone_energy_pct": 1.2604774207016307,
+          "original_rows": 1133812,
+          "unknown_zone_rows": 3339
+        }
+      ],
+      "flow_flag_disagreement_matches": 75682,
+      "flow_flag_disagreement_kwh": 35760310.0,
+      "flow_flag_disagreement_note": "Diagnostic only; I/X flags are not used to delete or reclassify measured flows. Energy may duplicate if mappings are ambiguous.",
+      "flow_flag_examples": [
+        {
+          "PointOfConnection": "TAK0331",
+          "Network": "VECT",
+          "FlowDirection": "Injection",
+          "KilowattHours": 4910634.0
+        },
+        {
+          "PointOfConnection": "BOB1101",
+          "Network": "COUP",
+          "FlowDirection": "Injection",
+          "KilowattHours": 4593622.0
+        },
+        {
+          "PointOfConnection": "BLN0331",
+          "Network": "MARL",
+          "FlowDirection": "Injection",
+          "KilowattHours": 4148669.0
+        },
+        {
+          "PointOfConnection": "RDF0331",
+          "Network": "HAWK",
+          "FlowDirection": "Injection",
+          "KilowattHours": 2207234.0
+        },
+        {
+          "PointOfConnection": "INV0331",
+          "Network": "TPCO",
+          "FlowDirection": "Injection",
+          "KilowattHours": 2148087.0
+        },
+        {
+          "PointOfConnection": "CST0331",
+          "Network": "POCO",
+          "FlowDirection": "Injection",
+          "KilowattHours": 2049010.0
+        },
+        {
+          "PointOfConnection": "HAY0331",
+          "Network": "CKHK",
+          "FlowDirection": "Injection",
+          "KilowattHours": 1395993.0
+        },
+        {
+          "PointOfConnection": "WKO0331",
+          "Network": "POCO",
+          "FlowDirection": "Injection",
+          "KilowattHours": 1389503.0
+        },
+        {
+          "PointOfConnection": "ROT0331",
+          "Network": "HAWK",
+          "FlowDirection": "Injection",
+          "KilowattHours": 1386127.0
+        },
+        {
+          "PointOfConnection": "FKN0331",
+          "Network": "DUNE",
+          "FlowDirection": "Injection",
+          "KilowattHours": 1288040.0
+        }
+      ],
+      "exceptions": [
+        {
+          "PointOfConnection": "GLN0332",
+          "Network": "CTCT",
+          "FlowDirection": "Offtake",
+          "observed_intervals": 1329,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "GLN0332",
+          "Network": "CTCT",
+          "FlowDirection": "Injection",
+          "observed_intervals": 597,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "WAI0331",
+          "Network": "HEDL",
+          "FlowDirection": "Offtake",
+          "observed_intervals": 1410,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "WAI0331",
+          "Network": "HEDL",
+          "FlowDirection": "Injection",
+          "observed_intervals": 517,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "KAW2201",
+          "Network": "TAOM",
+          "FlowDirection": "Offtake",
+          "observed_intervals": 157,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "KAW2201",
+          "Network": "TAOM",
+          "FlowDirection": "Injection",
+          "observed_intervals": 1256,
+          "min_matches": 1,
+          "max_matches": 1
+        }
+      ]
+    },
+    "direct_price_coverage": {
+      "rows": 525922,
+      "unmatched_rows": 0,
+      "unmatched_kwh": 0.0,
+      "unmatched_pocs": []
+    }
+  },
+  "generation": {
+    "source_rows": 2832,
+    "schema": {
+      "columns": [
+        "Site_Code",
+        "POC_Code",
+        "Nwk_Code",
+        "Gen_Code",
+        "Fuel_Code",
+        "Tech_Code",
+        "Trading_Date",
+        "TP1",
+        "TP2",
+        "TP3",
+        "TP4",
+        "TP5",
+        "TP6",
+        "TP7",
+        "TP8",
+        "TP9",
+        "TP10",
+        "TP11",
+        "TP12",
+        "TP13",
+        "TP14",
+        "TP15",
+        "TP16",
+        "TP17",
+        "TP18",
+        "TP19",
+        "TP20",
+        "TP21",
+        "TP22",
+        "TP23",
+        "TP24",
+        "TP25",
+        "TP26",
+        "TP27",
+        "TP28",
+        "TP29",
+        "TP30",
+        "TP31",
+        "TP32",
+        "TP33",
+        "TP34",
+        "TP35",
+        "TP36",
+        "TP37",
+        "TP38",
+        "TP39",
+        "TP40",
+        "TP41",
+        "TP42",
+        "TP43",
+        "TP44",
+        "TP45",
+        "TP46",
+        "TP47",
+        "TP48",
+        "TP49",
+        "TP50"
+      ],
+      "missing": [],
+      "added": [],
+      "reordered": false
+    },
+    "structural_padding_cells": 5476,
+    "valid_interval_null_cells": 0,
+    "series_days": {
+      "series": 96,
+      "short_series": 3,
+      "details": [
+        {
+          "Gen_Code": "Harapaki",
+          "POC_Code": "HRP2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "KaiweraDowns",
+          "POC_Code": "GOR0331",
+          "Nwk_Code": "TPCO",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Kohira",
+          "POC_Code": "KOE1101",
+          "Nwk_Code": "TOPE",
+          "Fuel_Code": "Solar",
+          "Tech_Code": "Solar",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Lauriston",
+          "POC_Code": "ASB0661",
+          "Nwk_Code": "EASH",
+          "Fuel_Code": "Solar",
+          "Tech_Code": "Solar",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "McKee",
+          "POC_Code": "MKE1101",
+          "Nwk_Code": "TODD",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Thrml",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Ngatamariki",
+          "POC_Code": "NAP2202",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Pukenui",
+          "POC_Code": "KOE1101",
+          "Nwk_Code": "TOPE",
+          "Fuel_Code": "Solar",
+          "Tech_Code": "Solar",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Rangitaiki",
+          "POC_Code": "EDG0331",
+          "Nwk_Code": "HEDL",
+          "Fuel_Code": "Solar",
+          "Tech_Code": "Solar",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Tauhara",
+          "POC_Code": "TAB2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "Waipori",
+          "POC_Code": "HWB0331",
+          "Nwk_Code": "DUNE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "aniwhenua",
+          "POC_Code": "MAT1101",
+          "Nwk_Code": "BOPD",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "arapuni",
+          "POC_Code": "ARI1101",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "arapuni",
+          "POC_Code": "ARI1102",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "arapuni",
+          "POC_Code": "ARI1102",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "aratiatia",
+          "POC_Code": "ARA2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "argyle_wairau",
+          "POC_Code": "ARG1101",
+          "Nwk_Code": "CNIR",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "atiamuri",
+          "POC_Code": "ATI2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "aviemore",
+          "POC_Code": "AVI2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "benmore",
+          "POC_Code": "BEN2202",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "clyde",
+          "POC_Code": "CYD2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "cobb",
+          "POC_Code": "STK0661",
+          "Nwk_Code": "TASM",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "coleridge",
+          "POC_Code": "COL0661",
+          "Nwk_Code": "CNIR",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "glenbrook_kilns",
+          "POC_Code": "GLN0332",
+          "Nwk_Code": "NZST",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Cogen",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "highbank",
+          "POC_Code": "ASB0661",
+          "Nwk_Code": "EASH",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 29
+        },
+        {
+          "Gen_Code": "huntly_1_4",
+          "POC_Code": "HLY2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Coal",
+          "Tech_Code": "Thrml",
+          "observed_days": 7
+        },
+        {
+          "Gen_Code": "huntly_e3p",
+          "POC_Code": "HLY2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Thrml",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "huntly_p40",
+          "POC_Code": "HLY2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Thrml",
+          "observed_days": 6
+        },
+        {
+          "Gen_Code": "junctionroad",
+          "POC_Code": "JRD1101",
+          "Nwk_Code": "TODD",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Thrml",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kaimai",
+          "POC_Code": "TGA0331",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kaiwera_downs_(stage_2)",
+          "POC_Code": "KIW2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "WIN",
+          "Tech_Code": "ONW",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kapuni",
+          "POC_Code": "KPA1101",
+          "Nwk_Code": "KAPE",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Cogen",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "karapiro",
+          "POC_Code": "KPO1101",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kawerau",
+          "POC_Code": "KAW0111",
+          "Nwk_Code": "HEDL",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kawerau_(topp2)",
+          "POC_Code": "KAW2201",
+          "Nwk_Code": "TAOM",
+          "Fuel_Code": "GEO",
+          "Tech_Code": "GEO",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kawerau_new",
+          "POC_Code": "KAW1101",
+          "Nwk_Code": "KRGL",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "kinleith",
+          "POC_Code": "KIN0112",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "Wood",
+          "Tech_Code": "Cogen",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "manapouri",
+          "POC_Code": "MAN2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "mangahao",
+          "POC_Code": "MHO0331",
+          "Nwk_Code": "ELEC",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "maraetai",
+          "POC_Code": "MTI2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "mill_creek",
+          "POC_Code": "WIL0331",
+          "Nwk_Code": "CKHK",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "mokai",
+          "POC_Code": "WKM2201",
+          "Nwk_Code": "TUAR",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "nap",
+          "POC_Code": "NAP2201",
+          "Nwk_Code": "NAPJ",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ngawha",
+          "POC_Code": "KOE1101",
+          "Nwk_Code": "TOPE",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "norskeskog",
+          "POC_Code": "KAW0112",
+          "Nwk_Code": "CHHE",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ohaaki",
+          "POC_Code": "OKI2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ohakuri",
+          "POC_Code": "OHK2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ohau_a",
+          "POC_Code": "OHA2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ohau_b",
+          "POC_Code": "OHB2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ohau_c",
+          "POC_Code": "OHC2201",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "paerau",
+          "POC_Code": "NSY0331",
+          "Nwk_Code": "OTPO",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "papareireiā_solar_at_maungaturoto",
+          "POC_Code": "MTO0331",
+          "Nwk_Code": "NPOW",
+          "Fuel_Code": "SOL",
+          "Tech_Code": "PV",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "patea",
+          "POC_Code": "HWA1101",
+          "Nwk_Code": "CNIR",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "poihipi",
+          "POC_Code": "PPI2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "pāmu_rā_ki_whitianga_solar_farm",
+          "POC_Code": "KPU0661",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "SOL",
+          "Tech_Code": "PV",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "rangipo",
+          "POC_Code": "RPO2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "roaring_meg",
+          "POC_Code": "CML0331",
+          "Nwk_Code": "DUNE",
+          "Fuel_Code": "HYD",
+          "Tech_Code": "HYD",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "rotohiko",
+          "POC_Code": "HLY0331",
+          "Nwk_Code": "WAIK",
+          "Fuel_Code": "ELE",
+          "Tech_Code": "BAT",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "rotokawa",
+          "POC_Code": "WRK0331",
+          "Nwk_Code": "HAWK",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "roxburgh",
+          "POC_Code": "ROX1101",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "roxburgh",
+          "POC_Code": "ROX2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "POC_Code": "BRB0331",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "ELE",
+          "Tech_Code": "BAT",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "POC_Code": "BRB0331",
+          "Nwk_Code": "NPOW",
+          "Fuel_Code": "ELE",
+          "Tech_Code": "BAT",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "stratford",
+          "POC_Code": "SFD2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Thrml",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_apiti",
+          "POC_Code": "WDV1101",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_herenga_o_te_rā_solar_farm",
+          "POC_Code": "WAI0331",
+          "Nwk_Code": "HEDL",
+          "Fuel_Code": "SOL",
+          "Tech_Code": "PV",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_herenga_o_te_rā_solar_farm",
+          "POC_Code": "WAI0331",
+          "Nwk_Code": "LODE",
+          "Fuel_Code": "SOL",
+          "Tech_Code": "PV",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_huka_3",
+          "POC_Code": "TAB0331",
+          "Nwk_Code": "HAWK",
+          "Fuel_Code": "GEO",
+          "Tech_Code": "GEO",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_mihi",
+          "POC_Code": "THI2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_rere_hau",
+          "POC_Code": "TWC2201",
+          "Nwk_Code": "TRPG",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "te_uku",
+          "POC_Code": "TWH0331",
+          "Nwk_Code": "WAIK",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "tehuka",
+          "POC_Code": "WRK0331",
+          "Nwk_Code": "HAWK",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "tekapo_a",
+          "POC_Code": "TKA0111",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "tekapo_b",
+          "POC_Code": "TKB2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "teviot",
+          "POC_Code": "CYD0331",
+          "Nwk_Code": "DUNE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "tokaanu",
+          "POC_Code": "TKU2201",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "turitea",
+          "POC_Code": "LTN2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "twf_12",
+          "POC_Code": "BPE0331",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "twf_12",
+          "POC_Code": "LTN0331",
+          "Nwk_Code": "POCO",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "twf_3",
+          "POC_Code": "TWC2201",
+          "Nwk_Code": "TRPG",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waikaremoana",
+          "POC_Code": "TUI1101",
+          "Nwk_Code": "EAST",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waikaremoana",
+          "POC_Code": "TUI1101",
+          "Nwk_Code": "GENE",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waipapa",
+          "POC_Code": "WPA2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waipipi",
+          "POC_Code": "WVY1101",
+          "Nwk_Code": "WPWF",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waipori",
+          "POC_Code": "BWK1101",
+          "Nwk_Code": "CNIR",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waipori",
+          "POC_Code": "WPG0331",
+          "Nwk_Code": "TRPG",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "wairakei",
+          "POC_Code": "WRK2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Geo",
+          "Tech_Code": "Geo",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waitaki",
+          "POC_Code": "WTK0111",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "waitaki",
+          "POC_Code": "WTK0111",
+          "Nwk_Code": "WATA",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "west_wind",
+          "POC_Code": "WWD1102",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "west_wind",
+          "POC_Code": "WWD1103",
+          "Nwk_Code": "MERI",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "whakamaru",
+          "POC_Code": "WKM2201",
+          "Nwk_Code": "MRPL",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "whareroa",
+          "POC_Code": "HWA1101",
+          "Nwk_Code": "KIWI",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Cogen",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "whareroa",
+          "POC_Code": "HWA1102",
+          "Nwk_Code": "KIWI",
+          "Fuel_Code": "Gas",
+          "Tech_Code": "Cogen",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "wheao_flaxy",
+          "POC_Code": "ROT1101",
+          "Nwk_Code": "CNIR",
+          "Fuel_Code": "Hydro",
+          "Tech_Code": "Hydro",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "whirinaki",
+          "POC_Code": "WHI2201",
+          "Nwk_Code": "CTCT",
+          "Fuel_Code": "Diesel",
+          "Tech_Code": "Thrml",
+          "observed_days": 30
+        },
+        {
+          "Gen_Code": "white_hill",
+          "POC_Code": "NMA0331",
+          "Nwk_Code": "TPCO",
+          "Fuel_Code": "Wind",
+          "Tech_Code": "Wind",
+          "observed_days": 30
+        }
+      ]
+    },
+    "fuel_codes": [
+      "Coal",
+      "Diesel",
+      "ELE",
+      "GEO",
+      "Gas",
+      "Geo",
+      "HYD",
+      "Hydro",
+      "SOL",
+      "Solar",
+      "WIN",
+      "Wind",
+      "Wood"
+    ],
+    "technology_codes": [
+      "BAT",
+      "Cogen",
+      "GEO",
+      "Geo",
+      "HYD",
+      "Hydro",
+      "ONW",
+      "PV",
+      "Solar",
+      "Thrml",
+      "Wind"
+    ],
+    "fuel_technology_pairs": [
+      {
+        "Fuel_Code": "Coal",
+        "Tech_Code": "Thrml"
+      },
+      {
+        "Fuel_Code": "Diesel",
+        "Tech_Code": "Thrml"
+      },
+      {
+        "Fuel_Code": "ELE",
+        "Tech_Code": "BAT"
+      },
+      {
+        "Fuel_Code": "GEO",
+        "Tech_Code": "GEO"
+      },
+      {
+        "Fuel_Code": "Gas",
+        "Tech_Code": "Cogen"
+      },
+      {
+        "Fuel_Code": "Gas",
+        "Tech_Code": "Thrml"
+      },
+      {
+        "Fuel_Code": "Geo",
+        "Tech_Code": "Geo"
+      },
+      {
+        "Fuel_Code": "HYD",
+        "Tech_Code": "HYD"
+      },
+      {
+        "Fuel_Code": "Hydro",
+        "Tech_Code": "Hydro"
+      },
+      {
+        "Fuel_Code": "SOL",
+        "Tech_Code": "PV"
+      },
+      {
+        "Fuel_Code": "Solar",
+        "Tech_Code": "Solar"
+      },
+      {
+        "Fuel_Code": "WIN",
+        "Tech_Code": "ONW"
+      },
+      {
+        "Fuel_Code": "Wind",
+        "Tech_Code": "Wind"
+      },
+      {
+        "Fuel_Code": "Wood",
+        "Tech_Code": "Cogen"
+      }
+    ],
+    "calendar": {
+      "expected_intervals": 1442,
+      "observed_intervals": 1442,
+      "missing_intervals": []
+    },
+    "natural_key": {
+      "columns": [
+        "TradingDate",
+        "TradingPeriod",
+        "Gen_Code",
+        "PointOfConnection",
+        "Network"
+      ],
+      "rows": 136124,
+      "duplicates": 0
+    },
+    "measure": {
+      "column": "KilowattHours",
+      "sum": 3260315118.0,
+      "min": 0.0,
+      "max": 324947.0,
+      "zero_rows": 35690,
+      "negative_rows": 0
+    },
+    "dst_days": [
+      {
+        "date": "2026-04-05",
+        "expected_periods": 50,
+        "observed_periods": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "rows": 4700,
+        "active_series": 94,
+        "series_with_all_periods": 94,
+        "sparse_series": 0,
+        "actual_rows": [
+          {
+            "Site_Code": "ARA",
+            "PointOfConnection": "ARA2201",
+            "Network": "MRPL",
+            "Gen_Code": "aratiatia",
+            "Fuel_Code": "Hydro",
+            "Tech_Code": "Hydro",
+            "TradingDate": "2026-04-05",
+            "KilowattHours": "12310.0",
+            "TradingPeriod": "4",
+            "interval_start_utc": "2026-04-04T12:30:00+00:00"
+          },
+          {
+            "Site_Code": "ARA",
+            "PointOfConnection": "ARA2201",
+            "Network": "MRPL",
+            "Gen_Code": "aratiatia",
+            "Fuel_Code": "Hydro",
+            "Tech_Code": "Hydro",
+            "TradingDate": "2026-04-05",
+            "KilowattHours": "12310.0",
+            "TradingPeriod": "5",
+            "interval_start_utc": "2026-04-04T13:00:00+00:00"
+          },
+          {
+            "Site_Code": "ARA",
+            "PointOfConnection": "ARA2201",
+            "Network": "MRPL",
+            "Gen_Code": "aratiatia",
+            "Fuel_Code": "Hydro",
+            "Tech_Code": "Hydro",
+            "TradingDate": "2026-04-05",
+            "KilowattHours": "12290.0",
+            "TradingPeriod": "6",
+            "interval_start_utc": "2026-04-04T13:30:00+00:00"
+          },
+          {
+            "Site_Code": "ARA",
+            "PointOfConnection": "ARA2201",
+            "Network": "MRPL",
+            "Gen_Code": "aratiatia",
+            "Fuel_Code": "Hydro",
+            "Tech_Code": "Hydro",
+            "TradingDate": "2026-04-05",
+            "KilowattHours": "12320.0",
+            "TradingPeriod": "7",
+            "interval_start_utc": "2026-04-04T14:00:00+00:00"
+          },
+          {
+            "Site_Code": "ARA",
+            "PointOfConnection": "ARA2201",
+            "Network": "MRPL",
+            "Gen_Code": "aratiatia",
+            "Fuel_Code": "Hydro",
+            "Tech_Code": "Hydro",
+            "TradingDate": "2026-04-05",
+            "KilowattHours": "7880.0",
+            "TradingPeriod": "50",
+            "interval_start_utc": "2026-04-05T11:30:00+00:00"
+          }
+        ]
+      }
+    ],
+    "source_sha256": "90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+    "storage": {
+      "rows": 4326,
+      "kwh": 4243389.0,
+      "classifications": [
+        {
+          "Gen_Code": "ruakākā_energy_park",
+          "Fuel_Code": "ELE",
+          "Tech_Code": "BAT"
+        },
+        {
+          "Gen_Code": "rotohiko",
+          "Fuel_Code": "ELE",
+          "Tech_Code": "BAT"
+        }
+      ],
+      "interpretation": "Retain electricity/battery as storage, not primary renewable generation; no charging or round-trip efficiency inferred."
+    },
+    "mapping": {
+      "aggregate_rows": 136124,
+      "original_rows": 136124,
+      "rows_without_nsp": 2884,
+      "rows_with_multiple_nsp": 0,
+      "unknown_zone_rows": 5768,
+      "unknown_zone_row_pct": 4.237313038112309,
+      "unknown_network_region_rows": 5768,
+      "total_kwh": 3260315118.0,
+      "unknown_zone_kwh": 50608115.0,
+      "unknown_zone_energy_pct": 1.552246122486618,
+      "exceptions": [
+        {
+          "PointOfConnection": "HWA1101",
+          "Network": "KIWI",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "HWA1102",
+          "Network": "KIWI",
+          "observed_intervals": 1442,
+          "min_matches": 0,
+          "max_matches": 0
+        },
+        {
+          "PointOfConnection": "KAW2201",
+          "Network": "TAOM",
+          "observed_intervals": 1442,
+          "min_matches": 1,
+          "max_matches": 1
+        },
+        {
+          "PointOfConnection": "WAI0331",
+          "Network": "HEDL",
+          "observed_intervals": 1442,
+          "min_matches": 1,
+          "max_matches": 1
+        }
+      ]
+    },
+    "direct_price_coverage": {
+      "rows": 136124,
+      "unmatched_rows": 1442,
+      "unmatched_kwh": 9697676.0,
+      "unmatched_pocs": [
+        "WPG0331"
+      ]
+    },
+    "functional_dependencies": {
+      "Gen_Code -> PointOfConnection": 6,
+      "Gen_Code -> Network": 6,
+      "Gen_Code -> Site_Code": 2,
+      "Gen_Code -> Fuel_Code": 0,
+      "Gen_Code -> Tech_Code": 0
+    }
+  },
+  "eligibility": {
+    "file_availability": true,
+    "date_tp_complete": true,
+    "sparse_activity_is_not_file_incompleteness": true,
+    "revision_finality": "not_final: reconciliation is revision-eligible; current observed versions only",
+    "mapping_policy": "Unknown retained and measured; not an eligibility veto",
+    "price_node_continuity": true,
+    "local_time_labels_consistent": true,
+    "eligible_for_versioned_pilot": true
+  }
+}

@@ -1,0 +1,253 @@
+table Events
+	lineageTag: d012ad79-7a3c-5ae6-b039-60741d096d6e
+
+	column event_id
+		dataType: string
+		lineageTag: 2e98ef13-7aca-58b4-9023-c1029fee89a9
+		summarizeBy: none
+		sourceColumn: event_id
+
+	column scope
+		dataType: string
+		lineageTag: a332443e-5b8b-51c4-b724-12ab3215c9a0
+		summarizeBy: none
+		sourceColumn: scope
+
+	column zone
+		dataType: string
+		lineageTag: 3619d9f0-f330-560c-8133-bc980ad9b1d4
+		summarizeBy: none
+		sourceColumn: zone
+
+	column start_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 6a7a937e-54bc-55ab-9350-6cc1e8df51cb
+		summarizeBy: none
+		sourceColumn: start_utc
+
+	column end_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: baeb2e1b-bd35-5dd7-b077-700135c4ce50
+		summarizeBy: none
+		sourceColumn: end_utc
+
+	column local_start
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 6447ab9d-589d-546c-b71a-0648716a54e7
+		summarizeBy: none
+		sourceColumn: local_start
+
+	column local_end
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: c6f04e6e-755a-59b1-831f-2a8fd08f9c76
+		summarizeBy: none
+		sourceColumn: local_end
+
+	column start_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: e93ca0c2-d3eb-5b3e-bf7f-5f7e924e1f6f
+		summarizeBy: none
+		sourceColumn: start_date
+
+	column interval_count
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2a152861-edd6-591d-8cce-e7a7b8371a2d
+		summarizeBy: none
+		sourceColumn: interval_count
+
+	column duration_hours
+		dataType: double
+		isHidden
+		lineageTag: 276e423a-898e-59db-8978-32c9a1cb0fc0
+		summarizeBy: none
+		sourceColumn: duration_hours
+
+	column weighted_price
+		dataType: double
+		isHidden
+		lineageTag: c293d2bb-cede-5133-9452-725857512949
+		summarizeBy: none
+		sourceColumn: weighted_price
+
+	column peak_weighted_price
+		dataType: double
+		isHidden
+		lineageTag: 03519530-8059-5d77-a2ca-a79b38085e7a
+		summarizeBy: none
+		sourceColumn: peak_weighted_price
+
+	column p99_threshold
+		dataType: double
+		isHidden
+		lineageTag: f3593c74-503b-5b83-b4fa-0c6d3a1b8d3a
+		summarizeBy: none
+		sourceColumn: p99_threshold
+
+	column average_demand_mw
+		dataType: double
+		isHidden
+		lineageTag: e14a6730-6275-5079-b09c-528b301e97d6
+		summarizeBy: none
+		sourceColumn: average_demand_mw
+
+	column peak_demand_mw
+		dataType: double
+		isHidden
+		lineageTag: 1d351714-a64d-50de-a768-74e7f82ffbc4
+		summarizeBy: none
+		sourceColumn: peak_demand_mw
+
+	column total_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 1ee99f40-e8d8-537c-88d1-7b7e0cc4a2bf
+		summarizeBy: none
+		sourceColumn: total_offtake_kwh
+
+	column priced_offtake_kwh
+		dataType: double
+		isHidden
+		lineageTag: 699d288e-b616-5ab6-853c-3db9a2e48809
+		summarizeBy: none
+		sourceColumn: priced_offtake_kwh
+
+	column price_numerator
+		dataType: double
+		isHidden
+		lineageTag: 42f0cbb3-d02c-5574-958e-02f5daf3ecaa
+		summarizeBy: none
+		sourceColumn: price_numerator
+
+	column average_regional_spread
+		dataType: double
+		isHidden
+		lineageTag: a4be61c9-59fd-58ad-943c-35d42d8635f2
+		summarizeBy: none
+		sourceColumn: average_regional_spread
+
+	column peak_regional_spread
+		dataType: double
+		isHidden
+		lineageTag: a4613091-5ef3-5a08-85e1-615269756602
+		summarizeBy: none
+		sourceColumn: peak_regional_spread
+
+	column listed_generation_kwh
+		dataType: double
+		isHidden
+		lineageTag: 4468fbea-f7dd-5f2f-94af-29e8f4072f11
+		summarizeBy: none
+		sourceColumn: listed_generation_kwh
+
+	column renewable_kwh
+		dataType: double
+		isHidden
+		lineageTag: 17e76441-4bf3-5119-b729-8ac0176ebf89
+		summarizeBy: none
+		sourceColumn: renewable_kwh
+
+	column fossil_kwh
+		dataType: double
+		isHidden
+		lineageTag: 4f3e9d2c-d72e-5590-8034-635064686b03
+		summarizeBy: none
+		sourceColumn: fossil_kwh
+
+	column storage_kwh
+		dataType: double
+		isHidden
+		lineageTag: 8f0b6b4b-8ccb-5ba4-8819-033acfb8c1f1
+		summarizeBy: none
+		sourceColumn: storage_kwh
+
+	column unclassified_kwh
+		dataType: double
+		isHidden
+		lineageTag: 13a716a1-ccf5-50f3-979e-448e37603fb7
+		summarizeBy: none
+		sourceColumn: unclassified_kwh
+
+	column renewable_primary_share_pct
+		dataType: double
+		isHidden
+		lineageTag: efda8de8-49f1-5204-affa-5e6815404de7
+		summarizeBy: none
+		sourceColumn: renewable_primary_share_pct
+
+	column classification_coverage_pct
+		dataType: double
+		isHidden
+		lineageTag: ddbaed73-6376-5d1e-bcc0-368dfd20bd00
+		summarizeBy: none
+		sourceColumn: classification_coverage_pct
+
+	column price_weighting_coverage_pct
+		dataType: double
+		isHidden
+		lineageTag: baea4c60-5c9c-5061-afdd-6da467b72b30
+		summarizeBy: none
+		sourceColumn: price_weighting_coverage_pct
+
+	column offtake_zone_coverage_pct
+		dataType: double
+		isHidden
+		lineageTag: 855ec897-1810-56fc-970b-abb8ba156adf
+		summarizeBy: none
+		sourceColumn: offtake_zone_coverage_pct
+
+	column generation_zone_coverage_pct
+		dataType: double
+		isHidden
+		lineageTag: fa86df25-5c42-5917-9100-1391d07a5891
+		summarizeBy: none
+		sourceColumn: generation_zone_coverage_pct
+
+	column refresh_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3934d718-1b90-5ba5-a613-4100ac7d6765
+		summarizeBy: none
+		sourceColumn: refresh_id
+
+	column input_fingerprint
+		dataType: string
+		lineageTag: 161a1b15-86db-5e44-b2fe-104e43526933
+		summarizeBy: none
+		sourceColumn: input_fingerprint
+
+	column dq_run_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 10a904f0-3460-5f4b-8c8a-0c32743cead8
+		summarizeBy: none
+		sourceColumn: dq_run_id
+
+	column dq_as_of_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 6c6e5ad4-15a3-5d0d-92f6-0bfd0825491a
+		summarizeBy: none
+		sourceColumn: dq_as_of_date
+
+	column dq_status
+		dataType: string
+		lineageTag: eddd6516-983b-5473-adf4-43fd5d82610d
+		summarizeBy: none
+		sourceColumn: dq_status
+
+	partition Events = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT event_id,scope,zone,start_utc AT TIME ZONE 'UTC' AS start_utc,#(lf) end_utc AT TIME ZONE 'UTC' AS end_utc,local_start,local_end,local_start::date AS start_date,#(lf) interval_count,duration_hours,weighted_price,peak_weighted_price,p99_threshold,#(lf) average_demand_mw,peak_demand_mw,total_offtake_kwh,priced_offtake_kwh,price_numerator,#(lf) average_regional_spread,peak_regional_spread,listed_generation_kwh,#(lf) renewable_kwh,fossil_kwh,storage_kwh,unclassified_kwh,renewable_primary_share_pct,#(lf) classification_coverage_pct,price_weighting_coverage_pct,offtake_zone_coverage_pct,#(lf) generation_zone_coverage_pct,refresh_id,input_fingerprint,dq_run_id,dq_as_of_date,dq_status#(lf)FROM analytics.mart_price_event_context", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

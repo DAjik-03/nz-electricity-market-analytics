@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img">
+<title>Page 4: Price Pressure Investigation — build wireframe</title>
+<rect width="1280" height="800" fill="#F3F6F8"/>
+<rect width="1280" height="6" fill="#12647A"/>
+<text x="28" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="bold" fill="#172B3A">Price Pressure Investigation</text>
+<text x="28" y="66" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172B3A">What happened during this specific scoped event?</text>
+<text x="28" y="92" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" fill="#172B3A">Event end exclusive · full-event metrics · UTC identity, NZ local display</text>
+<text x="1000" y="40" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="bold" fill="#586975">BUILD WIREFRAME</text>
+<rect x="28" y="126" width="1224" height="60" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="148" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.1  Choose one event · E1 E2 E3 E4 E5</text>
+<text x="42" y="167" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Events[event_id]</text>
+<rect x="28" y="202" width="1224" height="104" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="224" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.2  Full scoped event · hours / price / peak / demand</text>
+<text x="42" y="246" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Card group · Events</text>
+<text x="42" y="267" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Event Duration · Event Weighted Price · Peak Event Price · Event Mean Demand MW · Event Regional Spread</text>
+<rect x="28" y="326" width="710" height="182" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="348" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.3  Scoped interval price · NZD/MWh</text>
+<text x="42" y="370" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Line chart · DimInterval; Events; facts</text>
+<text x="42" y="391" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Event Interval Price</text>
+<rect x="758" y="326" width="494" height="182" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="772" y="348" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.4  Zone participation · each Zone’s own P99</text>
+<text x="772" y="370" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Matrix · DimInterval; DimZone; FactZone</text>
+<text x="772" y="391" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Zone Pressure Flag</text>
+<rect x="28" y="528" width="1224" height="94" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="550" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.5  National context across the complete selected event</text>
+<text x="42" y="572" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Card group · FactNational via EventInterval</text>
+<text x="42" y="593" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Event National Demand MW · Event National Weighted Price · Event National Renewable Share · Event National Classification Coverage · Event National Offtake Coverage ·</text>
+<text x="42" y="610" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">Event National Generation Coverage</text>
+<rect x="28" y="642" width="580" height="120" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="42" y="664" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.6  Measured event identity</text>
+<text x="42" y="686" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · Events</text>
+<text x="42" y="707" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">event_id, scope, zone, local_start, local_end, start_utc, end_utc</text>
+<rect x="628" y="642" width="624" height="120" rx="6" fill="white" stroke="#D0DCE3"/>
+<text x="642" y="664" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" fill="#172B3A">P4.7  Electricity Authority context — separately sourced</text>
+<text x="642" y="686" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Table · CaseContext</text>
+<text x="642" y="707" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#12647A">publisher, title, locator, url, supported_context, qualification, review_date</text>
+<text x="28" y="785" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="normal" fill="#586975">Layout specification only · source-backed build inputs · Desktop render/interaction acceptance still required</text>
+</svg>

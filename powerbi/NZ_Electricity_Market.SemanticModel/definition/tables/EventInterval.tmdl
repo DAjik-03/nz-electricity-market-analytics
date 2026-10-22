@@ -1,0 +1,26 @@
+table EventInterval
+	isHidden
+	lineageTag: bc7aa890-ee52-5363-adb4-f754eb938cb6
+
+	column event_id
+		dataType: string
+		isHidden
+		lineageTag: 7e38d1b8-0ce9-5e97-8d17-c14ed7a6b349
+		summarizeBy: none
+		sourceColumn: event_id
+
+	column interval_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f23a1d3d-b9f9-59c3-9f0f-3008e02c3536
+		summarizeBy: none
+		sourceColumn: interval_id
+
+	partition EventInterval = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT e.event_id,i.interval_id#(lf)FROM analytics.mart_price_pressure_event e#(lf)JOIN analytics.mart_market_interval_national i#(lf) ON i.start_utc>=e.start_utc AND i.start_utc<e.end_utc", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

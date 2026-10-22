@@ -1,0 +1,14 @@
+[
+  {
+    "day_type": "Weekday",
+    "all_intervals": 12528,
+    "pressure_intervals": 151,
+    "pressure_rate_pct": "1.20530012771392081737"
+  },
+  {
+    "day_type": "Weekend",
+    "all_intervals": 4992,
+    "pressure_intervals": 25,
+    "pressure_rate_pct": "0.50080128205128205128"
+  }
+]

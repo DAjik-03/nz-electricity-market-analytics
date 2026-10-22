@@ -1,0 +1,38 @@
+[
+  {
+    "population": "National pressure",
+    "intervals": 176,
+    "complete_intervals": 176,
+    "mean_spread": "134.66102315248523439659",
+    "median_spread": 37.74333814291667,
+    "p95_spread": 751.3409646571542,
+    "max_spread": "2795.6486034310682981"
+  },
+  {
+    "population": "No National or Zone pressure",
+    "intervals": 17256,
+    "complete_intervals": 17256,
+    "mean_spread": "12.66293359404808616955",
+    "median_spread": 7.282336620571506,
+    "p95_spread": 41.904958427295526,
+    "max_spread": "230.1132457701989439"
+  },
+  {
+    "population": "No National pressure",
+    "intervals": 17344,
+    "complete_intervals": 17344,
+    "mean_spread": "13.09747046631629990686",
+    "median_spread": 7.376169247040162,
+    "p95_spread": 43.196673587440834,
+    "max_spread": "317.2266127048559133"
+  },
+  {
+    "population": "Zone-only pressure",
+    "intervals": 88,
+    "complete_intervals": 88,
+    "mean_spread": "98.30620078291057548575",
+    "median_spread": 48.836574023642925,
+    "p95_spread": 251.49397633328914,
+    "max_spread": "317.2266127048559133"
+  }
+]

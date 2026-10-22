@@ -1,0 +1,96 @@
+table DimInterval
+	lineageTag: c77dafa0-d555-5f6a-8c03-459c3700b56d
+
+	column interval_id
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 04918e29-1d79-5b7f-a824-768c1fe3f8b7
+		summarizeBy: none
+		sourceColumn: interval_id
+
+	column trading_date
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 05940fa2-d3f4-590f-a5f0-1778e9b3f4bd
+		summarizeBy: none
+		sourceColumn: trading_date
+
+	column trading_period
+		dataType: int64
+		formatString: 0
+		lineageTag: 2926db22-0e90-5445-b897-b7dcefbc116b
+		summarizeBy: none
+		sourceColumn: trading_period
+
+	column start_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 6e3fdbff-c52b-58ca-8865-c133354ee511
+		summarizeBy: none
+		sourceColumn: start_utc
+
+	column end_utc
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 6b3661f0-8db5-5f90-951d-f0dbe7428f0a
+		summarizeBy: none
+		sourceColumn: end_utc
+
+	column local_start
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 6daab6e8-1053-54ba-b736-cb4f3b211814
+		summarizeBy: none
+		sourceColumn: local_start
+
+	column local_end
+		dataType: dateTime
+		formatString: yyyy-MM-dd HH:mm
+		lineageTag: 234cf26b-8a77-558a-8f47-16895572d8b8
+		summarizeBy: none
+		sourceColumn: local_end
+
+	column expected_periods
+		dataType: int64
+		formatString: 0
+		lineageTag: e42c0da3-8983-5d1e-b937-3a012c2245c1
+		summarizeBy: none
+		sourceColumn: expected_periods
+
+	column local_hour
+		dataType: int64
+		formatString: 0
+		lineageTag: 8bd22e5c-08ff-5620-982e-17b71e2a0693
+		summarizeBy: none
+		sourceColumn: local_hour
+
+	column utc_offset_minutes
+		dataType: int64
+		formatString: 0
+		lineageTag: d69740d5-35b4-5c67-9ee2-8884e1d7b15c
+		summarizeBy: none
+		sourceColumn: utc_offset_minutes
+
+	column is_dst
+		dataType: boolean
+		lineageTag: 21abdc4d-ebbe-593e-b2c7-81f8bf46ad7d
+		summarizeBy: none
+		sourceColumn: is_dst
+
+	column fold
+		dataType: int64
+		formatString: 0
+		lineageTag: b862a7ba-6a87-5065-8407-d86232fa3f10
+		summarizeBy: none
+		sourceColumn: fold
+
+	partition DimInterval = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT interval_id,trading_date,trading_period,#(lf) start_utc AT TIME ZONE 'UTC' AS start_utc,end_utc AT TIME ZONE 'UTC' AS end_utc,#(lf) local_start,local_end,expected_periods,extract(hour FROM local_start)::int AS local_hour,#(lf) extract(epoch FROM (local_start-(start_utc AT TIME ZONE 'UTC')))::int/60 AS utc_offset_minutes,#(lf) (extract(epoch FROM (local_start-(start_utc AT TIME ZONE 'UTC')))::int=46800) AS is_dst,#(lf) (row_number() OVER(PARTITION BY local_start ORDER BY start_utc)-1)::int AS fold#(lf)FROM analytics.mart_market_interval_national", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+
+	annotation PBI_ResultType = Exception
+

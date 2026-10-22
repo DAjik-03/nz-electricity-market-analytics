@@ -1,0 +1,8 @@
+PointOfConnection,Network,FlowDirection,observations,min_matches,max_matches,kwh
+GLN0332,CTCT,Offtake,1418,1,1,3662839.0
+GLN0332,CTCT,Injection,753,1,1,3030026.0
+HAM0331,RUAK,Offtake,1488,1,1,1072301.0
+HAM0331,RUAK,Injection,339,1,1,4017.0
+WAI0331,HEDL,Offtake,1488,1,1,2291831.0
+WAI0331,HEDL,Injection,735,1,1,11876.0
+KAW2201,TAOM,Injection,1488,1,1,56117364.0

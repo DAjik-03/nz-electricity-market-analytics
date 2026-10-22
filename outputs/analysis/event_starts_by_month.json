@@ -1,0 +1,42 @@
+[
+  {
+    "month": "2025-09-01",
+    "event_starts": 13
+  },
+  {
+    "month": "2025-10-01",
+    "event_starts": 6
+  },
+  {
+    "month": "2025-11-01",
+    "event_starts": 4
+  },
+  {
+    "month": "2025-12-01",
+    "event_starts": 3
+  },
+  {
+    "month": "2026-03-01",
+    "event_starts": 22
+  },
+  {
+    "month": "2026-04-01",
+    "event_starts": 9
+  },
+  {
+    "month": "2026-05-01",
+    "event_starts": 2
+  },
+  {
+    "month": "2026-06-01",
+    "event_starts": 1
+  },
+  {
+    "month": "2026-07-01",
+    "event_starts": 4
+  },
+  {
+    "month": "2026-08-01",
+    "event_starts": 4
+  }
+]

@@ -1,0 +1,19 @@
+EVALUATE
+UNION(
+ROW("Order",1,"Table","DimDate","Rows",COUNTROWS('DimDate'),"Pass",COUNTROWS('DimDate')=365),
+ROW("Order",2,"Table","DimMonth","Rows",COUNTROWS('DimMonth'),"Pass",COUNTROWS('DimMonth')=12),
+ROW("Order",3,"Table","DimInterval","Rows",COUNTROWS('DimInterval'),"Pass",COUNTROWS('DimInterval')=17520),
+ROW("Order",4,"Table","FactNational","Rows",COUNTROWS('FactNational'),"Pass",COUNTROWS('FactNational')=17520),
+ROW("Order",5,"Table","FactZone","Rows",COUNTROWS('FactZone'),"Pass",COUNTROWS('FactZone')=105120),
+ROW("Order",6,"Table","DimZone","Rows",COUNTROWS('DimZone'),"Pass",COUNTROWS('DimZone')=6),
+ROW("Order",7,"Table","RegionalSignal","Rows",COUNTROWS('RegionalSignal'),"Pass",COUNTROWS('RegionalSignal')=17520),
+ROW("Order",8,"Table","Threshold","Rows",COUNTROWS('Threshold'),"Pass",COUNTROWS('Threshold')=6),
+ROW("Order",9,"Table","Events","Rows",COUNTROWS('Events'),"Pass",COUNTROWS('Events')=429),
+ROW("Order",10,"Table","EventInterval","Rows",COUNTROWS('EventInterval'),"Pass",COUNTROWS('EventInterval')=1056),
+ROW("Order",11,"Table","CaseContext","Rows",COUNTROWS('CaseContext'),"Pass",COUNTROWS('CaseContext')=5),
+ROW("Order",12,"Table","SourceQuality","Rows",COUNTROWS('SourceQuality'),"Pass",COUNTROWS('SourceQuality')=36),
+ROW("Order",13,"Table","DQResults","Rows",COUNTROWS('DQResults'),"Pass",COUNTROWS('DQResults')=29),
+ROW("Order",14,"Table","Release","Rows",COUNTROWS('Release'),"Pass",COUNTROWS('Release')=1),
+ROW("Order",15,"Table","Classification","Rows",COUNTROWS('Classification'),"Pass",COUNTROWS('Classification')=14),
+ROW("Order",16,"Table","DemandBenchmark","Rows",COUNTROWS('DemandBenchmark'),"Pass",COUNTROWS('DemandBenchmark')=1)
+) ORDER BY [Order]

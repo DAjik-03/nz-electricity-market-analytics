@@ -1,0 +1,264 @@
+{
+  "status": "completed",
+  "publications": [
+    {
+      "slot": "prices/2025-09",
+      "action": "verified_reused",
+      "previous_version": "prices:202509_FinalEnergyPrices.csv:73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+      "selected_version": "prices:202509_FinalEnergyPrices.csv:73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+      "seconds": 0.611
+    },
+    {
+      "slot": "prices/2025-10",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202510_FinalEnergyPrices.csv:3ebab31bc79046878a52a3fa33bbcb3b2b5baf5fe1ea2aaa9996f146c50da787",
+      "seconds": 6.005
+    },
+    {
+      "slot": "prices/2025-11",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202511_FinalEnergyPrices.csv:83295a84d9b9d73403650422f4f211bdce5d763b5613760279bdc5dd1667cd3a",
+      "seconds": 6.517
+    },
+    {
+      "slot": "prices/2026-01",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202601_FinalEnergyPrices.csv:e050a9d4170490e87faf330029b4353092afb7bd498fbe09b6db92fe17e18063",
+      "seconds": 6.653
+    },
+    {
+      "slot": "prices/2026-02",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202602_FinalEnergyPrices.csv:83a2f3eda678484ac7b9886cd05cc525e48b491ef64f86b380314e695eecf06c",
+      "seconds": 5.746
+    },
+    {
+      "slot": "prices/2026-03",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202603_FinalEnergyPrices.csv:925ec88125f599e9ae63703eab080039a457c63a8c73050bdf022f38b2d21b2a",
+      "seconds": 7.291
+    },
+    {
+      "slot": "prices/2026-04",
+      "action": "verified_reused",
+      "previous_version": "prices:202604_FinalEnergyPrices.csv:5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+      "selected_version": "prices:202604_FinalEnergyPrices.csv:5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+      "seconds": 0.506
+    },
+    {
+      "slot": "prices/2026-05",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202605_FinalEnergyPrices.csv:f319402a1ee6959f4b60b9c9cd710fa49cb6f48dc4078e269ddb6a7f5c05d7da",
+      "seconds": 7.159
+    },
+    {
+      "slot": "prices/2026-06",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202606_FinalEnergyPrices.csv:813889414ed5bbb683bb00e16bcab8fc4285c2cb7ceb90c995d1f0785ce478d0",
+      "seconds": 7.756
+    },
+    {
+      "slot": "prices/2026-07",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "prices:202607_FinalEnergyPrices.csv:dd1728b539cd77d8c97679ad61a44f63cecfa92e1c140443c1eaa309f86855e2",
+      "seconds": 6.241
+    },
+    {
+      "slot": "prices/2026-08",
+      "action": "verified_reused",
+      "previous_version": "prices:202608_FinalEnergyPrices.csv:d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+      "selected_version": "prices:202608_FinalEnergyPrices.csv:d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+      "seconds": 0.542
+    },
+    {
+      "slot": "reconciliation/2025-09",
+      "action": "verified_reused",
+      "previous_version": "reconciliation:ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz:184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz:184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+      "seconds": 0.53
+    },
+    {
+      "slot": "reconciliation/2025-10",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202510_20260523_165223.csv.gz:64d777c6d519e917e09034171135c8c577cb4d3d6eb93a1c506d17e501d8f0d0",
+      "seconds": 18.076
+    },
+    {
+      "slot": "reconciliation/2025-11",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202511_20260625_100449.csv.gz:ac060a1bb1c6bbf04e2272149c2533597f24ea80a5e06d4fde017c8e538dc3cf",
+      "seconds": 17.536
+    },
+    {
+      "slot": "reconciliation/2025-12",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202512_20260725_141500.csv.gz:f065d596c72b3c0190101ec6f9c9b8c72d0aec8a63b9bafb34297a861eb4c975",
+      "seconds": 18.715
+    },
+    {
+      "slot": "reconciliation/2026-01",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202601_20260824_145939.csv.gz:c5ee4042d061a2b12c4040ef60f37ce5c110d17954bc4e0cfb47d26d51fc9976",
+      "seconds": 18.485
+    },
+    {
+      "slot": "reconciliation/2026-02",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202602_20260525_141229.csv.gz:485cbe16074235f481b4be08d3227904629992b79308a6639e1f23fc7a1bd796",
+      "seconds": 17.649
+    },
+    {
+      "slot": "reconciliation/2026-03",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202603_20260624_165533.csv.gz:dc74862d8c1913e615d018a2efce6b92c63c1c26538f20bcf9a57a1fef8692d4",
+      "seconds": 45.062
+    },
+    {
+      "slot": "reconciliation/2026-04",
+      "action": "verified_reused",
+      "previous_version": "reconciliation:ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz:4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz:4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+      "seconds": 0.916
+    },
+    {
+      "slot": "reconciliation/2026-05",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202605_20260824_120747.csv.gz:35219daad27c3fba90adc0d1a48e500e8ea47dae7c84ca6fd1e26a588c4e601b",
+      "seconds": 21.303
+    },
+    {
+      "slot": "reconciliation/2026-06",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202606_20260725_092820.csv.gz:594e92d973ff5430c41ad77bc930deebdf5f0bc0b1919653b9aeda54697a37df",
+      "seconds": 30.591
+    },
+    {
+      "slot": "reconciliation/2026-07",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202607_20260822_092730.csv.gz:b0fa77b64d5011b567722380b4fce4b008423fbd19b856e0570c06a9f46f8ae7",
+      "seconds": 18.925
+    },
+    {
+      "slot": "reconciliation/2026-08",
+      "action": "verified_reused",
+      "previous_version": "reconciliation:ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz:99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+      "selected_version": "reconciliation:ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz:99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+      "seconds": 0.64
+    },
+    {
+      "slot": "generation/2025-09",
+      "action": "verified_reused",
+      "previous_version": "generation:202509_Generation_MD.csv:4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+      "selected_version": "generation:202509_Generation_MD.csv:4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+      "seconds": 0.632
+    },
+    {
+      "slot": "generation/2025-10",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202510_Generation_MD.csv:81fdc21f3e9e8606f732f8414d81505d158931af56e7f175b3f5619a2a523a44",
+      "seconds": 0.984
+    },
+    {
+      "slot": "generation/2025-11",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202511_Generation_MD.csv:64a0f528e8815577774c7ee21913e69a64f4962b6f769aae07b3cbc2afe52692",
+      "seconds": 0.84
+    },
+    {
+      "slot": "generation/2025-12",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202512_Generation_MD.csv:8b027250f1b349cf90822979b07317d2a346018f218772c82bf1e3f7a69500bb",
+      "seconds": 0.916
+    },
+    {
+      "slot": "generation/2026-01",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202601_Generation_MD.csv:691c3304d4c454dfaef489092db6fb3656be41e381c2dc6b331d029e95615656",
+      "seconds": 0.883
+    },
+    {
+      "slot": "generation/2026-02",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202602_Generation_MD.csv:166a3e1700147480ac8bb0d0d7c9c5e477b3e33cbea79d38d895dbf6b345ab6a",
+      "seconds": 0.844
+    },
+    {
+      "slot": "generation/2026-03",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202603_Generation_MD.csv:0c7016c96ea28a32c614f549ef4228b6ceece003df89cfc3ce611269cb9cece9",
+      "seconds": 1.06
+    },
+    {
+      "slot": "generation/2026-04",
+      "action": "verified_reused",
+      "previous_version": "generation:202604_Generation_MD.csv:90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+      "selected_version": "generation:202604_Generation_MD.csv:90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+      "seconds": 0.429
+    },
+    {
+      "slot": "generation/2026-05",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202605_Generation_MD.csv:9b412a3ca5bbaef782b4435bee1c5a8b4126c51b2df8511f9e6ffab6e73ebeb6",
+      "seconds": 0.874
+    },
+    {
+      "slot": "generation/2026-06",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202606_Generation_MD.csv:eeeaf630ba365fd91d1cc57b9af68b6ab65508497f44659611dd006def9e42d8",
+      "seconds": 0.881
+    },
+    {
+      "slot": "generation/2026-07",
+      "action": "downloaded_new_content",
+      "previous_version": null,
+      "selected_version": "generation:202607_Generation_MD.csv:18901932bfe778b1b98c2fd98e51ad52df01749838b4b5c4f1de81eb5b1bd680",
+      "seconds": 0.983
+    },
+    {
+      "slot": "generation/2026-08",
+      "action": "verified_reused",
+      "previous_version": "generation:202608_Generation_MD.csv:1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+      "selected_version": "generation:202608_Generation_MD.csv:1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+      "seconds": 0.583
+    },
+    {
+      "slot": "nsp/snapshot",
+      "action": "verified_reused",
+      "previous_version": "nsp:20260910_NetworkSupplyPointsTable.csv:5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c",
+      "selected_version": "nsp:20260910_NetworkSupplyPointsTable.csv:5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c",
+      "seconds": 0.005
+    },
+    {
+      "slot": "prices/2025-12",
+      "action": "validated_daily_aggregate_reused",
+      "previous_version": null,
+      "selected_version": "prices:202512_DailyFinalAggregate.csv.gz:d1165dd49cfd86d7c2ddc372b4e18eb7bc285f63fd47c9fa0e45c839e1b49142",
+      "seconds": 0.076
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "broken_document_links": [],
+  "migration_hashes": {
+    "sql/00_database/001_metadata.sql": true,
+    "sql/01_staging/001_sources.sql": true,
+    "sql/02_dimensions/001_dimensions.sql": true,
+    "sql/02_dimensions/002_calendar.sql": true,
+    "sql/02_dimensions/003_load_nsp.sql": true,
+    "sql/03_facts/001_facts.sql": true,
+    "sql/03_facts/002_load_price.sql": true,
+    "sql/03_facts/003_mapping.sql": true,
+    "sql/03_facts/004_load_volume.sql": true,
+    "sql/03_facts/005_load_generation.sql": true,
+    "sql/03_facts/006_mapping_plan.sql": true,
+    "sql/04_marts/001_foundation.sql": true,
+    "sql/04_marts/002_products.sql": true,
+    "sql/04_marts/003_quality_context.sql": true,
+    "sql/06_data_quality/001_framework.sql": true,
+    "sql/06_data_quality/002_profiles.sql": true,
+    "sql/06_data_quality/003_baseline.sql": true,
+    "sql/06_data_quality/004_rules.sql": true,
+    "sql/06_data_quality/005_version_inputs_and_freshness.sql": true,
+    "sql/06_data_quality/006_rule_parse_fix.sql": true,
+    "sql/06_data_quality/007_all_version_mapping_integrity.sql": true
+  },
+  "mart_counts": {
+    "mart_market_interval_national": 4368,
+    "mart_market_interval_zone": 26208,
+    "mart_market_daily_national": 91,
+    "mart_market_daily_zone": 546,
+    "mart_price_pressure_event": 113
+  },
+  "refresh_runs": [
+    [
+      1,
+      "COMPLETED"
+    ],
+    [
+      2,
+      "COMPLETED"
+    ],
+    [
+      3,
+      "COMPLETED"
+    ],
+    [
+      4,
+      "COMPLETED"
+    ],
+    [
+      36,
+      "COMPLETED"
+    ]
+  ]
+}

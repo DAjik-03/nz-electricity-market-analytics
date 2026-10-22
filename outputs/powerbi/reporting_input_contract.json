@@ -1,0 +1,151 @@
+[
+  {
+    "table": "FactNational",
+    "query": "powerbi/sql/FactNational.sql",
+    "unique_key": [
+      "interval_id"
+    ],
+    "rows": 17520,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "National including Unknown",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "FactZone",
+    "query": "powerbi/sql/FactZone.sql",
+    "unique_key": [
+      "zone",
+      "interval_id"
+    ],
+    "rows": 105120,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Zone including explicit Unknown",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "DimInterval",
+    "query": "powerbi/sql/DimInterval.sql",
+    "unique_key": [
+      "interval_id"
+    ],
+    "rows": 17520,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "DimZone",
+    "query": "powerbi/sql/DimZone.sql",
+    "unique_key": [
+      "zone"
+    ],
+    "rows": 6,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Zone including explicit Unknown",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "Threshold",
+    "query": "powerbi/sql/Threshold.sql",
+    "unique_key": [
+      "scope",
+      "zone"
+    ],
+    "rows": 6,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "Events",
+    "query": "powerbi/sql/Events.sql",
+    "unique_key": [
+      "event_id"
+    ],
+    "rows": 429,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "EventInterval",
+    "query": "powerbi/sql/EventInterval.sql",
+    "unique_key": [
+      "event_id",
+      "interval_id"
+    ],
+    "rows": 1056,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "RegionalSignal",
+    "query": "powerbi/sql/RegionalSignal.sql",
+    "unique_key": [
+      "interval_id"
+    ],
+    "rows": 17520,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Five known Zones only",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "SourceQuality",
+    "query": "powerbi/sql/SourceQuality.sql",
+    "unique_key": [
+      "source_name",
+      "source_month"
+    ],
+    "rows": 36,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "DQResults",
+    "query": "powerbi/sql/DQResults.sql",
+    "unique_key": [
+      "rule_id"
+    ],
+    "rows": 29,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "Release",
+    "query": "powerbi/sql/Release.sql",
+    "unique_key": [
+      "refresh_id"
+    ],
+    "rows": 1,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "Classification",
+    "query": "powerbi/sql/Classification.sql",
+    "unique_key": [
+      "classification_version",
+      "fuel_code",
+      "tech_code"
+    ],
+    "rows": 14,
+    "window": "classification version 1 reference",
+    "scope": "Reference / scoped context; see model specification",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  },
+  {
+    "table": "DemandBenchmark",
+    "query": "powerbi/sql/DemandBenchmark.sql",
+    "unique_key": [
+      "singleton"
+    ],
+    "rows": 1,
+    "window": "2025-09-01 through 2026-08-31",
+    "scope": "National including Unknown",
+    "refresh": "Import; ReleaseGate requires refresh 38 / DQ 5 / approved fingerprint; no warehouse writes"
+  }
+]

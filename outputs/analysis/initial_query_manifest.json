@@ -1,0 +1,5868 @@
+{
+  "at": "2026-10-01T23:36:24.607296+00:00",
+  "queries": {
+    "monthly_overview": {
+      "sql": "sql/05_analysis/01_market_overview.sql",
+      "sql_sha256": "c3c94541c38d72609dc1fe041af24869299193fe2397d991bcfa4c33416df56e",
+      "rows": 12,
+      "result_sha256": "2a448f7e47a03cc34cdbd50c1cbe04e5a82534e0bad574d59c65e531b34adfa6",
+      "output": "monthly_overview.json"
+    },
+    "release_population": {
+      "sql": "sql/05_analysis/01_market_overview.sql",
+      "sql_sha256": "d98059a9f5b51bbfdd569b519eed23dee8f40743291eb1ef05fcae7e4f84b8c7",
+      "rows": 7,
+      "result_sha256": "f95092fda2ea1502ae423f7be685ad5924642ad601838aa76d37aa6ed0c7a30a",
+      "output": "release_population.json"
+    },
+    "national_event_distribution": {
+      "sql": "sql/05_analysis/02_price_pressure_timing.sql",
+      "sql_sha256": "c149cb0998901b76b77df669b8dad49df56dd3c888d6530922856d533d51caae",
+      "rows": 1,
+      "result_sha256": "34af53c565b69d572fe4b67cf28bbd9932a21ecfc19172fb6c2af22301886cab",
+      "output": "national_event_distribution.json"
+    },
+    "pressure_by_month": {
+      "sql": "sql/05_analysis/02_price_pressure_timing.sql",
+      "sql_sha256": "959a4e040fc47dde15903e71d48abe11c88ad779480ea8ad56bd1ce4404142d9",
+      "rows": 12,
+      "result_sha256": "e66aacac6960bc861cbcafdac5788a704a967845ad4b2e1a0f23020bbbd97f75",
+      "output": "pressure_by_month.json"
+    },
+    "pressure_by_hour": {
+      "sql": "sql/05_analysis/02_price_pressure_timing.sql",
+      "sql_sha256": "f3c86958efcc631d115a6526865334194f8499b98075e8ba6dfa837fc2fd756b",
+      "rows": 24,
+      "result_sha256": "d75a82dd891d7255a83034c86e50129a678b70be8c5784f2ded16919b773accd",
+      "output": "pressure_by_hour.json"
+    },
+    "pressure_by_day_type": {
+      "sql": "sql/05_analysis/02_price_pressure_timing.sql",
+      "sql_sha256": "2eb95ead28b3db81006a01ce70029db6b45f6fd2c5e8fc55e5199b4179263829",
+      "rows": 2,
+      "result_sha256": "124847da7466ff85a4dd37d0a0a9eed5e8a72fa99ab50deb511721ba48a897d5",
+      "output": "pressure_by_day_type.json"
+    },
+    "event_starts_by_month": {
+      "sql": "sql/05_analysis/02_price_pressure_timing.sql",
+      "sql_sha256": "001f202d945e38cdcdb5d276974e26df6f3f36c0a4121573e43bac90caf52486",
+      "rows": 10,
+      "result_sha256": "6d8fecece9e3d9228d4ae4c40499b01a797652aeb79d35593d3dc9340f99333b",
+      "output": "event_starts_by_month.json"
+    },
+    "regional_events": {
+      "sql": "sql/05_analysis/03_regional_patterns.sql",
+      "sql_sha256": "6190661d83b877af05dd8a97c0963781249487dc53a410096296c43b43b5fa8a",
+      "rows": 6,
+      "result_sha256": "eb07b155f7f49b82e76708b29c2abe46595ca2316e40c8e605b0000eb4b1e456",
+      "output": "regional_events.json"
+    },
+    "regional_overlap": {
+      "sql": "sql/05_analysis/03_regional_patterns.sql",
+      "sql_sha256": "04618817820069b54f001a06e5e60f7c03b2140fc70445d1db255c9fd2d00566",
+      "rows": 9,
+      "result_sha256": "bd7b00242603ba7c584b0760d4d481c874c1fd6fb0487bb094ace499f8d020cd",
+      "output": "regional_overlap.json"
+    },
+    "cross_regional_episodes": {
+      "sql": "sql/05_analysis/03_regional_patterns.sql",
+      "sql_sha256": "ca9e6a88224a453519da319604f39a4b8414d502af63ff7da66bce9291d69878",
+      "rows": 108,
+      "result_sha256": "f379d4171ae3d32dc3fe2a08d0a77d5ba5783ef5fff078f5bf0cc6dcf303f09c",
+      "output": "cross_regional_episodes.json"
+    },
+    "spread_comparison": {
+      "sql": "sql/05_analysis/03_regional_patterns.sql",
+      "sql_sha256": "1d203e5a7f5880531ba3952ef66017b034769919feedee0080196c4c7c103884",
+      "rows": 4,
+      "result_sha256": "6a6d681b3f43fc8948bd36c2dc137f16d439f051352c5d9cad3d3c6f3578a806",
+      "output": "spread_comparison.json"
+    },
+    "demand_comparison": {
+      "sql": "sql/05_analysis/04_demand_association.sql",
+      "sql_sha256": "8598b7e994f5057f7073257aede9117567061ddcd030b8896338616b459393be",
+      "rows": 2,
+      "result_sha256": "cb1c7ce1ca447269542a8964c1c7b684ebf5c9833b907e6ba652ae8f93b413a4",
+      "output": "demand_comparison.json"
+    },
+    "demand_within_month": {
+      "sql": "sql/05_analysis/04_demand_association.sql",
+      "sql_sha256": "4bbdd418b20905b8ac78dc2b8a789c676c0d8c8db15f07b9f957fa57c30557a9",
+      "rows": 22,
+      "result_sha256": "c71315601355b3cb8e57c578c9922cd1b968a8df21d924b59b7609428348a803",
+      "output": "demand_within_month.json"
+    },
+    "demand_hour_adjusted": {
+      "sql": "sql/05_analysis/04_demand_association.sql",
+      "sql_sha256": "8b0769dfc365bc6e73d220d5653cc2a1050679793a2075948607818bfbb42517",
+      "rows": 1,
+      "result_sha256": "6bd50b865575d45ceba8bfee89a755685470bd1e0dc46d31be08858cd8d0f77a",
+      "output": "demand_hour_adjusted.json"
+    },
+    "generation_comparison": {
+      "sql": "sql/05_analysis/05_generation_mix_association.sql",
+      "sql_sha256": "05129d59fbd97e5e7a78b943e4166c4e1d48e344db03087158143cf7a55e7467",
+      "rows": 2,
+      "result_sha256": "1e45393188a2160704b9916ab9d217c08fc5cb33896d715b7333b6947d6d7839",
+      "output": "generation_comparison.json"
+    },
+    "generation_hour_adjusted": {
+      "sql": "sql/05_analysis/05_generation_mix_association.sql",
+      "sql_sha256": "a3d50fe5cf1223191a4480708519289052228f3b0147a0b33c0d8b454df21ed2",
+      "rows": 1,
+      "result_sha256": "5480faba216548d2c1de7a9a52ea463f55e0469f2a72abcc2884325e122bf8d5",
+      "output": "generation_hour_adjusted.json"
+    },
+    "event_investigation": {
+      "sql": "sql/05_analysis/06_event_investigation.sql",
+      "sql_sha256": "3440fb57657dac6e462d7374ed54f66ebfc4f265c81a05812962333a41dcc831",
+      "rows": 429,
+      "result_sha256": "c5b3eb4b31e406d9f66520f7d8dbc9a119d3d3c4b0669dfb2c49ae93cef19495",
+      "output": "event_investigation.json"
+    },
+    "national_intervals": {
+      "sql": "sql/05_analysis/07_monitoring_priorities.sql",
+      "sql_sha256": "e2ae65c3e4bd595891412e87a0f97870c85450bf5981f3f35eb6211102769e27",
+      "rows": 17520,
+      "result_sha256": "335be6028db64028d2040af9df9f3f8279eb552c6f9b06bc2296cbc15e300e10",
+      "output": "national_intervals.json.gz"
+    },
+    "zone_flags": {
+      "sql": "sql/05_analysis/07_monitoring_priorities.sql",
+      "sql_sha256": "23e9f5063151e2b8943dbe933e012b4dac6600ed42011a8c0722e8e8f7cd17a9",
+      "rows": 87600,
+      "result_sha256": "a76c30e04e8ef6eaa11a1372752885cbf8946b0de4768ce2cba870666ae129ee",
+      "output": "zone_flags.json.gz"
+    },
+    "monthly_quality": {
+      "sql": "sql/05_analysis/07_monitoring_priorities.sql",
+      "sql_sha256": "a71b12524bb7dfee526ed491eefdbb4492fc3b1edd80ebc39ad2e0b69bd4586f",
+      "rows": 36,
+      "result_sha256": "d2efa60d07a55c3d4eb34180b898283de66654481920ac0c42554de45dfbc562",
+      "output": "monthly_quality.json"
+    }
+  },
+  "before": {
+    "refresh": [
+      {
+        "refresh_id": 38,
+        "started_at": "2026-10-01 03:57:56.219273+00:00",
+        "completed_at": "2026-10-01 03:59:28.616564+00:00",
+        "status": "COMPLETED",
+        "input_fingerprint": "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6",
+        "input_manifest": {
+          "migrations": [
+            {
+              "path": "sql/00_database/001_metadata.sql",
+              "sha256": "3eb66716ba3f642a66c6141a083b1be1a926a09682df38eabdd1fdd574bf8a20"
+            },
+            {
+              "path": "sql/00_database/003_source_packaging.sql",
+              "sha256": "5233e515c7d1978b406c38c244de875256c2c431fcc7c3a70a5612246205cfe8"
+            },
+            {
+              "path": "sql/01_staging/001_sources.sql",
+              "sha256": "e16b18a9f35959f9dc5b80310c0a5c07d72c38752e008ac31d0de6d0ea148b39"
+            },
+            {
+              "path": "sql/02_dimensions/001_dimensions.sql",
+              "sha256": "88f7100258d138ceb5d635d29a855070c2e48148f3b619624a4b943c7ace7345"
+            },
+            {
+              "path": "sql/02_dimensions/002_calendar.sql",
+              "sha256": "b3a3308eb845eedaefc38e783a05f3b9d20cecd4902a7215c92fe2803b67f66b"
+            },
+            {
+              "path": "sql/02_dimensions/003_load_nsp.sql",
+              "sha256": "bd209b87ac9ffcf6c4d2eeb6c4780ecc3dd7909e6d1b60a7c6bfcc84d78d4d97"
+            },
+            {
+              "path": "sql/03_facts/001_facts.sql",
+              "sha256": "1ebbdb51aa59b3f339663f8ab3307af0cdcb5f7157f60e882a4d743515eae2cb"
+            },
+            {
+              "path": "sql/03_facts/002_load_price.sql",
+              "sha256": "ee3571de41b6f7410f05e8b6b46fc33b5c492cae4461b3a293797a6f14b4c2be"
+            },
+            {
+              "path": "sql/03_facts/003_mapping.sql",
+              "sha256": "d4d20066394f49c5e998ceb39d15213e7dfc18a2e83963f2f05cc9cda850d48f"
+            },
+            {
+              "path": "sql/03_facts/004_load_volume.sql",
+              "sha256": "2d1a77cc15087e4ae54d7e5f200257a724da05f102d66c33bc67df9ce33428c3"
+            },
+            {
+              "path": "sql/03_facts/005_load_generation.sql",
+              "sha256": "6da9da51e41c6551e8d4618788e176eafe95684759880cde35665f33a840bd6e"
+            },
+            {
+              "path": "sql/03_facts/006_mapping_plan.sql",
+              "sha256": "a0b765497f95be303394213ffe4ee62813dc9b57da8cca661608250b5969404f"
+            },
+            {
+              "path": "sql/04_marts/001_foundation.sql",
+              "sha256": "23515159e00236b2890918614ede5af70841438f821c0aa2e77c19c669a3c8c7"
+            },
+            {
+              "path": "sql/04_marts/002_products.sql",
+              "sha256": "6468709a0252d6c352d404389a9511d19e19d766d94535a4735e2fc35cd833e0"
+            },
+            {
+              "path": "sql/04_marts/003_quality_context.sql",
+              "sha256": "521e8d9408094b7a3450fbdedfb76e1839933d28c4d266a638e650d7a384cba8"
+            },
+            {
+              "path": "sql/04_marts/004_continuous_release.sql",
+              "sha256": "faeaaae992a364acffa24cab59ebf9c8d33116ac20cf97f936ffdd9102fca65c"
+            },
+            {
+              "path": "sql/06_data_quality/001_framework.sql",
+              "sha256": "ab9f1981c00d1d6fc2267a56571b208a42acce72f7252a504a6b13c065f5ebcd"
+            },
+            {
+              "path": "sql/06_data_quality/002_profiles.sql",
+              "sha256": "ea30b102d0abdfacd0481c12e33dc98311363bd078ab85d2c31bd3de651c33a2"
+            },
+            {
+              "path": "sql/06_data_quality/003_baseline.sql",
+              "sha256": "3dc7e901e5490cc4c7afbaddd573a9183a434d691d642043ca045d2dca93c8b6"
+            },
+            {
+              "path": "sql/06_data_quality/004_rules.sql",
+              "sha256": "5717cce5863f81772193bfdb22ac212d889c136358ea979f3014eeec108a0ebe"
+            },
+            {
+              "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+              "sha256": "f80960f758e680e4dd75031e8fcc3f8934e2e4defa6ebdf6ce7e5244fe9eb06a"
+            },
+            {
+              "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+              "sha256": "885bb0b348d9d192b04dc7cf87ef24824f144aa018e8dbe3ae77ef855e511f3d"
+            },
+            {
+              "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+              "sha256": "e9a419b5f7d0f1e02c46bf92d851022585ac847508a849978cf42a1b5c826c51"
+            },
+            {
+              "path": "sql/06_data_quality/008_historical_release_scope.sql",
+              "sha256": "7b68df4c90b519d96e0a1d8e83546f2d4e0b8060ff99d0358d2f35052fcd364b"
+            }
+          ],
+          "selections": [
+            {
+              "month": "2025-09-01",
+              "sha256": "4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+              "source": "generation",
+              "publication": 2
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "81fdc21f3e9e8606f732f8414d81505d158931af56e7f175b3f5619a2a523a44",
+              "source": "generation",
+              "publication": 101
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "64a0f528e8815577774c7ee21913e69a64f4962b6f769aae07b3cbc2afe52692",
+              "source": "generation",
+              "publication": 104
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "8b027250f1b349cf90822979b07317d2a346018f218772c82bf1e3f7a69500bb",
+              "source": "generation",
+              "publication": 107
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "691c3304d4c454dfaef489092db6fb3656be41e381c2dc6b331d029e95615656",
+              "source": "generation",
+              "publication": 110
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "166a3e1700147480ac8bb0d0d7c9c5e477b3e33cbea79d38d895dbf6b345ab6a",
+              "source": "generation",
+              "publication": 113
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "0c7016c96ea28a32c614f549ef4228b6ceece003df89cfc3ce611269cb9cece9",
+              "source": "generation",
+              "publication": 135
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+              "source": "generation",
+              "publication": 3
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "9b412a3ca5bbaef782b4435bee1c5a8b4126c51b2df8511f9e6ffab6e73ebeb6",
+              "source": "generation",
+              "publication": 163
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "eeeaf630ba365fd91d1cc57b9af68b6ab65508497f44659611dd006def9e42d8",
+              "source": "generation",
+              "publication": 166
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "18901932bfe778b1b98c2fd98e51ad52df01749838b4b5c4f1de81eb5b1bd680",
+              "source": "generation",
+              "publication": 169
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+              "source": "generation",
+              "publication": 7
+            },
+            {
+              "month": "2026-09-01",
+              "sha256": "5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c",
+              "source": "nsp",
+              "publication": 1
+            },
+            {
+              "month": "2025-09-01",
+              "sha256": "73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+              "source": "prices",
+              "publication": 8
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "3ebab31bc79046878a52a3fa33bbcb3b2b5baf5fe1ea2aaa9996f146c50da787",
+              "source": "prices",
+              "publication": 100
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "83295a84d9b9d73403650422f4f211bdce5d763b5613760279bdc5dd1667cd3a",
+              "source": "prices",
+              "publication": 103
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "d1165dd49cfd86d7c2ddc372b4e18eb7bc285f63fd47c9fa0e45c839e1b49142",
+              "source": "prices",
+              "publication": 106
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "e050a9d4170490e87faf330029b4353092afb7bd498fbe09b6db92fe17e18063",
+              "source": "prices",
+              "publication": 109
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "83a2f3eda678484ac7b9886cd05cc525e48b491ef64f86b380314e695eecf06c",
+              "source": "prices",
+              "publication": 112
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "925ec88125f599e9ae63703eab080039a457c63a8c73050bdf022f38b2d21b2a",
+              "source": "prices",
+              "publication": 134
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+              "source": "prices",
+              "publication": 9
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "f319402a1ee6959f4b60b9c9cd710fa49cb6f48dc4078e269ddb6a7f5c05d7da",
+              "source": "prices",
+              "publication": 162
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "813889414ed5bbb683bb00e16bcab8fc4285c2cb7ceb90c995d1f0785ce478d0",
+              "source": "prices",
+              "publication": 165
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "dd1728b539cd77d8c97679ad61a44f63cecfa92e1c140443c1eaa309f86855e2",
+              "source": "prices",
+              "publication": 168
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+              "source": "prices",
+              "publication": 10
+            },
+            {
+              "month": "2025-09-01",
+              "sha256": "184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+              "source": "reconciliation",
+              "publication": 11
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "64d777c6d519e917e09034171135c8c577cb4d3d6eb93a1c506d17e501d8f0d0",
+              "source": "reconciliation",
+              "publication": 102
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "ac060a1bb1c6bbf04e2272149c2533597f24ea80a5e06d4fde017c8e538dc3cf",
+              "source": "reconciliation",
+              "publication": 105
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "f065d596c72b3c0190101ec6f9c9b8c72d0aec8a63b9bafb34297a861eb4c975",
+              "source": "reconciliation",
+              "publication": 108
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "c5ee4042d061a2b12c4040ef60f37ce5c110d17954bc4e0cfb47d26d51fc9976",
+              "source": "reconciliation",
+              "publication": 111
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "485cbe16074235f481b4be08d3227904629992b79308a6639e1f23fc7a1bd796",
+              "source": "reconciliation",
+              "publication": 114
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "dc74862d8c1913e615d018a2efce6b92c63c1c26538f20bcf9a57a1fef8692d4",
+              "source": "reconciliation",
+              "publication": 136
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+              "source": "reconciliation",
+              "publication": 12
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "35219daad27c3fba90adc0d1a48e500e8ea47dae7c84ca6fd1e26a588c4e601b",
+              "source": "reconciliation",
+              "publication": 164
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "594e92d973ff5430c41ad77bc930deebdf5f0bc0b1919653b9aeda54697a37df",
+              "source": "reconciliation",
+              "publication": 167
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "b0fa77b64d5011b567722380b4fce4b008423fbd19b856e0570c06a9f46f8ae7",
+              "source": "reconciliation",
+              "publication": 170
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+              "source": "reconciliation",
+              "publication": 13
+            }
+          ],
+          "configuration": {
+            "singleton": true,
+            "percentile": 0.99,
+            "pilot_months": [
+              "2025-09-01",
+              "2025-10-01",
+              "2025-11-01",
+              "2025-12-01",
+              "2026-01-01",
+              "2026-02-01",
+              "2026-03-01",
+              "2026-04-01",
+              "2026-05-01",
+              "2026-06-01",
+              "2026-07-01",
+              "2026-08-01"
+            ],
+            "expected_zones": [
+              "CNI",
+              "LNI",
+              "LSI",
+              "UNI",
+              "USI"
+            ],
+            "classification_version": 1
+          },
+          "classification": [
+            {
+              "fuel_code": "Coal",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Diesel",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "ELE",
+              "rationale": "Observed plants are rotohiko and ruak\u0101k\u0101_energy_park; EA identifies both as batteries. Approved storage treatment; charging energy origin is not inferred.",
+              "tech_code": "BAT",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/eye-on-electricity-battery-performance-in-new-zealand/",
+              "energy_status": "Storage",
+              "review_status": "Reviewed pilot plant evidence",
+              "generation_role": "Storage",
+              "standard_category": "Battery storage",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Gas",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Cogen",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Gas",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Geo",
+              "rationale": "Legacy Geo/Geothermal correspondence appears in EMI discussion acknowledged by administrator; MBIE classifies geothermal as renewable. No case folding of other codes.",
+              "tech_code": "Geo",
+              "evidence_url": "https://forum.emi.ea.govt.nz/thread/changes-in-tech-codes-for-generation-md-files-causing-automation-errors/",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed legacy descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Geothermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "GEO",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "GEO",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "HYD",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "HYD",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Hydro",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Hydro",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Hydro",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "SOL",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "PV",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Solar",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Solar",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Solar",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "WIN",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "ONW",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Wind",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Wind",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Wind",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Wood",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Cogen",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Bioenergy",
+              "classification_version": 1
+            }
+          ]
+        },
+        "code_sha256": "098456ae9beb8ba51882edf3eb5a63ffcc56d21a2da2df27cbad802c3c625e03",
+        "dq_run_id": 5,
+        "error_message": null,
+        "is_current": true,
+        "dq_as_of_date": "2026-10-01",
+        "dq_status": "COMPLETED"
+      }
+    ],
+    "selection": [
+      {
+        "source_name": "generation",
+        "source_month": "2025-09-01",
+        "publication_id": 2,
+        "selected_at": "2026-09-18 21:28:07.745425+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-10-01",
+        "publication_id": 101,
+        "selected_at": "2026-10-01 03:22:21.751625+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-11-01",
+        "publication_id": 104,
+        "selected_at": "2026-10-01 03:22:21.756609+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-12-01",
+        "publication_id": 107,
+        "selected_at": "2026-10-01 03:22:21.758546+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-01-01",
+        "publication_id": 110,
+        "selected_at": "2026-10-01 03:22:21.760531+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-02-01",
+        "publication_id": 113,
+        "selected_at": "2026-10-01 03:22:21.762998+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-03-01",
+        "publication_id": 135,
+        "selected_at": "2026-10-01 03:22:21.763892+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-04-01",
+        "publication_id": 3,
+        "selected_at": "2026-09-18 21:28:07.746423+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-05-01",
+        "publication_id": 163,
+        "selected_at": "2026-10-01 03:22:21.765778+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-06-01",
+        "publication_id": 166,
+        "selected_at": "2026-10-01 03:22:21.766664+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-07-01",
+        "publication_id": 169,
+        "selected_at": "2026-10-01 03:22:21.767742+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-08-01",
+        "publication_id": 7,
+        "selected_at": "2026-09-18 21:28:07.747677+00:00"
+      },
+      {
+        "source_name": "nsp",
+        "source_month": "2026-09-01",
+        "publication_id": 1,
+        "selected_at": "2026-09-18 21:28:07.742259+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-09-01",
+        "publication_id": 8,
+        "selected_at": "2026-09-18 21:28:07.748539+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-10-01",
+        "publication_id": 100,
+        "selected_at": "2026-10-01 03:22:21.770227+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-11-01",
+        "publication_id": 103,
+        "selected_at": "2026-10-01 03:22:21.770808+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-12-01",
+        "publication_id": 106,
+        "selected_at": "2026-10-01 03:22:21.771480+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-01-01",
+        "publication_id": 109,
+        "selected_at": "2026-10-01 03:22:21.772103+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-02-01",
+        "publication_id": 112,
+        "selected_at": "2026-10-01 03:22:21.772736+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-03-01",
+        "publication_id": 134,
+        "selected_at": "2026-10-01 03:22:21.773875+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-04-01",
+        "publication_id": 9,
+        "selected_at": "2026-09-18 21:28:07.750008+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-05-01",
+        "publication_id": 162,
+        "selected_at": "2026-10-01 03:22:21.775517+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-06-01",
+        "publication_id": 165,
+        "selected_at": "2026-10-01 03:22:21.776146+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-07-01",
+        "publication_id": 168,
+        "selected_at": "2026-10-01 03:22:21.777299+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-08-01",
+        "publication_id": 10,
+        "selected_at": "2026-09-18 21:28:07.750894+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-09-01",
+        "publication_id": 11,
+        "selected_at": "2026-09-18 21:28:07.751773+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-10-01",
+        "publication_id": 102,
+        "selected_at": "2026-10-01 03:22:21.779438+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-11-01",
+        "publication_id": 105,
+        "selected_at": "2026-10-01 03:22:21.780141+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-12-01",
+        "publication_id": 108,
+        "selected_at": "2026-10-01 03:22:21.780886+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-01-01",
+        "publication_id": 111,
+        "selected_at": "2026-10-01 03:22:21.781682+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-02-01",
+        "publication_id": 114,
+        "selected_at": "2026-10-01 03:22:21.782351+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-03-01",
+        "publication_id": 136,
+        "selected_at": "2026-10-01 03:22:21.783038+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-04-01",
+        "publication_id": 12,
+        "selected_at": "2026-09-18 21:28:07.752577+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-05-01",
+        "publication_id": 164,
+        "selected_at": "2026-10-01 03:22:21.784268+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-06-01",
+        "publication_id": 167,
+        "selected_at": "2026-10-01 03:22:21.785387+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-07-01",
+        "publication_id": 170,
+        "selected_at": "2026-10-01 03:22:21.786057+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-08-01",
+        "publication_id": 13,
+        "selected_at": "2026-09-18 21:28:07.753308+00:00"
+      }
+    ],
+    "cache": [
+      {
+        "rows": 122640,
+        "hash": "7195893d9b2f56d24ccfa0b7c167e22e"
+      }
+    ],
+    "thresholds": [
+      {
+        "scope": "National",
+        "zone": "National",
+        "p99_price": 227.84134669510667,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "CNI",
+        "p99_price": 224.51979229812628,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "LNI",
+        "p99_price": 224.13933781376713,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "LSI",
+        "p99_price": 226.58586130724157,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "UNI",
+        "p99_price": 235.9028583802647,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "USI",
+        "p99_price": 238.00828283795735,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      }
+    ],
+    "migrations": [
+      {
+        "path": "sql/00_database/001_metadata.sql",
+        "sha256": "3eb66716ba3f642a66c6141a083b1be1a926a09682df38eabdd1fdd574bf8a20",
+        "applied_at": "2026-09-18 20:55:57.527210+00:00"
+      },
+      {
+        "path": "sql/00_database/003_source_packaging.sql",
+        "sha256": "5233e515c7d1978b406c38c244de875256c2c431fcc7c3a70a5612246205cfe8",
+        "applied_at": "2026-10-01 03:22:22.382738+00:00"
+      },
+      {
+        "path": "sql/01_staging/001_sources.sql",
+        "sha256": "e16b18a9f35959f9dc5b80310c0a5c07d72c38752e008ac31d0de6d0ea148b39",
+        "applied_at": "2026-09-18 20:55:57.547714+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/001_dimensions.sql",
+        "sha256": "88f7100258d138ceb5d635d29a855070c2e48148f3b619624a4b943c7ace7345",
+        "applied_at": "2026-09-18 20:55:57.567776+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/002_calendar.sql",
+        "sha256": "b3a3308eb845eedaefc38e783a05f3b9d20cecd4902a7215c92fe2803b67f66b",
+        "applied_at": "2026-09-18 20:55:57.574839+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/003_load_nsp.sql",
+        "sha256": "bd209b87ac9ffcf6c4d2eeb6c4780ecc3dd7909e6d1b60a7c6bfcc84d78d4d97",
+        "applied_at": "2026-09-18 20:55:57.581101+00:00"
+      },
+      {
+        "path": "sql/03_facts/001_facts.sql",
+        "sha256": "1ebbdb51aa59b3f339663f8ab3307af0cdcb5f7157f60e882a4d743515eae2cb",
+        "applied_at": "2026-09-18 20:55:57.599641+00:00"
+      },
+      {
+        "path": "sql/03_facts/002_load_price.sql",
+        "sha256": "ee3571de41b6f7410f05e8b6b46fc33b5c492cae4461b3a293797a6f14b4c2be",
+        "applied_at": "2026-09-18 20:55:57.607487+00:00"
+      },
+      {
+        "path": "sql/03_facts/003_mapping.sql",
+        "sha256": "d4d20066394f49c5e998ceb39d15213e7dfc18a2e83963f2f05cc9cda850d48f",
+        "applied_at": "2026-09-18 20:55:57.613668+00:00"
+      },
+      {
+        "path": "sql/03_facts/004_load_volume.sql",
+        "sha256": "2d1a77cc15087e4ae54d7e5f200257a724da05f102d66c33bc67df9ce33428c3",
+        "applied_at": "2026-09-18 20:55:57.619940+00:00"
+      },
+      {
+        "path": "sql/03_facts/005_load_generation.sql",
+        "sha256": "6da9da51e41c6551e8d4618788e176eafe95684759880cde35665f33a840bd6e",
+        "applied_at": "2026-09-18 20:55:57.634912+00:00"
+      },
+      {
+        "path": "sql/03_facts/006_mapping_plan.sql",
+        "sha256": "a0b765497f95be303394213ffe4ee62813dc9b57da8cca661608250b5969404f",
+        "applied_at": "2026-09-18 20:59:16.328078+00:00"
+      },
+      {
+        "path": "sql/04_marts/001_foundation.sql",
+        "sha256": "23515159e00236b2890918614ede5af70841438f821c0aa2e77c19c669a3c8c7",
+        "applied_at": "2026-09-22 01:18:53.510991+00:00"
+      },
+      {
+        "path": "sql/04_marts/002_products.sql",
+        "sha256": "6468709a0252d6c352d404389a9511d19e19d766d94535a4735e2fc35cd833e0",
+        "applied_at": "2026-09-22 01:18:53.543004+00:00"
+      },
+      {
+        "path": "sql/04_marts/003_quality_context.sql",
+        "sha256": "521e8d9408094b7a3450fbdedfb76e1839933d28c4d266a638e650d7a384cba8",
+        "applied_at": "2026-09-22 01:25:04.140326+00:00"
+      },
+      {
+        "path": "sql/04_marts/004_continuous_release.sql",
+        "sha256": "faeaaae992a364acffa24cab59ebf9c8d33116ac20cf97f936ffdd9102fca65c",
+        "applied_at": "2026-10-01 03:56:12.857244+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/001_framework.sql",
+        "sha256": "ab9f1981c00d1d6fc2267a56571b208a42acce72f7252a504a6b13c065f5ebcd",
+        "applied_at": "2026-09-21 08:15:11.119652+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/002_profiles.sql",
+        "sha256": "ea30b102d0abdfacd0481c12e33dc98311363bd078ab85d2c31bd3de651c33a2",
+        "applied_at": "2026-09-21 08:15:11.131849+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/003_baseline.sql",
+        "sha256": "3dc7e901e5490cc4c7afbaddd573a9183a434d691d642043ca045d2dca93c8b6",
+        "applied_at": "2026-09-21 08:15:11.145412+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/004_rules.sql",
+        "sha256": "5717cce5863f81772193bfdb22ac212d889c136358ea979f3014eeec108a0ebe",
+        "applied_at": "2026-09-21 08:15:11.172016+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+        "sha256": "f80960f758e680e4dd75031e8fcc3f8934e2e4defa6ebdf6ce7e5244fe9eb06a",
+        "applied_at": "2026-09-21 08:18:51.562773+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+        "sha256": "885bb0b348d9d192b04dc7cf87ef24824f144aa018e8dbe3ae77ef855e511f3d",
+        "applied_at": "2026-09-21 08:18:51.569577+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+        "sha256": "e9a419b5f7d0f1e02c46bf92d851022585ac847508a849978cf42a1b5c826c51",
+        "applied_at": "2026-09-21 08:20:17.600193+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/008_historical_release_scope.sql",
+        "sha256": "7b68df4c90b519d96e0a1d8e83546f2d4e0b8060ff99d0358d2f35052fcd364b",
+        "applied_at": "2026-10-01 03:22:22.449481+00:00"
+      }
+    ]
+  },
+  "catalog": [
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "represented_zones",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "expected_zones",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "regional_price_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "is_price_pressure",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "price_change_previous_interval",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "demand_change_previous_interval_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "previous_flag",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "previous_end",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_event_members",
+      "column_name": "event_group",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_cache",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_interval_input",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "population_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "first_start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "last_end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "_threshold_cache",
+      "column_name": "population_months",
+      "data_type": "ARRAY"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "configuration",
+      "column_name": "singleton",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "configuration",
+      "column_name": "classification_version",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "configuration",
+      "column_name": "expected_zones",
+      "data_type": "ARRAY"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "configuration",
+      "column_name": "pilot_months",
+      "data_type": "ARRAY"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "configuration",
+      "column_name": "percentile",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "current_refresh",
+      "column_name": "singleton",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "current_refresh",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "expected_intervals",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "observed_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "demand_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "price_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "min_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "max_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "price_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "interval_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "interval_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "expected_intervals",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "observed_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "demand_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "price_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "min_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "max_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "price_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "interval_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "interval_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_national",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "expected_intervals",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "observed_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "demand_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "min_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "max_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "interval_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "interval_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "previous_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "previous_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "previous_demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "contiguous_block",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "price_change_previous_day",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "demand_change_previous_day_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_days",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_days_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_priced_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_demand_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_daily_price_mean",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_price_n",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "full_7_day_window",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_7d_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_7d_mean_daily_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_7d_demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling",
+      "column_name": "rolling_7d_interval_price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "expected_intervals",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "observed_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "demand_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "min_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "max_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "interval_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "interval_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "previous_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "previous_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "previous_demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "contiguous_block",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "price_change_previous_day",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "demand_change_previous_day_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_days",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_days_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_priced_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_demand_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_daily_price_mean",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_price_n",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "full_30_day_window",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_30d_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_30d_mean_daily_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_30d_demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_rolling_30d",
+      "column_name": "rolling_30d_interval_price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "expected_intervals",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "observed_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "demand_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "price_day_complete",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "min_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "max_interval_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "price_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "interval_price_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "interval_price_squared_sum",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_daily_zone",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "represented_zones",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "expected_zones",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "regional_price_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "is_price_pressure",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "price_change_previous_interval",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval",
+      "column_name": "demand_change_previous_interval_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "represented_zones",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "expected_zones",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "regional_price_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "is_price_pressure",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "price_change_previous_interval",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_national",
+      "column_name": "demand_change_previous_interval_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "trading_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "trading_period",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "expected_periods",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "offtake_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "offtake_poc_zone_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "generation_source_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "known_zone_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "known_zone_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "represented_zones",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "expected_zones",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "regional_price_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "is_price_pressure",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "price_change_previous_interval",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_interval_zone",
+      "column_name": "demand_change_previous_interval_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "source_month",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "observed_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "demand_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "listed_generation_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "p95_interval_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "price_volatility_pop",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "high_price_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "renewable_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "fossil_thermal_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "storage_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "unclassified_gwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_market_monthly",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "event_id",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "interval_count",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "duration_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "mean_interval_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "peak_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "p99_threshold",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "average_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "total_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "peak_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "listed_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "peak_price_rank_within_region",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "input_fingerprint",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "dq_run_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "dq_as_of_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_event_context",
+      "column_name": "dq_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "event_id",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "local_start",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "local_end",
+      "data_type": "timestamp without time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "interval_count",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "duration_hours",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "mean_interval_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "peak_weighted_price",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "p99_threshold",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "average_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "peak_demand_mw",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "total_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "priced_offtake_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "price_numerator",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "average_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "peak_regional_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "spread_observations",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "listed_generation_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "renewable_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "fossil_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "storage_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "unclassified_kwh",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "renewable_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "fossil_primary_share_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "classification_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "price_weighting_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "offtake_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_event",
+      "column_name": "generation_zone_coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "scope",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "zone",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "p99_price",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "population_intervals",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "first_start_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "last_end_utc",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "population_months",
+      "data_type": "ARRAY"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "percentile",
+      "data_type": "double precision"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_price_pressure_threshold",
+      "column_name": "comparison",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "run_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "rule_id",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "rule_snapshot",
+      "data_type": "jsonb"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "result_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "affected_rows",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "observed_value",
+      "data_type": "jsonb"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "expected_value",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "details",
+      "data_type": "jsonb"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "as_of_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "dq_run_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_quality_results",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_regional_spread",
+      "column_name": "interval_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_regional_spread",
+      "column_name": "represented_zones",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_regional_spread",
+      "column_name": "expected_zones",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_regional_spread",
+      "column_name": "regional_price_spread",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "run_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "source_name",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "source_month",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "denominator_unit",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "total_value",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "known_value",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "unknown_value",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "coverage_pct",
+      "data_type": "numeric"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "as_of_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "dq_run_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "mart_source_quality",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "classification_version",
+      "data_type": "integer"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "fuel_code",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "tech_code",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "standard_category",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "generation_role",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "energy_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "evidence_url",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "review_status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "ref_generation_classification",
+      "column_name": "rationale",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "completed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "input_fingerprint",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "input_manifest",
+      "data_type": "jsonb"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "code_sha256",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "git_commit",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "dq_run_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_run",
+      "column_name": "error_message",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "refresh_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "started_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "completed_at",
+      "data_type": "timestamp with time zone"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "status",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "input_fingerprint",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "input_manifest",
+      "data_type": "jsonb"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "code_sha256",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "git_commit",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "dq_run_id",
+      "data_type": "bigint"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "error_message",
+      "data_type": "text"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "is_current",
+      "data_type": "boolean"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "dq_as_of_date",
+      "data_type": "date"
+    },
+    {
+      "table_schema": "analytics",
+      "table_name": "refresh_status",
+      "column_name": "dq_status",
+      "data_type": "text"
+    }
+  ],
+  "after": {
+    "refresh": [
+      {
+        "refresh_id": 38,
+        "started_at": "2026-10-01 03:57:56.219273+00:00",
+        "completed_at": "2026-10-01 03:59:28.616564+00:00",
+        "status": "COMPLETED",
+        "input_fingerprint": "b87ef82066c5bcd7055d350da94b28811467c3e0c2687489fb8363c5cd6e2cf6",
+        "input_manifest": {
+          "migrations": [
+            {
+              "path": "sql/00_database/001_metadata.sql",
+              "sha256": "3eb66716ba3f642a66c6141a083b1be1a926a09682df38eabdd1fdd574bf8a20"
+            },
+            {
+              "path": "sql/00_database/003_source_packaging.sql",
+              "sha256": "5233e515c7d1978b406c38c244de875256c2c431fcc7c3a70a5612246205cfe8"
+            },
+            {
+              "path": "sql/01_staging/001_sources.sql",
+              "sha256": "e16b18a9f35959f9dc5b80310c0a5c07d72c38752e008ac31d0de6d0ea148b39"
+            },
+            {
+              "path": "sql/02_dimensions/001_dimensions.sql",
+              "sha256": "88f7100258d138ceb5d635d29a855070c2e48148f3b619624a4b943c7ace7345"
+            },
+            {
+              "path": "sql/02_dimensions/002_calendar.sql",
+              "sha256": "b3a3308eb845eedaefc38e783a05f3b9d20cecd4902a7215c92fe2803b67f66b"
+            },
+            {
+              "path": "sql/02_dimensions/003_load_nsp.sql",
+              "sha256": "bd209b87ac9ffcf6c4d2eeb6c4780ecc3dd7909e6d1b60a7c6bfcc84d78d4d97"
+            },
+            {
+              "path": "sql/03_facts/001_facts.sql",
+              "sha256": "1ebbdb51aa59b3f339663f8ab3307af0cdcb5f7157f60e882a4d743515eae2cb"
+            },
+            {
+              "path": "sql/03_facts/002_load_price.sql",
+              "sha256": "ee3571de41b6f7410f05e8b6b46fc33b5c492cae4461b3a293797a6f14b4c2be"
+            },
+            {
+              "path": "sql/03_facts/003_mapping.sql",
+              "sha256": "d4d20066394f49c5e998ceb39d15213e7dfc18a2e83963f2f05cc9cda850d48f"
+            },
+            {
+              "path": "sql/03_facts/004_load_volume.sql",
+              "sha256": "2d1a77cc15087e4ae54d7e5f200257a724da05f102d66c33bc67df9ce33428c3"
+            },
+            {
+              "path": "sql/03_facts/005_load_generation.sql",
+              "sha256": "6da9da51e41c6551e8d4618788e176eafe95684759880cde35665f33a840bd6e"
+            },
+            {
+              "path": "sql/03_facts/006_mapping_plan.sql",
+              "sha256": "a0b765497f95be303394213ffe4ee62813dc9b57da8cca661608250b5969404f"
+            },
+            {
+              "path": "sql/04_marts/001_foundation.sql",
+              "sha256": "23515159e00236b2890918614ede5af70841438f821c0aa2e77c19c669a3c8c7"
+            },
+            {
+              "path": "sql/04_marts/002_products.sql",
+              "sha256": "6468709a0252d6c352d404389a9511d19e19d766d94535a4735e2fc35cd833e0"
+            },
+            {
+              "path": "sql/04_marts/003_quality_context.sql",
+              "sha256": "521e8d9408094b7a3450fbdedfb76e1839933d28c4d266a638e650d7a384cba8"
+            },
+            {
+              "path": "sql/04_marts/004_continuous_release.sql",
+              "sha256": "faeaaae992a364acffa24cab59ebf9c8d33116ac20cf97f936ffdd9102fca65c"
+            },
+            {
+              "path": "sql/06_data_quality/001_framework.sql",
+              "sha256": "ab9f1981c00d1d6fc2267a56571b208a42acce72f7252a504a6b13c065f5ebcd"
+            },
+            {
+              "path": "sql/06_data_quality/002_profiles.sql",
+              "sha256": "ea30b102d0abdfacd0481c12e33dc98311363bd078ab85d2c31bd3de651c33a2"
+            },
+            {
+              "path": "sql/06_data_quality/003_baseline.sql",
+              "sha256": "3dc7e901e5490cc4c7afbaddd573a9183a434d691d642043ca045d2dca93c8b6"
+            },
+            {
+              "path": "sql/06_data_quality/004_rules.sql",
+              "sha256": "5717cce5863f81772193bfdb22ac212d889c136358ea979f3014eeec108a0ebe"
+            },
+            {
+              "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+              "sha256": "f80960f758e680e4dd75031e8fcc3f8934e2e4defa6ebdf6ce7e5244fe9eb06a"
+            },
+            {
+              "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+              "sha256": "885bb0b348d9d192b04dc7cf87ef24824f144aa018e8dbe3ae77ef855e511f3d"
+            },
+            {
+              "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+              "sha256": "e9a419b5f7d0f1e02c46bf92d851022585ac847508a849978cf42a1b5c826c51"
+            },
+            {
+              "path": "sql/06_data_quality/008_historical_release_scope.sql",
+              "sha256": "7b68df4c90b519d96e0a1d8e83546f2d4e0b8060ff99d0358d2f35052fcd364b"
+            }
+          ],
+          "selections": [
+            {
+              "month": "2025-09-01",
+              "sha256": "4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+              "source": "generation",
+              "publication": 2
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "81fdc21f3e9e8606f732f8414d81505d158931af56e7f175b3f5619a2a523a44",
+              "source": "generation",
+              "publication": 101
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "64a0f528e8815577774c7ee21913e69a64f4962b6f769aae07b3cbc2afe52692",
+              "source": "generation",
+              "publication": 104
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "8b027250f1b349cf90822979b07317d2a346018f218772c82bf1e3f7a69500bb",
+              "source": "generation",
+              "publication": 107
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "691c3304d4c454dfaef489092db6fb3656be41e381c2dc6b331d029e95615656",
+              "source": "generation",
+              "publication": 110
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "166a3e1700147480ac8bb0d0d7c9c5e477b3e33cbea79d38d895dbf6b345ab6a",
+              "source": "generation",
+              "publication": 113
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "0c7016c96ea28a32c614f549ef4228b6ceece003df89cfc3ce611269cb9cece9",
+              "source": "generation",
+              "publication": 135
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+              "source": "generation",
+              "publication": 3
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "9b412a3ca5bbaef782b4435bee1c5a8b4126c51b2df8511f9e6ffab6e73ebeb6",
+              "source": "generation",
+              "publication": 163
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "eeeaf630ba365fd91d1cc57b9af68b6ab65508497f44659611dd006def9e42d8",
+              "source": "generation",
+              "publication": 166
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "18901932bfe778b1b98c2fd98e51ad52df01749838b4b5c4f1de81eb5b1bd680",
+              "source": "generation",
+              "publication": 169
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+              "source": "generation",
+              "publication": 7
+            },
+            {
+              "month": "2026-09-01",
+              "sha256": "5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c",
+              "source": "nsp",
+              "publication": 1
+            },
+            {
+              "month": "2025-09-01",
+              "sha256": "73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+              "source": "prices",
+              "publication": 8
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "3ebab31bc79046878a52a3fa33bbcb3b2b5baf5fe1ea2aaa9996f146c50da787",
+              "source": "prices",
+              "publication": 100
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "83295a84d9b9d73403650422f4f211bdce5d763b5613760279bdc5dd1667cd3a",
+              "source": "prices",
+              "publication": 103
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "d1165dd49cfd86d7c2ddc372b4e18eb7bc285f63fd47c9fa0e45c839e1b49142",
+              "source": "prices",
+              "publication": 106
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "e050a9d4170490e87faf330029b4353092afb7bd498fbe09b6db92fe17e18063",
+              "source": "prices",
+              "publication": 109
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "83a2f3eda678484ac7b9886cd05cc525e48b491ef64f86b380314e695eecf06c",
+              "source": "prices",
+              "publication": 112
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "925ec88125f599e9ae63703eab080039a457c63a8c73050bdf022f38b2d21b2a",
+              "source": "prices",
+              "publication": 134
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+              "source": "prices",
+              "publication": 9
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "f319402a1ee6959f4b60b9c9cd710fa49cb6f48dc4078e269ddb6a7f5c05d7da",
+              "source": "prices",
+              "publication": 162
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "813889414ed5bbb683bb00e16bcab8fc4285c2cb7ceb90c995d1f0785ce478d0",
+              "source": "prices",
+              "publication": 165
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "dd1728b539cd77d8c97679ad61a44f63cecfa92e1c140443c1eaa309f86855e2",
+              "source": "prices",
+              "publication": 168
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+              "source": "prices",
+              "publication": 10
+            },
+            {
+              "month": "2025-09-01",
+              "sha256": "184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+              "source": "reconciliation",
+              "publication": 11
+            },
+            {
+              "month": "2025-10-01",
+              "sha256": "64d777c6d519e917e09034171135c8c577cb4d3d6eb93a1c506d17e501d8f0d0",
+              "source": "reconciliation",
+              "publication": 102
+            },
+            {
+              "month": "2025-11-01",
+              "sha256": "ac060a1bb1c6bbf04e2272149c2533597f24ea80a5e06d4fde017c8e538dc3cf",
+              "source": "reconciliation",
+              "publication": 105
+            },
+            {
+              "month": "2025-12-01",
+              "sha256": "f065d596c72b3c0190101ec6f9c9b8c72d0aec8a63b9bafb34297a861eb4c975",
+              "source": "reconciliation",
+              "publication": 108
+            },
+            {
+              "month": "2026-01-01",
+              "sha256": "c5ee4042d061a2b12c4040ef60f37ce5c110d17954bc4e0cfb47d26d51fc9976",
+              "source": "reconciliation",
+              "publication": 111
+            },
+            {
+              "month": "2026-02-01",
+              "sha256": "485cbe16074235f481b4be08d3227904629992b79308a6639e1f23fc7a1bd796",
+              "source": "reconciliation",
+              "publication": 114
+            },
+            {
+              "month": "2026-03-01",
+              "sha256": "dc74862d8c1913e615d018a2efce6b92c63c1c26538f20bcf9a57a1fef8692d4",
+              "source": "reconciliation",
+              "publication": 136
+            },
+            {
+              "month": "2026-04-01",
+              "sha256": "4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+              "source": "reconciliation",
+              "publication": 12
+            },
+            {
+              "month": "2026-05-01",
+              "sha256": "35219daad27c3fba90adc0d1a48e500e8ea47dae7c84ca6fd1e26a588c4e601b",
+              "source": "reconciliation",
+              "publication": 164
+            },
+            {
+              "month": "2026-06-01",
+              "sha256": "594e92d973ff5430c41ad77bc930deebdf5f0bc0b1919653b9aeda54697a37df",
+              "source": "reconciliation",
+              "publication": 167
+            },
+            {
+              "month": "2026-07-01",
+              "sha256": "b0fa77b64d5011b567722380b4fce4b008423fbd19b856e0570c06a9f46f8ae7",
+              "source": "reconciliation",
+              "publication": 170
+            },
+            {
+              "month": "2026-08-01",
+              "sha256": "99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+              "source": "reconciliation",
+              "publication": 13
+            }
+          ],
+          "configuration": {
+            "singleton": true,
+            "percentile": 0.99,
+            "pilot_months": [
+              "2025-09-01",
+              "2025-10-01",
+              "2025-11-01",
+              "2025-12-01",
+              "2026-01-01",
+              "2026-02-01",
+              "2026-03-01",
+              "2026-04-01",
+              "2026-05-01",
+              "2026-06-01",
+              "2026-07-01",
+              "2026-08-01"
+            ],
+            "expected_zones": [
+              "CNI",
+              "LNI",
+              "LSI",
+              "UNI",
+              "USI"
+            ],
+            "classification_version": 1
+          },
+          "classification": [
+            {
+              "fuel_code": "Coal",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Diesel",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "ELE",
+              "rationale": "Observed plants are rotohiko and ruak\u0101k\u0101_energy_park; EA identifies both as batteries. Approved storage treatment; charging energy origin is not inferred.",
+              "tech_code": "BAT",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/eye-on-electricity-battery-performance-in-new-zealand/",
+              "energy_status": "Storage",
+              "review_status": "Reviewed pilot plant evidence",
+              "generation_role": "Storage",
+              "standard_category": "Battery storage",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Gas",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Cogen",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Gas",
+              "rationale": "EA identifies coal, gas and diesel thermal generation; classification follows fuel, including gas cogeneration.",
+              "tech_code": "Thrml",
+              "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/",
+              "energy_status": "Fossil",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Fossil thermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Geo",
+              "rationale": "Legacy Geo/Geothermal correspondence appears in EMI discussion acknowledged by administrator; MBIE classifies geothermal as renewable. No case folding of other codes.",
+              "tech_code": "Geo",
+              "evidence_url": "https://forum.emi.ea.govt.nz/thread/changes-in-tech-codes-for-generation-md-files-causing-automation-errors/",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed legacy descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Geothermal",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "GEO",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "GEO",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "HYD",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "HYD",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Hydro",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Hydro",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Hydro",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "SOL",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "PV",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Solar",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Solar",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Solar",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "WIN",
+              "rationale": "Dataset metadata defines fields but no authoritative mapping for this exact pair was confirmed. Preserve separately; do not silently expand abbreviations.",
+              "tech_code": "ONW",
+              "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+              "energy_status": "Unclassified",
+              "review_status": "Unresolved code legend",
+              "generation_role": "Unclassified",
+              "standard_category": "Unclassified",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Wind",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Wind",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Wind",
+              "classification_version": 1
+            },
+            {
+              "fuel_code": "Wood",
+              "rationale": "Fuel descriptor matched to MBIE renewable resource category; technology retained unchanged.",
+              "tech_code": "Cogen",
+              "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics",
+              "energy_status": "Renewable",
+              "review_status": "Reviewed fuel descriptor",
+              "generation_role": "Primary",
+              "standard_category": "Bioenergy",
+              "classification_version": 1
+            }
+          ]
+        },
+        "code_sha256": "098456ae9beb8ba51882edf3eb5a63ffcc56d21a2da2df27cbad802c3c625e03",
+        "dq_run_id": 5,
+        "error_message": null,
+        "is_current": true,
+        "dq_as_of_date": "2026-10-01",
+        "dq_status": "COMPLETED"
+      }
+    ],
+    "selection": [
+      {
+        "source_name": "generation",
+        "source_month": "2025-09-01",
+        "publication_id": 2,
+        "selected_at": "2026-09-18 21:28:07.745425+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-10-01",
+        "publication_id": 101,
+        "selected_at": "2026-10-01 03:22:21.751625+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-11-01",
+        "publication_id": 104,
+        "selected_at": "2026-10-01 03:22:21.756609+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2025-12-01",
+        "publication_id": 107,
+        "selected_at": "2026-10-01 03:22:21.758546+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-01-01",
+        "publication_id": 110,
+        "selected_at": "2026-10-01 03:22:21.760531+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-02-01",
+        "publication_id": 113,
+        "selected_at": "2026-10-01 03:22:21.762998+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-03-01",
+        "publication_id": 135,
+        "selected_at": "2026-10-01 03:22:21.763892+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-04-01",
+        "publication_id": 3,
+        "selected_at": "2026-09-18 21:28:07.746423+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-05-01",
+        "publication_id": 163,
+        "selected_at": "2026-10-01 03:22:21.765778+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-06-01",
+        "publication_id": 166,
+        "selected_at": "2026-10-01 03:22:21.766664+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-07-01",
+        "publication_id": 169,
+        "selected_at": "2026-10-01 03:22:21.767742+00:00"
+      },
+      {
+        "source_name": "generation",
+        "source_month": "2026-08-01",
+        "publication_id": 7,
+        "selected_at": "2026-09-18 21:28:07.747677+00:00"
+      },
+      {
+        "source_name": "nsp",
+        "source_month": "2026-09-01",
+        "publication_id": 1,
+        "selected_at": "2026-09-18 21:28:07.742259+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-09-01",
+        "publication_id": 8,
+        "selected_at": "2026-09-18 21:28:07.748539+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-10-01",
+        "publication_id": 100,
+        "selected_at": "2026-10-01 03:22:21.770227+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-11-01",
+        "publication_id": 103,
+        "selected_at": "2026-10-01 03:22:21.770808+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2025-12-01",
+        "publication_id": 106,
+        "selected_at": "2026-10-01 03:22:21.771480+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-01-01",
+        "publication_id": 109,
+        "selected_at": "2026-10-01 03:22:21.772103+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-02-01",
+        "publication_id": 112,
+        "selected_at": "2026-10-01 03:22:21.772736+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-03-01",
+        "publication_id": 134,
+        "selected_at": "2026-10-01 03:22:21.773875+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-04-01",
+        "publication_id": 9,
+        "selected_at": "2026-09-18 21:28:07.750008+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-05-01",
+        "publication_id": 162,
+        "selected_at": "2026-10-01 03:22:21.775517+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-06-01",
+        "publication_id": 165,
+        "selected_at": "2026-10-01 03:22:21.776146+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-07-01",
+        "publication_id": 168,
+        "selected_at": "2026-10-01 03:22:21.777299+00:00"
+      },
+      {
+        "source_name": "prices",
+        "source_month": "2026-08-01",
+        "publication_id": 10,
+        "selected_at": "2026-09-18 21:28:07.750894+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-09-01",
+        "publication_id": 11,
+        "selected_at": "2026-09-18 21:28:07.751773+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-10-01",
+        "publication_id": 102,
+        "selected_at": "2026-10-01 03:22:21.779438+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-11-01",
+        "publication_id": 105,
+        "selected_at": "2026-10-01 03:22:21.780141+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2025-12-01",
+        "publication_id": 108,
+        "selected_at": "2026-10-01 03:22:21.780886+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-01-01",
+        "publication_id": 111,
+        "selected_at": "2026-10-01 03:22:21.781682+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-02-01",
+        "publication_id": 114,
+        "selected_at": "2026-10-01 03:22:21.782351+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-03-01",
+        "publication_id": 136,
+        "selected_at": "2026-10-01 03:22:21.783038+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-04-01",
+        "publication_id": 12,
+        "selected_at": "2026-09-18 21:28:07.752577+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-05-01",
+        "publication_id": 164,
+        "selected_at": "2026-10-01 03:22:21.784268+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-06-01",
+        "publication_id": 167,
+        "selected_at": "2026-10-01 03:22:21.785387+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-07-01",
+        "publication_id": 170,
+        "selected_at": "2026-10-01 03:22:21.786057+00:00"
+      },
+      {
+        "source_name": "reconciliation",
+        "source_month": "2026-08-01",
+        "publication_id": 13,
+        "selected_at": "2026-09-18 21:28:07.753308+00:00"
+      }
+    ],
+    "cache": [
+      {
+        "rows": 122640,
+        "hash": "7195893d9b2f56d24ccfa0b7c167e22e"
+      }
+    ],
+    "thresholds": [
+      {
+        "scope": "National",
+        "zone": "National",
+        "p99_price": 227.84134669510667,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "CNI",
+        "p99_price": 224.51979229812628,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "LNI",
+        "p99_price": 224.13933781376713,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "LSI",
+        "p99_price": 226.58586130724157,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "UNI",
+        "p99_price": 235.9028583802647,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      },
+      {
+        "scope": "Zone",
+        "zone": "USI",
+        "p99_price": 238.00828283795735,
+        "population_intervals": 17520,
+        "first_start_utc": "2025-08-31 12:00:00+00:00",
+        "last_end_utc": "2026-08-31 12:00:00+00:00",
+        "population_months": [
+          "2025-09-01",
+          "2025-10-01",
+          "2025-11-01",
+          "2025-12-01",
+          "2026-01-01",
+          "2026-02-01",
+          "2026-03-01",
+          "2026-04-01",
+          "2026-05-01",
+          "2026-06-01",
+          "2026-07-01",
+          "2026-08-01"
+        ],
+        "percentile": 0.99,
+        "comparison": "interval weighted price >= P99"
+      }
+    ],
+    "migrations": [
+      {
+        "path": "sql/00_database/001_metadata.sql",
+        "sha256": "3eb66716ba3f642a66c6141a083b1be1a926a09682df38eabdd1fdd574bf8a20",
+        "applied_at": "2026-09-18 20:55:57.527210+00:00"
+      },
+      {
+        "path": "sql/00_database/003_source_packaging.sql",
+        "sha256": "5233e515c7d1978b406c38c244de875256c2c431fcc7c3a70a5612246205cfe8",
+        "applied_at": "2026-10-01 03:22:22.382738+00:00"
+      },
+      {
+        "path": "sql/01_staging/001_sources.sql",
+        "sha256": "e16b18a9f35959f9dc5b80310c0a5c07d72c38752e008ac31d0de6d0ea148b39",
+        "applied_at": "2026-09-18 20:55:57.547714+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/001_dimensions.sql",
+        "sha256": "88f7100258d138ceb5d635d29a855070c2e48148f3b619624a4b943c7ace7345",
+        "applied_at": "2026-09-18 20:55:57.567776+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/002_calendar.sql",
+        "sha256": "b3a3308eb845eedaefc38e783a05f3b9d20cecd4902a7215c92fe2803b67f66b",
+        "applied_at": "2026-09-18 20:55:57.574839+00:00"
+      },
+      {
+        "path": "sql/02_dimensions/003_load_nsp.sql",
+        "sha256": "bd209b87ac9ffcf6c4d2eeb6c4780ecc3dd7909e6d1b60a7c6bfcc84d78d4d97",
+        "applied_at": "2026-09-18 20:55:57.581101+00:00"
+      },
+      {
+        "path": "sql/03_facts/001_facts.sql",
+        "sha256": "1ebbdb51aa59b3f339663f8ab3307af0cdcb5f7157f60e882a4d743515eae2cb",
+        "applied_at": "2026-09-18 20:55:57.599641+00:00"
+      },
+      {
+        "path": "sql/03_facts/002_load_price.sql",
+        "sha256": "ee3571de41b6f7410f05e8b6b46fc33b5c492cae4461b3a293797a6f14b4c2be",
+        "applied_at": "2026-09-18 20:55:57.607487+00:00"
+      },
+      {
+        "path": "sql/03_facts/003_mapping.sql",
+        "sha256": "d4d20066394f49c5e998ceb39d15213e7dfc18a2e83963f2f05cc9cda850d48f",
+        "applied_at": "2026-09-18 20:55:57.613668+00:00"
+      },
+      {
+        "path": "sql/03_facts/004_load_volume.sql",
+        "sha256": "2d1a77cc15087e4ae54d7e5f200257a724da05f102d66c33bc67df9ce33428c3",
+        "applied_at": "2026-09-18 20:55:57.619940+00:00"
+      },
+      {
+        "path": "sql/03_facts/005_load_generation.sql",
+        "sha256": "6da9da51e41c6551e8d4618788e176eafe95684759880cde35665f33a840bd6e",
+        "applied_at": "2026-09-18 20:55:57.634912+00:00"
+      },
+      {
+        "path": "sql/03_facts/006_mapping_plan.sql",
+        "sha256": "a0b765497f95be303394213ffe4ee62813dc9b57da8cca661608250b5969404f",
+        "applied_at": "2026-09-18 20:59:16.328078+00:00"
+      },
+      {
+        "path": "sql/04_marts/001_foundation.sql",
+        "sha256": "23515159e00236b2890918614ede5af70841438f821c0aa2e77c19c669a3c8c7",
+        "applied_at": "2026-09-22 01:18:53.510991+00:00"
+      },
+      {
+        "path": "sql/04_marts/002_products.sql",
+        "sha256": "6468709a0252d6c352d404389a9511d19e19d766d94535a4735e2fc35cd833e0",
+        "applied_at": "2026-09-22 01:18:53.543004+00:00"
+      },
+      {
+        "path": "sql/04_marts/003_quality_context.sql",
+        "sha256": "521e8d9408094b7a3450fbdedfb76e1839933d28c4d266a638e650d7a384cba8",
+        "applied_at": "2026-09-22 01:25:04.140326+00:00"
+      },
+      {
+        "path": "sql/04_marts/004_continuous_release.sql",
+        "sha256": "faeaaae992a364acffa24cab59ebf9c8d33116ac20cf97f936ffdd9102fca65c",
+        "applied_at": "2026-10-01 03:56:12.857244+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/001_framework.sql",
+        "sha256": "ab9f1981c00d1d6fc2267a56571b208a42acce72f7252a504a6b13c065f5ebcd",
+        "applied_at": "2026-09-21 08:15:11.119652+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/002_profiles.sql",
+        "sha256": "ea30b102d0abdfacd0481c12e33dc98311363bd078ab85d2c31bd3de651c33a2",
+        "applied_at": "2026-09-21 08:15:11.131849+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/003_baseline.sql",
+        "sha256": "3dc7e901e5490cc4c7afbaddd573a9183a434d691d642043ca045d2dca93c8b6",
+        "applied_at": "2026-09-21 08:15:11.145412+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/004_rules.sql",
+        "sha256": "5717cce5863f81772193bfdb22ac212d889c136358ea979f3014eeec108a0ebe",
+        "applied_at": "2026-09-21 08:15:11.172016+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/005_version_inputs_and_freshness.sql",
+        "sha256": "f80960f758e680e4dd75031e8fcc3f8934e2e4defa6ebdf6ce7e5244fe9eb06a",
+        "applied_at": "2026-09-21 08:18:51.562773+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/006_rule_parse_fix.sql",
+        "sha256": "885bb0b348d9d192b04dc7cf87ef24824f144aa018e8dbe3ae77ef855e511f3d",
+        "applied_at": "2026-09-21 08:18:51.569577+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/007_all_version_mapping_integrity.sql",
+        "sha256": "e9a419b5f7d0f1e02c46bf92d851022585ac847508a849978cf42a1b5c826c51",
+        "applied_at": "2026-09-21 08:20:17.600193+00:00"
+      },
+      {
+        "path": "sql/06_data_quality/008_historical_release_scope.sql",
+        "sha256": "7b68df4c90b519d96e0a1d8e83546f2d4e0b8060ff99d0358d2f35052fcd364b",
+        "applied_at": "2026-10-01 03:22:22.449481+00:00"
+      }
+    ]
+  },
+  "read_only": "on"
+}

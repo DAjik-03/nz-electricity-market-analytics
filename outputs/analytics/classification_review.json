@@ -1,0 +1,156 @@
+[
+  {
+    "fuel_code": "Coal",
+    "tech_code": "Thrml",
+    "source_rows": 2736,
+    "kwh": "128881368.000000",
+    "standard_category": "Fossil thermal",
+    "generation_role": "Primary",
+    "energy_status": "Fossil",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/"
+  },
+  {
+    "fuel_code": "Diesel",
+    "tech_code": "Thrml",
+    "source_rows": 4368,
+    "kwh": "90266.000000",
+    "standard_category": "Fossil thermal",
+    "generation_role": "Primary",
+    "energy_status": "Fossil",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/"
+  },
+  {
+    "fuel_code": "ELE",
+    "tech_code": "BAT",
+    "source_rows": 13104,
+    "kwh": "12842328.000000",
+    "standard_category": "Battery storage",
+    "generation_role": "Storage",
+    "energy_status": "Storage",
+    "review_status": "Reviewed pilot plant evidence",
+    "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/eye-on-electricity-battery-performance-in-new-zealand/"
+  },
+  {
+    "fuel_code": "Gas",
+    "tech_code": "Cogen",
+    "source_rows": 17472,
+    "kwh": "158019151.000000",
+    "standard_category": "Fossil thermal",
+    "generation_role": "Primary",
+    "energy_status": "Fossil",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/"
+  },
+  {
+    "fuel_code": "Gas",
+    "tech_code": "Thrml",
+    "source_rows": 17518,
+    "kwh": "501019912.000000",
+    "standard_category": "Fossil thermal",
+    "generation_role": "Primary",
+    "energy_status": "Fossil",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.ea.govt.nz/news/eye-on-electricity/the-role-of-thermal-generation/"
+  },
+  {
+    "fuel_code": "Geo",
+    "tech_code": "Geo",
+    "source_rows": 61152,
+    "kwh": "2368309243.000000",
+    "standard_category": "Geothermal",
+    "generation_role": "Primary",
+    "energy_status": "Renewable",
+    "review_status": "Reviewed legacy descriptor",
+    "evidence_url": "https://forum.emi.ea.govt.nz/thread/changes-in-tech-codes-for-generation-md-files-causing-automation-errors/"
+  },
+  {
+    "fuel_code": "GEO",
+    "tech_code": "GEO",
+    "source_rows": 8736,
+    "kwh": "195747965.000000",
+    "standard_category": "Unclassified",
+    "generation_role": "Unclassified",
+    "energy_status": "Unclassified",
+    "review_status": "Unresolved code legend",
+    "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD"
+  },
+  {
+    "fuel_code": "HYD",
+    "tech_code": "HYD",
+    "source_rows": 8832,
+    "kwh": "24880041.000000",
+    "standard_category": "Unclassified",
+    "generation_role": "Unclassified",
+    "energy_status": "Unclassified",
+    "review_status": "Unresolved code legend",
+    "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD"
+  },
+  {
+    "fuel_code": "Hydro",
+    "tech_code": "Hydro",
+    "source_rows": 177456,
+    "kwh": "6087393384.000000",
+    "standard_category": "Hydro",
+    "generation_role": "Primary",
+    "energy_status": "Renewable",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics"
+  },
+  {
+    "fuel_code": "SOL",
+    "tech_code": "PV",
+    "source_rows": 21364,
+    "kwh": "27294186.000000",
+    "standard_category": "Unclassified",
+    "generation_role": "Unclassified",
+    "energy_status": "Unclassified",
+    "review_status": "Unresolved code legend",
+    "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD"
+  },
+  {
+    "fuel_code": "Solar",
+    "tech_code": "Solar",
+    "source_rows": 16034,
+    "kwh": "48793919.000000",
+    "standard_category": "Solar",
+    "generation_role": "Primary",
+    "energy_status": "Renewable",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics"
+  },
+  {
+    "fuel_code": "WIN",
+    "tech_code": "ONW",
+    "source_rows": 4418,
+    "kwh": "57011509.000000",
+    "standard_category": "Unclassified",
+    "generation_role": "Unclassified",
+    "energy_status": "Unclassified",
+    "review_status": "Unresolved code legend",
+    "evidence_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD"
+  },
+  {
+    "fuel_code": "Wind",
+    "tech_code": "Wind",
+    "source_rows": 61152,
+    "kwh": "1083202216.000000",
+    "standard_category": "Wind",
+    "generation_role": "Primary",
+    "energy_status": "Renewable",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics"
+  },
+  {
+    "fuel_code": "Wood",
+    "tech_code": "Cogen",
+    "source_rows": 4368,
+    "kwh": "29005985.000000",
+    "standard_category": "Bioenergy",
+    "generation_role": "Primary",
+    "energy_status": "Renewable",
+    "review_status": "Reviewed fuel descriptor",
+    "evidence_url": "https://www.mbie.govt.nz/building-and-energy/energy-and-natural-resources/energy-statistics-and-modelling/energy-statistics/renewables-statistics"
+  }
+]

@@ -1,0 +1,66 @@
+table Classification
+	lineageTag: 1beea3f2-53ed-5dec-9b33-fd8ac7cf3d34
+
+	column classification_version
+		dataType: int64
+		formatString: 0
+		lineageTag: fc0d6464-7871-583c-962e-76bdd5f16970
+		summarizeBy: none
+		sourceColumn: classification_version
+
+	column fuel_code
+		dataType: string
+		lineageTag: 687e38b7-f200-5203-be09-a7f6dfb0be0c
+		summarizeBy: none
+		sourceColumn: fuel_code
+
+	column tech_code
+		dataType: string
+		lineageTag: 1177890a-3700-5765-92b4-9b5a09c1ea89
+		summarizeBy: none
+		sourceColumn: tech_code
+
+	column standard_category
+		dataType: string
+		lineageTag: 4619a072-6947-5f46-a3aa-272bdf5ca8a7
+		summarizeBy: none
+		sourceColumn: standard_category
+
+	column generation_role
+		dataType: string
+		lineageTag: 8b206b7b-95f7-5a4a-8ab3-5537e0f6fa49
+		summarizeBy: none
+		sourceColumn: generation_role
+
+	column energy_status
+		dataType: string
+		lineageTag: 923cc947-4632-51a2-99e2-52a93f251889
+		summarizeBy: none
+		sourceColumn: energy_status
+
+	column evidence_url
+		dataType: string
+		lineageTag: d8e12433-c73a-565a-bb11-b6d8fe212158
+		dataCategory: WebUrl
+		summarizeBy: none
+		sourceColumn: evidence_url
+
+	column review_status
+		dataType: string
+		lineageTag: 6a9c57b6-6cb3-5c50-875f-ff9af2544eb6
+		summarizeBy: none
+		sourceColumn: review_status
+
+	column rationale
+		dataType: string
+		lineageTag: 9ac7d56b-4a67-586d-b174-d11cda6caa39
+		summarizeBy: none
+		sourceColumn: rationale
+
+	partition Classification = m
+		mode: import
+		source =
+				let
+				    Rows = if ReleaseGate then Value.NativeQuery(Source, "SELECT classification_version,fuel_code,tech_code,standard_category,#(lf) generation_role,energy_status,evidence_url,review_status,rationale#(lf)FROM analytics.ref_generation_classification WHERE classification_version=1", null, [EnableFolding=false]) else error "Release gate failed"
+				in Rows
+

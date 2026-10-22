@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": [
+    "National/Zone/interval/RegionalSignal keys, foreign keys and separate grains",
+    "365 NZ dates, 17,520 UTC intervals, 46/50 DST days and fold/offset preservation",
+    "Fixed six P99 thresholds; 68/176/88 National and 264/108/88 deduplicated regional measures",
+    "1,056 scoped event memberships; no date-only joins or membership fanout",
+    "All 12 monthly weighted prices/P95/population SD/demand; annual ratio differs from average of monthly prices",
+    "Unknown retained in National; component sums, coverage denominators and ELE/BAT Storage preserved",
+    "Retained DQ 29 rules / 21 PASS / 8 WARN / 0 FAIL; source/month coverage equals Phase 5",
+    "Full-release pressure-weighted month/hour comparator reconciled; all 176 matched",
+    "Generation pressure/matched comparator absolute components and pooled primary/classification shares",
+    "Four regional-spread populations: count, eligible count, mean, median, P95 and maximum",
+    "E1–E5 scoped metrics and independent National context reconciled",
+    "Date-slice reference checks and unambiguous one-way graph; fixed thresholds/benchmarks disconnected",
+    "DAX table/column references resolve against live import schema (not DAX engine execution)"
+  ],
+  "check_groups": 13,
+  "dax_engine_validated": false,
+  "power_query_runtime_validated": false,
+  "report_rendered": false,
+  "existing_suite": {
+    "tests": 103,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 978.012320400012,
+    "modules": {
+      "tests/analytics/test_analytics.py": 23,
+      "tests/historical/test_release.py": 6,
+      "tests/quality/test_quality.py": 14,
+      "tests/test_daily_final.py": 10,
+      "tests/test_ingestion.py": 16,
+      "tests/test_phase0.py": 13,
+      "tests/test_pilot_evidence.py": 7,
+      "tests/warehouse/test_postgresql.py": 14
+    }
+  },
+  "national_weighted_price": 67.87689867240651,
+  "naive_monthly_average": 67.28011430457273,
+  "sql_source_evidence": "source_validation.json",
+  "limits": "PostgreSQL/Python reconciliation and static graph/reference checks; Desktop filter/render/credential acceptance remains manual."
+}

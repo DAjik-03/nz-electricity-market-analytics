@@ -1,0 +1,74 @@
+[
+  {
+    "scope": "National",
+    "zone": "National",
+    "p99_price": 227.84134669510667,
+    "population_intervals": 17520,
+    "events": 68,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 1.0,
+    "longest_event_hours": "5.0",
+    "peak_price": "3924.4474965692945927"
+  },
+  {
+    "scope": "Zone",
+    "zone": "CNI",
+    "p99_price": 224.51979229812628,
+    "population_intervals": 17520,
+    "events": 73,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 1.0,
+    "longest_event_hours": "5.0",
+    "peak_price": "4009.2212315995791719"
+  },
+  {
+    "scope": "Zone",
+    "zone": "LNI",
+    "p99_price": 224.13933781376713,
+    "population_intervals": 17520,
+    "events": 70,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 1.0,
+    "longest_event_hours": "5.0",
+    "peak_price": "3771.5777998154343859"
+  },
+  {
+    "scope": "Zone",
+    "zone": "LSI",
+    "p99_price": 226.58586130724157,
+    "population_intervals": 17520,
+    "events": 72,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 0.5,
+    "longest_event_hours": "7.5",
+    "peak_price": "3306.3508545291366850"
+  },
+  {
+    "scope": "Zone",
+    "zone": "UNI",
+    "p99_price": 235.9028583802647,
+    "population_intervals": 17520,
+    "events": 71,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 1.0,
+    "longest_event_hours": "5.0",
+    "peak_price": "4396.1730813374575963"
+  },
+  {
+    "scope": "Zone",
+    "zone": "USI",
+    "p99_price": 238.00828283795735,
+    "population_intervals": 17520,
+    "events": 75,
+    "flagged_intervals": "176",
+    "flagged_hours": "88.0",
+    "median_event_hours": 0.5,
+    "longest_event_hours": "7.5",
+    "peak_price": "3790.3726315336956121"
+  }
+]

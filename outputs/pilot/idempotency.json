@@ -1,0 +1,20 @@
+{
+  "mode": "offline pinned raw and derived hash verification; no network",
+  "selected_versions": {
+    "prices/2025-09": "prices:202509_FinalEnergyPrices.csv:73a8b153985af8fb80967dd9cc0e47dbcc5199d3f2a6dedc3e97d2aecb379efc",
+    "prices/2026-04": "prices:202604_FinalEnergyPrices.csv:5ead31e4e0d103a4a8e486e72f42a7e084cf599c08a8081815b11e17de9a06d7",
+    "prices/2026-08": "prices:202608_FinalEnergyPrices.csv:d1d0cd5a60413482c536bb263aebc81b393646a291a8039335a7749a03cd761e",
+    "reconciliation/2025-09": "reconciliation:ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz:184061f0ade51569d07f7cc85d60fc3f9fa6c519344db84713eecefe549c091d",
+    "reconciliation/2026-04": "reconciliation:ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz:4d236fbb639fb3c0cc527e08b71384ee68205287c238d36e2cf26db8576f2de6",
+    "reconciliation/2026-08": "reconciliation:ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz:99e1df25c1de3acf3d14a6fd843aa789c21ee4d1ddb1178c2a53136947fed070",
+    "generation/2025-09": "generation:202509_Generation_MD.csv:4b6ed55ba11cfe0ba829bcd589757187be5cdec97e0b2e4429b1bbcc6fe61ca5",
+    "generation/2026-04": "generation:202604_Generation_MD.csv:90e339b619dba25867c3c5a808ad3e88a1f5101751c78d31fb4aaec9b9df7939",
+    "generation/2026-08": "generation:202608_Generation_MD.csv:1426c21a2904e2b8b5a2fc8f4660a34411d181941bf89de93b60bd7050809583",
+    "nsp/snapshot": "nsp:20260910_NetworkSupplyPointsTable.csv:5084d97dea77efdc4e78251503b5ef0b6d68aefcdaf48011f644e44c6d726e3c"
+  },
+  "code_sha256": "3ee37338eefb019455a42480836d7d20245f1b1e52c0da49f7ac7e19f0c129ad",
+  "files_checked": 16,
+  "bytes_unchanged": true,
+  "modification_times_unchanged": true,
+  "note": "Online changed-byte behaviour is covered by version-store and failure unit tests; Phase 0/current same-byte comparison supplies real-source evidence."
+}

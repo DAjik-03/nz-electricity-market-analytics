@@ -1,0 +1,23 @@
+EVALUATE
+UNION(
+ROW("Order",1,"Check","Tables","Actual",FORMAT(COUNTROWS(INFO.VIEW.TABLES()),"0.000000000000000"),"Pass",ABS((COUNTROWS(INFO.VIEW.TABLES()))-(16))<0.000000001),
+ROW("Order",2,"Check","Relationships","Actual",FORMAT(COUNTROWS(INFO.VIEW.RELATIONSHIPS()),"0.000000000000000"),"Pass",ABS((COUNTROWS(INFO.VIEW.RELATIONSHIPS()))-(8))<0.000000001),
+ROW("Order",3,"Check","Measures","Actual",FORMAT(COUNTROWS(INFO.VIEW.MEASURES()),"0.000000000000000"),"Pass",ABS((COUNTROWS(INFO.VIEW.MEASURES()))-(59))<0.000000001),
+ROW("Order",4,"Check","Release","Actual",FORMAT(MAX(Release[refresh_id]),"0.000000000000000"),"Pass",ABS((MAX(Release[refresh_id]))-(38))<0.000000001),
+ROW("Order",5,"Check","DQ run","Actual",FORMAT(MAX(Release[dq_run_id]),"0.000000000000000"),"Pass",ABS((MAX(Release[dq_run_id]))-(5))<0.000000001),
+ROW("Order",6,"Check","Weighted price","Actual",FORMAT([Weighted Wholesale Price],"0.000000000000000"),"Pass",ABS(([Weighted Wholesale Price])-(67.876898672406518))<0.000000001),
+ROW("Order",7,"Check","P99","Actual",FORMAT([Full-period P99 threshold],"0.000000000000000"),"Pass",ABS(([Full-period P99 threshold])-(227.84134669510667))<0.000000001),
+ROW("Order",8,"Check","Events","Actual",FORMAT([Pressure Events],"0.000000000000000"),"Pass",ABS(([Pressure Events])-(68))<0.000000001),
+ROW("Order",9,"Check","Flagged half-hours","Actual",FORMAT([Flagged Half-hours],"0.000000000000000"),"Pass",ABS(([Flagged Half-hours])-(176))<0.000000001),
+ROW("Order",10,"Check","Pressure hours","Actual",FORMAT([Pressure Hours],"0.000000000000000"),"Pass",ABS(([Pressure Hours])-(88))<0.000000001),
+ROW("Order",11,"Check","Any Zone","Actual",FORMAT([Any-Zone Flagged Half-hours],"0.000000000000000"),"Pass",ABS(([Any-Zone Flagged Half-hours])-(264))<0.000000001),
+ROW("Order",12,"Check","Regional episodes","Actual",FORMAT([Cross-regional Episodes],"0.000000000000000"),"Pass",ABS(([Cross-regional Episodes])-(108))<0.000000001),
+ROW("Order",13,"Check","Zone-only","Actual",FORMAT([Zone-only Half-hours],"0.000000000000000"),"Pass",ABS(([Zone-only Half-hours])-(88))<0.000000001),
+ROW("Order",14,"Check","All five","Actual",FORMAT(COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zones_flagged]=5)),"0.000000000000000"),"Pass",ABS((COUNTROWS(FILTER(RegionalSignal,RegionalSignal[zones_flagged]=5)))-(104))<0.000000001),
+ROW("Order",15,"Check","DQ PASS","Actual",FORMAT([DQ PASS],"0.000000000000000"),"Pass",ABS(([DQ PASS])-(21))<0.000000001),
+ROW("Order",16,"Check","DQ WARN","Actual",FORMAT([DQ WARN],"0.000000000000000"),"Pass",ABS(([DQ WARN])-(8))<0.000000001),
+ROW("Order",17,"Check","DQ FAIL","Actual",FORMAT([DQ FAIL],"0.000000000000000"),"Pass",ABS(([DQ FAIL])-(0))<0.000000001),
+ROW("Order",18,"Check","March P99","Actual",FORMAT(CALCULATE([Full-period P99 threshold],DimDate[Year-Month]="2026-03"),"0.000000000000000"),"Pass",ABS((CALCULATE([Full-period P99 threshold],DimDate[Year-Month]="2026-03"))-(227.84134669510667))<0.000000001),
+ROW("Order",19,"Check","August P99","Actual",FORMAT(CALCULATE([Full-period P99 threshold],DimDate[Year-Month]="2026-08"),"0.000000000000000"),"Pass",ABS((CALCULATE([Full-period P99 threshold],DimDate[Year-Month]="2026-08"))-(227.84134669510667))<0.000000001)
+)
+ORDER BY [Order]

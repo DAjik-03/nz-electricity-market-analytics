@@ -1,0 +1,20 @@
+{
+  "runtime_acceptance": "PASS",
+  "desktop_version": "2.159.883.0",
+  "save_close_reopen": "PASS",
+  "release_id": 38,
+  "dq_run_id": 5,
+  "numerical_checks_passed": 19,
+  "row_count_checks_passed": 16,
+  "required_screenshot_categories": 7,
+  "schema_limitation": "visualContainer 2.14 public schema HTTP 404 observed 2026-10-21; runtime passed",
+  "final_checks": {
+    "available_schema_documents_passed": 136,
+    "reference_documents_passed": 137,
+    "native_tests_passed": 6,
+    "local_documentation_links_passed": 70,
+    "diff_check": "PASS",
+    "tmdl_definitions_changed": false
+  },
+  "public_screenshots": "docs/assets/powerbi/manifest.json"
+}

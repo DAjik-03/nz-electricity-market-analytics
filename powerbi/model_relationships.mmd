@@ -1,0 +1,15 @@
+flowchart LR
+    DimDate -->|"Date → trading_date; 1:*"| DimInterval
+    DimInterval -->|"interval_id → interval_id; 1:*"| FactNational
+    DimInterval -->|"interval_id → interval_id; 1:*"| FactZone
+    DimZone -->|"zone → zone; 1:*"| FactZone
+    DimInterval -->|"interval_id → interval_id; 1:*"| RegionalSignal
+    Events -->|"event_id → event_id; 1:*"| EventInterval
+    Events -->|"event_id → event_id; 1:*"| CaseContext
+    DimMonth -->|"MonthStart → source_month; 1:*"| SourceQuality
+    Threshold["Threshold · disconnected / full release"]
+    DemandBenchmark["DemandBenchmark · disconnected / full release"]
+    DQResults["DQResults · release 38 / run 5"]
+    Release["Release · disconnected"]
+    Classification["Classification · reference only"]
+    EventInterval -. "measure-only TREATAS · no relationship" .-> DimInterval

@@ -1,0 +1,38 @@
+{
+  "review_date": "2026-10-10",
+  "artifact": "Static specification wireframes, not Power BI screenshots",
+  "pages": [
+    {
+      "page": 1,
+      "svg_sha256": "aa7fdae1fde61ecdb7f55732dc4ea2208b13a8456f90b22166bd65e1ad0251a2",
+      "png_sha256": "1215d17483cb264bfb565ca7676224670f559e3f34d787a4ca2d7a7972d8a7b6",
+      "reviewed": true
+    },
+    {
+      "page": 2,
+      "svg_sha256": "12095849ea768a9bae81adc3c2784050b0c978f4ad74b670b7c9b07cfb718bee",
+      "png_sha256": "3f98934da13ee9a47478ba5e016ec7a88817a881c6479ca62f9cd9e5691dae03",
+      "reviewed": true
+    },
+    {
+      "page": 3,
+      "svg_sha256": "ab522aee5987c205d70f185ecf9a48215a61a4c8a1309050195322e885ba249b",
+      "png_sha256": "261de347384145ccdb02700c961d998843fe0566568531129ab64991c22ba8ac",
+      "reviewed": true
+    },
+    {
+      "page": 4,
+      "svg_sha256": "8044f6fde3f36002d403a96b08d1b3856db44f7ab94698bb6e1625320618b224",
+      "png_sha256": "6ce6307e7b56c1cbc05a02fa27f2101acac9e2905cfae8407adde46f76127859",
+      "reviewed": true
+    },
+    {
+      "page": 5,
+      "svg_sha256": "f3ce1b31b64344fbdb6cbb78fc06b070f441a552a86a73fced06e2b9008ee5b4",
+      "png_sha256": "50349d250ca4bbd2c3ae65db26ea48d31fd7c3360bb28c88d4213bdd33096e92",
+      "reviewed": true
+    }
+  ],
+  "findings": "Five images inspected; layout hierarchy, spacing and units clear. Source descriptions may be explicitly abbreviated with ellipses; full bindings remain in the visual register. Executive quality panel is a compact table to limit card density.",
+  "runtime_validation": false
+}

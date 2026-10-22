@@ -1,0 +1,35 @@
+table DimMonth
+	lineageTag: 83870c7b-33ad-5d5a-9cce-c054a09b66c7
+
+	column Year-Month
+		dataType: string
+		lineageTag: 26d52eda-70b4-59a7-a6a5-0f66c2d27d00
+		summarizeBy: none
+		sourceColumn: Year-Month
+		sortByColumn: 'Year-Month Sort'
+
+	column 'Year-Month Sort'
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 81b6259c-ca28-589b-a6ab-a54d15251eae
+		summarizeBy: none
+		sourceColumn: Year-Month Sort
+
+	column MonthStart
+		dataType: dateTime
+		formatString: yyyy-MM-dd
+		lineageTag: 9266026f-dc1b-5ddf-8d53-249fb3f08629
+		summarizeBy: none
+		sourceColumn: MonthStart
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition DimMonth = m
+		mode: import
+		source =
+				let
+				    M = Table.Distinct(Table.SelectColumns(DimDate,{"Year-Month","Year-Month Sort"})),
+				    D = Table.AddColumn(M,"MonthStart",each Date.FromText([#"Year-Month"] & "-01"),type date)
+				in D
+

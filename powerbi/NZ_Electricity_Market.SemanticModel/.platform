@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "NZ_Electricity_Market"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "64020149-c642-450f-9281-ee09fa82fe49"
+  }
+}

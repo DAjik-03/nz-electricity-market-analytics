@@ -1,0 +1,74 @@
+[
+  {
+    "one_table": "DimDate",
+    "one_column": "Date",
+    "many_table": "DimInterval",
+    "many_column": "trading_date",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "DimInterval",
+    "one_column": "interval_id",
+    "many_table": "FactNational",
+    "many_column": "interval_id",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "DimInterval",
+    "one_column": "interval_id",
+    "many_table": "FactZone",
+    "many_column": "interval_id",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "DimZone",
+    "one_column": "zone",
+    "many_table": "FactZone",
+    "many_column": "zone",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "DimInterval",
+    "one_column": "interval_id",
+    "many_table": "RegionalSignal",
+    "many_column": "interval_id",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "Events",
+    "one_column": "event_id",
+    "many_table": "EventInterval",
+    "many_column": "event_id",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "Events",
+    "one_column": "event_id",
+    "many_table": "CaseContext",
+    "many_column": "event_id",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  },
+  {
+    "one_table": "DimMonth",
+    "one_column": "MonthStart",
+    "many_table": "SourceQuality",
+    "many_column": "source_month",
+    "cardinality": "one-to-many",
+    "direction": "single",
+    "active": true
+  }
+]

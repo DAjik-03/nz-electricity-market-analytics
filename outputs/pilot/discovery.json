@@ -1,0 +1,186 @@
+{
+  "retrieved_at_utc": "2026-09-18T00:34:21.278767+00:00",
+  "pages": [
+    {
+      "source": "prices",
+      "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth",
+      "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth",
+      "sha256": "ab10ac8d5f4f23f67d9b12da71a9cc95cbb0af546f56590c5081141f93ede84b",
+      "recognised_files": 358,
+      "rejected": [
+        {
+          "filename": "202512_FinalEnergyPrices_incomplete.csv",
+          "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+          "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+          "reason": "explicitly_incomplete"
+        },
+        {
+          "filename": "202512_FinalEnergyPrices_incomplete.csv",
+          "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+          "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+          "reason": "explicitly_incomplete"
+        },
+        {
+          "filename": "202512_FinalEnergyPrices_incomplete.csv",
+          "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202512_FinalEnergyPrices_incomplete.csv",
+          "listing_text": "202512_FinalEnergyPrices_incomplete.csv 05 Jan 2026 9,235 KB",
+          "reason": "explicitly_incomplete"
+        }
+      ]
+    },
+    {
+      "source": "reconciliation",
+      "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2025",
+      "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2025",
+      "sha256": "d7df64aa51077fd1dd164999aecb22ccdcfe4b1ff9597f58ff3c89cefcae50c0",
+      "recognised_files": 12,
+      "rejected": []
+    },
+    {
+      "source": "reconciliation",
+      "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2026",
+      "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2026",
+      "sha256": "b17f39bec62bd9a6b69cefb710e7a34be723240efcf69a8cf554c819ab1632b7",
+      "recognised_files": 8,
+      "rejected": []
+    },
+    {
+      "source": "generation",
+      "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+      "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD",
+      "sha256": "67ea15829e6754941b0a63d700f37a4b9ebd21fdf68de7936b59584936fcfea6",
+      "recognised_files": 349,
+      "rejected": []
+    },
+    {
+      "source": "nsp",
+      "url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/MappingsAndGeospatial/NetworkSupplyPointsTable",
+      "resolved_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/MappingsAndGeospatial/NetworkSupplyPointsTable",
+      "sha256": "61397e9e0e8bb995ed0c465c8ca2efae184ff3752dafaeaeaea5f8eb9913115b",
+      "recognised_files": 152,
+      "rejected": []
+    }
+  ],
+  "selected": {
+    "prices/2025-09": {
+      "filename": "202509_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202509_FinalEnergyPrices.csv",
+      "listing_text": "202509_FinalEnergyPrices.csv 05 Oct 2025 9,613 KB",
+      "period": "202509",
+      "prepared_at_unzoned": null,
+      "source": "prices",
+      "month": "2025-09",
+      "available_versions": [
+        "202509_FinalEnergyPrices.csv"
+      ]
+    },
+    "prices/2026-04": {
+      "filename": "202604_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202604_FinalEnergyPrices.csv",
+      "listing_text": "202604_FinalEnergyPrices.csv 05 May 2026 9,732 KB",
+      "period": "202604",
+      "prepared_at_unzoned": null,
+      "source": "prices",
+      "month": "2026-04",
+      "available_versions": [
+        "202604_FinalEnergyPrices.csv"
+      ]
+    },
+    "prices/2026-08": {
+      "filename": "202608_FinalEnergyPrices.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/DispatchAndPricing/FinalEnergyPrices/ByMonth/202608_FinalEnergyPrices.csv",
+      "listing_text": "202608_FinalEnergyPrices.csv 05 Sep 2026 9,964 KB",
+      "period": "202608",
+      "prepared_at_unzoned": null,
+      "source": "prices",
+      "month": "2026-08",
+      "available_versions": [
+        "202608_FinalEnergyPrices.csv"
+      ]
+    },
+    "reconciliation/2025-09": {
+      "filename": "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2025/ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz",
+      "listing_text": "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz 02 May 2026 29,008 KB",
+      "period": "202509",
+      "prepared_at_unzoned": "2026-04-25T18:11:00",
+      "source": "reconciliation",
+      "month": "2025-09",
+      "available_versions": [
+        "ReconciledInjectionAndOfftake_202509_20260425_181100.csv.gz"
+      ]
+    },
+    "reconciliation/2026-04": {
+      "filename": "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2026/ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz",
+      "listing_text": "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz 01 Aug 2026 29,239 KB",
+      "period": "202604",
+      "prepared_at_unzoned": "2026-07-27T10:49:55",
+      "source": "reconciliation",
+      "month": "2026-04",
+      "available_versions": [
+        "ReconciledInjectionAndOfftake_202604_20260727_104955.csv.gz"
+      ]
+    },
+    "reconciliation/2026-08": {
+      "filename": "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Volumes/Reconciliation/2026/ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz",
+      "listing_text": "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz 11 Sep 2026 32,452 KB",
+      "period": "202608",
+      "prepared_at_unzoned": "2026-09-08T12:52:15",
+      "source": "reconciliation",
+      "month": "2026-08",
+      "available_versions": [
+        "ReconciledInjectionAndOfftake_202608_20260908_125215.csv.gz"
+      ]
+    },
+    "generation/2025-09": {
+      "filename": "202509_Generation_MD.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202509_Generation_MD.csv",
+      "listing_text": "202509_Generation_MD.csv 09 Oct 2025 747 KB",
+      "period": "202509",
+      "prepared_at_unzoned": null,
+      "source": "generation",
+      "month": "2025-09",
+      "available_versions": [
+        "202509_Generation_MD.csv"
+      ]
+    },
+    "generation/2026-04": {
+      "filename": "202604_Generation_MD.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202604_Generation_MD.csv",
+      "listing_text": "202604_Generation_MD.csv 12 May 2026 765 KB",
+      "period": "202604",
+      "prepared_at_unzoned": null,
+      "source": "generation",
+      "month": "2026-04",
+      "available_versions": [
+        "202604_Generation_MD.csv"
+      ]
+    },
+    "generation/2026-08": {
+      "filename": "202608_Generation_MD.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/Generation/Generation_MD/202608_Generation_MD.csv",
+      "listing_text": "202608_Generation_MD.csv 09 Sep 2026 848 KB",
+      "period": "202608",
+      "prepared_at_unzoned": null,
+      "source": "generation",
+      "month": "2026-08",
+      "available_versions": [
+        "202608_Generation_MD.csv"
+      ]
+    },
+    "nsp/snapshot": {
+      "filename": "20260910_NetworkSupplyPointsTable.csv",
+      "source_url": "https://www.emi.ea.govt.nz/Wholesale/Datasets/MappingsAndGeospatial/NetworkSupplyPointsTable/20260910_NetworkSupplyPointsTable.csv",
+      "listing_text": "20260910_NetworkSupplyPointsTable.csv 10 Sep 2026 429 KB",
+      "period": null,
+      "prepared_at_unzoned": null,
+      "source": "nsp",
+      "month": null,
+      "available_versions": [
+        "20260910_NetworkSupplyPointsTable.csv"
+      ]
+    }
+  }
+}

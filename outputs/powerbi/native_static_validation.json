@@ -1,0 +1,18 @@
+{
+  "json_files_validated": 136,
+  "json_files_reference_checked": 137,
+  "schema_documents": 16,
+  "schema_status": "PARTIAL_PUBLIC_SCHEMA_UNAVAILABLE",
+  "unavailable_schema_files": [
+    "NZ_Electricity_Market.Report\\definition\\pages\\f50f3da524c45d9591ec\\visuals\\8ec2a949492a5696ad74\\visual.json"
+  ],
+  "unavailable_schema_url": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "tables": 16,
+  "connection_only": 4,
+  "relationships": 8,
+  "measures": 59,
+  "pages": 5,
+  "approved_layout_containers": 34,
+  "native_visuals": 115,
+  "desktop_acceptance": "SEPARATE_RUNTIME_EVIDENCE_REQUIRED"
+}
